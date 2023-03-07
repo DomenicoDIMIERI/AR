@@ -1,0 +1,42 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\bin\x86\Release\FinSeACRM.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\bin\x86\Release\FinSeACRM.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\bin\x86\Release\FinSeACRM.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\bin\x86\Release\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\bin\x86\Release\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\bin\x86\Release\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\bin\x86\Release\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\obj\x86\Release\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.pdb
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeACRM.dll
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeACRM.pdb
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeACRM.xml
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.dll
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.xml
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.pdb
+E:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeACRM.dll
+E:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeACRM.pdb
+E:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeACRM.xml
+E:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\DMDBaseCore.dll
+E:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeALibs.dll
+E:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\Ionic.Zip.dll
+E:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeALibs.xml
+E:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeALibs.dll.config
+E:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeA.Resources.resources
+E:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.dll
+E:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.xml
+E:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.pdb
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Release\FinSeALibs.dll.config
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Release\FinSeACRM.vbproj.CoreCompileInputs.cache

@@ -1,0 +1,102 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.exe.config
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\templates\maildb.mdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\commons-logging.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACQSPD.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACRM.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAOffice.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\fontbox-1.8.9.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\IKVM.OpenJDK.Core.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\IKVM.OpenJDK.Text.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\IKVM.OpenJDK.Util.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\IKVM.Runtime.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\pdfbox-1.8.9.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACQSPD.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACQSPD.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACRM.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACRM.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAOffice.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAOffice.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\obj\x86\Release\FinSeA.frmMain.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\obj\x86\Release\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\obj\x86\Release\FinSeA.POPConfiguration.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.pdb
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\templates\maildb.mdb
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.exe.config
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.exe
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.pdb
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.xml
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACQSPD.dll
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACRM.dll
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAOffice.dll
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACQSPD.pdb
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACQSPD.xml
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACRM.pdb
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACRM.xml
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAOffice.pdb
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAOffice.xml
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeA.frmMain.resources
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeA.POPConfiguration.resources
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.exe
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.xml
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.pdb
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\PDFUtils1.dll
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\PDFUtils1.pdb
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\templates\maildb.mdb
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.exe.config
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.exe
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.pdb
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.xml
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\DMDBaseCore.dll
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACQSPD.dll
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACRM.dll
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeALibs.dll
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAOffice.dll
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\PDFUtils1.dll
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\Spire.Pdf.dll
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\Ionic.Zip.dll
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\Spire.License.dll
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACQSPD.pdb
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACQSPD.xml
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACRM.pdb
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeACRM.xml
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeALibs.xml
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeALibs.dll.config
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAOffice.pdb
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAOffice.xml
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\PDFUtils1.pdb
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\Spire.Pdf.xml
+E:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\Spire.License.xml
+E:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeA.frmMain.resources
+E:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeA.Resources.resources
+E:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeA.POPConfiguration.resources
+E:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.exe
+E:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.xml
+E:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.pdb
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeALibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.exe.manifest
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\FinSeAStaysBot.application
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.exe.manifest
+C:\Work\Programmazione\Projects\FinSeAStaysBot\obj\x86\Release\FinSeAStaysBot.application
+C:\Work\Programmazione\Projects\FinSeAStaysBot\bin\x86\Release\Microsoft.mshtml.dll

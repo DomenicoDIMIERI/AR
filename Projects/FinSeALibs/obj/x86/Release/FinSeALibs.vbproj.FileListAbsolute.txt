@@ -1,0 +1,32 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\bin\x86\Release\FinSeALibs.dll.config
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\bin\x86\Release\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\bin\x86\Release\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\bin\x86\Release\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\bin\x86\Release\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\bin\x86\Release\Ionic.Zlib.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\obj\x86\Release\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\FinSeALibs.dll.config
+C:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.xml
+E:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\FinSeALibs.dll.config
+E:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\FinSeALibs.dll
+E:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\FinSeALibs.xml
+E:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\DMDBaseCore.dll
+E:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\Ionic.Zip.dll
+E:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\Ionic.Zlib.dll
+E:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeA.Resources.resources
+E:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.dll
+E:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\FinSeALibs.vbproj.CoreCompileInputs.cache

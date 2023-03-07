@@ -1,0 +1,19 @@
+C:\Work\Programmazione\Projects\FinSeAWin32\bin\x86\Debug\DMDWin32.dll
+C:\Work\Programmazione\Projects\FinSeAWin32\bin\x86\Debug\DMDWin32.pdb
+C:\Work\Programmazione\Projects\FinSeAWin32\bin\x86\Debug\DMDWin32.xml
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.dll
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.xml
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAWin32\bin\x86\Debug\DMDWin32.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAWin32\bin\x86\Debug\DMDWin32.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAWin32\bin\x86\Debug\DMDWin32.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.vbprojResolveAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAWin32\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAWin32\obj\x86\Debug\DMDWin32.pdb

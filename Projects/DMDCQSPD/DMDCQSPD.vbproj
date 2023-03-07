@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3CBF1FA6-9D7A-4745-8B56-4E2C47670209}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DMD</RootNamespace>
+    <AssemblyName>DMDCQSPD</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDCQSPD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDCQSPD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DMDCQSPD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>UsaDataAttivazione=true</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DMDCQSPD.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>UsaDataAttivazione=true</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>DMDCQSPD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>DMDCQSPD.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="DMD" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalendarProviders\CQSPDCalendarProviderStPrat.vb" />
+    <Compile Include="CalendarProviders\CQSPDCalendarProviderRichAppr.vb" />
+    <Compile Include="CalendarProviders\CQSPDCalendarProviderFL.vb" />
+    <Compile Include="CQSPD\AreaManagers\AreaManagers.vb" />
+    <Compile Include="CQSPD\AreaManagers\CAreaManager.vb" />
+    <Compile Include="CQSPD\AreaManagers\CAreaManagerCursor.vb" />
+    <Compile Include="CQSPD\AreaManagers\CAMPraticheCollection.vb" />
+    <Compile Include="CQSPD\Assicurazioni\CAssicurazione.vb" />
+    <Compile Include="CQSPD\Assicurazioni\CAssicurazioniCursor.vb" />
+    <Compile Include="CQSPD\Assicurazioni\Assicurazioni.vb" />
+    <Compile Include="CQSPD\Collaboratori\NotaCollaboratore\NotaCollaboratore.vb" />
+    <Compile Include="CQSPD\Collaboratori\NotaCollaboratore\NotaCollaboratoreCursor.vb" />
+    <Compile Include="CQSPD\Collaboratori\NotaCollaboratore\NoteCollaboratoreCollection.vb" />
+    <Compile Include="CQSPD\Collaboratori\PortafoglioClienti\ClienteXCollaboratoreCursor.vb" />
+    <Compile Include="CQSPD\Collaboratori\PortafoglioClienti\ClienteXCollaboratore.vb" />
+    <Compile Include="CQSPD\Collaboratori\PortafoglioClienti\ClientiXCollaboratori.vb" />
+    <Compile Include="CQSPD\Collaboratori\Premi\SogliePremioCollection.vb" />
+    <Compile Include="CQSPD\Collaboratori\Premi\CSogliePremiCursor.vb" />
+    <Compile Include="CQSPD\Collaboratori\Premi\CSogliaPremio.vb" />
+    <Compile Include="CQSPD\Collaboratori\Premi\CSetPremiCursor.vb" />
+    <Compile Include="CQSPD\Convenzioni\AziendeXConvenzione\AziendaXConvenzione.vb" />
+    <Compile Include="CQSPD\Convenzioni\AziendeXConvenzione\AziendaXConvenzioneCollection.vb" />
+    <Compile Include="CQSPD\Convenzioni\AziendeXConvenzione\AziendaXConvenzioneCursor.vb" />
+    <Compile Include="CQSPD\CQSPDMLInfo.vb" />
+    <Compile Include="CQSPD\FinestreLavorazione\Messaggi\FinestraLavorazioneMsg.vb" />
+    <Compile Include="CQSPD\FinestreLavorazione\Pratiche\PratichePerFinestraLavorazione.vb" />
+    <Compile Include="CQSPD\ImportExport\CImportExport.vb" />
+    <Compile Include="CQSPD\ImportExport\CImportExportCursor.vb" />
+    <Compile Include="CQSPD\ImportExport\Sorgentei\CImportExportSourceUserMap.vb" />
+    <Compile Include="CQSPD\ImportExport\Sorgentei\CImportExportSourceUserMatch.vb" />
+    <Compile Include="CQSPD\ImportExport\CImportExportMatch.vb" />
+    <Compile Include="CQSPD\ImportExport\ImportExport.vb" />
+    <Compile Include="CQSPD\FinestreLavorazione\FinestraLavorazioneXML.vb" />
+    <Compile Include="CQSPD\FinestreLavorazione\FinestreDiLavorazione.vb" />
+    <Compile Include="CQSPD\FinestreLavorazione\FinestraLavorazioneCursor.vb" />
+    <Compile Include="CQSPD\FinestreLavorazione\FinestraLavorazione.vb" />
+    <Compile Include="CQSPD\Collaboratori\Provvigioni\CProvvigionale.vb" />
+    <Compile Include="CQSPD\Collaboratori\Premi\SetPremi.vb" />
+    <Compile Include="CQSPD\Estinzioni\CEstinzioniCollection.vb" />
+    <Compile Include="CQSPD\GruppiProdotto\DocumentiXGruppoProdotti\VincoliProdotto.vb" />
+    <Compile Include="CQSPD\ImportExport\Sorgentei\CImportExportSource.vb" />
+    <Compile Include="CQSPD\ImportExport\Sorgentei\CImportExportSourceCursor.vb" />
+    <Compile Include="CQSPD\ImportExport\Sorgentei\ImportExportSources.vb" />
+    <Compile Include="CQSPD\Pratiche\Correzioni\CCorrezionePratica.vb" />
+    <Compile Include="CQSPD\Preventivi\Offerte\ProvvigioneXOfferta\CCQSPDProvvigioneXOfferta.vb" />
+    <Compile Include="CQSPD\Preventivi\Offerte\ProvvigioneXOfferta\CCQSPDProvvigioneXOffertaCollection.vb" />
+    <Compile Include="CQSPD\Preventivi\Offerte\ProvvigioneXOfferta\CCQSPDProvvigioneXOffertaCursor.vb" />
+    <Compile Include="CQSPD\Prodotti\CategorieProdotto\CCategoriaProdotto.vb" />
+    <Compile Include="CQSPD\Prodotti\CategorieProdotto\CategorieProdottoClass.vb" />
+    <Compile Include="CQSPD\Prodotti\CategorieProdotto\CCategorieProdottoCursor.vb" />
+    <Compile Include="CQSPD\TipiProvvigione\CQSPDTipoProvvigioneCollection.vb" />
+    <Compile Include="CQSPD\TipiProvvigione\CCQSPDTipoProvvigioneCursor.vb" />
+    <Compile Include="CQSPD\TipiProvvigione\CCQSPDTipoProvvigione.vb" />
+    <Compile Include="CQSPD\Prodotti\ConvenzioniXProdotto\CProdottoXConvenzione.vb" />
+    <Compile Include="CQSPD\Prodotti\ConvenzioniXProdotto\CProdottoXConvenzioneCollection.vb" />
+    <Compile Include="CQSPD\Prodotti\ConvenzioniXProdotto\CProdottoXConvenzioneCursor.vb" />
+    <Compile Include="CQSPD\Prodotti\TabelleAssicurativeXProdotto\CProdottoXTabellaAss.vb" />
+    <Compile Include="CQSPD\Prodotti\TabelleAssicurativeXProdotto\CProdottoXTabellaAssCursor.vb" />
+    <Compile Include="CQSPD\Prodotti\TabelleAssicurativeXProdotto\CTabelleAssicurativeProdottoCollection.vb" />
+    <Compile Include="CQSPD\RichiesteDeroghe\CRichiestaDeroga.vb" />
+    <Compile Include="CQSPD\RichiesteDeroghe\CRichiestaDerogaCursor.vb" />
+    <Compile Include="CQSPD\RichiesteDeroghe\RichiesteDeroghe.vb" />
+    <Compile Include="CQSPD\ValutazioneAzienda\CQSPDValutazioneAssicurazione.vb" />
+    <Compile Include="CQSPD\ValutazioneAzienda\CQSPDValutazioneAzienda.vb" />
+    <Compile Include="CQSPD\ValutazioneAzienda\CQSPDValutazioniAziendaModule.vb" />
+    <Compile Include="CQSPD\ValutazioneAzienda\CQSPDValutazioneAziendaCursor.vb" />
+    <Compile Include="CQSPD\VerificheAmministrative\IOggettoVerificabile.vb" />
+    <Compile Include="CQSPD\VerificheAmministrative\VerificaAmministrativa.vb" />
+    <Compile Include="CQSPD\VerificheAmministrative\VerificheAmministrativeCursor.vb" />
+    <Compile Include="CQSPD\VerificheAmministrative\VerificheAmministrative.vb" />
+    <Compile Include="Handlers\StoricoHandlerStudiF.vb" />
+    <Compile Include="Handlers\StoricoHandlerRichFin.vb" />
+    <Compile Include="Handlers\StoricoHandlerPratiche.vb" />
+    <Compile Include="Handlers\FindPersonaByNumeroPratica.vb" />
+    <Compile Include="Handlers\StoricoHandlerRichiesteConteggiEstintivi - Copia.vb" />
+    <Compile Include="Handlers\StoricoElaborazioni.vb" />
+    <Compile Include="CQSPD\Pratiche\Statistiche\ClientiLavorati\ClientiLavoratiFilter.vb" />
+    <Compile Include="CQSPD\Pratiche\Statistiche\ClientiLavorati\ClientiLavoratiStats.vb" />
+    <Compile Include="CQSPD\Pratiche\Statistiche\ClientiLavorati\ClientiLavoratiStatsItem.vb" />
+    <Compile Include="CQSPD\Pratiche\Statistiche\ClientiLavorati\ClientiLavoratiStatsItemCursor.vb" />
+    <Compile Include="CQSPD\Pratiche\Statistiche\CQSFastStats.vb" />
+    <Compile Include="CQSPD\Pratiche\Statistiche\CQSFilter.vb" />
+    <Compile Include="CQSPD\Pratiche\Statistiche\Liquidato\LiquidatoFilter.vb" />
+    <Compile Include="CQSPD\Pratiche\Statistiche\Liquidato\LiquidatoStats.vb" />
+    <Compile Include="CQSPD\Pratiche\Statistiche\Liquidato\LiquidatoStatsItem.vb" />
+    <Compile Include="CQSPD\RichiesteApprovazione\CRichiesteApprovazioneClass.vb" />
+    <Compile Include="CQSPD\RichiesteApprovazione\IOggettoApprovabile.vb" />
+    <Compile Include="CQSPD\RichiesteApprovazione\CRichiestaApprovazione.vb" />
+    <Compile Include="CQSPD\RichiesteApprovazione\CRichiestaApprovazioneCursor.vb" />
+    <Compile Include="CQSPD\Pratiche\CInfoStato.vb" />
+    <Compile Include="CQSPD\RichiesteApprovazione\MotiviSconto\CMotiviScontoPraticaClass.vb" />
+    <Compile Include="CQSPD\RichiesteApprovazione\MotiviSconto\CMotivoScontoPratica.vb" />
+    <Compile Include="CQSPD\RichiesteApprovazione\MotiviSconto\CMotivoScontoPraticaCursor.vb" />
+    <Compile Include="CQSPD\Pratiche\Obiettivi\CObiettivoPratica.vb" />
+    <Compile Include="CQSPD\Pratiche\Obiettivi\CObiettivoPraticaCursor.vb" />
+    <Compile Include="CQSPD\Pratiche\Obiettivi\CObiettiviPraticaClass.vb" />
+    <Compile Include="CQSPD\Profili\GroupAllowNegate\CProfiloXGroupAllowNegate.vb" />
+    <Compile Include="CQSPD\Profili\GroupAllowNegate\CProfiloXGroupAllowNegateCollection.vb" />
+    <Compile Include="CQSPD\Profili\GroupAllowNegate\CProfiloXGroupAllowNegateCursor.vb" />
+    <Compile Include="CQSPD\Profili\UserAllowNegate\CProfiloXUserAllowNegate.vb" />
+    <Compile Include="CQSPD\Profili\UserAllowNegate\CProfiloXUserAllowNegateCollection.vb" />
+    <Compile Include="CQSPD\Profili\UserAllowNegate\CProfiloXUserAllowNegateCursor.vb" />
+    <Compile Include="CQSPD\AltriPreventivi\CAltroPreventivo.vb" />
+    <Compile Include="CQSPD\AltriPreventivi\CAltroPreventivoCursor.vb" />
+    <Compile Include="CQSPD\AltriPreventivi\CAltriPreventiviXRichiesta.vb" />
+    <Compile Include="CQSPD\RichiesteConteggi\RichiesteConteggi.vb" />
+    <Compile Include="CQSPD\RichiesteConteggi\CRichiesteConteggiXRichiesta.vb" />
+    <Compile Include="CQSPD\RichiesteConteggi\CRichiestaConteggio.vb" />
+    <Compile Include="CQSPD\RichiesteConteggi\CRichiestaConteggioCursor.vb" />
+    <Compile Include="CQSPD\SituazionePersona\CQSPSituazionePersona.vb" />
+    <Compile Include="CQSPD\SituazioneUfficio\CQSPSituazioneUfficio.vb" />
+    <Compile Include="CQSPD\StudiDiFattibilita\CQSPDSoluzioniXStudioDiFattibilita.vb" />
+    <Compile Include="CQSPD\StudiDiFattibilita\StudiDiFattibilita.vb" />
+    <Compile Include="CQSPD\StudiDiFattibilita\CQSPDStudioDiFattibilita.vb" />
+    <Compile Include="CQSPD\StudiDiFattibilita\CQSPDStudiDiFattibilitaCursor.vb" />
+    <Compile Include="CQSPD\Convenzioni\Convenzioni.vb" />
+    <Compile Include="CQSPD\Convenzioni\CQSPDConvenzioniCursor.vb" />
+    <Compile Include="CQSPD\Convenzioni\CQSPDConvenzione.vb" />
+    <Compile Include="CQSPD\GruppiProdotto\DocumentiXGruppoProdotti\CDocumentiXGruppoProdottiCursor.vb" />
+    <Compile Include="CQSPD\GruppiProdotto\DocumentiXGruppoProdotti\VincoloProdotto.vb" />
+    <Compile Include="CQSPD\GruppiProdotto\DocumentiXGruppoProdotti\CDocumentiXGruppoProdottiCollection.vb" />
+    <Compile Include="CQSPD\Pratiche\Azioni\CQSPDVisualizzaPratica.vb" />
+    <Compile Include="CQSPD\Richieste Finanziamenti\Azioni\PrendiInCaricoRichiestaFinanziamento.vb" />
+    <Compile Include="CQSPD\RichiesteAssegni\CBeneficiarioRichiestaAssegni.vb" />
+    <Compile Include="CQSPD\RichiesteAssegni\CBeneficiariCollection.vb" />
+    <Compile Include="CQSPD\RichiesteAssegni\CRichiestaAssegniCursor.vb" />
+    <Compile Include="CQSPD\RichiesteAssegni\CRichiestaAssegni.vb" />
+    <Compile Include="CQSPD\Tabelle Assicurative\TabelleAssicurative.vb" />
+    <Compile Include="CQSPD\Prodotti\TabelleSpeseXProdotto\CProdottoXTabellaSpesaCollection.vb" />
+    <Compile Include="CQSPD\Prodotti\TabelleSpeseXProdotto\CProdottoXTabellaSpesaCursor.vb" />
+    <Compile Include="CQSPD\Prodotti\TabelleSpeseXProdotto\CProdottoXTabellaSpesa.vb" />
+    <Compile Include="CQSPD\Tabelle Assicurative\CTabelleAssicurativeCursor.vb" />
+    <Compile Include="CQSPD\Tabelle Assicurative\CTabellaAssicurativa.vb" />
+    <Compile Include="CQSPD\Prodotti\VincoliProdottoTabellaAss\CProdTabAssConstraintCursor.vb" />
+    <Compile Include="CQSPD\Prodotti\VincoliProdottoTabellaAss\CProdTabAssConstraint.vb" />
+    <Compile Include="CQSPD\Prodotti\VincoliProdottoTabellaAss\CVincoliProdottoTabellaAss.vb" />
+    <Compile Include="CQSPD\TeamManagers\CTeamManagersCursor.vb" />
+    <Compile Include="CQSPD\TeamManagers\CTeamManager.vb" />
+    <Compile Include="CQSPD\TeamManagers\TeamManagers.vb" />
+    <Compile Include="CQSPD\Collaboratori\TrattativeCollaboratore\CTrattativeCollaboratore.vb" />
+    <Compile Include="CQSPD\Collaboratori\TrattativeCollaboratore\CTrattativeCollaboratoreCursor.vb" />
+    <Compile Include="CQSPD\Collaboratori\TrattativeCollaboratore\CTrattativaCollaboratore.vb" />
+    <Compile Include="CQSPD\Collaboratori\TrattativeCollaboratore\TrattativeCollaboratore.vb" />
+    <Compile Include="CTAEGFunEvaluator.vb" />
+    <Compile Include="CTEGFunEvaluator.vb" />
+    <Compile Include="CQSPD\TeamManagers\CCollaboratoreCollection.vb" />
+    <Compile Include="CQSPD\Collaboratori\CCollaboratore.vb" />
+    <Compile Include="CQSPD\Collaboratori\CCollaboratoriCursor.vb" />
+    <Compile Include="CQSPD\Collaboratori\Collaboratori.vb" />
+    <Compile Include="CQSPD\Collaboratori\Fonte\CollaboratoriFonteProvider.vb" />
+    <Compile Include="CQSPD\Collaboratori\Pratiche\CPratichePerCollabCollection.vb" />
+    <Compile Include="CQSPD\Pratiche\DocumentiXPratica\CDocumentoPraticaCaricato.vb" />
+    <Compile Include="CQSPD\Pratiche\DocumentiXPratica\CDocumentoPraticaCaricatoCursor.vb" />
+    <Compile Include="CQSPD\Pratiche\DocumentiXPratica\CDocumentoPraticaCaricatoCollection.vb" />
+    <Compile Include="CTAEGInverter.vb" />
+    <Compile Include="CTANCalculator.vb" />
+    <Compile Include="CQSPD\Allowed IP\CAllowedRemoteIPs.vb" />
+    <Compile Include="CQSPD\Allowed IP\CAllowedRemoteIPsCursor.vb" />
+    <Compile Include="CQSPD\AltriPrestiti\CAltroPrestito.vb" />
+    <Compile Include="CQSPD\AltriPrestiti\CAltriPrestitiCursor.vb" />
+    <Compile Include="CQSPD\AltriPrestiti\AltriPrestiti.vb" />
+    <Compile Include="CQSPD\Cessionari\CCQSPDCessionarioClass.vb" />
+    <Compile Include="CQSPD\Cessionari\Cessionari.vb" />
+    <Compile Include="CQSPD\Cessionari\CCessionariCursor.vb" />
+    <Compile Include="COpStatRecord.vb" />
+    <Compile Include="CQSPD\Config\Config.vb" />
+    <Compile Include="CQSPD\Consulenti\Consulenti.vb" />
+    <Compile Include="CQSPD\Consulenti\CConsulentePratica.vb" />
+    <Compile Include="CQSPD\Consulenti\CConsulentiPraticaCursor.vb" />
+    <Compile Include="CQSPD\StudiDiFattibilita\Soluzioni\CQSPDConsulenzaCursor.vb" />
+    <Compile Include="CQSPD\StudiDiFattibilita\Soluzioni\CQSPDConsulenza.vb" />
+    <Compile Include="CQSPD\StudiDiFattibilita\Soluzioni\Consulenze.vb" />
+    <Compile Include="CQSPD\EstinzioniXEstintore\IEstintore.vb" />
+    <Compile Include="CQSPD\EstinzioniXEstintore\EstinzioneXEstintoreCursor.vb" />
+    <Compile Include="CQSPD\EstinzioniXEstintore\EstinzioneXEstintore.vb" />
+    <Compile Include="CQSPD\StudiDiFattibilita\Soluzioni\OffertePropostePerConsulenza.vb" />
+    <Compile Include="CQSPD\Costi\CCosto.vb" />
+    <Compile Include="CQSPD\Estinzioni\CEstinzione.vb" />
+    <Compile Include="CQSPD\Estinzioni\CEstinzioniCursor.vb" />
+    <Compile Include="CQSPD\EstinzioniXEstintore\CEstinzioniXEstintoreCollection.vb" />
+    <Compile Include="CQSPD\Estinzioni\CEstinzioneCalculator.vb" />
+    <Compile Include="CQSPD\Estinzioni\EstinzioneXPersona\CEstinzioniPersona.vb" />
+    <Compile Include="CQSPD\Estinzioni\Estinzioni.vb" />
+    <Compile Include="CQSPD\GruppiProdotto\CGruppoProdotti.vb" />
+    <Compile Include="CQSPD\GruppiProdotto\CGruppoProdottiCursor.vb" />
+    <Compile Include="CQSPD\GruppiProdotto\GruppiProdotto.vb" />
+    <Compile Include="CQSPD\Pratiche\InfoPratica\CInfoPratica.vb" />
+    <Compile Include="CQSPD\Pratiche\InfoPratica\CInfoPraticaCursor.vb" />
+    <Compile Include="CQSPD\Pratiche\InfoPratica\InfoPratica.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiLavorazionePratica\CStatiLavorazionePraticaCollection.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiLavorazionePratica\CStatiLavorazionePraticaCursor.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiLavorazionePratica\StatiLavorazionePratica.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiPratica\CStatoPraticaCursor.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiPratica\CStatoPratica.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiPratica\VincoliStatoPratica\CStatoPratRuleCursor.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiPratica\VincoliStatoPratica\CStatoPratRule.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiPratica\VincoliStatoPratica\CStatoPratRulesCollection.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiPratica\VincoliStatoPratica\StatiPratRules.vb" />
+    <Compile Include="CQSPD\Preventivi\CPreventivo.vb" />
+    <Compile Include="CQSPD\Preventivi\CPreventivoCursor.vb" />
+    <Compile Include="CQSPD\Preventivi\Preventivi.vb" />
+    <Compile Include="CQSPD\Profili\CProfiloComparer.vb" />
+    <Compile Include="CQSPD\Profili\CProfiliCursor.vb" />
+    <Compile Include="CQSPD\Profili\CProfilo.vb" />
+    <Compile Include="CQSPD\Profili\Profili.vb" />
+    <Compile Include="CQSPD\Prodotti\CCQSPDProdotto.vb" />
+    <Compile Include="CQSPD\Prodotti\Prodotti.vb" />
+    <Compile Include="CQSPD\Prodotti\CProdottiCursor.vb" />
+    <Compile Include="CQSPD\Prodotti\CProdottoComparer.vb" />
+    <Compile Include="CQSPD\Preventivi\Offerte\COffertaCQS.vb" />
+    <Compile Include="CQSPD\Preventivi\Offerte\CCQSPDOfferteCursor.vb" />
+    <Compile Include="CQSPD\Preventivi\Offerte\CCQSPDOfferte.vb" />
+    <Compile Include="CQSPD\Preventivi\Offerte\Offerte.vb" />
+    <Compile Include="CQSPD\Pratiche\CPraticheCollection.vb" />
+    <Compile Include="CQSPD\Pratiche\Pratiche.vb" />
+    <Compile Include="CQSPD\Pratiche\CRapportino.vb" />
+    <Compile Include="CQSPD\Profili\ProdottiXProfilo\CProdottiXProfiloRelations.vb" />
+    <Compile Include="CQSPD\Profili\ProdottiXProfilo\CProdottoProfilo.vb" />
+    <Compile Include="CQSPD\Profili\ProdottiXProfilo\CProdottoProfiloCursor.vb" />
+    <Compile Include="CQSPD\Richieste Finanziamenti\RichiesteFinanziamento.vb" />
+    <Compile Include="CQSPD\Richieste Finanziamenti\CRichiestaFinanziamento.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiLavorazionePratica\CStatoLavorazionePratica.vb" />
+    <Compile Include="CQSPD\Pratiche\StatiPratica\StatiPratica.vb" />
+    <Compile Include="CQSPD\Pratiche\CRapportiniCursor.vb" />
+    <Compile Include="CQSPD\Prodotti\VincoliProdottoTabellaFin\CProdTabFinConstraintCursor.vb" />
+    <Compile Include="CQSPD\Prodotti\VincoliProdottoTabellaFin\CProdTabFinConstraint.vb" />
+    <Compile Include="CQSPD\Prodotti\TabelleFinanziarieXProdotti\CTabelleFinanziarieProdottoCollection.vb" />
+    <Compile Include="CQSPD\Prodotti\VincoliProdottoTabellaFin\CVincoliProdottoTabellaFin.vb" />
+    <Compile Include="CQSPD\Prodotti\TabelleFinanziarieXProdotti\CProdottoXTabellaFinCursor.vb" />
+    <Compile Include="CQSPD\Prodotti\TabelleFinanziarieXProdotti\CProdottoXTabellaFin.vb" />
+    <Compile Include="CQSPD\Tabelle Finanziarie\CTabellaFinanziaria.vb" />
+    <Compile Include="CQSPD\Tabelle Finanziarie\TabelleFinanziarie.vb" />
+    <Compile Include="CQSPD\Tabelle Finanziarie\CTabelleFinanziarieCursor.vb" />
+    <Compile Include="CQSPD\Vincoli su Tabelle\CTableConstraintCursor.vb" />
+    <Compile Include="CQSPD\Vincoli su Tabelle\CTableConstraint.vb" />
+    <Compile Include="CQSPD\Tabelle Spese\TabelleSpese.vb" />
+    <Compile Include="CQSPD\Tabelle Spese\CTabellaSpeseCursor.vb" />
+    <Compile Include="CQSPD\Tabelle Spese\CTabellaSpese.vb" />
+    <Compile Include="CQSPD\Tabelle TEG Max\CQSPDRigheTEGMax.vb" />
+    <Compile Include="CQSPD\Tabelle TEG Max\CRigaTEGMax.vb" />
+    <Compile Include="CQSPD\Tabelle TEG Max\CRigheTEGMaxCursor.vb" />
+    <Compile Include="CQSPD\Tabelle TEG Max\CTabellaTEGMax.vb" />
+    <Compile Include="CQSPD\Tabelle TEG Max\CTabelleTEGMaxCursor.vb" />
+    <Compile Include="CQSPD\Tabelle TEG Max\TabelleTEGMax.vb" />
+    <Compile Include="CQSPD\TipiContratto\CTipoContrattoCursor.vb" />
+    <Compile Include="CQSPD\TipiContratto\CTipoContratto.vb" />
+    <Compile Include="CQSPD\TipiContratto\TipiContratto.vb" />
+    <Compile Include="CQSPD\Visure\Visura.vb" />
+    <Compile Include="CQSPD\Visure\Visure.vb" />
+    <Compile Include="CQSPD\Visure\VisureCursor.vb" />
+    <Compile Include="CQSPD\RichiesteAssegni\RichiestaAssegni.vb" />
+    <Compile Include="CQSPD\Richieste Finanziamenti\CRichiesteFinanziamentoCursor.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="CQSPD\CQSPD.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="CQSPD\Zona\CZona.vb" />
+    <Compile Include="CQSPD\Zona\CZonaCursor.vb" />
+    <Compile Include="CQSPD\Zona\Zone.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DMD\DMDBaseCore\DMDBaseCore\DMDBaseCore.vbproj">
+      <Project>{10969116-5b14-462b-8ade-7782e14c4736}</Project>
+      <Name>DMDBaseCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDCRM\DMDCRM.vbproj">
+      <Project>{19e60d51-7d00-43ee-a26b-6e8a37f05c59}</Project>
+      <Name>DMDCRM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDLibs\DMDLibs.vbproj">
+      <Project>{d6154502-e7f9-4dfc-a695-6b51afee770b}</Project>
+      <Name>DMDLibs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDOffice\DMDOffice.vbproj">
+      <Project>{af8567a3-b154-4f14-aaf7-223253fa523d}</Project>
+      <Name>DMDOffice</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

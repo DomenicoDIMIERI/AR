@@ -1,0 +1,30 @@
+C:\Work\Programmazione\DMD\DMDBaseCore\DMDBaseCore\bin\x86\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\DMD\DMDBaseCore\DMDBaseCore\bin\x86\Debug\DMDBaseCore.pdb
+C:\Work\Programmazione\DMD\DMDBaseCore\DMDBaseCore\bin\x86\Debug\DMDBaseCore.xml
+C:\Work\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.vbprojAssemblyReference.cache
+C:\Work\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.vbproj.GenerateResource.cache
+C:\Work\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.xml
+C:\Work\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.pdb
+C:\Works\Programmazione\DMD\DMDBaseCore\DMDBaseCore\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\Programmazione\DMD\DMDBaseCore\DMDBaseCore\bin\x86\Debug\DMDBaseCore.pdb
+C:\Works\Programmazione\DMD\DMDBaseCore\DMDBaseCore\bin\x86\Debug\DMDBaseCore.xml
+C:\Works\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.vbprojResolveAssemblyReference.cache
+C:\Works\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMD.Resources.resources
+C:\Works\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.vbproj.GenerateResource.Cache
+C:\Works\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.vbproj.CoreCompileInputs.cache
+C:\Works\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.dll
+C:\Works\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.xml
+C:\Works\Programmazione\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\bin\x86\Debug\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\bin\x86\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\x86\Debug\DMDBaseCore.pdb

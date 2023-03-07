@@ -1,0 +1,18 @@
+create table tbl_OfficeSoftware 
+(
+ID Counter Primary Key,
+Nome Text(255),
+Versione text(64),
+IconURL text(255),
+Classe text(255),
+Autore text(255),
+DataPubblicazione Date,
+DataRitiro Date,
+Flags int,
+SupportedOSs Memo,
+CreatoDa int,
+CreatoIl Date,
+ModificatoDa int,
+ModificatoIl Date,
+Stato int
+)

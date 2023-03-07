@@ -1,0 +1,32 @@
+C:\Work\Programmazione\Projects\DMDWebLibs\bin\x86\Release\DMDWebLibs.dll
+C:\Work\Programmazione\Projects\DMDWebLibs\bin\x86\Release\DMDWebLibs.xml
+C:\Work\Programmazione\Projects\DMDWebLibs\bin\x86\Release\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\DMDWebLibs\bin\x86\Release\DMDLibs.dll
+C:\Work\Programmazione\Projects\DMDWebLibs\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\DMDWebLibs\bin\x86\Release\DMDBaseCore.pdb
+C:\Work\Programmazione\Projects\DMDWebLibs\bin\x86\Release\DMDBaseCore.xml
+C:\Work\Programmazione\Projects\DMDWebLibs\bin\x86\Release\DMDLibs.xml
+C:\Work\Programmazione\Projects\DMDWebLibs\bin\x86\Release\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\DMDWebLibs\obj\x86\Release\DMD.Resources.resources
+C:\Work\Programmazione\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.vbproj.CopyComplete
+C:\Work\Programmazione\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.dll
+C:\Work\Programmazione\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\bin\x86\Release\DMDWebLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\bin\x86\Release\DMDWebLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\bin\x86\Release\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\bin\x86\Release\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\bin\x86\Release\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\bin\x86\Release\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\bin\x86\Release\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\bin\x86\Release\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\bin\x86\Release\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\obj\x86\Release\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDWebLibs\obj\x86\Release\DMDWebLibs.xml

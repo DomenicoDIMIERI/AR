@@ -1,0 +1,67 @@
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDSvc.exe
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDSvc.pdb
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDSvc.xml
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DialTPLib.dll
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDAsteriskLib.dll
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\nQuant.Core.dll
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDWebLibs.dll
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDCRM.dll
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\Hylafax.net.dll
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DialTPLib.pdb
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DialTPLib.dll.config
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDHylaFax.pdb
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDWebLibs.pdb
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDWebLibs.xml
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDCRM.pdb
+C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Debug\DMDCRM.xml
+C:\Work\Programmazione\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeASvc\obj\x86\Debug\DMD.DMDSvc.resources
+C:\Work\Programmazione\Projects\FinSeASvc\obj\x86\Debug\DMD.DMDSvcInstaller.resources
+C:\Work\Programmazione\Projects\FinSeASvc\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.exe
+C:\Work\Programmazione\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.xml
+C:\Work\Programmazione\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDSvc.exe
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDSvc.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDSvc.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DialTPLib.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDAsteriskLib.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDHylaFax.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\nQuant.Core.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDWebLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDCRM.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\Hylafax.net.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DialTPLib.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DialTPLib.dll.config
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDHylaFax.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDHylaFax.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDWebLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDWebLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\bin\x86\Debug\DMDCRM.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.vbprojResolveAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\obj\x86\Debug\DMD.DMDSvc.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\obj\x86\Debug\DMD.DMDSvcInstaller.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.exe
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeASvc\obj\x86\Debug\DMDSvc.pdb

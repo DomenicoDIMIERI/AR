@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{610D8EA6-B6A9-4744-AF4E-DCAE12F180E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>DMD</RootNamespace>
+    <AssemblyName>DMDNokiaUtils</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDNokiaUtils.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDNokiaUtils.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\Content Access API\CADataDefinitions.vb" />
+    <Compile Include="API\Content Access API\DAContentAccess.vb" />
+    <Compile Include="API\Content Access API\DAContentAccessDefinitions.vb" />
+    <Compile Include="API\Device Management API\CONADeviceManagement.vb" />
+    <Compile Include="API\Device Management API\DMAPIDefinitions.vb" />
+    <Compile Include="API\File System API\CONAApplicationInstallation.vb" />
+    <Compile Include="API\File System API\CONAFileSystem.vb" />
+    <Compile Include="API\PCCSErrors.vb" />
+    <Compile Include="API\PCCSTypeDefinitions.vb" />
+    <Compile Include="NokiaBTDevice.vb" />
+    <Compile Include="Internals\NokiaInstalledApps.vb" />
+    <Compile Include="NokiaInstalledApp.vb" />
+    <Compile Include="NokiaMediaInfo.vb" />
+    <Compile Include="Internals\DeviceMediaCollection.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="NokiaFindFileCursor.vb" />
+    <Compile Include="Internals\FileOperation.vb" />
+    <Compile Include="NokiaFolderInfo.vb" />
+    <Compile Include="Internals\CDevicesCollection.vb" />
+    <Compile Include="Internals\CContactsCollection.vb" />
+    <Compile Include="CContactItem.vb" />
+    <Compile Include="CCalendarItem.vb" />
+    <Compile Include="Internals\CCalendar.vb" />
+    <Compile Include="Internals\CMMSFolder1.vb" />
+    <Compile Include="Internals\CMMSMessagesCollection.vb" />
+    <Compile Include="Internals\CCalendarItemsCollection.vb" />
+    <Compile Include="Internals\CMMS.vb" />
+    <Compile Include="CBookMarkItem.vb" />
+    <Compile Include="CMMSMessage.vb" />
+    <Compile Include="Internals\CBookMarks.vb" />
+    <Compile Include="Internals\CBaseFolder.vb" />
+    <Compile Include="Internals\CBaseObject.vb" />
+    <Compile Include="Internals\CBaseItem.vb" />
+    <Compile Include="Internals\CContacts.vb" />
+    <Compile Include="Internals\CBookMarkFolder.vb" />
+    <Compile Include="CBookMarksCollection.vb" />
+    <Compile Include="Internals\CContactsFolder.vb" />
+    <Compile Include="Internals\CCalendarFolder.vb" />
+    <Compile Include="Internals\CFileSystem.vb" />
+    <Compile Include="Internals\CMemoryType.vb" />
+    <Compile Include="Internals\CMemoryTypesCollection.vb" />
+    <Compile Include="NokiaFileInfo.vb" />
+    <Compile Include="Internals\ItemDataCollection.vb" />
+    <Compile Include="ItemData.vb" />
+    <Compile Include="CPostalAddress.vb" />
+    <Compile Include="Internals\CSMSMessagesCollection.vb" />
+    <Compile Include="Internals\CSMSFolder.vb" />
+    <Compile Include="Internals\CFoldersCollection.vb" />
+    <Compile Include="Internals\CSMS.vb" />
+    <Compile Include="CSMSMessage.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NokiaDevice.vb" />
+    <Compile Include="PCCAPIUtils.vb" />
+    <Compile Include="Nokia.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMDBaseCore\DMDBaseCore\DMDBaseCore.vbproj">
+      <Project>{10969116-5b14-462b-8ade-7782e14c4736}</Project>
+      <Name>DMDBaseCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

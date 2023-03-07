@@ -1,0 +1,21 @@
+create table [tbl_FIN_ProdXConvenzioni]
+(
+[ID] Counter Primary Key,
+[Nome] Text(255),
+[IDProdotto] Int,
+[IDConvenzione] Int,
+[Flags] Int,
+[DataInizio] Date,
+[DataFine] Date,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+create index idxtbl_FIN_ProdXConvenzioniNM on tbl_FIN_ProdXConvenzioni (Nome)
+create index idxtbl_FIN_ProdXConvenzioniPROD on tbl_FIN_ProdXConvenzioni (IDProdotto)
+create index idxtbl_FIN_ProdXConvenzioniCON on tbl_FIN_ProdXConvenzioni (IDConvenzione)
+create index idxtbl_FIN_ProdXConvenzioniDATE on tbl_FIN_ProdXConvenzioni (DataInizio, DataFine)
+create index idxtbl_FIN_ProdXConvenzioniSAT on tbl_FIN_ProdXConvenzioni (Stato)

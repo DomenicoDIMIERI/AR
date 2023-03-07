@@ -1,0 +1,29 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWin32\bin\x86\Debug\FinSeAWin32.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWin32\bin\x86\Debug\FinSeAWin32.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWin32\bin\x86\Debug\FinSeAWin32.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWin32\obj\x86\Debug\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.pdb
+E:\Work\Programmazione\Projects\FinSeAWin32\bin\x86\Debug\FinSeAWin32.dll
+E:\Work\Programmazione\Projects\FinSeAWin32\bin\x86\Debug\FinSeAWin32.pdb
+E:\Work\Programmazione\Projects\FinSeAWin32\bin\x86\Debug\FinSeAWin32.xml
+E:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeA.Resources.resources
+E:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.dll
+E:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.xml
+E:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.pdb
+C:\Work\Programmazione\Projects\FinSeAWin32\bin\x86\Debug\FinSeAWin32.dll
+C:\Work\Programmazione\Projects\FinSeAWin32\bin\x86\Debug\FinSeAWin32.pdb
+C:\Work\Programmazione\Projects\FinSeAWin32\bin\x86\Debug\FinSeAWin32.xml
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.dll
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.xml
+C:\Work\Programmazione\Projects\FinSeAWin32\obj\x86\Debug\FinSeAWin32.pdb

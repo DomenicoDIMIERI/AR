@@ -1,0 +1,21 @@
+create table [tbl_DialTPConfig]
+(
+[ID] COUNTER PRIMARY KEY,
+[IDPostazione] Text(255),
+[IDMacchina] Text(255),
+[IDUtente] Text(255),
+[Attiva] Bit,
+[DataInizio] Date,
+[DataFine] Date,
+[FullScreenShotInterval] Int,
+[ClickShot] bit,
+[WindowShot] bit,
+[Flags] Int,
+[UploadServer] Text(255),
+[NotifyServer] Text(255),
+[AsteriskServers] Memo,
+[Dispositivi] Memo,
+[Linee] Memo,
+[CartelleMonitorate] Memo,
+[Attributi] Memo,
+)

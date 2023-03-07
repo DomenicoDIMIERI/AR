@@ -1,0 +1,66 @@
+create table tbl_OfficeDocumentiContabili (
+ID Counter Primary Key,
+TipoDocumento Text(255),
+NumeroDocumento Text(255),
+DataEmissione Date,
+IDCliente Int,
+NomeCliente Int,
+INDCLT_LABEL Text(255),
+INDCLT_VIA text(255),
+INDCLT_CAP Text(32),
+INDCLT_CITTA Text(255),
+INDCLT_PROV Text(255),
+CodiceFiscaleCliente Text(16),
+PartitaIVACliente Text(16),
+IDFornitore Int,
+NomeFornitore Text(255),
+INDFNT_LABEL Text(255),
+INDFNT_VIA Text(255),
+INDFNT_CAP Text(32),
+INDFNT_CITTA Text(255),
+INDFNT_PROV Text(255),
+CodiceFiscaleFornitore Text(16),
+PartitaIVAFornitore Text(16),
+INDSPD_LABEL Text(255),
+INDSPD_VIA Text(255),
+INDSPD_CAP Text(32),
+INDSPD_CITTA Text(255),
+INDSPD_PROV Text(255),
+Descrizione Memo,
+Flags Int,
+Attributi Memo,
+IDPuntoOperativo Int,
+NomePuntoOperativo Text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+create index idxOfficeDocContTPDOC on tbl_OfficeDocumentiContabili  (TipoDocumento)
+create index idxOfficeDocContNMDOC on tbl_OfficeDocumentiContabili  (NumeroDocumento)
+create index idxOfficeDocContDTEM on tbl_OfficeDocumentiContabili  (DataEmissione)
+create index idxOfficeDocContIDCLT on tbl_OfficeDocumentiContabili  (IDCliente)
+create index idxOfficeDocContCFCLT on tbl_OfficeDocumentiContabili  (CodiceFiscaleCliente)
+create index idxOfficeDocContPIVACLT on tbl_OfficeDocumentiContabili  (PartitaIVACliente)
+create index idxOfficeDocContIDFNT on tbl_OfficeDocumentiContabili  (IDFornitore)
+create index idxOfficeDocContCFFNT on tbl_OfficeDocumentiContabili  (CodiceFiscaleFornitore)
+create index idxOfficeDocContPIVAFNT on tbl_OfficeDocumentiContabili  (PartitaIVAFornitore)
+create index idxOfficeDocContIDPO on tbl_OfficeDocumentiContabili  (IDPuntoOperativo)
+create index idxOfficeDocContSTATO on tbl_OfficeDocumentiContabili  (Stato)
+
+alter table tbl_officeDocumentiContabili change column NomeCliente Text(255)
+
+alter table tbl_OfficeDocumentiContabili add column DataRegistrazione Date, DataEvasione Date, StatoDocumento int, TotaleImponibile Real, TotaleIvato Real
+
+create index idxOfficeDocContDTREG on tbl_OfficeDocumentiContabili (DataRegistrazione)
+create index idxOfficeDocContDTEV on tbl_OfficeDocumentiContabili (DataEvasione)
+create index idxOfficeDocContDTSTDOC on tbl_OfficeDocumentiContabili (StatoDocumento)
+
+alter table tbl_OfficeDocumentiContabili add column VociPagamento Memo
+
+alter table tbl_OfficeDocumentiContabili add column SourceType Text(255), SourceID Int, SourceParams Text(255)
+
+create index idxOfficeDocContSRC on tbl_OfficeDocumentiContabili (SourceType, SourceID)
+create index idxOfficeDocContSRCP on tbl_OfficeDocumentiContabili (SourceParams)

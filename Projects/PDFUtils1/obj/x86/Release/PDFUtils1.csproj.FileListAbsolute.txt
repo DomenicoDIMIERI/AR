@@ -1,0 +1,45 @@
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\PDFUtils1.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\PDFUtils1.pdb
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\IKVM.AWT.WinForms.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.Core.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.Media.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.SwingAWT.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.Text.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.Util.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.XML.API.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\IKVM.Runtime.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\pdfbox-1.8.9.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\Spire.Pdf.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\commons-logging.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\fontbox-1.8.9.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\Spire.License.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\Spire.Pdf.xml
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Release\Spire.License.xml
+C:\Work\Programmazione\Projects\PDFUtils1\obj\x86\Release\PDFUtils1.csprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\PDFUtils1\obj\x86\Release\PDFUtils1.csproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\PDFUtils1\obj\x86\Release\PDFUtils1.csproj.CopyComplete
+C:\Work\Programmazione\Projects\PDFUtils1\obj\x86\Release\PDFUtils1.dll
+C:\Work\Programmazione\Projects\PDFUtils1\obj\x86\Release\PDFUtils1.pdb
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\PDFUtils1.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\PDFUtils1.pdb
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\IKVM.AWT.WinForms.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.Core.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.Media.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.SwingAWT.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.Text.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.Util.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\IKVM.OpenJDK.XML.API.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\IKVM.Runtime.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\pdfbox-1.8.9.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\Spire.Pdf.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\commons-logging.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\fontbox-1.8.9.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\Spire.License.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\Spire.Pdf.xml
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\Spire.License.xml
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\obj\x86\Release\PDFUtils1.csprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\obj\x86\Release\PDFUtils1.csproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\obj\x86\Release\PDFUtils1.csproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\obj\x86\Release\PDFUtils1.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\obj\x86\Release\PDFUtils1.pdb
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Release\Microsoft.mshtml.dll

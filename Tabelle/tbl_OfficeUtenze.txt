@@ -1,0 +1,55 @@
+create table tbl_OfficeUtenze
+(
+ID Counter Primary Key,
+Nome Text(255),
+IDFornitore int,
+NomeFornitore text(255),
+IDCliente Int,
+NomeCliente Int,
+NumeroContratto text(255),
+CodiceCliente text(255),
+CodiceUtenza Text(255),
+Descrizione Text(255),
+TipoPeriodicita Int,
+IntervalloPeriodicita Int,
+DataSottoscrizione Date,
+DataInizioPeriodo Date,
+DataFinePeriodo Date,
+UnitaMisura Text(255),
+CostoUnitario real,
+CostiFissi real,
+NomeValuta Text(255),
+Flags Int,
+TipoMetodoDiPagamento Text(255),
+IDMetodotoDiPagamento Int,
+NomeMetodoDiPagamento Text(255),
+TipoUtenza Text(255),
+IDPuntoOperativo int,
+NomePuntoOperativo Text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa int,
+ModificatoIl Date,
+Stato int
+)
+
+create index idxOfficeUtenzeNM on tbl_OfficeUtenze (Nome)
+create index idxOfficeUtenzeIDFOR on tbl_OfficeUtenze (IDFornitore)
+create index idxOfficeUtenzeIDCLI on tbl_OfficeUtenze (IDCliente)
+create index idxOfficeUtenzeNUMCTR on tbl_OfficeUtenze (NumeroContratto)
+create index idxOfficeUtenzeCCLI on tbl_OfficeUtenze (CodiceCliente)
+create index idxOfficeUtenzeCUTE on tbl_OfficeUtenze (CodiceUtenza)
+create index idxOfficeUtenzeDESCR on tbl_OfficeUtenze (Descrizione)
+create index idxOfficeUtenzeTIPOP on tbl_OfficeUtenze (TipoPeriodicita, IntervalloPeriodicita)
+create index idxOfficeUtenzeDTST on tbl_OfficeUtenze (DataSottoscrizione)
+create index idxOfficeUtenzeDTIN on tbl_OfficeUtenze (DataInizioPeriodo)
+create index idxOfficeUtenzeDTFN on tbl_OfficeUtenze (DataFinePeriodo)
+create index idxOfficeUtenzeMTDP on tbl_OfficeUtenze (TipoMetodoDiPagamento, IDMetodotoDiPagamento)
+create index idxOfficeUtenzeTPUTE on tbl_OfficeUtenze (TipoUtenza)
+create index idxOfficeUtenzeIDPO on tbl_OfficeUtenze (IDPuntoOperativo)
+create index idxOfficeUtenzeCTDA on tbl_OfficeUtenze (CreatoDa)
+create index idxOfficeUtenzeSTATO on tbl_OfficeUtenze (Stato)
+
+alter table tbl_OfficeUtenze add column StimatoreBolletta Text(255)
+
+alter table tbl_OfficeUtenze alter column NomeCliente Text(255)

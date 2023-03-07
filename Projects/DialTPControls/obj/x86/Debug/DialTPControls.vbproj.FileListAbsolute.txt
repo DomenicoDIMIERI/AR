@@ -1,0 +1,10 @@
+C:\Work\Programmazione\Projects\DialTPControls\bin\x86\Debug\DialTPControls.dll.config
+C:\Work\Programmazione\Projects\DialTPControls\bin\x86\Debug\DialTPControls.dll
+C:\Work\Programmazione\Projects\DialTPControls\bin\x86\Debug\DialTPControls.pdb
+C:\Work\Programmazione\Projects\DialTPControls\bin\x86\Debug\DialTPControls.xml
+C:\Work\Programmazione\Projects\DialTPControls\obj\x86\Debug\DialTP.Resources.resources
+C:\Work\Programmazione\Projects\DialTPControls\obj\x86\Debug\DialTPControls.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DialTPControls\obj\x86\Debug\DialTPControls.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DialTPControls\obj\x86\Debug\DialTPControls.dll
+C:\Work\Programmazione\Projects\DialTPControls\obj\x86\Debug\DialTPControls.xml
+C:\Work\Programmazione\Projects\DialTPControls\obj\x86\Debug\DialTPControls.pdb

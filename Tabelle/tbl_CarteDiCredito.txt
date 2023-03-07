@@ -1,0 +1,27 @@
+create table tbl_CarteDiCredito
+(
+ID Counter Primary Key,
+[Name] Text(255),
+IDContoCorrente Int,
+NomeConto Text(255),
+DataInizio Date,
+DataFine Date,
+Flags Int,
+CircuitoCarta Text(255),
+CodiceVerifica Text(16),
+NomeIntestatario Text(255),
+NumeroCarta Text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+create index idxCarteDiCreditoNM on tbl_CarteDiCredito ([Name])
+create index idxCarteDiCreditoIDConto on tbl_CarteDiCredito ([IDContoCorrente], [NomeConto])
+create index idxCarteDiCreditoDTINI on tbl_CarteDiCredito ([DataInizio])
+create index idxCarteDiCreditoDTFIN on tbl_CarteDiCredito ([DataFine])
+create index idxCarteDiCreditoCircuito on tbl_CarteDiCredito ([CircuitoCarta])
+create index idxCarteDiCreditoNumero on tbl_CarteDiCredito ([NumeroCarta])
+create index idxCarteDiCreditoStato on tbl_CarteDiCredito ([Stato])

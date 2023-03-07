@@ -1,0 +1,13 @@
+C:\Work\Programmazione\Projects\FinWebBrowser\bin\x86\Debug\DMDWebBrowser.exe.config
+C:\Work\Programmazione\Projects\FinWebBrowser\bin\x86\Debug\DMDWebBrowser.exe
+C:\Work\Programmazione\Projects\FinWebBrowser\bin\x86\Debug\DMDWebBrowser.pdb
+C:\Work\Programmazione\Projects\FinWebBrowser\obj\x86\Debug\DMDWebBrowser.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinWebBrowser\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Work\Programmazione\Projects\FinWebBrowser\obj\x86\Debug\DMDWebBrowser.vbproj.ResolveComReference.cache
+C:\Work\Programmazione\Projects\FinWebBrowser\obj\x86\Debug\DMD.frmTextViewer.resources
+C:\Work\Programmazione\Projects\FinWebBrowser\obj\x86\Debug\DMD.frmWebBrowser.resources
+C:\Work\Programmazione\Projects\FinWebBrowser\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinWebBrowser\obj\x86\Debug\DMDWebBrowser.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\FinWebBrowser\obj\x86\Debug\DMDWebBrowser.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinWebBrowser\obj\x86\Debug\DMDWebBrowser.exe
+C:\Work\Programmazione\Projects\FinWebBrowser\obj\x86\Debug\DMDWebBrowser.pdb

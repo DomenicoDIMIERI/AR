@@ -1,0 +1,21 @@
+create table [tbl_FIN_AzieXConvenzioni]
+(
+[ID] Counter Primary Key,
+[Nome] Text(255),
+[IDAzienda] Int,
+[IDConvenzione] Int,
+[Flags] Int,
+[DataInizio] Date,
+[DataFine] Date,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+create index idxtbl_FIN_AzieXConvenzioniNM on tbl_FIN_AzieXConvenzioni (Nome)
+create index idxtbl_FIN_AzieXConvenzioniPROD on tbl_FIN_AzieXConvenzioni (IDAzienda)
+create index idxtbl_FIN_AzieXConvenzioniCON on tbl_FIN_AzieXConvenzioni (IDConvenzione)
+create index idxtbl_FIN_AzieXConvenzioniDATE on tbl_FIN_AzieXConvenzioni (DataInizio, DataFine)
+create index idxtbl_FIN_AzieXConvenzioniSAT on tbl_FIN_AzieXConvenzioni (Stato)

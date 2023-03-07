@@ -1,0 +1,30 @@
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Debug\DMDControls.dll
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Debug\DMDControls.pdb
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Debug\DMDControls.xml
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Debug\DMDBaseCore.pdb
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Debug\DMDBaseCore.xml
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Debug\DMDControls.vbprojAssemblyReference.cache
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Debug\DMD.Controls.ToastForm.resources
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Debug\DMDControls.vbproj.GenerateResource.cache
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Debug\DMDControls.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Debug\DMDControls.vbproj.CopyComplete
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Debug\DMDControls.dll
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Debug\DMDControls.xml
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Debug\DMDControls.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Debug\DMDControls.dll
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Debug\DMDControls.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Debug\DMDControls.xml
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Debug\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Debug\DMDControls.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Debug\DMD.Controls.ToastForm.resources
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Debug\DMDControls.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Debug\DMDControls.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Debug\DMDControls.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Debug\DMDControls.dll
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Debug\DMDControls.xml
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Debug\DMDControls.pdb

@@ -1,0 +1,10 @@
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\bin\Release\DMDPDF.dll
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\bin\Release\DMDPDF.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\bin\Release\DMDPDF.xml
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\Release\DMDPDF.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\Release\Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\Release\DMDPDF.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\Release\DMDPDF.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\Release\DMDPDF.dll
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\Release\DMDPDF.xml
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\Release\DMDPDF.pdb

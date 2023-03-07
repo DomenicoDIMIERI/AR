@@ -1,0 +1,3 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\bin\Release\FinWebBrowser.exe.config
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\Release\Interop.SHDocVw.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\Release\FinWebBrowser.vbproj.ResolveComReference.cache

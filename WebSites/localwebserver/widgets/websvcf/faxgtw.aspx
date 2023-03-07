@@ -1,0 +1,1 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="faxgtw.aspx.vb" Inherits="widgets_websvcf_smsgtw" %>

@@ -1,0 +1,40 @@
+create table tbl_OfficeVociPagamento
+(
+ID Counter Primary Key,
+Descrizione Text(255),
+Quantita Real,
+NomeValuta Text(255),
+DataOperazione Date,
+DataEffettiva Date,
+SourceType Text(255),
+SourceID Int,
+SourceParams Text(255),
+Flags Int,
+IDCCOrigine Int,
+NomeCCOrigine Text(255),
+IDCCDestinazione Int,
+NomeCCDestinazione Text(255),
+TipoMetodoDiPagamento Text(255),
+IDMetodotoDiPagamento Int,
+IDPuntoOperativo Int,
+NomePuntoOperativo Text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+create index idxOfficeVociPDESCR on tbl_OfficeVociPagamento (Descrizione)
+create index idxOfficeVociPDDTOP on tbl_OfficeVociPagamento (DataOperazione)
+create index idxOfficeVociPDDTEF on tbl_OfficeVociPagamento (DataEffettiva)
+create index idxOfficeVociPDDSRC on tbl_OfficeVociPagamento (SourceType, SourceID)
+create index idxOfficeVociPDDSRCP on tbl_OfficeVociPagamento (SourceParams)
+create index idxOfficeVociPDDIDCCO on tbl_OfficeVociPagamento (IDCCOrigine)
+create index idxOfficeVociPDDIDCCD on tbl_OfficeVociPagamento (IDCCDestinazione)
+create index idxOfficeVociPDDMTP on tbl_OfficeVociPagamento (TipoMetodoDiPagamento, IDMetodotoDiPagamento)
+create index idxOfficeVociIDPO on tbl_OfficeVociPagamento (IDPuntoOperativo)
+create index idxOfficeVociIDCTD on tbl_OfficeVociPagamento (CreatoDa)
+create index idxOfficeVociSt on tbl_OfficeVociPagamento (Stato)
+
+alter table tbl_OfficeVociPagamento add column NomeMetodoDiPagamento text(255)

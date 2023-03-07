@@ -1,0 +1,96 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.exe.config
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\templates\maildb.mdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\templates\anvizdb.mdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAOffice.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeACRM.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAOffice.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAOffice.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeACRM.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeACRM.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeA.frmMain.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.pdb
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\tc400.dll
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\templates\maildb.mdb
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\templates\anvizdb.mdb
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.exe.config
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.exe.manifest
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.application
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.exe
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.pdb
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.xml
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDBaseCore.dll
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300.dll
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.dll
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAOffice.dll
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\System.dll
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\Ionic.Zip.dll
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeACRM.dll
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300.pdb
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300.xml
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.pdb
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.xml
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.dll.config
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAOffice.pdb
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAOffice.xml
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\System.xml
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeACRM.pdb
+E:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeACRM.xml
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeA.frmMain.resources
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeA.frmUtenti.resources
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeA.Resources.resources
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.exe.manifest
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.application
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.exe
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.xml
+E:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\tc400.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\templates\maildb.mdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\templates\anvizdb.mdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.exe.config
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.exe.manifest
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.application
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.exe
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAS300Sync.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAOffice.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeACRM.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeALibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAOffice.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeAOffice.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeACRM.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\FinSeACRM.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeA.frmMain.resources
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeA.frmUtenti.resources
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.exe.manifest
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.application
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.exe
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\FinSeAS300Sync.pdb

@@ -1,0 +1,444 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DMDPDF
+</name>
+</assembly>
+<members>
+<member name="T:My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="P:DMD.org.dmdpdf.documents.contents.objects.InlineImage.Header">
+ <summary>
+ Gets the image header.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.org.dmdpdf.documents.Document.#ctor(DMD.org.dmdpdf.objects.PdfDirectObject)">
+ <summary>
+ 
+ </summary>
+ <param name="baseObject">Catalog</param>
+</member>
+<member name="F:DMD.org.dmdpdf.documents.Page.TabOrderEnum.Row">
+ <summary>
+ Row order.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.documents.Page.TabOrderEnum.Column">
+ <summary>
+ Column order
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.documents.Page.TabOrderEnum.Structure">
+ <summary>
+ Structure order
+ </summary>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.ICompositeDictionary`1">
+ <summary>
+ Composite dictionary.
+ </summary>
+ <typeparam name="TKey"></typeparam>
+</member>
+<member name="M:DMD.org.dmdpdf.objects.ICompositeDictionary`1.Get(System.Type)">
+ <summary>
+ Gets the value dictionary associated To the specified type.
+ </summary>
+ <param name="type"></param>
+ <returns></returns>
+</member>
+<member name="M:DMD.org.dmdpdf.objects.ICompositeDictionary`1.Get(System.Type,`0)">
+ <summary>
+ Gets the value associated To the specified key For the specified type.
+ </summary>
+ <param name="type"></param>
+ <param name="key"></param>
+ <returns></returns>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.IPdfIndirectObject">
+ <summary>
+ PDF indirect object interface.
+ </summary>
+</member>
+<member name="P:DMD.org.dmdpdf.objects.IPdfIndirectObject.DataObject">
+ <summary>
+ Gets/Sets the actual data associated to the indirect reference.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.org.dmdpdf.objects.IPdfIndirectObject.Delete">
+ <summary>
+ Removes the object from its file context.
+ </summary>
+ <remarks>The Object Is no more usable after this method returns.</remarks>
+</member>
+<member name="P:DMD.org.dmdpdf.objects.IPdfIndirectObject.IndirectObject">
+ <summary>
+ Gets the indirect object associated to the indirect reference
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.org.dmdpdf.objects.IPdfIndirectObject.Reference">
+ <summary>
+ Gets the indirect reference associated To the indirect Object.
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.IPdfNumber">
+ <summary>
+ PDF number interface.
+ </summary>
+</member>
+<member name="P:DMD.org.dmdpdf.objects.IPdfNumber.DoubleValue">
+ <summary>
+ Gets the double-precision floating-point representation of the value.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.org.dmdpdf.objects.IPdfNumber.FloatValue">
+ <summary>
+ Gets the floating-point representation of the value.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.org.dmdpdf.objects.IPdfNumber.IntValue">
+ <summary>
+ Gets the integer representation of the value.
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.IPdfObjectWrapper">
+ <summary>
+ PDF object wrapper interface.
+ </summary>
+</member>
+<member name="P:DMD.org.dmdpdf.objects.IPdfObjectWrapper.BaseObject">
+ <summary>
+ Gets the underlying reference object, if available; otherwise, gets the underlying data object.
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.IPdfSimpleObject`1">
+ <summary>
+ PDF simple Object Interface.
+ </summary>
+ <typeparam name="TValue"></typeparam>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.IVisitable">
+ <summary>
+ Visitable interface.
+ </summary>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.PdfDataObject">
+ <summary>
+ PDF data object.
+ </summary>
+</member>
+<member name="P:DMD.org.dmdpdf.objects.PdfDate.Value">
+ <summary>
+ // FIXME: proper call to base.StringValue could NOT be done due to an unexpected Mono runtime SIGSEGV (TOO BAD).
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.PdfDirectObject">
+ <summary>
+ Abstract PDF direct object.
+ </summary>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.PdfName">
+ <summary>
+ PDF name object [PDF:1.6:3.2.4].
+ </summary>
+</member>
+<member name="M:DMD.org.dmdpdf.objects.PdfName.Get(System.String)">
+ <summary>
+ Gets the Object equivalent To the given value.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.PdfObject">
+ <summary>
+ Abstract PDF object.
+ </summary>
+</member>
+<member name="M:DMD.org.dmdpdf.objects.PdfObject.Clone">
+ <summary>
+ Creates a shallow copy of this object.
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.org.dmdpdf.objects.PdfSimpleObject`1">
+ <summary>
+ Abstract PDF simple object.
+ </summary>
+ <typeparam name="TValue"></typeparam>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.PdfString.SerializationModeEnum.Literal">
+ <summary>
+ Plain form. 
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.PdfString.SerializationModeEnum.Hex">
+ <summary>
+ Hexadecimal form.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Children.InfoImpl.ItemCount">
+ <summary>
+ Number of (contiguous) children defining an item.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Children.InfoImpl.MaxCount">
+ <summary>
+ Maximum number of children.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Children.InfoImpl.MinCount">
+ <summary>
+ Minimum number of children.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Children.Items">
+ <summary>
+ Children's collection
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Children.Info">
+ <summary>
+ Node's children info.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Children.Parent">
+ <summary>
+ Parent node.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Children.TypeName">
+ <summary>
+ Node's children type.
+ </summary>
+</member>
+<member name="M:DMD.org.dmdpdf.objects.Tree`2.Children.IsFull">
+ <summary>
+ Gets whether the collection size has reached its maximum.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.org.dmdpdf.objects.Tree`2.Children.IsLeaf">
+ <summary>
+ Gets whether Me collection represents a leaf node.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.org.dmdpdf.objects.Tree`2.Children.IsOversized">
+ <summary>
+ Gets whether the collection size is more than its maximum.s
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.org.dmdpdf.objects.Tree`2.Children.IsUndersized">
+ <summary>
+ Gets whether the collection size is less than its minimum.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.org.dmdpdf.objects.Tree`2.Children.IsValid">
+ <summary>
+ Gets whether the collection size is within the order limits.
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Enumerator._current">
+ <summary>
+ Current named object.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Enumerator._levelIndex">
+ <summary>
+ Current level index.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Enumerator._levels">
+ <summary>
+ Stacked levels.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Enumerator._kids">
+ <summary>
+ Current child tree nodes.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Enumerator._names">
+ <summary>
+ Current names.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Enumerator._container">
+ <summary>
+ Current container.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.objects.Tree`2.Enumerator._tree">
+ <summary>
+ Name tree.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.BeginArray">
+ <summary>
+ PDF array opening delimiter.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.BeginComment">
+ <summary>
+ PDF comment opening delimiter. 
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.BeginDictionary">
+ <summary>
+ PDF dictionary opening delimiter.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.BeginIndirectObject">
+ <summary>
+ PDF indirect Object begin.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.BeginLiteralString">
+ <summary>
+ PDF literal String opening delimiter.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.BeginStream">
+ <summary>
+ PDF stream data begin.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.BOF">
+ <summary>
+ PDF file begin.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.DatePrefix">
+ <summary>
+ PDF Date marker.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.EndArray">
+ <summary>
+ PDF array closing delimiter.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.EndDictionary">
+ <summary>
+ PDF dictionary closing delimiter.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.EndIndirectObject">
+ <summary>
+ PDF indirect Object End.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.EndLiteralString">
+ <summary>
+ PDF literal String closing delimiter.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.EndStream">
+ <summary>
+ PDF stream data End.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.EOF">
+ <summary>
+ PDF file End.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.False">
+ <summary>
+ PDF Boolean False.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.FreeXrefEntry">
+ <summary>
+ PDF free xref entry marker.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.InUseXrefEntry">
+ <summary>
+ PDF In-use xref entry marker.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.NamePrefix">
+ <summary>
+ PDF name marker.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.Null">
+ <summary>
+ PDF null Object.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.Reference">
+ <summary>
+ PDF indirect reference marker.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.StartXRef">
+ <summary>
+ PDF xref start offset.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.Trailer">
+ <summary>
+ PDF trailer begin.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.True">
+ <summary>
+ PDF Boolean True.
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.tokens.Keyword.XRef">
+ <summary>
+ PDF xref begin.
+ </summary>
+</member>
+<member name="T:DMD.org.dmdpdf.util.IDataWrapper">
+ <summary>
+ Generic data buffer.
+ </summary>
+</member>
+<member name="M:DMD.org.dmdpdf.util.IDataWrapper.ToByteArray">
+ <summary>
+ Gets the buffer data copied to a newly-allocated byte array.
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:DMD.org.dmdpdf.util.math.OperationUtils.DoubleExponentBias">
+ <summary>
+ Double-precision floating-point exponent bias
+ </summary>
+</member>
+<member name="F:DMD.org.dmdpdf.util.math.OperationUtils.DoubleExponentBitMask">
+ <summary>
+ Double-precision floating-point exponent field bit mask.
+ </summary>
+</member>
+</members>
+</doc>

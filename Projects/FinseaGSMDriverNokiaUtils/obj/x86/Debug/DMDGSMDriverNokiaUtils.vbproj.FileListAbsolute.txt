@@ -1,0 +1,24 @@
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\templates\maildb.mdb
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDGSMDriverNokiaUtils.exe.config
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDGSMDriverNokiaUtils.exe
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDGSMDriverNokiaUtils.pdb
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDGSMDriverNokiaUtils.xml
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDSMSGateway.dll
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDSMSGateway.pdb
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Debug\DMDSMSGateway.xml
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMDGSMDriverNokiaUtils.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMD.frmMain.resources
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMDGSMDriverNokiaUtils.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMDGSMDriverNokiaUtils.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMDGSMDriverNokiaUtils.exe
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMDGSMDriverNokiaUtils.xml
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMDGSMDriverNokiaUtils.pdb
+C:\Works\My Web Sites\AR1\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMDGSMDriverNokiaUtils.exe
+C:\Works\My Web Sites\AR1\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMDGSMDriverNokiaUtils.xml
+C:\Works\My Web Sites\AR1\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Debug\DMDGSMDriverNokiaUtils.pdb

@@ -1,0 +1,21 @@
+alter table tbl_CRMStats add column InSMSNum int, InSMSAveLen int, InSMSMinLen int, InSMSMaxLen int, InSMSTotLen int
+alter table tbl_CRMStats add column OutSMSNum int, OutSMSAveLen int, OutSMSMinLen int, OutSMSMaxLen int, OutSMSTotLen int
+
+alter table tbl_CRMStats add column InFaxNum int, InFaxAveLen int, InFaxMinLen int, InFaxMaxLen int, InFaxTotLen int
+alter table tbl_CRMStats add column OutFaxNum int, OutFaxAveLen int, OutFaxMinLen int, OutFaxMaxLen int, OutFaxTotLen int
+alter table tbl_CRMStats add column InEMAILNum int, InMAILAveLen int, InEMAILMinLen int, InEMAILMaxLen int, InEMAILTotLen int
+alter table tbl_CRMStats add column OutEMAILNum int, OutEMAILAveLen int, OutEMAILMinLen int, OutEMAILMaxLen int, OutEMAILTotLen int
+
+
+alter table tbl_CRMStats add column IDPuntoOperativo int
+
+create index idxCRMStatsIDPO on tbl_CRMStats (IDPuntoOperativo)
+
+
+alter table [tbl_CrmStats] Add Column [InTelegramNum] int, [InTelegramTotLen] int, [InTelegramMinLen] int, [InTelegramMaxLen] int 
+
+alter table [tbl_CrmStats] Add Column [OutTelegramNum] int, [OutTelegramTotLen] int, [OutTelegramMinLen] int, [OutTelegramMaxLen] int 
+
+alter table [tbl_CrmStats] add Column [InCallCost] real, [OutCallCost] real, [InDateCost] real, [OutDateCost] real, [InSMSCost] real, [OutSMSCost] real, [InFAXCost] real, [OutFAXCost] real, [InTelegramCost] real, [OutTelegramCost] real
+
+alter table tbl_CRMStats add column NumAppuntamentiPrevisti Int, NumTelefonatePreviste Int

@@ -1,0 +1,28 @@
+C:\Work\Programmazione\DMD\DMDAsteriskLib\bin\x86\Release\DMDAsteriskLib.dll
+C:\Work\Programmazione\DMD\DMDAsteriskLib\bin\x86\Release\DMDAsteriskLib.pdb
+C:\Work\Programmazione\DMD\DMDAsteriskLib\bin\x86\Release\DMDAsteriskLib.xml
+C:\Work\Programmazione\DMD\DMDAsteriskLib\bin\x86\Release\DMDBaseCore.dll
+C:\Work\Programmazione\DMD\DMDAsteriskLib\bin\x86\Release\DMDBaseCore.pdb
+C:\Work\Programmazione\DMD\DMDAsteriskLib\bin\x86\Release\DMDBaseCore.xml
+C:\Work\Programmazione\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.vbprojAssemblyReference.cache
+C:\Work\Programmazione\DMD\DMDAsteriskLib\obj\x86\Release\DMD.Resources.resources
+C:\Work\Programmazione\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.vbproj.GenerateResource.cache
+C:\Work\Programmazione\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.vbproj.CopyComplete
+C:\Work\Programmazione\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.dll
+C:\Work\Programmazione\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.xml
+C:\Work\Programmazione\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\bin\x86\Release\DMDAsteriskLib.dll
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\bin\x86\Release\DMDAsteriskLib.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\bin\x86\Release\DMDAsteriskLib.xml
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\bin\x86\Release\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\bin\x86\Release\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\bin\x86\Release\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\obj\x86\Release\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.dll
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.xml
+C:\Works\My Web Sites\AR1\DMD\DMDAsteriskLib\obj\x86\Release\DMDAsteriskLib.pdb

@@ -1,0 +1,50 @@
+C:\Work\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\DMDLibs\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\DMDLibs\bin\x86\Debug\Ionic.Zlib.dll
+C:\Work\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDBaseCore.pdb
+C:\Work\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDBaseCore.xml
+C:\Work\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbproj.CopyComplete
+C:\Work\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.pdb
+C:\Works\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDLibs.dll
+C:\Works\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDLibs.pdb
+C:\Works\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDLibs.xml
+C:\Works\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\Programmazione\Projects\DMDLibs\bin\x86\Debug\Ionic.Zip.dll
+C:\Works\Programmazione\Projects\DMDLibs\bin\x86\Debug\Ionic.Zlib.dll
+C:\Works\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDBaseCore.pdb
+C:\Works\Programmazione\Projects\DMDLibs\bin\x86\Debug\DMDBaseCore.xml
+C:\Works\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbprojResolveAssemblyReference.cache
+C:\Works\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMD.Resources.resources
+C:\Works\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbproj.GenerateResource.Cache
+C:\Works\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbproj.CoreCompileInputs.cache
+C:\Works\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.dll
+C:\Works\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.xml
+C:\Works\Programmazione\Projects\DMDLibs\obj\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\x86\Debug\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\x86\Debug\Ionic.Zlib.dll
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\x86\Debug\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\x86\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\x86\Debug\DMDLibs.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\x86\Debug\DMDLibs.pdb

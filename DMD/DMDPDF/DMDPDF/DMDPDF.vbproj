@@ -1,0 +1,1114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3EA769E3-041E-443E-B8C5-2E256C515754}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>DMDPDF</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDPDF.xml</DocumentationFile>
+    <NoWarn>42020,42021,42022</NoWarn>
+    <WarningsAsErrors>41999,42016</WarningsAsErrors>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDPDF.xml</DocumentationFile>
+    <NoWarn>42020,42021,42022</NoWarn>
+    <WarningsAsErrors>41999,42016</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DMDPDF.xml</DocumentationFile>
+    <NoWarn>42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DMDPDF.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="res\doc\faq\Makefile" />
+    <None Include="res\doc\faq\src\faq.docbook" />
+    <None Include="res\doc\guides\common\src\GFDL.appendix.docbook" />
+    <None Include="res\doc\guides\userGuide\Makefile" />
+    <None Include="res\doc\guides\userGuide\src\chapter1.docbook" />
+    <None Include="res\doc\guides\userGuide\src\chapter2.docbook" />
+    <None Include="res\doc\guides\userGuide\src\chapter3.docbook" />
+    <None Include="res\doc\guides\userGuide\src\info.docbook" />
+    <None Include="res\doc\guides\userGuide\src\samples.appendix.docbook" />
+    <None Include="res\doc\guides\userGuide\src\userGuide.docbook" />
+    <EmbeddedResource Include="res\fonts\afm\Courier-Bold.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Courier-BoldOblique.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Courier-Oblique.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Courier.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Helvetica-Bold.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Helvetica-BoldOblique.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Helvetica-Oblique.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Helvetica.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Symbol.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Times-Bold.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Times-BoldItalic.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Times-Italic.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\Times-Roman.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\afm\ZapfDingbats.afm">
+      <CustomToolNamespace>fonts.afm</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\AGL20.scsv">
+      <CustomToolNamespace>fonts</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\cff\ExpertCharset">
+      <CustomToolNamespace>fonts.cff</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\cff\ExpertSubsetCharset">
+      <CustomToolNamespace>fonts.cff</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\cff\ISOAdobeCharset">
+      <CustomToolNamespace>fonts.cff</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\cff\StandardStrings">
+      <CustomToolNamespace>fonts.cff</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\cmap\Identity-H">
+      <CustomToolNamespace>fonts.cmap</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\fonts\cmap\Identity-V">
+      <CustomToolNamespace>fonts.cmap</CustomToolNamespace>
+    </EmbeddedResource>
+    <None Include="res\README.mentor" />
+    <None Include="res\samples\input\fonts\GenR102.TTF" />
+    <None Include="res\samples\input\fonts\lazyDog.ttf" />
+    <None Include="res\samples\input\fonts\MgOpenCanonicaRegular.ttf" />
+    <None Include="res\samples\input\fonts\Ruritania-Outline.ttf" />
+    <None Include="res\samples\input\fonts\TravelingTypewriter.otf" />
+    <None Include="res\samples\input\pdf\alice.pdf" />
+    <None Include="res\samples\input\pdf\eastman.pdf" />
+    <None Include="res\samples\input\pdf\form12a_filled.pdf" />
+    <None Include="res\samples\input\pdf\fundev.pdf" />
+    <None Include="res\samples\input\pdf\healyschussman.pdf" />
+    <None Include="res\samples\input\pdf\invlist.pdf" />
+    <None Include="res\samples\input\pdf\millenniumDevGoals.pdf" />
+    <None Include="res\samples\input\pdf\nattun.pdf" />
+    <None Include="res\samples\input\pdf\universalDeclarationOfHumanRights_arabic.pdf" />
+    <None Include="res\samples\input\pdf\universalDeclarationOfHumanRights_chinese.pdf" />
+    <None Include="res\samples\input\pdf\universalDeclarationOfHumanRights_french.pdf" />
+    <None Include="res\samples\input\pdf\universalDeclarationOfHumanRights_greek.pdf" />
+    <None Include="res\samples\input\pdf\universalDeclarationOfHumanRights_russian.pdf" />
+    <None Include="res\samples\input\pdf\whyOpenSourceMakeSense.pdf" />
+    <None Include="res\script\doxygen.postprocess.sh" />
+    <None Include="res\script\mentor.recursive.sh" />
+    <None Include="res\script\mentor.sh" />
+    <None Include="res\xsl\docbook\1.70.1\README" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="res\doc\faq\build\" />
+    <Folder Include="res\doc\guides\userGuide\build\" />
+    <Folder Include="res\pkg\" />
+    <Folder Include="res\samples\input\video\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="res\doc\guides\common\res\baseObject.png" />
+    <Content Include="res\doc\guides\common\res\layers.svg" />
+    <Content Include="res\doc\guides\common\res\levels.png" />
+    <Content Include="res\doc\guides\common\res\objectLayeredViews.png" />
+    <Content Include="res\doc\guides\common\res\objectReferences.png" />
+    <Content Include="res\doc\guides\common\res\objectReferences2.png" />
+    <Content Include="res\doc\guides\common\res\typesetting.svg" />
+    <Content Include="res\images\pdfclown.png" />
+    <None Include="res\fonts\afm\MustRead.html" />
+    <Content Include="res\README.html" />
+    <Content Include="res\README.txt" />
+    <Content Include="res\samples\input\images\alice_white_rabbit.jpg" />
+    <Content Include="res\samples\input\images\Clown.jpg" />
+    <Content Include="res\samples\input\images\gnu.jpg" />
+    <Content Include="res\samples\input\images\mountains.jpg" />
+    <Content Include="res\styles\mentor.css" />
+    <Content Include="res\xsl\docbook\custom\docbook.fo.xsl" />
+    <Content Include="res\xsl\docbook\custom\docbook.html.xsl" />
+    <Content Include="res\xsl\docbook\custom\guide.docbook.fo.xsl" />
+    <Content Include="res\xsl\docbook\custom\mentor.docbook.fo.xsl" />
+    <Content Include="res\xsl\mentor\mentor.docbook.txt.xsl" />
+    <Content Include="res\xsl\mentor\mentor.docbook.xsl" />
+    <Compile Include="src\org\dmdpdf\bytes\Buffer.vb" />
+    <Compile Include="src\org\dmdpdf\bytes\IBuffer.vb" />
+    <Compile Include="src\org\dmdpdf\bytes\IInputStream.vb" />
+    <Compile Include="src\org\dmdpdf\bytes\IStream.vb" />
+    <Compile Include="src\org\dmdpdf\bytes\IOutputStream.vb" />
+    <Compile Include="src\org\dmdpdf\bytes\Stream.vb" />
+    <Compile Include="src\org\dmdpdf\VersionEnum.vb" />
+    <Compile Include="src\org\dmdpdf\Version.vb" />
+    <None Include="src\org\dmdpdf\bytes\Buffer.cs" />
+    <Compile Include="src\org\dmdpdf\bytes\filters\ASCII85Filter.vb" />
+    <Compile Include="src\org\dmdpdf\bytes\filters\Filter.vb" />
+    <Compile Include="src\org\dmdpdf\bytes\filters\FlateFilter.vb" />
+    <None Include="src\org\dmdpdf\bytes\filters\ASCII85Filter.cs" />
+    <None Include="src\org\dmdpdf\bytes\filters\Filter.cs" />
+    <Content Include="src\org\dmdpdf\bytes\filters\FlateFilter.cs" />
+    <None Include="src\org\dmdpdf\bytes\filters\namespace.cs" />
+    <None Include="src\org\dmdpdf\bytes\IBuffer.cs" />
+    <Content Include="src\org\dmdpdf\bytes\IInputStream.cs" />
+    <Content Include="src\org\dmdpdf\bytes\IOutputStream.cs" />
+    <Content Include="src\org\dmdpdf\bytes\IStream.cs" />
+    <Content Include="src\org\dmdpdf\bytes\namespace.cs" />
+    <Content Include="src\org\dmdpdf\bytes\Stream.cs" />
+    <Compile Include="src\org\dmdpdf\documents\Articles.vb" />
+    <Content Include="src\org\dmdpdf\documents\Articles.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\BlendModeEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\BlendModeEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\ColorSpaceResources.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\ColorSpaceResources.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\CalColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\CalColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\CalGrayColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\CalGrayColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\CalGrayColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\CalGrayColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\CalRGBColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\CalRGBColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\CalRGBColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\CalRGBColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\CIEBasedColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\CIEBasedColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\Color.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\Color.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\ColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\ColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceCMYKColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceCMYKColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceCMYKColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceCMYKColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceGrayColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceGrayColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceGrayColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceGrayColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceNColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceNColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceNColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceNColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceRGBColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceRGBColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceRGBColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\DeviceRGBColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\ICCBasedColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\ICCBasedColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\IndexedColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\IndexedColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\IndexedColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\IndexedColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\LabColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\LabColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\LabColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\LabColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\LeveledColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\LeveledColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\Pattern.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\Pattern.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\PatternColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\PatternColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\SeparationColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\SeparationColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\SeparationColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\SeparationColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\Shading.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\Shading.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\ShadingPattern.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\ShadingPattern.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\SpecialColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\SpecialColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\SpecialDeviceColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\SpecialDeviceColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\colorSpaces\TilingPattern.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\colorSpaces\TilingPattern.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\composition\BlockComposer.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\composition\BlockComposer.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\composition\Length.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\composition\Length.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\composition\LineAlignmentEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\composition\LineAlignmentEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\composition\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\composition\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\composition\PrimitiveComposer.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\composition\PrimitiveComposer.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\composition\TextFitter.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\composition\TextFitter.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\composition\XAlignmentEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\composition\XAlignmentEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\composition\YAlignmentEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\composition\YAlignmentEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\Contents.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\Contents.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\ContentScanner.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\ContentScanner.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\entities\Barcode.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\entities\Barcode.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\entities\EAN13Barcode.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\entities\EAN13Barcode.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\entities\Entity.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\entities\Entity.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\entities\Image.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\entities\Image.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\entities\JpegImage.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\entities\JpegImage.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\entities\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\entities\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\ExtGState.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\ExtGState.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\ExtGStateResources.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\ExtGStateResources.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\FontResources.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\FontResources.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\AfmParser.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\AfmParser.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\CffParser.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\CffParser.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\CMap.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\CMap.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\CMapParser.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\CMapParser.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\CompositeFont.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\CompositeFont.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\Encoding.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\Encoding.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\Font.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\Font.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\GlyphMapping.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\GlyphMapping.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\MacRomanEncoding.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\MacRomanEncoding.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\MMType1Font.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\MMType1Font.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\OpenFontParser.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\OpenFontParser.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\PfbParser.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\PfbParser.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\SimpleFont.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\SimpleFont.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\StandardEncoding.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\StandardEncoding.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\StandardType1Font.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\StandardType1Font.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\TrueTypeFont.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\TrueTypeFont.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\Type0Font.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\Type0Font.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\Type1Font.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\Type1Font.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\Type2Font.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\Type2Font.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\Type3Font.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\Type3Font.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\fonts\WinAnsiEncoding.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\fonts\WinAnsiEncoding.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\IContentContext.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\IContentContext.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\IContentEntity.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\IContentEntity.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\ITextString.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\ITextString.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\ILayerable.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\ILayerable.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\ILayerConfiguration.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\ILayerConfiguration.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\ILayerNode.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\ILayerNode.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\Layer.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\Layer.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\LayerConfiguration.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\LayerConfiguration.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\LayerDefinition.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\LayerDefinition.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\LayerEntity.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\LayerEntity.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\LayerGroup.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\LayerGroup.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\LayerMembership.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\LayerMembership.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\Layers.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\Layers.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\ListModeEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\ListModeEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\layers\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\layers\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\LineCapEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\LineCapEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\LineDash.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\LineDash.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\LineJoinEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\LineJoinEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\ApplyExtGState.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\ApplyExtGState.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\BeginInlineImage.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\BeginInlineImage.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\BeginMarkedContent.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\BeginMarkedContent.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\BeginSubpath.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\BeginSubpath.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\BeginText.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\BeginText.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\CloseSubpath.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\CloseSubpath.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\CompositeObject.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\CompositeObject.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\ContainerObject.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\ContainerObject.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\ContentMarker.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\ContentMarker.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\ContentObject.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\ContentObject.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\DrawCurve.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\DrawCurve.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\DrawLine.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\DrawLine.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\DrawRectangle.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\DrawRectangle.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\EndInlineImage.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\EndInlineImage.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\EndMarkedContent.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\EndMarkedContent.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\EndText.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\EndText.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\GenericOperation.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\GenericOperation.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\GraphicsObject.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\GraphicsObject.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\InlineImage.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\InlineImage.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\InlineImageBody.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\InlineImageBody.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\InlineImageHeader.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\InlineImageHeader.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\IResourceReference.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\IResourceReference.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\LocalGraphicsState.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\LocalGraphicsState.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\MarkedContent.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\MarkedContent.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\MarkedContentPoint.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\MarkedContentPoint.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\ModifyClipPath.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\ModifyClipPath.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\ModifyCTM.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\ModifyCTM.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\Operation.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\Operation.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\PaintPath.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\PaintPath.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\PaintShading.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\PaintShading.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\PaintXObject.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\PaintXObject.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\Path.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\Path.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\RestoreGraphicsState.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\RestoreGraphicsState.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SaveGraphicsState.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SaveGraphicsState.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetCharSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetCharSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetDeviceCMYKFillColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetDeviceCMYKFillColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetDeviceCMYKStrokeColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetDeviceCMYKStrokeColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetDeviceGrayFillColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetDeviceGrayFillColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetDeviceGrayStrokeColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetDeviceGrayStrokeColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetDeviceRGBFillColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetDeviceRGBFillColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetDeviceRGBStrokeColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetDeviceRGBStrokeColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetFillColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetFillColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetFillColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetFillColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetFont.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetFont.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetLineCap.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetLineCap.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetLineDash.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetLineDash.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetLineJoin.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetLineJoin.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetLineWidth.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetLineWidth.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetMiterLimit.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetMiterLimit.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetStrokeColor.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetStrokeColor.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetStrokeColorSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetStrokeColorSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetTextLead.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetTextLead.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetTextMatrix.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetTextMatrix.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetTextRenderMode.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetTextRenderMode.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetTextRise.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetTextRise.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetTextScale.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetTextScale.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\SetWordSpace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\SetWordSpace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\Shading.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\Shading.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\ShowAdjustedText.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\ShowAdjustedText.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\ShowSimpleText.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\ShowSimpleText.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\ShowText.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\ShowText.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\ShowTextToNextLine.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\ShowTextToNextLine.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\Text.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\Text.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\TranslateTextRelative.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\TranslateTextRelative.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\TranslateTextToNextLine.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\TranslateTextToNextLine.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\objects\XObject.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\objects\XObject.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\PatternResources.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\PatternResources.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\PropertyList.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\PropertyList.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\PropertyListResources.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\PropertyListResources.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\ResourceItems.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\ResourceItems.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\Resources.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\Resources.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\RotationEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\RotationEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\ShadingResources.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\ShadingResources.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\TextChar.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\TextChar.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\TextRenderModeEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\TextRenderModeEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\TextStyle.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\TextStyle.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\tokens\ContentParser.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\tokens\ContentParser.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\tokens\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\tokens\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\WindModeEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\WindModeEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\XObjectResources.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\XObjectResources.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\xObjects\FormXObject.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\xObjects\FormXObject.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\xObjects\ImageXObject.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\xObjects\ImageXObject.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\xObjects\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\xObjects\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\contents\xObjects\XObject.vb" />
+    <Content Include="src\org\dmdpdf\documents\contents\xObjects\XObject.cs" />
+    <Compile Include="src\org\dmdpdf\documents\Document.vb" />
+    <Content Include="src\org\dmdpdf\documents\Document.cs" />
+    <Compile Include="src\org\dmdpdf\documents\DocumentActions.vb" />
+    <Content Include="src\org\dmdpdf\documents\DocumentActions.cs" />
+    <Compile Include="src\org\dmdpdf\documents\files\EmbeddedFile.vb" />
+    <Content Include="src\org\dmdpdf\documents\files\EmbeddedFile.cs" />
+    <Compile Include="src\org\dmdpdf\documents\files\FileSpecification.vb" />
+    <Content Include="src\org\dmdpdf\documents\files\FileSpecification.cs" />
+    <Compile Include="src\org\dmdpdf\documents\files\FullFileSpecification.vb" />
+    <Content Include="src\org\dmdpdf\documents\files\FullFileSpecification.cs" />
+    <Compile Include="src\org\dmdpdf\documents\files\IResourceFile.vb" />
+    <Content Include="src\org\dmdpdf\documents\files\IResourceFile.cs" />
+    <Compile Include="src\org\dmdpdf\documents\files\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\files\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\files\RelatedFiles.vb" />
+    <Content Include="src\org\dmdpdf\documents\files\RelatedFiles.cs" />
+    <Compile Include="src\org\dmdpdf\documents\files\SimpleFileSpecification.vb" />
+    <Content Include="src\org\dmdpdf\documents\files\SimpleFileSpecification.cs" />
+    <Compile Include="src\org\dmdpdf\documents\functions\Function.vb" />
+    <Content Include="src\org\dmdpdf\documents\functions\Function.cs" />
+    <Compile Include="src\org\dmdpdf\documents\functions\Functions.vb" />
+    <Content Include="src\org\dmdpdf\documents\functions\Functions.cs" />
+    <Compile Include="src\org\dmdpdf\documents\functions\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\functions\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\functions\Type0Function.vb" />
+    <Content Include="src\org\dmdpdf\documents\functions\Type0Function.cs" />
+    <Compile Include="src\org\dmdpdf\documents\functions\Type2Function.vb" />
+    <Content Include="src\org\dmdpdf\documents\functions\Type2Function.cs" />
+    <Compile Include="src\org\dmdpdf\documents\functions\Type3Function.vb" />
+    <Content Include="src\org\dmdpdf\documents\functions\Type3Function.cs" />
+    <Compile Include="src\org\dmdpdf\documents\functions\Type4Function.vb" />
+    <Content Include="src\org\dmdpdf\documents\functions\Type4Function.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\Action.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\Action.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\ChainedActions.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\ChainedActions.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\DoTransition.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\DoTransition.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoTo3dView.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoTo3dView.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToDestination.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToDestination.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToEmbedded.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToEmbedded.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToFirstPage.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToFirstPage.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToLastPage.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToLastPage.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToLocal.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToLocal.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToNextPage.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToNextPage.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToNonLocal.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToNonLocal.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToPreviousPage.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToPreviousPage.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToRemote.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToRemote.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToThread.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToThread.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\GoToURI.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\GoToURI.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\IGoToAction.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\IGoToAction.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\ImportData.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\ImportData.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\JavaScript.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\JavaScript.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\Launch.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\Launch.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\NamedAction.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\NamedAction.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\OptionsEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\OptionsEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\PlayMovie.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\PlayMovie.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\PlaySound.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\PlaySound.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\Render.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\Render.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\ResetForm.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\ResetForm.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\SetLayerState.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\SetLayerState.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\SubmitForm.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\SubmitForm.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\actions\ToggleVisibility.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\actions\ToggleVisibility.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Annotation.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Annotation.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\AnnotationActions.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\AnnotationActions.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Appearance.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Appearance.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\AppearanceCharacteristics.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\AppearanceCharacteristics.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\AppearanceStates.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\AppearanceStates.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Border.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Border.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\CalloutNote.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\CalloutNote.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Caret.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Caret.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\DualWidget.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\DualWidget.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Ellipse.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Ellipse.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\FileAttachment.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\FileAttachment.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Line.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Line.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Link.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Link.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Movie.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Movie.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Note.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Note.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Polygon.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Polygon.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Polyline.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Polyline.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Popup.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Popup.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Rectangle.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Rectangle.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\RubberStamp.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\RubberStamp.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Screen.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Screen.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Scribble.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Scribble.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Shape.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Shape.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Sound.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Sound.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\TextMarkup.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\TextMarkup.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\VertexShape.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\VertexShape.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\Widget.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\Widget.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\annotations\WidgetActions.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\annotations\WidgetActions.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\ButtonField.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\ButtonField.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\CheckBox.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\CheckBox.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\ChoiceField.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\ChoiceField.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\ChoiceItem.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\ChoiceItem.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\ChoiceItems.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\ChoiceItems.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\ComboBox.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\ComboBox.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\Field.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\Field.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\FieldActions.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\FieldActions.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\Fields.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\Fields.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\FieldWidgets.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\FieldWidgets.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\Form.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\Form.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\ListBox.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\ListBox.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\PushButton.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\PushButton.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\RadioButton.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\RadioButton.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\SignatureField.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\SignatureField.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\styles\DefaultStyle.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\styles\DefaultStyle.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\styles\FieldStyle.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\styles\FieldStyle.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\styles\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\styles\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\forms\TextField.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\forms\TextField.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\ILink.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\ILink.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\JustificationEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\JustificationEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\document\Bookmark.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\document\Bookmark.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\document\Bookmarks.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\document\Bookmarks.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\document\Destination.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\document\Destination.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\document\LocalDestination.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\document\LocalDestination.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\document\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\document\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\document\RemoteDestination.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\document\RemoteDestination.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\page\Article.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\page\Article.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\page\ArticleElement.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\page\ArticleElement.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\page\ArticleElements.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\page\ArticleElements.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\page\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\page\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\page\PageLabel.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\page\PageLabel.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\navigation\page\Transition.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\navigation\page\Transition.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\viewer\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\viewer\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interaction\viewer\ViewerPreferences.vb" />
+    <Content Include="src\org\dmdpdf\documents\interaction\viewer\ViewerPreferences.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interchange\access\LanguageIdentifier.vb" />
+    <Content Include="src\org\dmdpdf\documents\interchange\access\LanguageIdentifier.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interchange\access\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interchange\access\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interchange\metadata\Information.vb" />
+    <Content Include="src\org\dmdpdf\documents\interchange\metadata\Information.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interchange\metadata\Metadata.vb" />
+    <Content Include="src\org\dmdpdf\documents\interchange\metadata\Metadata.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interchange\metadata\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interchange\metadata\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\interchange\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\interchange\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\MediaClip.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\MediaClip.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\MediaClipData.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\MediaClipData.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\MediaClipSection.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\MediaClipSection.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\MediaOffset.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\MediaOffset.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\MediaPlayer.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\MediaPlayer.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\MediaPlayers.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\MediaPlayers.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\MediaPlayParameters.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\MediaPlayParameters.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\MediaRendition.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\MediaRendition.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\MediaScreenParameters.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\MediaScreenParameters.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\MonitorSpecifierEnum.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\MonitorSpecifierEnum.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\Movie.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\Movie.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\Rendition.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\Rendition.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\SelectorRendition.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\SelectorRendition.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\SoftwareIdentifier.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\SoftwareIdentifier.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\Sound.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\Sound.cs" />
+    <Compile Include="src\org\dmdpdf\documents\multimedia\Timespan.vb" />
+    <Content Include="src\org\dmdpdf\documents\multimedia\Timespan.cs" />
+    <Compile Include="src\org\dmdpdf\documents\NamedDestinations.vb" />
+    <Content Include="src\org\dmdpdf\documents\NamedDestinations.cs" />
+    <Compile Include="src\org\dmdpdf\documents\NamedEmbeddedFiles.vb" />
+    <Content Include="src\org\dmdpdf\documents\NamedEmbeddedFiles.cs" />
+    <Compile Include="src\org\dmdpdf\documents\NamedJavaScripts.vb" />
+    <Content Include="src\org\dmdpdf\documents\NamedJavaScripts.cs" />
+    <Compile Include="src\org\dmdpdf\documents\NamedRenditions.vb" />
+    <Content Include="src\org\dmdpdf\documents\NamedRenditions.cs" />
+    <Compile Include="src\org\dmdpdf\documents\Names.vb" />
+    <Content Include="src\org\dmdpdf\documents\Names.cs" />
+    <Compile Include="src\org\dmdpdf\documents\namespace.vb" />
+    <Content Include="src\org\dmdpdf\documents\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\documents\Page.vb" />
+    <Content Include="src\org\dmdpdf\documents\Page.cs" />
+    <Compile Include="src\org\dmdpdf\documents\PageActions.vb" />
+    <Content Include="src\org\dmdpdf\documents\PageActions.cs" />
+    <Compile Include="src\org\dmdpdf\documents\PageAnnotations.vb" />
+    <Content Include="src\org\dmdpdf\documents\PageAnnotations.cs" />
+    <Compile Include="src\org\dmdpdf\documents\PageArticleElements.vb" />
+    <Content Include="src\org\dmdpdf\documents\PageArticleElements.cs" />
+    <Compile Include="src\org\dmdpdf\documents\PageElements.vb" />
+    <Content Include="src\org\dmdpdf\documents\PageElements.cs" />
+    <Compile Include="src\org\dmdpdf\documents\PageFormat.vb" />
+    <Content Include="src\org\dmdpdf\documents\PageFormat.cs" />
+    <Compile Include="src\org\dmdpdf\documents\PageLabels.vb" />
+    <Content Include="src\org\dmdpdf\documents\PageLabels.cs" />
+    <Compile Include="src\org\dmdpdf\documents\Pages.vb" />
+    <Content Include="src\org\dmdpdf\documents\Pages.cs" />
+    <Compile Include="src\org\dmdpdf\Engine.vb" />
+    <Content Include="src\org\dmdpdf\Engine.cs" />
+    <Compile Include="src\org\dmdpdf\files\File.vb" />
+    <Content Include="src\org\dmdpdf\files\File.cs" />
+    <Compile Include="src\org\dmdpdf\files\FileIdentifier.vb" />
+    <Content Include="src\org\dmdpdf\files\FileIdentifier.cs" />
+    <Compile Include="src\org\dmdpdf\files\IndirectObjects.vb" />
+    <Content Include="src\org\dmdpdf\files\IndirectObjects.cs" />
+    <Compile Include="src\org\dmdpdf\files\namespace.vb" />
+    <Content Include="src\org\dmdpdf\files\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\files\SerializationModeEnum.vb" />
+    <Content Include="src\org\dmdpdf\files\SerializationModeEnum.cs" />
+    <Compile Include="src\org\dmdpdf\namespace.vb" />
+    <Content Include="src\org\dmdpdf\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\objects\Array.vb" />
+    <Content Include="src\org\dmdpdf\objects\Array.cs" />
+    <Compile Include="src\org\dmdpdf\objects\Cloner.vb" />
+    <Content Include="src\org\dmdpdf\objects\Cloner.cs" />
+    <Compile Include="src\org\dmdpdf\objects\ICompositeDictionary.vb" />
+    <Content Include="src\org\dmdpdf\objects\ICompositeDictionary.cs" />
+    <Compile Include="src\org\dmdpdf\objects\IPdfIndirectObject.vb" />
+    <Content Include="src\org\dmdpdf\objects\IPdfIndirectObject.cs" />
+    <Compile Include="src\org\dmdpdf\objects\IPdfNamedObjectWrapper.vb" />
+    <Content Include="src\org\dmdpdf\objects\IPdfNamedObjectWrapper.cs" />
+    <Compile Include="src\org\dmdpdf\objects\IPdfNumber.vb" />
+    <Content Include="src\org\dmdpdf\objects\IPdfNumber.cs" />
+    <Compile Include="src\org\dmdpdf\objects\IPdfObjectWrapper.vb" />
+    <Content Include="src\org\dmdpdf\objects\IPdfObjectWrapper.cs" />
+    <Compile Include="src\org\dmdpdf\objects\IPdfSimpleObject.vb" />
+    <Content Include="src\org\dmdpdf\objects\IPdfSimpleObject.cs" />
+    <Compile Include="src\org\dmdpdf\objects\IVisitable.vb" />
+    <Content Include="src\org\dmdpdf\objects\IVisitable.cs" />
+    <Compile Include="src\org\dmdpdf\objects\IVisitor.vb" />
+    <Content Include="src\org\dmdpdf\objects\IVisitor.cs" />
+    <Compile Include="src\org\dmdpdf\objects\namespace.vb" />
+    <Content Include="src\org\dmdpdf\objects\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\objects\NameTree.vb" />
+    <Content Include="src\org\dmdpdf\objects\NameTree.cs" />
+    <Compile Include="src\org\dmdpdf\objects\NumberTree.vb" />
+    <Content Include="src\org\dmdpdf\objects\NumberTree.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfArray.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfArray.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfBoolean.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfBoolean.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfDataObject.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfDataObject.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfDate.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfDate.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfDictionary.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfDictionary.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfDirectObject.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfDirectObject.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfIndirectObject.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfIndirectObject.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfInteger.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfInteger.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfName.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfName.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfObject.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfObject.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfObjectWrapper.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfObjectWrapper.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfReal.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfReal.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfReference.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfReference.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfSimpleObject.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfSimpleObject.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfStream.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfStream.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfString.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfString.cs" />
+    <Compile Include="src\org\dmdpdf\objects\PdfTextString.vb" />
+    <Content Include="src\org\dmdpdf\objects\PdfTextString.cs" />
+    <Compile Include="src\org\dmdpdf\objects\Rectangle.vb" />
+    <Content Include="src\org\dmdpdf\objects\Rectangle.cs" />
+    <Compile Include="src\org\dmdpdf\objects\Tree.vb" />
+    <Content Include="src\org\dmdpdf\objects\Tree.cs" />
+    <Compile Include="src\org\dmdpdf\objects\Visitor.vb" />
+    <Content Include="src\org\dmdpdf\objects\Visitor.cs" />
+    <Compile Include="src\org\dmdpdf\PDF.vb" />
+    <Content Include="src\org\dmdpdf\PDF.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\BaseParser.vb" />
+    <Content Include="src\org\dmdpdf\tokens\BaseParser.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\Charset.vb" />
+    <Content Include="src\org\dmdpdf\tokens\Charset.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\Chunk.vb" />
+    <Content Include="src\org\dmdpdf\tokens\Chunk.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\CompressedWriter.vb" />
+    <Content Include="src\org\dmdpdf\tokens\CompressedWriter.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\Encoding.vb" />
+    <Content Include="src\org\dmdpdf\tokens\Encoding.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\FileParser.vb" />
+    <Content Include="src\org\dmdpdf\tokens\FileParser.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\Keyword.vb" />
+    <Content Include="src\org\dmdpdf\tokens\Keyword.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\LatinEncoding.vb" />
+    <Content Include="src\org\dmdpdf\tokens\LatinEncoding.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\namespace.vb" />
+    <Content Include="src\org\dmdpdf\tokens\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\ObjectStream.vb" />
+    <Content Include="src\org\dmdpdf\tokens\ObjectStream.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\PdfDocEncoding.vb" />
+    <Content Include="src\org\dmdpdf\tokens\PdfDocEncoding.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\PdfEncoding.vb" />
+    <Content Include="src\org\dmdpdf\tokens\PdfEncoding.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\PlainWriter.vb" />
+    <Content Include="src\org\dmdpdf\tokens\PlainWriter.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\Reader.vb" />
+    <Content Include="src\org\dmdpdf\tokens\Reader.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\Symbol.vb" />
+    <Content Include="src\org\dmdpdf\tokens\Symbol.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\Writer.vb" />
+    <Content Include="src\org\dmdpdf\tokens\Writer.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\XRefEntry.vb" />
+    <Content Include="src\org\dmdpdf\tokens\XRefEntry.cs" />
+    <Compile Include="src\org\dmdpdf\tokens\XRefStream.vb" />
+    <Content Include="src\org\dmdpdf\tokens\XRefStream.cs" />
+    <Compile Include="src\org\dmdpdf\tools\namespace.vb" />
+    <Content Include="src\org\dmdpdf\tools\namespace.cs" />
+    <Compile Include="src\org\dmdpdf\tools\Optimizer.vb" />
+    <Content Include="src\org\dmdpdf\tools\Optimizer.cs" />
+    <Compile Include="src\org\dmdpdf\tools\PageManager.vb" />
+    <Content Include="src\org\dmdpdf\tools\PageManager.cs" />
+    <Compile Include="src\org\dmdpdf\tools\PageStamper.vb" />
+    <Content Include="src\org\dmdpdf\tools\PageStamper.cs" />
+    <Compile Include="src\org\dmdpdf\tools\Renderer.vb" />
+    <Content Include="src\org\dmdpdf\tools\Renderer.cs" />
+    <Compile Include="src\org\dmdpdf\tools\TextExtractor.vb" />
+    <Content Include="src\org\dmdpdf\tools\TextExtractor.cs" />
+    <Compile Include="src\org\dmdpdf\util\BiDictionary.vb" />
+    <Content Include="src\org\dmdpdf\util\BiDictionary.cs" />
+    <Compile Include="src\org\dmdpdf\util\ByteArray.vb" />
+    <Content Include="src\org\dmdpdf\util\ByteArray.cs" />
+    <Compile Include="src\org\dmdpdf\util\collections\generic\Extension.vb" />
+    <Content Include="src\org\dmdpdf\util\collections\generic\Extension.cs" />
+    <Compile Include="src\org\dmdpdf\util\collections\generic\IExtCollection.vb" />
+    <Content Include="src\org\dmdpdf\util\collections\generic\IExtCollection.cs" />
+    <Compile Include="src\org\dmdpdf\util\collections\generic\IExtList.vb" />
+    <Content Include="src\org\dmdpdf\util\collections\generic\IExtList.cs" />
+    <Compile Include="src\org\dmdpdf\util\ConvertUtils.vb" />
+    <Content Include="src\org\dmdpdf\util\ConvertUtils.cs" />
+    <Compile Include="src\org\dmdpdf\util\EnumUtils.vb" />
+    <Content Include="src\org\dmdpdf\util\EnumUtils.cs" />
+    <Compile Include="src\org\dmdpdf\util\IDataWrapper.vb" />
+    <Content Include="src\org\dmdpdf\util\IDataWrapper.cs" />
+    <Compile Include="src\org\dmdpdf\util\io\BigEndianBinaryReader.vb" />
+    <Content Include="src\org\dmdpdf\util\io\BigEndianBinaryReader.cs" />
+    <Compile Include="src\org\dmdpdf\util\io\ByteOrderEnum.vb" />
+    <Content Include="src\org\dmdpdf\util\io\ByteOrderEnum.cs" />
+    <Compile Include="src\org\dmdpdf\util\IPredicate.vb" />
+    <Content Include="src\org\dmdpdf\util\IPredicate.cs" />
+    <Compile Include="src\org\dmdpdf\util\math\geom\GeomUtils.vb" />
+    <Content Include="src\org\dmdpdf\util\math\geom\GeomUtils.cs" />
+    <Compile Include="src\org\dmdpdf\util\math\geom\Quad.vb" />
+    <Content Include="src\org\dmdpdf\util\math\geom\Quad.cs" />
+    <Compile Include="src\org\dmdpdf\util\math\Interval.vb" />
+    <Content Include="src\org\dmdpdf\util\math\Interval.cs" />
+    <Compile Include="src\org\dmdpdf\util\math\OperationUtils.vb" />
+    <Content Include="src\org\dmdpdf\util\math\OperationUtils.cs" />
+    <Compile Include="src\org\dmdpdf\util\metadata\IVersion.vb" />
+    <Content Include="src\org\dmdpdf\util\metadata\IVersion.cs" />
+    <Compile Include="src\org\dmdpdf\util\metadata\VersionUtils.vb" />
+    <Content Include="src\org\dmdpdf\util\metadata\VersionUtils.cs" />
+    <Compile Include="src\org\dmdpdf\util\parsers\ParseException.vb" />
+    <Content Include="src\org\dmdpdf\util\parsers\ParseException.cs" />
+    <Compile Include="src\org\dmdpdf\util\parsers\PostScriptParser.vb" />
+    <Content Include="src\org\dmdpdf\util\parsers\PostScriptParser.cs" />
+    <Content Include="src\org\dmdpdf\Version.cs" />
+    <Content Include="src\org\dmdpdf\VersionEnum.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

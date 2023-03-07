@@ -1,0 +1,19 @@
+create table [tbl_eMailFolders]
+(
+[ID] Counter Primary Key,
+[Name] Text(255),
+[ParentID] Int,
+[TotalMessages] Int,
+[TotalUnread] Int,
+[Flags] Int,
+[IDUtente] Int,
+[ApplicationID] Int,
+[Attributi] Memo,
+[IDPuntoOperativo] Int,
+[NomePuntoOperativo] Text(255),
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)

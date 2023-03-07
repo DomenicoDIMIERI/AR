@@ -1,0 +1,107 @@
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\db.mdb
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\blockedcontent.html
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DIALTPLogEditor.exe.config
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DIALTPLogEditor.exe
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DIALTPLogEditor.pdb
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DIALTPLogEditor.xml
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DialTPLib.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDApp.exe
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDAsteriskLib.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDLibs.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDHylaFax.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\nQuant.Core.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDWebLibs.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDCRM.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDControls.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\Hylafax.net.dll
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDAsteriskLib.pdb
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDAsteriskLib.xml
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDBaseCore.pdb
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDBaseCore.xml
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DialTPLib.dll.config
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDApp.pdb
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDApp.xml
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDApp.exe.config
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDLibs.xml
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDHylaFax.pdb
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDHylaFax.xml
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\nQuant.Core.pdb
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDWebLibs.xml
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDCRM.pdb
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDCRM.xml
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDControls.pdb
+C:\Work\Programmazione\Projects\DIALTPLogEditor\bin\x86\Release\DMDControls.xml
+C:\Work\Programmazione\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.frmLogEditor.resources
+C:\Work\Programmazione\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.Resources.resources
+C:\Work\Programmazione\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.vbproj.CopyComplete
+C:\Work\Programmazione\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.exe
+C:\Work\Programmazione\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.xml
+C:\Work\Programmazione\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.frmLogEditor.resources
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.exe
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\templates\maildb.mdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\db.mdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\templates\db.mdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\blockedcontent.html
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DIALTPLogEditor.exe.config
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DIALTPLogEditor.exe.manifest
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DIALTPLogEditor.application
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DIALTPLogEditor.exe
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DIALTPLogEditor.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DIALTPLogEditor.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DialTPLib.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDApp.exe
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDAsteriskLib.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDCRM.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDHylaFax.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDOffice.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\nQuant.Core.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDWebLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DShowNET.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\WavPlayer.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\LumiSoft.Net.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDControls.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\Hylafax.net.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDPDF.dll
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDAsteriskLib.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDAsteriskLib.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DialTPLib.dll.config
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDApp.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDApp.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDApp.exe.config
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDCRM.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDHylaFax.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDHylaFax.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDOffice.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDOffice.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\nQuant.Core.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDWebLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\WavPlayer.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\LumiSoft.Net.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDControls.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDControls.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDPDF.pdb
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\bin\x86\Release\DMDPDF.xml
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.exe.manifest
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.application
+C:\Works\My Web Sites\AR1\Projects\DIALTPLogEditor\obj\x86\Release\DIALTPLogEditor.vbproj.CopyComplete

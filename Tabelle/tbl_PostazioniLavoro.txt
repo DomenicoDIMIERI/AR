@@ -1,0 +1,32 @@
+create table [tbl_PostazioniLavoro]
+(
+[ID] Counter Primary Key,
+[Nome] Text(255),
+[Flags] Int,
+[IDUtentePrincipale] Int,
+[NomeUtentePrincipale] text(255),
+[NomeReparto] Text(255),
+[InternoTelefonico] text(255),
+[SistemaOperativo] text(255),
+[Note] Memo,
+[Utenti] Memo,
+[Params] Memo,
+[IDPuntoOperativo] Int,
+[NomePuntoOperativo] Text(255),
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+
+create index [idxPLAVNM] on [tbl_PostazioniLavoro] ([Nome])
+create index [idxPLAVFLG] on [tbl_PostazioniLavoro] ([Flags])
+create index [idxPLAVIDU] on [tbl_PostazioniLavoro] ([IDUtentePrincipale])
+create index [idxPLAVNMR] on [tbl_PostazioniLavoro] ([NomeReparto])
+create index [idxPLAVIDPO] on [tbl_PostazioniLavoro] ([IDPuntoOperativo])
+create index [idxPLAVCDA] on [tbl_PostazioniLavoro] ([CreatoDa])
+create index [idxPLAVSTAT] on [tbl_PostazioniLavoro] ([Stato])
+
+

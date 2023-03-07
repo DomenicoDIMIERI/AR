@@ -1,0 +1,1 @@
+alter table tbl_SYSNotify add column DataStr text(14)

@@ -1,0 +1,12 @@
+create table tbl_UserSettings
+(
+ID COUNTER PRIMARY KEY,
+[Nome] TEXT(255),
+[Valore] MEMO,
+[Utente] INT,
+CreatoDa INT,
+CreatoIl Date,
+ModificatoDa INT,
+ModificatoIl Date,
+Stato INT
+)

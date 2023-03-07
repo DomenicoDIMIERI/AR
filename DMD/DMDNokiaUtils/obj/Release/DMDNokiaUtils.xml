@@ -1,0 +1,1196 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DMDNokiaUtils
+</name>
+</assembly>
+<members>
+<member name="T:DMD.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="T:DMD.Nokia.NokiaBTDevice">
+ <summary>
+ Rappresenta un telefono che è possibile raggiungere tramite l'interfaccia Bluetooth del PC
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.NokiaInstalledApp">
+ <summary>
+ Rappresenta un'applicazione installata sul telefonino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.NokiaMediaInfo">
+ <summary>
+ Rappresenta un supporto di memoria installato nel telefono
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.NokiaFolderInfo">
+ <summary>
+ Rappresenta una cartella del filesystem
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.CContactItem">
+ <summary>
+ Rappresenta la collezione dei contatti memorizzati sul dispositivo Nokia
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.CContactItem.Picture">
+ <summary>
+ Restituisce o imposta l'immagine associata al contatto sul dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.CContactItem.BirthDate">
+ <summary>
+ Restituisce o imposta la data di nascita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.CContactItem.Numbers">
+ <summary>
+ Restituisce l'elenco dei numeri
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.CCalendarItem">
+ <summary>
+ Rappresenta una voce del calendario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.CCalendarItem.ItemType">
+ <summary>
+ Restituisce o imposta il tipo dell'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.CCalendarItem.StartDate">
+ <summary>
+ Restituisce o imposta la data di inizio dell'evento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.CCalendarItem.EndDate">
+ <summary>
+ Restituisce o imposta la data di termine dell'evento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.CCalendarItem.AlarmTime">
+ <summary>
+ Restituisce o imposta la data e l'ora della sveglia
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.CBookMarkItem">
+ <summary>
+ Rappresenta un bookmark
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.CBookMarkItem.Title">
+ <summary>
+ Restituisce o imposta il testo del bookmaker
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.MMSMessageStatuses.Sent">
+ <summary>
+ Message has been sent 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.MMSMessageStatuses.Unread">
+ <summary>
+ Message hasn't been read 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.MMSMessageStatuses.Read">
+ <summary>
+ Message has been read 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.MMSMessageStatuses.Draft">
+ <summary>
+ Message is a draft 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.MMSMessageStatuses.Pending">
+ <summary>
+ Message is pending 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.MMSMessageStatuses.Delivered">
+ <summary>
+ Message has been delivered 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.MMSMessageStatuses.Sending">
+ <summary>
+ Message is being sent
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.CMMSMessage.Data">
+ <summary>
+ Restituisce o imposta la data dell'MMS
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.CMMSMessage.Addresses">
+ <summary>
+ Restituisce o imposta l'indirizzo del destinatario
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.CMemoryType">
+ <summary>
+ Rappresenta una cartella che contiene SMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.NokiaFileInfo">
+ <summary>
+ Rappresenta un file del filesystem sulla periferica
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.ItemData">
+ <summary>
+ Oggetto valorizzato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.CPostalAddress">
+ <summary>
+ Rappresenta un indirizzo di tipo postale
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.SMSMessageStatuses.Sent">
+ <summary>
+ Message has been sent 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.SMSMessageStatuses.Unread">
+ <summary>
+ Message hasn't been read 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.SMSMessageStatuses.Read">
+ <summary>
+ Message has been read 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.SMSMessageStatuses.Draft">
+ <summary>
+ Message is a draft 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.SMSMessageStatuses.Pending">
+ <summary>
+ Message is pending 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.SMSMessageStatuses.Delivered">
+ <summary>
+ Message has been delivered 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.SMSMessageStatuses.Sending">
+ <summary>
+ Message is being sent
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaDeviceCaps.SupportsFileSystem">
+ <summary>
+ Device is support file system.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaDeviceCaps.SupportsJavaAppInstallation">
+ <summary>
+ Device is supporting Java MIDlet installation.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaDeviceCaps.SupportsSISAppInstallation">
+ <summary>
+ Device is supporting SIS applications installation. 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaDeviceCaps.SupportsSISXAppInstallation">
+ <summary>
+ Device supports SISX applications' installation. 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaDeviceCaps.SupportsFileConversion">
+ <summary>
+ Device is supporting file conversion.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaDeviceCaps.CanListInstalledApplications">
+ <summary>
+ Device supports installed applications' listing.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaDeviceCaps.SupportsUninstallApplication">
+ <summary>
+ Device supports installed applications' uninstallation.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaDeviceCaps.SupportsExtendedFSOperations">
+ <summary>
+ Device supports extended File System operations (e.g. Copy folder).
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.NokiaDevice">
+ <summary>
+ Rappresenta un telefonino o una periferica Nokia connessa al PC
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Nokia.NokiaDevice.RequireUserAction">
+ <summary>
+ Evento quando sulla periferica è rischiesto l'intervento dell'utente per confermare un'operazione
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.NokiaDevice.InstalledApplications">
+ <summary>
+ Accede alle applicazioni installate sul telefonino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.NokiaDevice.Manifacturer">
+ <summary>
+ Restituisce il nome del produttore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.NokiaDevice.FriendlyName">
+ <summary>
+ Restituisce o imposta un nome "amichevole" per la periferica
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.NokiaDevice.Model">
+ <summary>
+ Restituisce 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.NokiaDevice.SerialNumber">
+ <summary>
+ Restituisce il numero seriale del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Nokia.NokiaDevice.InitializeFromPtr(System.IntPtr)">
+ <summary>
+ Inizializza l'oggetto dal puntatore
+ </summary>
+ <param name="ptr"></param>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.NokiaDevice.Contacts">
+ <summary>
+ Restituisce la collezione dei contatti memorizzati nella periferica
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.NokiaDevice.SMS">
+ <summary>
+ Accede alle informazioni sugli SMS
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.CONA_Ok">
+ <summary>
+ CONA_OK: Succeeded.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.CONA_OK_UPDATED_MEMORY_VALUES">
+ <summary>
+ CONA_OK_UPDATED_MEMORY_VALUES: Everything OK, given data is updated because (free, used and total) memory values are changed!
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.CONA_OK_UPDATED_MEMORY_AND_FILES">
+ <summary>
+ CONA_OK_UPDATED_MEMORY_AND_FILES: Everything OK, given data is updated because files and memory values are changed!
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.CONA_OK_UPDATED">
+ <summary>
+ "CONA_OK_UPDATED: Everything OK, given data is updated, unknown reason.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.CONA_OK_BUT_USER_ACTION_NEEDED">
+ <summary>
+ CONA_OK_BUT_USER_ACTION_NEEDED: Operation needs some user action on Device
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.CONA_WAIT_CONNECTION_IS_BUSY">
+ <summary>
+ CONA_WAIT_CONNECTION_IS_BUSY: Operation started ok but other application has reserved the connection
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_INIT_FAILED">
+ <summary>
+ ECONA_INIT_FAILED: DLL initialization failed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_INIT_FAILED_COM_INTERFACE">
+ <summary>
+ ECONA_INIT_FAILED_COM_INTERFACE: Failed to get connection to system.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NOT_INITIALIZED">
+ <summary>
+ ECONA_NOT_INITIALIZED: API is not initialized.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_UNSUPPORTED_API_VERSION">
+ <summary>
+ ECONA_UNSUPPORTED_API_VERSION: API version not supported.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NOT_SUPPORTED_MANUFACTURER">
+ <summary>
+ ECONA_NOT_SUPPORTED_MANUFACTURER: Manufacturer is not supported.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_UNKNOWN_ERROR">
+ <summary>
+ ECONA_UNKNOWN_ERROR: Failed, unknown error.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_UNKNOWN_ERROR_DEVICE">
+ <summary>
+ ECONA_UNKNOWN_ERROR_DEVICE: Failed, unknown error from device.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_INVALID_POINTER">
+ <summary>
+ ECONA_INVALID_POINTER: Required pointer is invalid.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_INVALID_PARAMETER">
+ <summary>
+ ECONA_INVALID_PARAMETER: Invalid parameter value.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_INVALID_HANDLE">
+ <summary>
+ ECONA_INVALID_HANDLE: Invalid handle.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NOT_ENOUGH_MEMORY">
+ <summary>
+ ECONA_NOT_ENOUGH_MEMORY: Memory allocation failed in PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_WRONG_THREAD">
+ <summary>
+ ECONA_WRONG_THREAD: Failed, called interface was marshalled for a different thread.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_REGISTER_ALREADY_DONE">
+ <summary>
+ ECONA_REGISTER_ALREADY_DONE: Failed, notification interface is already registered.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_CANCELLED">
+ <summary>
+ ECONA_CANCELLED: Operation cancelled by ConnectivityAPI-User.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NOTHING_TO_CANCEL">
+ <summary>
+ ECONA_NOTHING_TO_CANCEL: No running functions.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FAILED_TIMEOUT">
+ <summary>
+ ECONA_FAILED_TIMEOUT: Operation failed because of timeout.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NOT_SUPPORTED_DEVICE">
+ <summary>
+ ECONA_NOT_SUPPORTED_DEVICE: Device does not support operation.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NOT_SUPPORTED_PC">
+ <summary>
+ ECONA_NOT_SUPPORTED_PC: Connectivity API does not support operation (not implemented).
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NOT_FOUND">
+ <summary>
+ ECONA_NOT_FOUND: Item was not found
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FAILED">
+ <summary>
+ ECONA_FAILED: The called operation failed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_API_NOT_FOUND">
+ <summary>
+ ECONA_API_NOT_FOUND: Needed API module was not found from the system
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_API_FUNCTION_NOT_FOUND">
+ <summary>
+ ECONA_API_FUNCTION_NOT_FOUND: Called API function was not found from the loaded API module
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_DEVICE_NOT_FOUND">
+ <summary>
+ ECONA_DEVICE_NOT_FOUND: Given phone is not connected (refresh device list).
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NO_CONNECTION_VIA_MEDIA">
+ <summary>
+ ECONA_NO_CONNECTION_VIA_MEDIA: Phone is connected but not via given media.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NO_CONNECTION_VIA_DEVID">
+ <summary>
+ ECONA_NO_CONNECTION_VIA_DEVID: Phone is not connected with given DevID.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_INVALID_CONNECTION_TYPE">
+ <summary>
+ ECONA_INVALID_CONNECTION_TYPE: Connection type was invalid.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NOT_SUPPORTED_CONNECTION_TYPE">
+ <summary>
+ ECONA_NOT_SUPPORTED_CONNECTION_TYPE: Device does not support connection type.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_CONNECTION_BUSY">
+ <summary>
+ ECONA_CONNECTION_BUSY: Other application has reserved connection.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_CONNECTION_LOST">
+ <summary>
+ ECONA_CONNECTION_LOST: Connection lost to device.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_CONNECTION_REMOVED">
+ <summary>
+ ECONA_CONNECTION_REMOVED: Connection removed, other application has reserved connection.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_CONNECTION_FAILED">
+ <summary>
+ ECONA_CONNECTION_FAILED: Connection failed, unknown reason.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_SUSPEND">
+ <summary>
+ ECONA_SUSPEND: Connection removed, PC goes to standby state.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_NAME_ALREADY_EXISTS">
+ <summary>
+ ECONA_NAME_ALREADY_EXISTS: Friendly name already exists.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_MEDIA_IS_NOT_WORKING">
+ <summary>
+ ECONA_MEDIA_IS_NOT_WORKING: Target media is active but it is not working (e.g. BT hardware stopped or removed).
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_CACHE_IS_NOT_AVAILABLE">
+ <summary>
+ ECONA_CACHE_IS_NOT_AVAILABLE: Cache is not available (CONASearchDevices).
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_MEDIA_IS_NOT_ACTIVE">
+ <summary>
+ ECONA_MEDIA_IS_NOT_ACTIVE: Target media is busy (or not ready yet).
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_PORT_OPEN_FAILED">
+ <summary>
+ ECONA_PORT_OPEN_FAILED: Cannot open the changed COM port.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_DEVICE_PAIRING_FAILED">
+ <summary>
+ ECONA_DEVICE_PAIRING_FAILED: Pairing failed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_DEVICE_PASSWORD_WRONG">
+ <summary>
+ ECONA_DEVICE_PASSWORD_WRONG: Wrong password on device.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_DEVICE_PASSWORD_INVALID">
+ <summary>
+ ECONA_DEVICE_PASSWORD_INVALID: Password includes invalid characters or is missing.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_ALL_LISTED">
+ <summary>
+ ECONA_ALL_LISTED: All items are listed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_MEMORY_FULL">
+ <summary>
+ ECONA_MEMORY_FULL: Device memory full.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_NAME_INVALID">
+ <summary>
+ ECONA_FILE_NAME_INVALID: File name contains invalid characters in Device or PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_NAME_TOO_LONG">
+ <summary>
+ ECONA_FILE_NAME_TOO_LONG: File name contains too many characters in Device or PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_ALREADY_EXIST">
+ <summary>
+ ECONA_FILE_ALREADY_EXIST: File already exists in Device or PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_NOT_FOUND">
+ <summary>
+ ECONA_FILE_NOT_FOUND: File does not exist in Device or PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_NO_PERMISSION">
+ <summary>
+ ECONA_FILE_NO_PERMISSION: Not allowed to perform required operation to file in device or PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_COPYRIGHT_PROTECTED">
+ <summary>
+ ECONA_FILE_COPYRIGHT_PROTECTED: Not allowed to perform required operation to file in device or PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_BUSY">
+ <summary>
+ ECONA_FILE_BUSY: Other application has reserved file in device or PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_TOO_BIG_DEVICE">
+ <summary>
+ ECONA_FILE_TOO_BIG_DEVICE: Device rejected the operation because file size is too big.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_TYPE_NOT_SUPPORTED">
+ <summary>
+ ECONA_FILE_TYPE_NOT_SUPPORTED: Device rejected the operation because file has unsupported type.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_NO_PERMISSION_ON_PC">
+ <summary>
+ ECONA_FILE_NO_PERMISSION_ON_PC: Not allowed to perform required operation to file in PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_EXIST">
+ <summary>
+ ECONA_FILE_EXIST: File move or rename: File is copied to target path with new name but removing the source file failed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_CONTENT_NOT_FOUND">
+ <summary>
+ ECONA_FILE_CONTENT_NOT_FOUND: Specified file content does not found (e.g. unknown file section or stored position)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_OLD_FORMAT">
+ <summary>
+ ECONA_FILE_OLD_FORMAT: Specified file content supports old engine
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FILE_INVALID_DATA">
+ <summary>
+ ECONA_FILE_INVALID_DATA: Specified file data is invalid
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_INVALID_DATA_DEVICE">
+ <summary>
+ ECONA_INVALID_DATA_DEVICE: Device's folder contains invalid data.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_CURRENT_FOLDER_NOT_FOUND">
+ <summary>
+ ECONA_CURRENT_FOLDER_NOT_FOUND: Current folder is invalid in device (e.g MMC card removed).
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FOLDER_PATH_TOO_LONG">
+ <summary>
+ ECONA_FOLDER_PATH_TOO_LONG: Maximum folder path length is 255 characters.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FOLDER_NAME_INVALID">
+ <summary>
+ ECONA_FOLDER_NAME_INVALID: Folder name includes invalid characters in Device or PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FOLDER_ALREADY_EXIST">
+ <summary>
+ ECONA_FOLDER_ALREADY_EXIST: Folder already exists in target folder.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FOLDER_NOT_FOUND">
+ <summary>
+ ECONA_FOLDER_NOT_FOUND: Folder does not exist in target folder.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FOLDER_NO_PERMISSION">
+ <summary>
+ ECONA_FOLDER_NO_PERMISSION: Not allowed to perform required operation to folder in Device.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FOLDER_NOT_EMPTY">
+ <summary>
+ ECONA_FOLDER_NOT_EMPTY: Not allowed to perform required operation because folder is not empty.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_FOLDER_NO_PERMISSION_ON_PC">
+ <summary>
+ ECONA_FOLDER_NO_PERMISSION_ON_PC: Not allowed to perform required operation to folder in PC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_DEVICE_INSTALLER_BUSY">
+ <summary>
+ ECONA_DEVICE_INSTALLER_BUSY: Cannot start device's installer.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_UI_NOT_IDLE_DEVICE">
+ <summary>
+ ECONA_UI_NOT_IDLE_DEVICE: Device rejects the operation. Maybe device's UI is not in idle state.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_SYNC_CLIENT_BUSY_DEVICE">
+ <summary>
+ ECONA_SYNC_CLIENT_BUSY_DEVICE: Device's SA sync client is busy.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_UNAUTHORIZED_DEVICE">
+ <summary>
+ ECONA_UNAUTHORIZED_DEVICE: Device rejects the operation. No permission.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_DATABASE_LOCKED_DEVICE">
+ <summary>
+ ECONA_DATABASE_LOCKED_DEVICE: Device rejects the operation. Device is locked.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_SETTINGS_NOT_OK_DEVICE">
+ <summary>
+ ECONA_SETTINGS_NOT_OK_DEVICE: Device rejects the operation. Maybe settings in Sync profile are wrong on Device.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_SYNC_ITEM_TOO_BIG">
+ <summary>
+ ECONA_SYNC_ITEM_TOO_BIG: Device rejected the operation
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_SYNC_ITEM_REJECT">
+ <summary>
+ ECONA_SYNC_ITEM_REJECT: Device rejected the operation
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_SYNC_INSTALL_PLUGIN_FIRST">
+ <summary>
+ ECONA_SYNC_INSTALL_PLUGIN_FIRST: Device rejected the operation
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_VERSIT_INVALID_PARAM">
+ <summary>
+ ECONA_VERSIT_INVALID_PARAM: Invalid parameters passed to versit converter.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_VERSIT_UNKNOWN_TYPE">
+ <summary>
+ ECONA_VERSIT_UNKNOWN_TYPE: Failed, trying to convert versit formats not supported in VersitConverter.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_VERSIT_INVALID_VERSIT_OBJECT">
+ <summary>
+ ECONA_VERSIT_INVALID_VERSIT_OBJECT: Failed, validation of versit data not passed, contains invalid data.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_DB_TRANSACTION_ALREADY_STARTED">
+ <summary>
+ Another transaction is already in progress
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_DB_TRANSACTION_FAILED">
+ <summary>
+ Some of operations within a transaction failed and transaction was rolled back
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_DEVICE_BATTERY_LEVEL_TOO_LOW">
+ <summary>
+ Failed, device rejects the restore operation. Device's battery level is low.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Nokia.NokiaErrorCodes.ECONA_DEVICE_BUSY">
+ <summary>
+ Failed, device rejects the backup/resore operation. Device's backup server busy.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.DeviceEventArgs">
+ <summary>
+ Parametri per gli eventi relativi ai Device
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.NokiaException">
+ <summary>
+ Eccezione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.NokiaException.ErrorCode">
+ <summary>
+ Restituisce il codice di errore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Nokia.ProgressEventArgs">
+ <summary>
+ Informazioni su un'operazione asincrona
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.ProgressEventArgs.Progress">
+ <summary>
+ Valore compreso tra 0 e 100 che indica la percentuale di completamento dell'operazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Nokia.ProgressEventArgs.Cancel">
+ <summary>
+ Restituisce o imposta un valore booleano che indica al sistema se annullare la ricerca
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Nokia.DeviceAdded">
+ <summary>
+ Evento generato quando viene collegata una periferica 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Nokia.DeviceRemoved">
+ <summary>
+ Evento generato quando viene rimossa una periferica 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Nokia.BTFindProgress">
+ <summary>
+ Evento generato dalla ricerca delle periferiche bluetooth per informare il sistema della percentuale di completamento
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.NokiaInstalledApps">
+ <summary>
+ Rappresenta una cartella del calendario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.DeviceMediaCollection">
+ <summary>
+ Collezione dei supporti di memoria installati in un dispositivo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CDevicesCollection">
+ <summary>
+ Rappresenta la collezione dei dispositivi Nokia connessi al PC
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CContactsCollection">
+ <summary>
+ Rappresenta la collezione dei contatti memorizzati sul dispositivo Nokia
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CCalendar">
+ <summary>
+ Rappresenta il calendario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CMMSFolder">
+ <summary>
+ Rappresenta una cartella che contiene MMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CMMSFolder.FolderType">
+ <summary>
+ Restituisce il tipo di cartella associata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CMMSFolder.Messages">
+ <summary>
+ Restituisce i messaggi memorizzati nella cartella
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CMMSMessagesCollection">
+ <summary>
+ Rappresenta la collezione degli MMS memorizzati in una cartella
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CCalendarItemsCollection">
+ <summary>
+ Rappresenta la collezione degli MMS memorizzati in una cartella
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CMMS">
+ <summary>
+ Rappresenta lo stazione per gli SMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CBookMarks">
+ <summary>
+ Rappresenta i Bookmarks
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CBaseFolder">
+ <summary>
+ Rappresenta una cartella che contiene SMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CBaseFolder.SubFolders">
+ <summary>
+ Restituisce l'elenco delle sottocartelle
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CBaseFolder.Name">
+ <summary>
+ Restituisce i lnome della cartella
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CBaseObject">
+ <summary>
+ Oggetto base
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CBaseObject.Device">
+ <summary>
+ Restituisce il device
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CBaseItem">
+ <summary>
+ Oggetto base contenuto in una cartella
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CBaseItem.ParentFolder">
+ <summary>
+ Restituisce la cartella contenitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CBaseItem.InternalDelete">
+ <summary>
+ Metodo che elimina l'oggetto dal dispositivo
+ </summary>
+</member>
+<member name="T:DMD.Internals.CContacts">
+ <summary>
+ Cartella contatti
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CBookMarkFolder">
+ <summary>
+ Rappresenta una cartella che contiene Bookmarks
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CBookMarkFolder.Items">
+ <summary>
+ Restituisce i bookmakrs
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CBookMarksCollection">
+ <summary>
+ Rappresenta una collezione di bookmarks in una cartella
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CContactsFolder">
+ <summary>
+ Rappresenta una cartella che contiene MMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CCalendarFolder">
+ <summary>
+ Rappresenta una cartella del calendario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CFileSystem">
+ <summary>
+ Rappresenta una cartella che contiene SMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CMemoryTypesCollection">
+ <summary>
+ Rappresenta una cartella che contiene SMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.ItemDataCollection">
+ <summary>
+ Collezione di oggetti ItemData
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CSMSMessagesCollection">
+ <summary>
+ Rappresenta la collezione degli SMS memorizzati in una cartella
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CSMSFolder">
+ <summary>
+ Rappresenta una cartella che contiene SMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CSMSFolder.FolderType">
+ <summary>
+ Restituisce il tipo di cartella associata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CSMSFolder.Messages">
+ <summary>
+ Restituisce i messaggi memorizzati nella cartella
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CFoldersCollection">
+ <summary>
+ Rappresenta la collezione delle cartelle SMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CSMS">
+ <summary>
+ Rappresenta lo stazione per gli SMS
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19E60D51-7D00-43EE-A26B-6E8A37F05C59}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DMD</RootNamespace>
+    <AssemblyName>DMDCRM</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDCRM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDCRM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DMDCRM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DMDCRM.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>DMDCRM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>DMDCRM.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DMDBaseCore">
+      <HintPath>..\..\..\..\..\..\Librerie\DMDBaseCore.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADVs\ADV.vb" />
+    <Compile Include="ADVs\Campagne.vb" />
+    <Compile Include="ADVs\CCampagnaPubblicitaria.vb" />
+    <Compile Include="ADVs\CCampagnaPubblicitariaCursor.vb" />
+    <Compile Include="ADVs\ADVConfig.vb" />
+    <Compile Include="ADVs\ADVBannedAddressCollection.vb" />
+    <Compile Include="ADVs\Handlers\HandlerTipoCampagna.vb" />
+    <Compile Include="ADVs\Handlers\HandlerTipoCampagnaEMail.vb" />
+    <Compile Include="ADVs\Handlers\HandlerTipoCampagnaFax.vb" />
+    <Compile Include="ADVs\Handlers\HandlerTipoCampagnaSMS.vb" />
+    <Compile Include="ADVs\Handlers\NullCampagnaADVHandler.vb" />
+    <Compile Include="ADVs\Risultati\CRisultatoCampagna.vb" />
+    <Compile Include="ADVs\Risultati\CRisultatoCampagnaCursor.vb" />
+    <Compile Include="ADVs\Risultati\RisultatiCampagna.vb" />
+    <Compile Include="Calendar\CRMCalendarProvider.vb" />
+    <Compile Include="Chat\CChatUser.vb" />
+    <Compile Include="Chat\CChatRoom.vb" />
+    <Compile Include="Chat\CChatRoomCursor.vb" />
+    <Compile Include="Chat\CChatRoomUserStats.vb" />
+    <Compile Include="Chat\Rooms.vb" />
+    <Compile Include="Chat\Messages.vb" />
+    <Compile Include="Chat\CMessage.vb" />
+    <Compile Include="Chat\CMessagesCursor.vb" />
+    <Compile Include="CRM\AzioniProposte\CAzioneChiama.vb" />
+    <Compile Include="CRM\AzioniProposte\CAzioneCreaPratica.vb" />
+    <Compile Include="CRM\AzioniProposte\CAzioneProposta.vb" />
+    <Compile Include="CRM\AzioniProposte\CAzioneRicontatto.vb" />
+    <Compile Include="CRM\Azioni\VisitaInAttesaAction.vb" />
+    <Compile Include="CRM\Azioni\PrendiInCaricoRicontatto.vb" />
+    <Compile Include="CRM\BlackList\BlackListAddress.vb" />
+    <Compile Include="CRM\BlackList\BlackListAddresses.vb" />
+    <Compile Include="CRM\BlackList\BlackListAddressCursor.vb" />
+    <Compile Include="Calendar\CRMCalProvider.vb" />
+    <Compile Include="CRM\CallManagers\CallManagers.vb" />
+    <Compile Include="CRM\CallManagers\IncomingCallEventArgs.vb" />
+    <Compile Include="CRM\CallManagers\ICallManager.vb" />
+    <Compile Include="CRM\CCampagnaCRM\CCampagnaXGroupAllowNegate.vb" />
+    <Compile Include="CRM\CCampagnaCRM\CCampagnaXUserAllowNegate.vb" />
+    <Compile Include="CRM\CCampagnaCRM\PausaCRM\CPausaCRM.vb" />
+    <Compile Include="CRM\CCampagnaCRM\PausaCRM\CPausaCRMCursor.vb" />
+    <Compile Include="CRM\CCampagnaCRM\PausaCRM\CPauseCRMClass.vb" />
+    <Compile Include="CRM\CRMStatsAggregation.vb" />
+    <Compile Include="CRM\CContattoComparer.vb" />
+    <Compile Include="CRM\CContattoUtente.vb" />
+    <Compile Include="CRM\CCustomerCallsCursor.vb" />
+    <Compile Include="CRM\ContattoEventArgs.vb" />
+    <Compile Include="CRM\Appunti\CAppunto.vb" />
+    <Compile Include="CRM\Appunti\CAppuntiCursor.vb" />
+    <Compile Include="CRM\Appunti\Appunti.vb" />
+    <Compile Include="CRM\CCRMConfig.vb" />
+    <Compile Include="CRM\CCampagnaCRM\CCampagnaCRM.vb" />
+    <Compile Include="CRM\CCampagnaCRM\CCampagnaCRMCursor.vb" />
+    <Compile Include="CRM\CCampagnaCRM\CCmpagneCRMClass.vb" />
+    <Compile Include="CRM\CCampagnaCRM\SessioneCRM\CSessioneCRM.vb" />
+    <Compile Include="CRM\CCampagnaCRM\SessioneCRM\CSessioneCRMCursor.vb" />
+    <Compile Include="CRM\CCampagnaCRM\SessioneCRM\CSessioniCRMClass.vb" />
+    <Compile Include="CRM\Statistiche\PersoneXPeriodo\CPersonaXPeriodo.vb" />
+    <Compile Include="CRM\Statistiche\Operatori\CRMStatsCursor.vb" />
+    <Compile Include="CRM\eMails\EMailMessage.vb" />
+    <Compile Include="CRM\eMails\EMailMessagesCursor.vb" />
+    <Compile Include="CRM\eMails\EMailMessages.vb" />
+    <Compile Include="CRM\Telegrammi\CTelegramma.vb" />
+    <Compile Include="CRM\Telegrammi\CTelegrammiCursor.vb" />
+    <Compile Include="CRM\Telegrammi\Telegrammi.vb" />
+    <Compile Include="CRM\FaxDocuments\FAX.vb" />
+    <Compile Include="CRM\SMS\SMS.vb" />
+    <Compile Include="CRM\Templates\CTemplate.vb" />
+    <Compile Include="CRM\Templates\CTemplatesCursor.vb" />
+    <Compile Include="CRM\Templates\Templates.vb" />
+    <Compile Include="CRM\TrasferimentoContatto.vb" />
+    <Compile Include="CRM\StoricoHandlers\StoricoHandlerContatti.vb" />
+    <Compile Include="CRM\StoricoHandlers\StoricoHandlerBase.vb" />
+    <Compile Include="CRM\CRMFindFilter.vb" />
+    <Compile Include="CRM\StoricoHandlers\IStoricoHandler.vb" />
+    <Compile Include="CRM\StoricoAction.vb" />
+    <Compile Include="CRM\Statistiche\ContattoInAttesaInfo.vb" />
+    <Compile Include="CRM\Statistiche\Persone\CPersonWatchCond.vb" />
+    <Compile Include="CRM\Statistiche\Persone\CPresonStatsCursor.vb" />
+    <Compile Include="CRM\Statistiche\Operatori\CRMStats.vb" />
+    <Compile Include="CRM\Statistiche\CStatisticheOperazione.vb" />
+    <Compile Include="CRM\Statistiche\Persone\CPersonStats.vb" />
+    <Compile Include="CRM\FaxDocuments\FaxDocument.vb" />
+    <Compile Include="CRM\FaxDocuments\FaxDocumentsCursor.vb" />
+    <Compile Include="CRM\CustomerCalls.vb" />
+    <Compile Include="CRM\Fonti\RicontattiFonteProvider.vb" />
+    <Compile Include="CRM\SMS\SMSMessage.vb" />
+    <Compile Include="CRM\SMS\SMSMessageCursor.vb" />
+    <Compile Include="CRM\StoricoHandlers\StoricoHandlerADV.vb" />
+    <Compile Include="CRM\Telefonate\CTelefonata.vb" />
+    <Compile Include="CRM\Telefonate\CTelefonateCollection.vb" />
+    <Compile Include="CRM\Telefonate\CTelefonateCursor.vb" />
+    <Compile Include="CRM\Telefonate\CTelefonatePersona.vb" />
+    <Compile Include="CRM\Telefonate\Telefonate.vb" />
+    <Compile Include="CRM\Visite\CVisita.vb" />
+    <Compile Include="CRM\Visite\CVisiteCursor.vb" />
+    <Compile Include="CRM\Visite\Visite.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FinSeALibs\DMDLibs.vbproj">
+      <Project>{d6154502-e7f9-4dfc-a695-6b51afee770b}</Project>
+      <Name>DMDLibs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

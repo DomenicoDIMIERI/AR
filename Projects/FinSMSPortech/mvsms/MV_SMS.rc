@@ -1,0 +1,138 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文 (台灣) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MV_SMS              ICON                    "MV_SMS.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_MV_SMS MENU
+BEGIN
+    POPUP "Tool(&T)"
+    BEGIN
+        MENUITEM "Open File(&F)",               IDM_FILE
+        MENUITEM "Send Message(&M)",            IDM_MESSAGE
+        MENUITEM "Exit(&E)",                    IDM_EXIT
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "About(&A)...",                IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_MV_SMS ACCELERATORS
+BEGIN
+    "/",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "?",            IDM_EXIT,               ASCII,  ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 22, 17, 160, 64
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 9, "Arial", 0, 0, 0x0
+BEGIN
+    ICON            IDI_MV_SMS,IDC_MYICON,14,9,20,20
+    LTEXT           "SMS for MobileVoip Device v1.82",IDC_STATIC,41,10,120,8,SS_NOPREFIX
+    LTEXT           "Copyright 2010",IDC_STATIC,39,20,91,8
+    DEFPUSHBUTTON   "ok",IDOK,55,33,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "SMS"
+    IDC_MV_SMS              "MV_SMS"
+END
+
+#endif    // 中文 (台灣) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

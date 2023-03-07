@@ -1,0 +1,6239 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinSeAOffice
+</name>
+</assembly>
+<members>
+<member name="T:FinSeA.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FinSeA.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FinSeA.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:FinSeA.Office.DocumentoContabileCursor">
+ <summary>
+ Rappresenta un documento contabile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.VoceDiPagamento">
+ <summary>
+ Rappresenta una movimentazione contabile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive la movimentazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.Quantita">
+ <summary>
+ Restituisce o imposta la quantità di denaro movimentata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.NomeValuta">
+ <summary>
+ Restituisce o imposta il nome della valuta utilizzata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.DataOperazione">
+ <summary>
+ Restituisce o imposta la data dell'operazione  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.DataEffettiva">
+ <summary>
+ Restituisce o imposta la data effettiva
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.Source">
+ <summary>
+ Restituisce o imposta il documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.SourceType">
+ <summary>
+ Restituisec o imposta il tipo del documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.SourceID">
+ <summary>
+ Restituisce o imposta l'ID del documento o dell'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.SourceParams">
+ <summary>
+ Restituisce o imposta dei parametri aggiuntivi per il documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.Flags">
+ <summary>
+ Restituisce o imposta dei flags
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.CCOrigine">
+ <summary>
+ Restituisce o imposta il conto corrente di origine (da cui vengono prelevati i soldi)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.IDCCOrigine">
+ <summary>
+ Restituisce o imposta l'ID del conto corrente da cui vengono prelevati i soldi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.NomeCCOrigine">
+ <summary>
+ Restituisce o imposta il nome del conto corrente di origine
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.CCDestinazione">
+ <summary>
+ Restituisce o imposta il conto corrente destinazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.IDCCDestinazione">
+ <summary>
+ Restituisce o imposta l'ID del conto corrente destinazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.NomeCCDestinazione">
+ <summary>
+ Restituisce o imposta il nome del conto corrente di destinazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.MetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.TipoMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il tipo del metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.IDMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta l'ID del metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.VoceDiPagamento.NomeMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il nome del metodo di pagamento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.VoceDiPagamentoCursor">
+ <summary>
+ Rappresenta un documento contabile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.StoricoHandlerOggettiSpedire">
+ <summary>
+ Aggiunge gli oggetti da spedire
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.StoricoHandlerEstrattiContributivi">
+ <summary>
+ Aggiunge gli estratti contributivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.AttributiCategoriaCollection">
+ <summary>
+ Collezione degli attributi specificato per una istanza di un Categoria
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.AttributoCategoria">
+ <summary>
+ Descrive un attributo di un Categoria
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoCategoria.Categoria">
+ <summary>
+ Restituisce o imposta l'Categoria a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoCategoria.NomeAttributo">
+ <summary>
+ Restituisce o imposta il nome dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoCategoria.ValoreAttributoFormattato">
+ <summary>
+ Restituisce o imposta il valore formattato dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoCategoria.ValoreAttributo">
+ <summary>
+ Restituisce o imposta il valore dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoCategoria.TipoAttributo">
+ <summary>
+ Restituisce un valore che indica il tipo dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoCategoria.UnitaDiMisura">
+ <summary>
+ Restituisce o imposta l'unità di misura dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailRootFolder.Archive">
+ <summary>
+ Cartella archivio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailRootFolder.FindFolder">
+ <summary>
+ Cartelle ricerche
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailRootFolder.Inbox">
+ <summary>
+ Cartella principale della posta in arrivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailRootFolder.TrashBin">
+ <summary>
+ Cartella principale del cestino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailRootFolder.Drafts">
+ <summary>
+ Cartella delle bozze
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailRootFolder.Sent">
+ <summary>
+ Cartella delle email inviate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailRootFolder.Spam">
+ <summary>
+ Cartella delle email indesiderate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRuleBase.Attiva">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la regola è attiva
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailRuleBase.Priorita">
+ <summary>
+ Restituisce o imposta l'ordine di applicazione della regola
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.MailRuleBase.Check(FinSeA.Office.MailMessage)">
+ <summary>
+ Restituisce vero se la regola si applica al messaaggio
+ </summary>
+ <param name="m"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.MailRuleBase.Execute(FinSeA.Office.MailMessage)">
+ <summary>
+ Applica la regola al messaggio
+ </summary>
+ <param name="m"></param>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRuleDisposition.None">
+ <summary>
+ Nessuna azione richiesta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRuleDisposition.Delete">
+ <summary>
+ Sposta il messaggio nel cestino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRuleDisposition.CopyTo">
+ <summary>
+ Copia il messaggio nella cartella specificata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRuleDisposition.MoveTo">
+ <summary>
+ Sposta il messaggio nella cartella specificata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRuleDisposition.SendTo">
+ <summary>
+ Invia una copia del messaggio al destinatario specificato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.FromAddress">
+ <summary>
+ Restituisce o imposta un elenco di indirizzi e-mail separati da "," che vengono verificati nel campo "From" 
+ Il test è definito vero l'intersezione tra i due elenchi non è vuota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.ToAddress">
+ <summary>
+ Restituisce o imposta un elenco di indirizzi e-mail separati da "," che vengono verificati nei campi "To, CC, CCN"
+ Il test è definito vero l'intersezione tra i due elenchi non è vuota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.JustToAddress">
+ <summary>
+ Restituisce o imposta un elenco di indirizzi e-mail separati da "," che vengono verificati nel campo "To"
+ Il test è definito vero l'intersezione tra i due elenchi non è vuota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.FromDomain">
+ <summary>
+ Restituisce o imposta un elenco di domini separati da "," che vengono testati nel campo "From"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.ToDomain">
+ <summary>
+ Restituisce o imposta un elenco di domini separati da "," che vengono testati nel campo "To, CC e CCN"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.SendDateInterval">
+ <summary>
+ Restituisce o imposta un intervallo per la data di invio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.SendDateFrom">
+ <summary>
+ Restituisce o imposta l'estremo inferiore per la data di invio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.SendDateTo">
+ <summary>
+ Restituisce o imposta l'estremo superiore della data di invio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.ReceiveDateInterval">
+ <summary>
+ Restituisce o imposta un intervallo per la data di ricezione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.ReceiveDateFrom">
+ <summary>
+ Restituisce o imposta l'estremo inferiore per la data di ricezione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.ReceiveDateTo">
+ <summary>
+ Restituisce o imposta l'estremo superiore della data di ricezione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.AccountName">
+ <summary>
+ Restituisce o imposta il nome dell'account utilizzato per inviare/ricevere il messaggio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.BodyContains">
+ <summary>
+ Elenco di parole o frasi (separate dal CR+LF) contenute nel corpo del messaggio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailRule.SubjectContains">
+ <summary>
+ Frase contenuto nel soggetto 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailRule.Actions">
+ <summary>
+ Elenco di azioni da eseguire in sequenza dalla prima all'ultima
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.PersonaPerEMail">
+ <summary>
+ Rappresenta un collegamento tra una persona ed un messaggio email
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.PersonaPerEMail.IDMessaggio">
+ <summary>
+ Restituisce o imposta l'ID del messaggio associato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.PersonaPerEMail.Messaggio">
+ <summary>
+ Restituisce o imposta il messaggio associato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.PersonaPerEMail.IDPersona">
+ <summary>
+ Restituisce o imposta l'ID della persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.PersonaPerEMail.Persona">
+ <summary>
+ Restituisce o imposta la persona a cui è associato il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.PersonaPerEMail.NomePersona">
+ <summary>
+ Restituisce o imposta il nome della persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.PersonaPerEMail.IconURL">
+ <summary>
+ Restituisce o imposta l'icona associata alla persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.PersonaPerEMail.Indirizzo">
+ <summary>
+ Restituisce o imposta l'indirizzo email che correla la persona al messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazioneAlert.Comunicazione">
+ <summary>
+ Restitusice o impsta l'oggetto comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazioneAlert.TargetUser">
+ <summary>
+ Restituisce o imposta l'utente destinatario della comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazioneAlert.DettaglioStato">
+ <summary>
+ Restituosce o imposta una stringa che descrive lo stato della comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazioneAlert.Via">
+ <summary>
+ Restituisce o imposta il nome del mezzo attraverso cui è stata inviata la comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CComunicazione">
+ <summary>
+ Rappresenta un documento o una comunicazione pubblicata sul sito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazione.Attachments">
+ <summary>
+ Restituisce la collezione degli allegati alla comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazione.Progressivo">
+ <summary>
+ Restituisce o imposta il numero progressivo del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazione.DataInizio">
+ <summary>
+ Restituisce o imposta la data di inizio validità del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazione.DataFine">
+ <summary>
+ Restituisce o imposta la data di fine validità del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazione.Categoria">
+ <summary>
+ Restituisce o imposta la categoria del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazione.Descrizione">
+ <summary>
+ Restituisce o imposta la descrizione del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazione.Priorita">
+ <summary>
+ Restituisce o imposta il livello di priorità del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazione.URL">
+ <summary>
+ Restituisce o imposta la URL del collegamento esterno
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazione.PrimaPagina">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il documento deve essere visualizzato nell'elenco delle comunicazioni
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CComunicazione.Note">
+ <summary>
+ Restituisce o imposta le note
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CComunicazione.GetAffectedUsers">
+ <summary>
+ Restituisce un oggetto CCollection contenente gli utenti interessati alla modifica
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CComunicazioneXUser">
+ <summary>
+ Rappresenta un documento o una comunicazione pubblicata sul sito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CComunicazioniClass.Notify(FinSeA.Office.CComunicazione,System.String)">
+ <summary>
+ Crea un avviso per la ricezione della comunicazione
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CComunicazioniClass.GetNextAvailableProgressivo">
+ <summary>
+ Restituisce il primo numero progressivo disponibile
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CComunicazioneXGroup">
+ <summary>
+ Rappresenta un documento o una comunicazione pubblicata sul sito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CCommissioniClass">
+ <summary>
+ Gestione delle commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Office.CCommissioniClass.NotificaStatoCommissione">
+ <summary>
+ Evento generato quando viene modificato lo stato di una commissione
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CCommissioniClass.GetCommissioniSuggerite(System.Int32[],FinSeA.CCollection{FinSeA.Office.LuogoDaVisitare},System.Boolean)">
+ <summary>
+ Restituisce una collezione di tutte le commissioni (programate per qualsiasi ufficio e operatore) che si svolgono presso i luoghi specificati o presso le persone specificate
+ </summary>
+ <param name="personeVisitate">Array contenente gli ID delle aziende o delle persone visitate</param>
+ <param name="luoghi">Collezione contenente gli indirizzi visitati durante la commissione</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.StatoCommissione">
+ <summary>
+ Stati di una commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoCommissione.NonIniziata">
+ <summary>
+ Non iniziata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoCommissione.Iniziata">
+ <summary>
+ Iniziata 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoCommissione.Rimandata">
+ <summary>
+ Rimandata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoCommissione.Completata">
+ <summary>
+ Completata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoCommissione.Annullata">
+ <summary>
+ Annullata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Commissione">
+ <summary>
+ Rappresenta una commissione fatta da un operatore 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Source">
+ <summary>
+ Restituisce o importa l'oggetto che ha creato la commissione (la commissione è associata in relazione 1 a molti a questo oggetto)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Flags">
+ <summary>
+ Restituisce o imposta i flags per la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.GiornataIntera">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la commissione non specifica un orario per essere eseguita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.ContextID">
+ <summary>
+ Restituisce o imposta l'ID del contesto in cui è stata creata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.ContextType">
+ <summary>
+ Restituisce o imposta il tipo del contesto in cui è stata creata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Uscite">
+ <summary>
+ Restituisce l'elenco delle uscite in cui è stata "iniziata" questa commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.StatoCommissione">
+ <summary>
+ Restituisce o imposta lo stato della commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Operatore">
+ <summary>
+ Restituisce o imposta l'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha effettuate la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.DataPrevista">
+ <summary>
+ Restituisce o imposta la data prevista per la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.OraUscita">
+ <summary>
+ Restituisce o imposta la data e l'ora di uscita per la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Durata">
+ <summary>
+ Restituisce o imposta la durata in secondi (differenza tra ora ingresso ed ora uscita)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.OraRientro">
+ <summary>
+ Restituisce o imposta la data di rientro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Motivo">
+ <summary>
+ Restituisce o imposta il motivo della commissione (descrizione breve)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Azienda">
+ <summary>
+ Restituisce o imposta l'azienda presso cui si è recato l'operatore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.IDAzienda">
+ <summary>
+ Restituisce o imposta l'ID dell'azienda presso cui si è recato l'operatore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.NomeAzienda">
+ <summary>
+ Restituisce o imposta il nome dell'azienda presso cui si è recato l'operatore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.PersonaIncontrata">
+ <summary>
+ Restituisce o imposta la persona fisica che si è incontrato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.IDPersonaIncontrata">
+ <summary>
+ Restituisce o imposta l'ID della persona fisica incontrata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Esito">
+ <summary>
+ Restituisce o imposta l'esito dell'incontro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Scadenzario">
+ <summary>
+ Restituisce o imposta un eventuale data per il promemoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.NoteScadenzario">
+ <summary>
+ Restituisce o imposta delle note per l'eventuale promemoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.IDRichiesta">
+ <summary>
+ Restituisce o imposta l'ID della richiesta associata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Richiesta">
+ <summary>
+ Restituisce o imposta la richiesta associata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.DistanzaPercorsa">
+ <summary>
+ Restituisce o imposta la distanza percorsa
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.AssegnataIl">
+ <summary>
+ Restitusice o imposta la data in cui è stata programmata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.IDAssegnataA">
+ <summary>
+ Restituisce o imposta l'ID dell'utente a cui è stata assegnata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.AssegnataA">
+ <summary>
+ Restituisce o imposta l'utente a cui è stata assegnata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.NomeAssegnataA">
+ <summary>
+ Restituisce o imposta il nome dell'utente a cui è stata assegnata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Commissione.Presso">
+ <summary>
+ Restituisce o imposta il nome del luogo presso cui svolgere la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CommissioneCursor">
+ <summary>
+ Cursore sulla tabella delle commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.StoricoHandlerTickets">
+ <summary>
+ Aggiunge le richieste di conteggi estintivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.StoricoHandlerRichiesteCERQ">
+ <summary>
+ Aggiunge le richieste di 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.StoricoHandlerCommissioni">
+ <summary>
+ Aggiunge le commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Articolo">
+ <summary>
+ Definisce un oggetto in magazzino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.ProductPage">
+ <summary>
+ Restituisce o imposta la URL della pagina descrittiva del prodtotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.SupportPage">
+ <summary>
+ Restituisce o imposta la URL della pagina di supporto del prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.UnitaBase">
+ <summary>
+ Restituisce o imposta l'unità di misura base per l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.DecimaliValuta">
+ <summary>
+ Restituisce o imposta i decimali validi per i prezzi. Un valore negativo indica al programma di utilizzare tutti i numeri disponibili
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.DecimaliQuantita">
+ <summary>
+ Restituisce o imposta i decimali validi per le quantità. Un valore negativo indica al programma di utilizzare tutti i numeri disponibili
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.Nome">
+ <summary>
+ Restituisce o imposta il nome dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.CategoriaPrincipale">
+ <summary>
+ Restituisce o imposta la categoria principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.Marca">
+ <summary>
+ Restituisce o imposta la marca dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.Modello">
+ <summary>
+ Restituisce o imposta il modello dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags associati all'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Articolo.Codici">
+ <summary>
+ Restituisce la collezione dei codici articolo associati 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.AttributiArticoloCollection">
+ <summary>
+ Collezione degli attributi specificato per una istanza di un Articolo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.AttributoArticolo">
+ <summary>
+ Descrive un attributo di un articolo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoArticolo.Articolo">
+ <summary>
+ Restituisce o imposta l'Articolo a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoArticolo.NomeAttributo">
+ <summary>
+ Restituisce o imposta il nome dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoArticolo.ValoreAttributoFormattato">
+ <summary>
+ Restituisce o imposta il valore formattato dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoArticolo.ValoreAttributo">
+ <summary>
+ Restituisce o imposta il valore dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoArticolo.TipoAttributo">
+ <summary>
+ Restituisce un valore che indica il tipo dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoArticolo.UnitaDiMisura">
+ <summary>
+ Restituisce o imposta l'unità di misura dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.AttributiOggettoCollection">
+ <summary>
+ Collezione degli attributi specificato per una istanza di un Oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.ArticoloInMagazzino">
+ <summary>
+ Definisce la relazione tra un articolo ed il magazzino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.ArticoloInMagazzino.Articolo">
+ <summary>
+ Restituisce o imposta l'articolo a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.ArticoloInMagazzino.Magazzino">
+ <summary>
+ Restituisce o imposta il magazzino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.ArticoloInMagazzino.Quantita">
+ <summary>
+ Restituisce o imposta la quantità dell'articolo in magazzino espressa in unità base
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.ArticoloInMagazzino.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags associati al codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.TipoPrezzoListino">
+ <summary>
+ Definisce il tipo prezzo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.ArticoloXListino">
+ <summary>
+ Definisce la relazione tra un articolo ed un listino prezzi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.ArticoloXListino.TipoPrezzo">
+ <summary>
+ Restituisce o imposta il tipo prezzo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.ArticoloXListino.Articolo">
+ <summary>
+ Restituisce o imposta l'articolo a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.ArticoloXListino.Listino">
+ <summary>
+ Restituisce o imposta il magazzino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.ArticoloXListino.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags associati al codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.AttributoOggetto">
+ <summary>
+ Specifica il valore di un attributo dell'Oggetto per l'oggetto inventariato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoOggetto.Oggetto">
+ <summary>
+ Restituisce o imposta l'Oggetto a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoOggetto.NomeAttributo">
+ <summary>
+ Restituisce o imposta il nome dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoOggetto.ValoreAttributoFormattato">
+ <summary>
+ Restituisce o imposta il valore formattato dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoOggetto.ValoreAttributo">
+ <summary>
+ Restituisce o imposta il valore dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoOggetto.TipoAttributo">
+ <summary>
+ Restituisce un valore che indica il tipo dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.AttributoOggetto.UnitaDiMisura">
+ <summary>
+ Restituisce o imposta l'unità di misura dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CategoriaArticolo">
+ <summary>
+ Definisce la categoria di un articolo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CategoriaArticolo.Nome">
+ <summary>
+ Restituisce o imposta il nome della categoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CategoriaArticolo.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CategoriaArticolo.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CategoriaArticolo.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CategoriaArticolo.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CodiceArticolo">
+ <summary>
+ Definisce un codice articolo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CodiceArticolo.Articolo">
+ <summary>
+ Restituisce o imposta l'articolo a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CodiceArticolo.Nome">
+ <summary>
+ Restituisce o imposta il nome del codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CodiceArticolo.Tipo">
+ <summary>
+ Restituisce o imposta il tipo del codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CodiceArticolo.Valore">
+ <summary>
+ Restituisce o imposta il valore del codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CodiceArticolo.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags associati al codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CodiceArticolo.Ordine">
+ <summary>
+ Restituisce o imposta l'ordine inteso anche come priorità nella ricerca degli articoli per codice in caso di codici duplicati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.FlagsOggettoInventariato.InUso">
+ <summary>
+ Indica che l'oggetto è in uso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.CodiceRFID">
+ <summary>
+ Restituisce o imposta il codice RFID associato all'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.PosizioneGPS">
+ <summary>
+ Restituisce o imposta le coordinate GPS che determinano la posizione dell'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.IsPosizioneGPSRelativa">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la posizione GPS è relativa all'ufficio di appartenenza o se è assoluta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.IDOrdineAcquisto">
+ <summary>
+ Restituisce o imposta l'ID del documento di ordine di acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.OrdineAcquisto">
+ <summary>
+ Restituisce o imposta l'ordine di acquisto  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.IDDocumentoAcquisto">
+ <summary>
+ Restituisce o imposta l'ID del documento che convalida l'acquisto dell'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.DocumentoAcquisto">
+ <summary>
+ Restituisce o imposta il documento di acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.IDSpedizione">
+ <summary>
+ Restituisce o imposta l'ID della spedizione con cui è stato ricevuto l'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.Spedizione">
+ <summary>
+ Restituisce o imposta la spedizione con cui è stato ricevuto l'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.Relazioni">
+ <summary>
+ Restituisce la collezione delle relazione con gli altri oggetti inventariati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.DataProduzione">
+ <summary>
+ Restituisce o imposta la data di produzione del lotto a cui appartiene questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.IDArticolo">
+ <summary>
+ Restituisce o imposta l'ID dell'articolo associato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.NomeArticolo">
+ <summary>
+ Nome Articolo associato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.Codice">
+ <summary>
+ Restituisce o imposta il codice di inventario dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.Nome">
+ <summary>
+ Restituisce o imposta il nome dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.Marca">
+ <summary>
+ Restituisce o imposta la marca dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.Modello">
+ <summary>
+ Restituisce o imposta il modello dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.StatoAttuale">
+ <summary>
+ Restituisce o imposta lo stato attuale dell'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.TipoInUsoDa">
+ <summary>
+ Restituisce o imposta il tipo di oggetto che utilizza l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.IDInUsoDa">
+ <summary>
+ Restitusice o imposta l'ID dell'oggetto che utilizza questo articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.InUsoDa">
+ <summary>
+ Restituisce o imposta l'oggetto che utilizza questo artcillo 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.NomeInUsoDa">
+ <summary>
+ Restituisce o imposta il nome dell'oggetto che utilizza questo articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.ValoreStimato">
+ <summary>
+ Restituisce o imposta il valore stimato dell'articolo alla data memorizzata in DataValutazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.DataValutazione">
+ <summary>
+ Restituisce o imposta la data di valutazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.DataAcquisto">
+ <summary>
+ Restituisce o imposta la data di acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.TipoDocumentoAcquisto">
+ <summary>
+ Restituisce o imposta il tipo del documento di acquisto (Fattura, Scontrino, ...)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.NumeroDocumentoAcquisto">
+ <summary>
+ Restituisce o imposta il numero del documento di acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.StatoAcquisto">
+ <summary>
+ Restituisce o imposta lo stato dell'oggetto al momento dell'acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.AcquistatoDaID">
+ <summary>
+ Restitusice o imposta l'ID dell'utente che ha acquistato l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.NomeAcquistatoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha acquistato l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.PrezzoAcquisto">
+ <summary>
+ Restituisce o imposta il prezzo (imponibile) di acquisto dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.AliquotaIVA">
+ <summary>
+ Restitusice o imposta l'aliquota iva espressa in % sul prezzo imponibile di acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.IDUfficioOriginale">
+ <summary>
+ Restituisce o imposta l'ID del punto di operativo per cui è stato originariamente acquistato l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.UfficioOriginale">
+ <summary>
+ Restituisce o imposta l'ufficio per cui è stato originariamente acquistato l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.CodiceReparto">
+ <summary>
+ Restituisce o imposta il codice del reparto in cui è stoccato l'articolo se non in uso
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.CodiceScaffale">
+ <summary>
+ Restituisce o imposta il codice dello scaffale in cui è stoccato l'articolo se non in uso
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.DataDismissione">
+ <summary>
+ Restituisce o imposta la data di dismissione dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.DismessoDaID">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha dismesso l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.DismessoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha dismesso l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.NomeDismessoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha dismesso l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoInventariato.MotivoDismissione">
+ <summary>
+ Restitusice o imposta il motivo della dismissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DeviceLogFlags.On">
+ <summary>
+ Dispositivo acceso
+ </summary>
+</member>
+<member name="F:FinSeA.Office.DeviceLogFlags.Suspended">
+ <summary>
+ Dispositivo in stato sospeso
+ </summary>
+</member>
+<member name="T:FinSeA.Office.DeviceLog">
+ <summary>
+ Rappresenta lo stato di un dispositivo in un determinato intervallo di tempo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.MACAddress">
+ <summary>
+ Restituisce o imposta l'indirizzo MAC della macchina
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.IPAddress">
+ <summary>
+ Restituisce o imposta l'indirizzo IP della macchina
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.OSVersion">
+ <summary>
+ Restituisce o imposta il software usato sul dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.IDDevice">
+ <summary>
+ Restituisce o imposta l'ID del dispositivo a cui fa riferimento il log
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.DettaglioStato">
+ <summary>
+ Restituisce o imposta il dettaglio dello stato
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.Device">
+ <summary>
+ Restituisce o imposta il dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.Flags">
+ <summary>
+ Restituisce o imposta dei flags che descrivo la categoria
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.StartDate">
+ <summary>
+ Restituisce o imposta la data di inizio
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.EndDate">
+ <summary>
+ Restituisce o imposta la data di fine
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.IDUtente">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che sta utilizzando il dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.Utente">
+ <summary>
+ Restituisce o imposta l'utente che sta utilizzando il dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.NomeUtente">
+ <summary>
+ Restituisce o imposta il nome dell'utente che sta usando il dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.CPUUsage">
+ <summary>
+ Restituisce o imposta la percentuale di utlizzo medio della cpu (se presente) del dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.CPUMaximum">
+ <summary>
+ Restituisce o imposta la percentuale di utilizzo di picco della cpu (se presente) del dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:FinSeA.Office.DeviceLog.NotifyCPU(System.Nullable{System.Int32})">
+ <summary>
+ Aggiorna le statistiche per la cpu. Il valore di numeroCampioni va incrementato a mano dopo aver aggiornato le statistiche
+ </summary>
+ <param name="cpuUsage"></param>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.RAMTotal">
+ <summary>
+ Restituisce o imposta la quantità totale di memoria RAM installata 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.RAMAvailable">
+ <summary>
+ Restituisce o imposta la quantità media di memoria disponibile
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.RAMMinimum">
+ <summary>
+ Restituisce o imposta la quantità minima di memoria disponibile
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:FinSeA.Office.DeviceLog.NotifyRAMAvailable(System.Nullable{System.Double})">
+ <summary>
+ Aggiorna le statistiche per la RAM disponibile. Il valore di numeroCampioni va incrementato a mano dopo aver aggiornato le statistiche
+ </summary>
+ <param name="ram"></param>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.DiskTotal">
+ <summary>
+ Restituisce o imposta la quantità di memoria totale su disco
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.DiskAvailable">
+ <summary>
+ Restituisce o imposta la quantità media di memoria disponibile su disco
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.DiskMinimum">
+ <summary>
+ Restitusice o imposta la quantità minima di memoria disponibile su disco (misura di picco)
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:FinSeA.Office.DeviceLog.NotifyDiskAvailable(System.Nullable{System.Double})">
+ <summary>
+ Aggiorna le statistiche per la quantità di memoria disponibile su disco. Il valore di numeroCampioni va incrementato a mano dopo aver aggiornato le statistiche
+ </summary>
+ <param name="value"></param>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.Temperature">
+ <summary>
+ Restituisce o imposta la temperatura 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:FinSeA.Office.DeviceLog.NotifyTemperature(System.Nullable{System.Single})">
+ <summary>
+ Aggiorna le statistiche per la temperatura. Il valore di numeroCampioni va incrementato a mano dopo aver aggiornato le statistiche
+ </summary>
+ <param name="value"></param>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.GPS">
+ <summary>
+ Restituisce o imposta la posizione GPS
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.DeviceLog.Params">
+ <summary>
+ Restituisce o imposta dei parametri aggiuntivi
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:FinSeA.Office.DeviceLogCursor">
+ <summary>
+ Cursore sulla tabella dei log
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Candidatura">
+ <summary>
+ Rappresenta una candidatura di una persona ad un posto di lavoro
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CandidaturaCursor">
+ <summary>
+ Cursore sulla tabella delle candidature ad un'offerta di lavoro
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CurriculumCursor">
+ <summary>
+ Cursore sulla tabella dei curricula
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.OffertaDiLavoroCursor">
+ <summary>
+ Cursore sulla tabella delle offerte di lavoro
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.OffertaDiLavoro">
+ <summary>
+ Rappresenta un'offerta di lavoro
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Curriculum">
+ <summary>
+ Rappresenta un curriculum vitae
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DeviceFlags.CanGPS">
+ <summary>
+ Se vero indica che il tipo di dispositivo supporta le funzioni di localizzazione GPS
+ </summary>
+</member>
+<member name="F:FinSeA.Office.DeviceFlags.CanPrint">
+ <summary>
+ Se vero indica che il dispositivo può stampare dei documenti cartacei
+ </summary>
+</member>
+<member name="F:FinSeA.Office.DeviceFlags.CanScan">
+ <summary>
+ Se vero indica che il dispositivo può effettuare scansioni
+ </summary>
+</member>
+<member name="F:FinSeA.Office.DeviceFlags.CanFingerprint">
+ <summary>
+ Se vero indica che il dispositivo supporta il riconoscimento tramite impronte digitali
+ </summary>
+</member>
+<member name="F:FinSeA.Office.DeviceFlags.CanRecognizeOther">
+ <summary>
+ Se vero indica che il dispositivo può effettuare riconoscimenti tramite metodi diversi dall'impronta digitale
+ </summary>
+</member>
+<member name="F:FinSeA.Office.DeviceFlags.IsDesktop">
+ <summary>
+ Se vero indica che il dispositivo è utilizzabile come destkop
+ </summary>
+</member>
+<member name="F:FinSeA.Office.DeviceFlags.IsPhone">
+ <summary>
+ Se vero indica che il dispositivo è utilizzabile come telefono per le conversazioni 
+ </summary>
+</member>
+<member name="F:FinSeA.Office.DeviceFlags.IsSMS">
+ <summary>
+ Se vero indica che il dispositivo supporta l'invio o la ricezione di SMS
+ </summary>
+</member>
+<member name="T:FinSeA.Office.ClasseDispositivo">
+ <summary>
+ Rappresenta la categoria di un dispositivo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.ClasseDispositivo.Nome">
+ <summary>
+ Restituisce o imposta il nome del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.ClasseDispositivo.Flags">
+ <summary>
+ Restituisce o imposta dei flags che descrivo la categoria
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:FinSeA.Office.ClassiDispositivoCursor">
+ <summary>
+ Cursore sulla tabella delle classi di dispositivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DocFlags.HaNumero">
+ <summary>
+ Il documento è caratterizzato da un numero che lo identifica
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DocFlags.RichiedeNumero">
+ <summary>
+ Il documento richiede l'inserimento del numero che lo identifica
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DocFlags.HaRilasciatoDa">
+ <summary>
+ Il documento ha un campo "Rilasciato Da"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DocFlags.RichiedeRilasciatoDa">
+ <summary>
+ Il documento richiede di compilare il campo "Rilasciato Da"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DocFlags.HaDataInizio">
+ <summary>
+ Il documento ha il campo "Data Inizio"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DocFlags.RichiedeDataInizio">
+ <summary>
+ Il documento richiede di compilare il campo "Data Inizio"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DocFlags.HaDataFine">
+ <summary>
+ Il documento ha il campo "Data Fine"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DocFlags.RichiedeDataFine">
+ <summary>
+ Il documento richiede di compulare il campo "Data Fine"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.DocFlags.UsaTemplate">
+ <summary>
+ Il documento viene generato dal sistema in base ad un template
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CDocumento">
+ <summary>
+ Rappresenta un documento che è possibile caricare
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CDocumento.Nome">
+ <summary>
+ Restituisce o imposta il nome del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CDocumento.Categoria">
+ <summary>
+ Restituisce o imposta la categoria del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CDocumento.SottoCategoria">
+ <summary>
+ Restituisce o imposta la categoria secondaria del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CDocumento.Descrizione">
+ <summary>
+ Restituisce o imposta la descrizione del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CDocumento.TemplatePath">
+ <summary>
+ Restituisce o imposta la URL del modello utilizzato per creare il documento 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CDocumento.Uploadable">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il documento può essere caricato a sistema
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CDocumento.ValiditaLimitata">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il documento ha una scadenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CDocumentiCursor">
+ <summary>
+ Cursore sulla tabella dei documenti
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona">
+ <summary>
+ Rappresenta un documento caricato per una persona
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona.IDDocumento">
+ <summary>
+ Restituisce 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona.Documento">
+ <summary>
+ Restituisce la descrizione del documento caricato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona.IDPersona">
+ <summary>
+ Restituisce o imposta l'ID della persona a cui è associato il documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona.Persona">
+ <summary>
+ Restituisce o imposta la persona a cui è associato il documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona.DataCaricamento">
+ <summary>
+ Restituisce o imposta la data di caricamento del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona.IDOperatoreCaricamento">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha caricato il documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona.OperatoreCaricamento">
+ <summary>
+ Restituisce l'operatore che ha caricato il documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona.NomeOperatoreCaricamento">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha caricato il documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona.IDAttachment">
+ <summary>
+ Restituisce o imposta l'ID del file caricato sul server
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentiCaricati.CDocCarPerPersona.Attachment">
+ <summary>
+ Restituisce o imposta l'ID dell'oggetto caricato sul server
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.LuogoVisitato">
+ <summary>
+ Rappresenta un punto della mappa del territorio attraversato dall'utente per la commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.LuoghiVisitatiCursor">
+ <summary>
+ Cursore sulla tabella dei luoghi attraversati dall'utente per le commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CLuoghiVisitatiClass">
+ <summary>
+ Gestione dei luoghi "attraversati" dall'operatore per effettuare la commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.StatoEstrattoContributivo">
+ <summary>
+ Stati di una commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.EstrattoContributivo">
+ <summary>
+ Rappresenta una richiesta di estratto contributivo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.EstrattoContributivo.Richiedi">
+ <summary>
+ Salva e richiede
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.EstrattoContributivo.PrendiInCarico">
+ <summary>
+ Salva e prende in carico la richiesta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.EstrattoContributivo.Evadi">
+ <summary>
+ Salva ed evade
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.EstrattoContributivo.Errore">
+ <summary>
+ Salva ed errore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.EstrattoContributivo.Sospendi">
+ <summary>
+ Sospende la richiesta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.EstrattiContributiviCursor">
+ <summary>
+ Cursore sulla tabella degli estratti contributivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CEstrattiContributiviClass">
+ <summary>
+ Gestione degli estratti contributivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CEstrattiContributiviClass.GruppoResponsabili">
+ <summary>
+ Restituisce il gruppo dei responsabili
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Listino">
+ <summary>
+ Definisce un listino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Listino.Nome">
+ <summary>
+ Restituisce o imposta il nome del listino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Listino.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Listino.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Listino.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Listino.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Magazzino">
+ <summary>
+ Definisce un magazzino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Magazzino.Nome">
+ <summary>
+ Restituisce o imposta il nome del listino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Magazzino.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Magazzino.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Magazzino.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Magazzino.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.MarcaArticolo">
+ <summary>
+ Definisce una marca
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MarcaArticolo.Nome">
+ <summary>
+ Restituisce o imposta il nome della categoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MarcaArticolo.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MarcaArticolo.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MarcaArticolo.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MarcaArticolo.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.IRichiestaHandler">
+ <summary>
+ Cursore sulla tabella dei motivi delle richieste
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.FlagsLicenzaSoftware.OEM">
+ <summary>
+ Licenza di tipo OEM
+ </summary>
+</member>
+<member name="F:FinSeA.Office.FlagsLicenzaSoftware.Volume">
+ <summary>
+ Licenza di tipo "volume"
+ </summary>
+</member>
+<member name="T:FinSeA.Office.LicenzaSoftware">
+ <summary>
+ Rappresenta una licenza di un software 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.LicenzeSoftwareCursor">
+ <summary>
+ Cursore sulla tabella delle licenze software
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Software">
+ <summary>
+ Rappresenta un programma o un'applicazione installata su un Dispositivo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Software.Nome">
+ <summary>
+ Restituisce o imposta il nome del prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Software.Versione">
+ <summary>
+ Restituisce o imposta la versione del prodotto
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Software.IconURL">
+ <summary>
+ Restituisce o imposta il percorso dell'icona associata al prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Software.DataPubblicazione">
+ <summary>
+ Restituisce o imposta la data di pubblicazione del software
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Software.DataRitiro">
+ <summary>
+ Restituisce o imposta la data di ritiro (intesa come ultimo giorno disponibile per l'acquisto) del software
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:FinSeA.Office.SoftwareCursor">
+ <summary>
+ Cursore sulla tabella dei software
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.OggettiDaSpedireCursor">
+ <summary>
+ Cursore sulla tabella degli oggetti da spedire
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.InPreparazione">
+ <summary>
+ Oggetto in preparazione (ancora non deve essere spedito)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.ProntoPerLaSpedizione">
+ <summary>
+ Oggetto pronto (deve essere spedito)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.Spedito">
+ <summary>
+ L'oggetto è stato Spedito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.SpedizioneAnnullata">
+ <summary>
+ La spedizione è stata annullata dall'operatore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.SpedizioneRifiutata">
+ <summary>
+ La spedizione è stata rifiutata dal corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.SpedizioneBocciata">
+ <summary>
+ La spedizione è stata fermata dall'agenzia 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.Consegnato">
+ <summary>
+ L'oggetto è stato consegnato correttamente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.ConsegnaFallita">
+ <summary>
+ Non è stato possibile consegnare l'oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.ConsegnaFallitaIndirizzoErrato">
+ <summary>
+ Consegna fallita perché l'indirizzo è errato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.ConsegnaFallitaRifiutoDestinatario">
+ <summary>
+ Consegna fallita perché il destinatario ha rifiutato l'oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoOggettoDaSpedire.ConsegnaFallitaNonTrovato">
+ <summary>
+ Consegna fallita perché il destinatario non era all'indirizzo indicato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.OggettoDaSpedire">
+ <summary>
+ Rappresenta un oggetto da spedire
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.CategoriaContenuto">
+ <summary>
+ Restituisce o imposta una stringa che identifica la categoria del contenuto (es. Documenti, ...)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.DescrizioneContenuto">
+ <summary>
+ Restituisce la descrizione per esteso del contenuto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.AspettoBeni">
+ <summary>
+ Restituisce o imposta una stringa che descrive l'aspetto degli oggetti spediti (Buste, Pacchi, Pallet, )
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.IDCliente">
+ <summary>
+ Restituisce o imposta l'ID della persona che ha inviato l'oggetto (mittente)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.Cliente">
+ <summary>
+ Restituisce o imposta la persona che ha inviato l'oggetto (mittente)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.NomeCliente">
+ <summary>
+ Restituisce o imposta il nome del mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.IndirizzoMittente">
+ <summary>
+ Restituisce l'oggetto che descrive l'indirizzo del mittente (da cui parte la spedizione)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.IDDestinatario">
+ <summary>
+ Restituisce o imposta l'ID della persona a cui è destinata la spedizione (Destinatario)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.Destinatario">
+ <summary>
+ Restituisce o imposta la persona a cui è destinata la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.NomeDestinatario">
+ <summary>
+ Restituisce o imposta il nome della persoan a cui è destinata la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.IndirizzoDestinatario">
+ <summary>
+ Restituisce l'oggetto che descrive l'indirizzo presso cui consegnare la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.NumeroColli">
+ <summary>
+ Restituisce o imosta il numero di colli della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.Peso">
+ <summary>
+ Restituisce o imposta il peso totale degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.Altezza">
+ <summary>
+ Restituisce o imposta l'altezza degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.Larghezza">
+ <summary>
+ Restituisce o imposta la larghezza degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.Profondita">
+ <summary>
+ Restituisce o imposta la profondità degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.RichiestaDa">
+ <summary>
+ Restituisce o imposta l'utente che richiesto la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.IDRichiestaDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha richiesto la spedizione 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.NomeRichiestaDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha richiesto la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.DataRichiesta">
+ <summary>
+ Restituisce o imposta la data e l'ora in cui l'oggetto è stato marcato come pronto per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.PresaInCaricoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha preso in carico la spedizione dell'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.IDPresaInCaricoDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha preso in carico l'oggetto per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.NomePresaInCaricoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha preso in carico l'oggetto per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.DataPresaInCarico">
+ <summary>
+ Restituisce o imposta la data in cui l'utente ha preso in carico l'oggetto per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.ConfermatoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha registrato la conclusione della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.IDConfermatoDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha confermato l'esito della registrazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.NomeConfermatoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha confermato l'esito della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.DataConferma">
+ <summary>
+ Restituisce o imposta la data di registrazione dell'esito della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.DataInizioSpedizione">
+ <summary>
+ Restituisce o imposta la data di inizio della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.DescrizioneSpedizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.NotePerIlCorriere">
+ <summary>
+ Restituisce o imposta una stringa contenente degli avvertimenti diretti al corriere
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.NotePerIlDestinatario">
+ <summary>
+ Restituisce o imposta delle annotazioni dirette al destinatario
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.StatoOggetto">
+ <summary>
+ Restituisce o imposta lo stato della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.OggettoDaSpedire.DataConsegna">
+ <summary>
+ Restituisce o imposta la data di consegna
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.PassaggioSpedizione">
+ <summary>
+ Rappresenta una spedizione effettuata tramite corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoSpedizione.InPreparazione">
+ <summary>
+ Oggetto in preparazione, non ancora spedito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoSpedizione.Spedita">
+ <summary>
+ L'oggetto è stato dato nelle mani del corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoSpedizione.FermaInMagazzino">
+ <summary>
+ L'oggetto è stato stoccato nel magazzino del corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoSpedizione.TrasferimentoMagazzino">
+ <summary>
+ L'ggetto è stato spedito ad un altro magazzino del corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoSpedizione.InConsegna">
+ <summary>
+ L'oggetto è in consegna (dal magazzino del corriere al destinatario)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoSpedizione.Fallita">
+ <summary>
+ C'è stato un problema nella consegna dell'oggetto (vedi flags) e 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoConsegna.NonConsegnata">
+ <summary>
+ Non consegnato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoConsegna.Consegnata">
+ <summary>
+ Consegnato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoConsegna.IndirizzoDestinatarioErrato">
+ <summary>
+ Indirizzo del destinatario non corretto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoConsegna.DestinatarioNonTrovato">
+ <summary>
+ Il destinatario non era all'indirizzo indicato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoConsegna.DestinatarioRifiuto">
+ <summary>
+ Il destinatario ha rifiutato la consegna
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Spedizione">
+ <summary>
+ Rappresenta una spedizione effettuata tramite corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.AspettoBeni">
+ <summary>
+ Restituisce o imposta una stringa che descrive l'aspetto degli oggetti spediti (Buste, Pacchi, Pallet, )
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.IDMittente">
+ <summary>
+ Restituisce o imposta l'ID della persona che ha inviato l'oggetto (mittente)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.Mittente">
+ <summary>
+ Restituisce o imposta la persona che ha inviato l'oggetto (mittente)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.NomeMittente">
+ <summary>
+ Restituisce o imposta il nome del mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.IndirizzoMittente">
+ <summary>
+ Restituisce l'oggetto che descrive l'indirizzo del mittente (da cui parte la spedizione)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.IDDestinatario">
+ <summary>
+ Restituisce o imposta l'ID della persona a cui è destinata la spedizione (Destinatario)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.Destinatario">
+ <summary>
+ Restituisce o imposta la persona a cui è destinata la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.NomeDestinatario">
+ <summary>
+ Restituisce o imposta il nome della persoan a cui è destinata la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.IndirizzoDestinatario">
+ <summary>
+ Restituisce l'oggetto che descrive l'indirizzo presso cui consegnare la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.NumeroColli">
+ <summary>
+ Restituisce o imosta il numero di colli della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.Peso">
+ <summary>
+ Restituisce o imposta il peso totale degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.Altezza">
+ <summary>
+ Restituisce o imposta l'altezza degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.Larghezza">
+ <summary>
+ Restituisce o imposta la larghezza degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.Profondita">
+ <summary>
+ Restituisce o imposta la profondità degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.SpeditoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha effettuato la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.IDSpeditoDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha effettuato la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.NomeSpeditoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha effettuato la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.RicevutoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha ricevuto la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.IDRicevutoDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha ricevuto la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.NomeRicevutoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha ricevuto la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.DataInizioSpedizione">
+ <summary>
+ Restituisce o imposta la data di inizio della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.NotePerIlCorriere">
+ <summary>
+ Restituisce o imposta una stringa contenente degli avvertimenti diretti al corriere
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.NotePerIlDestinatario">
+ <summary>
+ Restituisce o imposta delle annotazioni dirette al destinatario
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.StatoSpedizione">
+ <summary>
+ Restituisce o imposta lo stato della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.StatoConsegna">
+ <summary>
+ Restituisce o imposta lo stato della consegna
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.DataConsegna">
+ <summary>
+ Restituisce o imposta la data di consegna
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.Flags">
+ <summary>
+ Restituisce o imposta dei flags
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.IDCorriere">
+ <summary>
+ Restituisce o imposta l'ID del corriere utilizzato per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.NomeCorriere">
+ <summary>
+ Restituisce o imposta il nome del corriere utilizzato per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.NumeroSpedizione">
+ <summary>
+ Restituisce o imposta il numero della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.Passaggi">
+ <summary>
+ Restituisce la sequenza dei passaggi di stato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Spedizione.Attributi">
+ <summary>
+ Restituisce degli attributi aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.SpedizioniCursor">
+ <summary>
+ Cursore sulla tabella delle spedizioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.PBX">
+ <summary>
+ PBX
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.PBXCursor">
+ <summary>
+ Cursore sulla tabella dei centralini
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.DriverRilevatorePresenze.GetName">
+ <summary>
+ Restituisce il nome del driver
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:FinSeA.Office.DriverRilevatorePresenze.GetVersion">
+ <summary>
+ Restituisce la versione del driver
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:FinSeA.Office.DriverRilevatorePresenze.Supports(FinSeA.Office.RilevatorePresenze)">
+ <summary>
+ Restituisce vero se il driver supporta il rilevatore 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:FinSeA.Office.DriverRilevatorePresenze.SincronizzaOrario(FinSeA.Office.RilevatorePresenze)">
+ <summary>
+ Imposta l'orario sul dispositivo di rilavore presenze in modo che corrisponde con l'orario di questo sistema
+ </summary>
+ <param name="rilevatore"></param>
+</member>
+<member name="M:FinSeA.Office.DriverRilevatorePresenze.ScaricaNuoveMarcature(FinSeA.Office.RilevatorePresenze)">
+ <summary>
+ Scarica le marcature dal rilevatore
+ </summary>
+ <param name="rilevatore"></param>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.DataRichiesta">
+ <summary>
+ Restituisce o imposta la data in cui è stata inviata la richiesta di permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.DataInizio">
+ <summary>
+ Restituisce o imposta la data e l'ora di inizio del permesso richiesto
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.DataFine">
+ <summary>
+ Restituisce o imposta la data e l'ora di fine del permesso richiesto
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.MotivoRichiesta">
+ <summary>
+ Restituisce o imposta una stringa "breve" che indica il motivo della richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.NoteRichiesta">
+ <summary>
+ Restituisce o imposta delle note aggiuntive per descrivere la richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.TipoRichiesta">
+ <summary>
+ Restituisce o importa la tipologia della richiesta di permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.IDRichiedente">
+ <summary>
+ Restituisce o imposta l'ID del richiedente il permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.Richiedente">
+ <summary>
+ Restituisce o imposta il richiedente il permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.NomeRichiedente">
+ <summary>
+ Restituisce o imposta il nome del richiedente il permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.DataPresaInCarico">
+ <summary>
+ Restituisce o imposta la data di presa in carico della richiesta di permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.IDInCaricoA">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha preso in carico la richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.InCaricoA">
+ <summary>
+ Restituisce o imposta l'utente che ha preso in carico la richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.NomeInCaricoA">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha preso in carico la richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.EsitoRichiesta">
+ <summary>
+ Restituisce o imposta un valore che indica l'esito della richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.DettaglioEsitoRichiesta">
+ <summary>
+ Restituisce o imposta una nota lunga che descrive il motivo per l'esito della richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.NotaPrvSupervisore">
+ <summary>
+ Nota privata per il supervisore
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.Attachments">
+ <summary>
+ Restituisce la collezione dei documenti allegati alla richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.RichiestaPermessoFerie.Params">
+ <summary>
+ Restituisce o imposta dei parametri aggiuntivi
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.Nome">
+ <summary>
+ Restituisce o imposta il nome del turno
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.OraIngresso">
+ <summary>
+ Restituisce o imposta l'ora di ingresso pervista
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.OraUscita">
+ <summary>
+ Restituisce o imposta l'ora di uscita prevista
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.TolleranzaIngressoAnticipato">
+ <summary>
+ Restituisce o imposta il numero di minuti consentiti per l'ingresso anticipato
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.TolleranzaIngressoRitardato">
+ <summary>
+ Restituisce o imposta il numero di minuti di tolleranza per l'ingresso posticipato
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.TolleranzaUscitaAnticipata">
+ <summary>
+ Restituisce o imposta il numero di minuti di tolleranza per l'uscita anticipata
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.TolleranzaUscitaRitardata">
+ <summary>
+ Restituisce o imposta la tolleranza in minuti per l'uscita ritardata
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.ValidoDal">
+ <summary>
+ Restituisce o imposta la data di inizio validità del turno
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.ValidoAl">
+ <summary>
+ Restituisce o imposta la data di fine validità del turno
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.Periodicita">
+ <summary>
+ Restituisce o imposta 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.Attivo">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il turno è abilitato
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.AttivoGiornoSettimana(FinSeA.Office.TurnoFlagGiorni)">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il turno è attivo per i giorni della settimana specificati
+ </summary>
+ <param name="giorni"></param>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.Parametri">
+ <summary>
+ Restitusice o imposta dei parametri aggiuntivi
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.Turno.Utenti">
+ <summary>
+ Restituisce la collezione degli utenti a cui è assegnato il turno
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:FinSeA.Office.RilevatorePresenze.SincronizzaOrario">
+ <summary>
+ Sincronizza l'orario sul dispositivo
+ </summary>
+</member>
+<member name="M:FinSeA.Office.RilevatorePresenze.ScaricaNuoveMarcature">
+ <summary>
+ Scarica le presenze 
+ </summary>
+</member>
+<member name="T:FinSeA.Office.StoricoHandlerCR">
+ <summary>
+ Handler delle chiamate registrate
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.ChiamataRegistrataCursor">
+ <summary>
+ Cursore sulla tabella chiamate registrate
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoChiamataRegistrata.Sconosciuto">
+ <summary>
+ Stato sconosciuto
+ </summary>
+</member>
+<member name="F:FinSeA.Office.StatoChiamataRegistrata.Composizione">
+ <summary>
+ La chiamata è in fase di composizione
+ </summary>
+</member>
+<member name="F:FinSeA.Office.StatoChiamataRegistrata.InCorso">
+ <summary>
+ La chiamata è in corso (la controparte ha risposto)
+ </summary>
+</member>
+<member name="F:FinSeA.Office.StatoChiamataRegistrata.NonRisposto">
+ <summary>
+ La chiamata è terminata senza che la controparte abbia risposto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoChiamataRegistrata.AgganciatoChiamante">
+ <summary>
+ Il chiamante ha agganciato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoChiamataRegistrata.AgganciatoChiamato">
+ <summary>
+ Il chiamato ha agganciato
+ </summary>
+</member>
+<member name="F:FinSeA.Office.StatoChiamataRegistrata.Rifiutata">
+ <summary>
+ Il chiamato ha rifiutato la chiamata
+ </summary>
+</member>
+<member name="F:FinSeA.Office.StatoChiamataRegistrata.Errore">
+ <summary>
+ La chiamata non è stata effettuata a causa di un errore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.ChiamataRegistrata">
+ <summary>
+ Rappresenta una chiamata registrata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.ScansioneCursor">
+ <summary>
+ Cursore sulla tabella dei scansioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Scansione">
+ <summary>
+ Rappresenta una scansione fatta da un dispositivo in ufficio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.NomeDispositivo">
+ <summary>
+ Restituisce o imposta il nome del dispositivo da cui è stata fatta la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.NomeDocumento">
+ <summary>
+ Restituisce o imposta il nome del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.ParametriScansione">
+ <summary>
+ Restituisce o imposta i parametri di scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.MetodoRicezione">
+ <summary>
+ Restituisce o imposta il metodo tramite cui è stata ricevuta la scansione (e-mail, ftp, directory)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.DataInvio">
+ <summary>
+ Restituisce o imposta la data e lora in cui il dispositivo remoto ha inviato la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.DataRicezione">
+ <summary>
+ Restituisce o imposta la data in cui il sistema ha ricevuto la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.DataElaborazione">
+ <summary>
+ Restituisce o imposta la data di elaborazione (cioè la data in cui l'utente ha associato la scansione ad un cliente)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.IDCliente">
+ <summary>
+ Restituisce o imposta l'ID del cliente a cui è associata la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.Cliente">
+ <summary>
+ Restituisce o imposta il cliente a cui è associata la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.NomeCliente">
+ <summary>
+ Restituisce o imposta il nome del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.IDAttachment">
+ <summary>
+ Restituisce o imposta l'ID dell'allegato che contiene la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.IDInviataDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.InviataDa">
+ <summary>
+ Restituisce o imposta l'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.NomeInviataDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha inviato la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.IDInviataA">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.InviataA">
+ <summary>
+ Restituisce o imposta l'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.NomeInviataA">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha inviato la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.IDElaborataDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.ElaborataDa">
+ <summary>
+ Restituisce o imposta l'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Scansione.NomeElaborataDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha inviato la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CTicketAnsware">
+ <summary>
+ Rappresenta una richiesta fatta da un utente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketAnsware.IDTicket">
+ <summary>
+ Restituisce o imposta l'ID del ticket a cui appartiene il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketAnsware.Ticket">
+ <summary>
+ Restituisce o imposta il ticket a cui appartiene il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketAnsware.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha inserito il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketAnsware.Operatore">
+ <summary>
+ Restituisce o imposta l'operatore che ha inserito il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketAnsware.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha inserito il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketAnsware.Data">
+ <summary>
+ Restituisce o imposta la data in cui è stato inserito il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketAnsware.Messaggio">
+ <summary>
+ Restituisce o imposta il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketAnsware.StatoTicket">
+ <summary>
+ Restituisce o imposta lo stato in cui viene portato il ticket in seguito a questa risposta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.TicketStatus">
+ <summary>
+ Valori enumerativi che indicano lo stato di una segnalazione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.TicketStatus.INSERITO">
+ <summary>
+ Ticket inserito ma non ancora aperto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.TicketStatus.APERTO">
+ <summary>
+ Aperto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.TicketStatus.INLAVORAZIONE">
+ <summary>
+ Preso in carico
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.TicketStatus.RISOLTO">
+ <summary>
+ Risolto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.TicketStatus.NONRISOLVIBILE">
+ <summary>
+ L'utente ha chiuso il ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.TicketStatus.SOSPESO">
+ <summary>
+ Sospeso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.TicketStatus.RIAPERTO">
+ <summary>
+ L'utente ha riaperto il ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CTicket">
+ <summary>
+ Rappresenta una richiesta fatta da un utente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicket.DataRichiesta">
+ <summary>
+ Restituisce o imposta la data in cui è stata effettuata la richiesta di assistenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicket.IDInCaricoA">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha preso in carico la segnalazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicket.InCaricoA">
+ <summary>
+ Restituisec o imposta l'Utente che ha preso in carico la segnalazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicket.NomeInCaricoA">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha preso in carico la segnalazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicket.Categoria">
+ <summary>
+ Restituisce o imposta la categoria del problema
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicket.Sottocategoria">
+ <summary>
+ Restituisce o imposta la sotto-categoria del problema
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicket.Messaggio">
+ <summary>
+ Restituisce o imposta il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicket.StatoSegnalazione">
+ <summary>
+ Restituisce o imposta lo stato della segnalazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CTicket.Apri">
+ <summary>
+ Apre il ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CTicket.PrendiInCarico">
+ <summary>
+ Prende in carico
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CTicket.Risolto">
+ <summary>
+ Chiude il ticket come risolto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CTicket.Errore">
+ <summary>
+ Chiude il ticket come non risolvibile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CTicket.Riapri">
+ <summary>
+ Riapre il ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CTicket.Sospendi">
+ <summary>
+ Sospende il ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CTicketCursor">
+ <summary>
+ Cursore sulla tabelle delle segnalazioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CTicketCategory">
+ <summary>
+ Rappresenta una categoria e sottocategoria per una richiesta di assistenza
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketCategory.NotifyUsers">
+ <summary>
+ Restituisce l'elenco degli utenti a cui vengono notificate le richieste di assistenza per questo tipo di categoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketCategory.Categoria">
+ <summary>
+ Restituisce o imposta il nome della categoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CTicketCategory.Sottocategoria">
+ <summary>
+ Restituisce o imposta il nome della sottocategoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CTicketCategoryCursor">
+ <summary>
+ Cursore sulla tabelle delle segnalazioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.DocumentoContabile">
+ <summary>
+ Rappresenta un documento contabile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.Source">
+ <summary>
+ Restituisce o imposta il documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.SourceType">
+ <summary>
+ Restituisec o imposta il tipo del documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.SourceID">
+ <summary>
+ Restituisce o imposta l'ID del documento o dell'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.SourceParams">
+ <summary>
+ Restituisce o imposta dei parametri aggiuntivi per il documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.TipoDocumento">
+ <summary>
+ Restituisce o imposta il tipo del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.NumeroDocumento">
+ <summary>
+ Restituisce o imposta il numero del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.DataRegistrazione">
+ <summary>
+ Restituisce o imposta la data di registrazione del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.DataEmissione">
+ <summary>
+ Restituisce o imposta la data di emissione del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.DataEvasione">
+ <summary>
+ Restituisce o imposta la data di evasione del documento (es. per gli ordini)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.StatoDocumento">
+ <summary>
+ Restituisce o imposta lo stato del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.IDCliente">
+ <summary>
+ Restituisce o imposta l'ID del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.Cliente">
+ <summary>
+ Restituisce o imposta il cliente 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.NomeCliente">
+ <summary>
+ Restituisce o imposta il nome del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.IndirizzoCliente">
+ <summary>
+ Restituisce l'indirizzo del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.CodiceFiscaleCliente">
+ <summary>
+ Restituisce o imposta il codice fiscale del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.PartitaIVACliente">
+ <summary>
+ Restituisce o imposta la partita IVA del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.IDFornitore">
+ <summary>
+ Restituisce o imposta l'ID del fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.Fornitore">
+ <summary>
+ Restituisce o imposta il Fornitore 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.NomeFornitore">
+ <summary>
+ Restituisce o imposta il nome del Fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.IndirizzoFornitore">
+ <summary>
+ Restituisce l'indirizzo del Fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.CodiceFiscaleFornitore">
+ <summary>
+ Restituisce o imposta il codice fiscale del Fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.PartitaIVAFornitore">
+ <summary>
+ Restituisce o imposta la partita IVA del Fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.IndirizzoSpedizione">
+ <summary>
+ Restituisce l'indirizzo di spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.Descrizione">
+ <summary>
+ Restituisce o imposta il campo descrizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.Attribiti">
+ <summary>
+ Restitusice un campo 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.TotaleImponibile">
+ <summary>
+ Restituisce o imposta il totale imponibile del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.TotaleIvato">
+ <summary>
+ Restituisce o imposta il totale ivato del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.DocumentoContabile.VociDiPagamento">
+ <summary>
+ Restituisce o imposta l'elenco delle movimentazioni di denaro causate da questo documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.IUtenzaBollettaHandler">
+ <summary>
+ Interfaccia implementata dalle classi utilizzabili per generare una bolletta a partire da un'utenza
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.IUtenzaBollettaHandler.GenerateNext(FinSeA.Office.Utenza)">
+ <summary>
+ Genera la prossima bolletta 
+ </summary>
+ <param name="utenza"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.PeriodicitaUtenza">
+ <summary>
+ Rappresenta il tipo di periodicità delle bollette generate dall'utenza
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.Nessuna">
+ <summary>
+ Nessuna periodicità: le bollette non vengono generate in automatico
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.Giornaliera">
+ <summary>
+ Viene generata una bolletta ogni n - giorni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.Settimanale">
+ <summary>
+ Viene generata una bolletta ogni n - settimane
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.Mensile">
+ <summary>
+ Viene generata una bolletta ogni n - mesi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.Bimestrale">
+ <summary>
+ Viene generata una bolletta ogni n - bimestri
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.Trimestrale">
+ <summary>
+ Viene generata una bolletta ogni n - trimestri
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.Quadrimestrale">
+ <summary>
+ Viene generata una bolletta ogni n - quadrimestri
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.Semestrale">
+ <summary>
+ Viene generata una bolletta ogni n - semstri
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.Annuale">
+ <summary>
+ Viene generata una bolletta ogni n - anni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.IlGiornoXDelMese">
+ <summary>
+ Viene generata una bolletta il giorno n di ogni mese
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.PeriodicitaUtenza.IlGiornoXDellAnno">
+ <summary>
+ Viene generata una bolletta il giorno n di ogni anno
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Utenza">
+ <summary>
+ Rappresenta una utenza
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.StimatoreBolletta">
+ <summary>
+ Restituisce o imposta il nome di una classe che viene utilizzata per stimare la prossima bolletta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.Nome">
+ <summary>
+ Restituisce o imposta il nome dell'utenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.IDFornitore">
+ <summary>
+ Restituisce o imposta l'ID del fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.Fornitore">
+ <summary>
+ Restituisce o imposta il fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.NomeFornitore">
+ <summary>
+ Restituisce o imposta il nome del fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.IDCliente">
+ <summary>
+ Restituisce o imposta l'ID del Cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.Cliente">
+ <summary>
+ Restituisce o imposta il Cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.NomeCliente">
+ <summary>
+ Restituisce o imposta il nome del Cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.NumeroContratto">
+ <summary>
+ Restituisce o imposta il numero del contratto registrato dal fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.CodiceCliente">
+ <summary>
+ Restituisce o imposta il codice del cliente (utilizzato dal fornitore)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.CodiceUtenza">
+ <summary>
+ Restituisce o imposta il codice dell'utenza (nel sistema del fornitore)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.Descrizione">
+ <summary>
+ Restituisce o imposta la descrizione dell'utenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.TipoPeriodicita">
+ <summary>
+ Restituisce o imposta il tipo di periodicità delle bollette generate da questa utenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.IntervalloPeriodicita">
+ <summary>
+ Restituisce o imposta l'intervallo di periodicità
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.DataSottoscrizione">
+ <summary>
+ Restituisce o imposta la data di sottoscrizione del contratto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.DataInizioPeriodo">
+ <summary>
+ Restituisce o imposta la data di inizio di fornitura del servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.DataFinePeriodo">
+ <summary>
+ Restituisce o imposta la data di invio della prima bolletta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.UnitaMisura">
+ <summary>
+ Restituisce o imposta l'unità di misura del servizio fatturato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.CostoUnitario">
+ <summary>
+ Restituisce o imposta il costo per unità del servizio erogato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.CostiFissi">
+ <summary>
+ Restituisce o imposta i costi fissi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.NomeValuta">
+ <summary>
+ Restituisce o imposta il nome della valuta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.TipoUtenza">
+ <summary>
+ Restituisce o imposta il tipo di utenza (Es. Luce, Gas, Acqua)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.Flags">
+ <summary>
+ Restituisce o imposta dei flags
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.MetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.TipoMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il tipo del metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.IDMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta l'ID del metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Utenza.NomeMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il nome del metodo di pagamento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.UtenzeCursor">
+ <summary>
+ Cursore sulla tabella delle utenze
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.PercorsoDefinito">
+ <summary>
+ Rappresenta la definizione di percorso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.LuogoDaVisitare">
+ <summary>
+ Rappresenta la definizione di percorso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.LuogoDaVisitare.Progressivo">
+ <summary>
+ Restituisce o imposta un numero che indica l'ordine da seguire in un elenco di luoghi da visitare
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.LuogoDaVisitare.Priorita">
+ <summary>
+ Restituisce o imposta la priorità da dare a questo luogo (in caso non si possano effettuare tutti)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.LuogoDaVisitare.Etichetta">
+ <summary>
+ Restituisce o imposta una etichetta che identifica il luogo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.LuogoDaVisitare.IDPercorso">
+ <summary>
+ Restituisce o imposta l'ID del percorso a cui appartiene questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.LuogoDaVisitare.Percorso">
+ <summary>
+ Restituisce o imposta il percorso a cui appartiene questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.LuogoDaVisitare.Indirizzo">
+ <summary>
+ Restituisce l'indirizzo 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.LuogoDaVisitare.IDPersona">
+ <summary>
+ Restituisce o imposta l'ID della persona o dell'azienda da visitare
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.LuogoDaVisitare.Persona">
+ <summary>
+ Restituisce o imposta la persona o l'azienda da visitare
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.LuogoDaVisitare.NomePersona">
+ <summary>
+ Restituisce o imposta il nome della persona o dell'azienda da visitare
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.MailAccount">
+ <summary>
+ Rappresenta un account di posta elettronica configurato sul sistema
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.FirmaPerNuoviMessaggi">
+ <summary>
+ Restituisce o imposta la firma da inserire in coda ai nuovi messaggi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.FirmaPerRisposte">
+ <summary>
+ Restituisce o imposta la firma da inserire in coda ai messaggi inviati come risposta o inoltrati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.LastStync">
+ <summary>
+ Restituisce o imposta la data dell'ultima sincronizzazione completa avvenuta con il server
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.SMTPCrittografia">
+ <summary>
+ Restituisce o imposta il tipo di crittografia utilizzato dal server della posta in uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.TimeOut">
+ <summary>
+ Restituisce o imposta il tempo massimo di attesa per scaricare i messaggi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.AccountName">
+ <summary>
+ Restituisce o imposta il nome dell'account
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.UserName">
+ <summary>
+ Restitusice o imposta la username utilizzata per accedere al server della posta in arrivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.Password">
+ <summary>
+ Restituisce o imposta la password utilizzata per accedere al server della posta in arrivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.ServerName">
+ <summary>
+ Restituisce o imposta il nome del server della posta in arrivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.ServerPort">
+ <summary>
+ Restituisce o imposta il numero della porta per la connessione al server della posta in arrivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.eMailAddress">
+ <summary>
+ Restituisce o imposta l'indirizzo di posta elettronica gestito da questo account
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.Protocol">
+ <summary>
+ Restituisce o imposta il nome del protocollo utilizzate per ricevere le email (POP3 o IMAP)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.UseSSL">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la connessione al server della posta in arrivo deve avvenire su SSL
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.DisplayName">
+ <summary>
+ Restituisce o imposta il nome visualizzato per le email inviate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.SMTPServerName">
+ <summary>
+ Restituisce o imposta il nome del server per la posta in uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.SMTPPort">
+ <summary>
+ Restituisce o imposta la porta per la connessione al server della posta in uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.ReplayTo">
+ <summary>
+ Restituisce o imposta l'indirizzo per le risposte
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.SMTPUserName">
+ <summary>
+ Restituisce o imposta il nome utente per il server della posta in uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.SMTPPassword">
+ <summary>
+ Restituisce o imposta la password per l'accesso al server della posta in uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.POPBeforeSMTP">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se accedere al server SMTP solo dopo aver effettuato il login su POP
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.DelServerAfterRecycleClean">
+ <summary>
+ Restituisce o imposta un valore che indica se le email devono essere eliminate dal server dopo aver svuotato il cestino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.DelServerAfterRecycle">
+ <summary>
+ Restituisce o imposta un valore che indica se le email devono essere eliminate dal server dopo averle cestinate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.DelServerAfterNDays">
+ <summary>
+ Restituisce o imposta un valore che indica se le email devono essere eliminate dopo N giorni
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailAccount.DelServerAfterDays">
+ <summary>
+ Restituisce o imposta il numero di giorni dalla data di scaricamento per eliminare le email dal server.
+ 0 indica che le email non verranno eliminate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailFolder.Utente">
+ <summary>
+ Restituisce o imposta il proprietario della cartella
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.MailFolder.TotalMessages">
+ <summary>
+ Restituisce o imposta il numero totale di messaggio memorizzati nella cartella (questo valore viene aggiornato dall'applicazione e potrebbe essere non sincronizzato)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailFolder.TotalUnread">
+ <summary>
+ Restituisce o imposta il numero totale di messaggi non letti (aggiornato dall'applicazione)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailFolder.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailFolder.Attributi">
+ <summary>
+ Restituisce una collezione di attributi aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailFolder.Name">
+ <summary>
+ Restituisce o imposta il nome della cartella
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailFolder.ParentID">
+ <summary>
+ Restituisce o imposta l'ID del contenitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailFolder.Parent">
+ <summary>
+ Restituisce o imposta il contenitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailFolder.Childs">
+ <summary>
+ Restituisce la collezione delle sottocartelle
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailFlags.Unread">
+ <summary>
+ Il messaggio non è ancora stato letto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.MailFlags.Attachments">
+ <summary>
+ Se vero indica che la mail contiene degli allegati
+ </summary>
+</member>
+<member name="P:FinSeA.Office.MailMessage.Folder">
+ <summary>
+ Restitusice o imposta il percorso in cui il messaggio è stato archiviato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailMessage.AccountName">
+ <summary>
+ Restituisce o imposta il nome dell'account utilizzate per scaricare il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailMessage.DeliveryDate">
+ <summary>
+ Gets the delivery date.
+ </summary>
+ <value>The delivery date.</value>
+</member>
+<member name="P:FinSeA.Office.MailMessage.DownloadDate">
+ <summary>
+ Restituisce o imposta la data in cui il messaggio è stato scaricato dal server
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailMessage.ReadDate">
+ <summary>
+ Restituisce o imposta la data in cui il messaggio è stato marcato come letto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailMessage.MessageId">
+ <summary>
+ Gets the message id.
+ </summary>
+ <value>The message id.</value>
+</member>
+<member name="P:FinSeA.Office.MailMessage.MimeVersion">
+ <summary>
+ Gets the MIME version.
+ </summary>
+ <value>The MIME version.</value>
+</member>
+<member name="P:FinSeA.Office.MailMessage.ContentId">
+ <summary>
+ Gets the content id.
+ </summary>
+ <value>The content id.</value>
+</member>
+<member name="P:FinSeA.Office.MailMessage.ContentDescription">
+ <summary>
+ Gets the content description.
+ </summary>
+ <value>The content description.</value>
+</member>
+<member name="P:FinSeA.Office.MailMessage.ContentDisposition">
+ <summary>
+ Gets the content disposition.
+ </summary>
+ <value>The content disposition.</value>
+</member>
+<member name="P:FinSeA.Office.MailMessage.ContentType">
+ <summary>
+ Gets the type of the content.
+ </summary>
+ <value>The type of the content.</value>
+</member>
+<member name="M:FinSeA.Office.MailMessage.GetHeader(System.String)">
+ <summary>
+ Gets the header.
+ </summary>
+ <param name="header">The header.</param>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.MailMessage.Attachments">
+ <summary>
+ Restituisce la collezione degli allegati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailMessage.Body">
+ <summary>
+ Restituisce il corpo del messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailMessage.Cc">
+ <summary>
+ Restituisce la collezione degli indirizzi destinatari in Copia Carbone
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailMessage.Bcc">
+ <summary>
+ Restituisce la collezione degli indirizzi destinatari in Copia Carbone Nascosta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailMessage.DeliveryNotificationOptions">
+ <summary>
+ Restituisce o imposta un valore che indica se richiedere o meno la conferma di consegna
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MailMessage.From">
+ <summary>
+ Restituisce o imposta l'indirizzo del mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MarcaturaIngressoUscita.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha effettualo la marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.MarcaturaIngressoUscita.IDDispositivo">
+ <summary>
+ Restituisce o imposta l'ID del dispositivo che ha registrato la marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.MarcaturaIngressoUscita.Data">
+ <summary>
+ Restituisce o imposta la data della marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:FinSeA.Office.MarcaturaIngressoUscita.IDReparto">
+ <summary>
+ Restituisce o imposta l'ID del reparto 
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:FinSeA.Office.CommissionePerUscita">
+ <summary>
+ Descrive lo svolgimento di una commissione durante un'uscita
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CommissionePerUscita.Operatore">
+ <summary>
+ Restituisce o imposta l'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CommissionePerUscita.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CommissionePerUscita.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha effettuate la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CommissionePerUscita.OraInizio">
+ <summary>
+ Restituisce o imposta la data e l'ora di uscita per la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CommissionePerUscita.Durata">
+ <summary>
+ Restituisce o imposta la durata in secondi (differenza tra ora ingresso ed ora uscita)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CommissionePerUscita.OraFine">
+ <summary>
+ Restituisce o imposta la data di rientro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.CommissionePerUscita.DistanzaPercorsa">
+ <summary>
+ Restituisce o imposta la distanza percorsa
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CommissioniPerUscitaCursor">
+ <summary>
+ Cursore sulla tabella delle commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CVeicoliClass">
+ <summary>
+ Gestione dei veicoli
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoVeicolo.NUOVO">
+ <summary>
+ L'oggetto non presenta difetti
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoVeicolo.USURATO">
+ <summary>
+ L'oggetto presenta qualche segno di usura ma è ancora funzionale
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoVeicolo.DANNEGGIATO">
+ <summary>
+ L'oggetto è danneggiato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoVeicolo.DISMESSO">
+ <summary>
+ L'oggetto è stato dismesso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.VeicoloFlags.Disponibile">
+ <summary>
+ Indica che il veicolo è disponibile per l'azienda
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Veicolo">
+ <summary>
+ Rappresenta un veicolo 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Veicolo.Alimentazione">
+ <summary>
+ Restituisce o imposta il tipo di alimentazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Veicolo.KmALitro">
+ <summary>
+ Restituisce o imposta i km/l medi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Veicolo.Nome">
+ <summary>
+ Restituisce o imposta il nome del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Veicolo.Tipo">
+ <summary>
+ Restituisce o imposta il tipo del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Veicolo.Modello">
+ <summary>
+ Restituisce o imposta il modello del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Veicolo.Seriale">
+ <summary>
+ Restituisce o imposta il numero di serie del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Veicolo.IconURL">
+ <summary>
+ Restituisce o imposta il percorso dell'icona associata al dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Veicolo.StatoVeicolo">
+ <summary>
+ Restituisce o imposta un valore che indica lo stato del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Veicolo.DataAcquisto">
+ <summary>
+ Restituisce o imposta la data di acquisto del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Veicolo.DataDismissione">
+ <summary>
+ Restituisce o imposta la data di dismissione del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.VeicoliCursor">
+ <summary>
+ Cursore sulla tabella dei veicoli
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoDispositivo.NUOVO">
+ <summary>
+ L'oggetto non presenta difetti
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoDispositivo.USURATO">
+ <summary>
+ L'oggetto presenta qualche segno di usura ma è ancora funzionale
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoDispositivo.DANNEGGIATO">
+ <summary>
+ L'oggetto è danneggiato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoDispositivo.DISMESSO">
+ <summary>
+ L'oggetto è stato dismesso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Dispositivo">
+ <summary>
+ Rappresenta un dispositivo assegnato ad un utente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Dispositivo.User">
+ <summary>
+ Restituisce o imposta l'utente a cui è assegnato il dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Dispositivo.UserID">
+ <summary>
+ Restituisce o imposta l'ID dell'utente a cui è assegnato il dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Dispositivo.Nome">
+ <summary>
+ Restituisce o imposta il nome del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Dispositivo.Tipo">
+ <summary>
+ Restituisce o imposta il tipo del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Dispositivo.Modello">
+ <summary>
+ Restituisce o imposta il modello del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Dispositivo.Seriale">
+ <summary>
+ Restituisce o imposta il numero di serie del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Dispositivo.IconURL">
+ <summary>
+ Restituisce o imposta il percorso dell'icona associata al dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Dispositivo.StatoDispositivo">
+ <summary>
+ Restituisce o imposta un valore che indica lo stato del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Dispositivo.DataAcquisto">
+ <summary>
+ Restituisce o imposta la data di acquisto del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Dispositivo.DataDismissione">
+ <summary>
+ Restituisce o imposta la data di dismissione del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.DispositivoCursor">
+ <summary>
+ Cursore sulla tabella dei dispositivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.GPSRecords">
+ <summary>
+ Gestione dei luoghi "attraversati" dall'operatore per effettuare la commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.GPSRecord">
+ <summary>
+ Rappresenta un punto della mappa del territorio attraversato dall'utente per la commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.GPSRecord.Dispositivo">
+ <summary>
+ Restituisce o imposta il dispositivo 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.GPSRecord.IDDispositivo">
+ <summary>
+ Restituisce o imposta l'ID del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.GPSRecord.Istante1">
+ <summary>
+ Restituisce o imposta l'istante in cui è stato memorizzata la posizione per la prima volta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.GPSRecord.Istante2">
+ <summary>
+ Restituisce o imposta l'istante in cui è stato memorizzata la posizione per l'ultima volta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.GPSRecord.Latitudine">
+ <summary>
+ Restituisce o imposta la latitudine
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.GPSRecord.Longitudine">
+ <summary>
+ Restituisce o imposta la longitudine
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.GPSRecord.Altitudine">
+ <summary>
+ Restituisce o imposta l'altitudine
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.GPSRecord.Radius">
+ <summary>
+ Restituisce la distanza del punto dal centro della terra
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.GPSRecord.DistanceTo(FinSeA.Office.GPSRecord)">
+ <summary>
+ Calcola la distanza sul globo tra il punto corrente ed il punto specificato
+ </summary>
+ <param name="p"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.GPSRecord.bearingTo(FinSeA.Office.GPSRecord)">
+ <summary>
+ Returns the (initial) bearing from this point to the supplied point, in degrees
+ see http://williams.best.vwh.net/avform.htm#Crs
+ * @param   {LatLon} point: Latitude/longitude of destination point
+ </summary>
+ <param name="point"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.GPSRecordCursor">
+ <summary>
+ Cursore sulla tabella dei luoghi attraversati dall'utente per le commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.MotivoCommissione">
+ <summary>
+ Rappresenta un motivo di una commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MotivoCommissione.Motivo">
+ <summary>
+ Restituisce o imposta il motivo della commissione (descrizione breve)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.MotivoCommissioneCursor">
+ <summary>
+ Cursore sulla tabella dei motivi delle commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.RigaPrimaNotaCursor">
+ <summary>
+ Cursore sulla tabella delle entrate/uscite di prima nota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CRichiesteCERQClass">
+ <summary>
+ Gestione delle richieste conteggi estintivi e rimborso quote
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CRichiesteCERQClass.CMotiviRichiesteClass">
+ <summary>
+ Gestione dei motivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Office.CRichiesteCERQClass.RichiestaCreata">
+ <summary>
+ Evento generato quando viene memorizzata una nuova richiesta
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Office.CRichiesteCERQClass.RichiestaEffettuata">
+ <summary>
+ Evento generato quando viene effettuata una nuova richiesta ad un cessionario
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Office.CRichiesteCERQClass.RichiestaRitirata">
+ <summary>
+ Evento generato quando viene ritirata un richiesta ad un cessionario
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Office.CRichiesteCERQClass.RichiestaRifiutata">
+ <summary>
+ Evento generato quando viene rifiutata un richiesta da un cessionario
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Office.CRichiesteCERQClass.RichiestaAnnullata">
+ <summary>
+ Evento generato quando viene annullata una richiesta da un utente
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CRichiesteCERQClass.InitModule">
+ <summary>
+ Inizializza modulo e tabelle
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.MotivoRichiesta">
+ <summary>
+ Rappresenta un motivo di una commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.MotivoRichiesta.Motivo">
+ <summary>
+ Restituisce o imposta il motivo della commissione (descrizione breve)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.MotivoRichiestaCursor">
+ <summary>
+ Cursore sulla tabella dei motivi delle richieste
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoRichiestaCERQ.DA_RICHIEDERE">
+ <summary>
+ La quota non è ancora stata richiesta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoRichiestaCERQ.RICHIESTA">
+ <summary>
+ La quota è stata richiesta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoRichiestaCERQ.RITIRATA">
+ <summary>
+ La quota è stata ritirata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoRichiestaCERQ.ANNULLATA">
+ <summary>
+ La richiesta è stata annullata dall'operatore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.Office.StatoRichiestaCERQ.RIFIUTATA">
+ <summary>
+ La richiesta è stata rifiutata dall'amministrazione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.RichiestaCERQ">
+ <summary>
+ Rappresenta una richiesta di conteggio estintivo/rimborso quote
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Office.RichiestaCERQ.RichiestaInviata">
+ <summary>
+ Evento generato quando la richiesta viene inviata
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Office.RichiestaCERQ.RichiestaRitirata">
+ <summary>
+ Evento generato quando la richiesta viene conclusa completandola
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Office.RichiestaCERQ.RichiestaAnnullata">
+ <summary>
+ Evento generato quando la richiesta viene annullata da un operatore interno
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Office.RichiestaCERQ.RichiestaRifiutata">
+ <summary>
+ Evento generato quando la richiesta viene annullata da un operatore esterno
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.DocumentoProdotto">
+ <summary>
+ Restituisce o imposta il documento prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.IDDocumentoProdotto">
+ <summary>
+ Restituisce o imposta l'ID del documento prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.TipoDocumentoProdotto">
+ <summary>
+ Restituisce o imposta il nome del tipo del documento prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.AziendaRichiedente">
+ <summary>
+ Restituisce o importa l'azienda che ha effettuato la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.IDAziendaRichiedente">
+ <summary>
+ Restituisce o imposta l'ID dell'azienda richiedente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.NomeAziendaRichiedente">
+ <summary>
+ Restituisce o imposta il nome dell'azienda che ha effettuato la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.Data">
+ <summary>
+ Restituisce o imposta la data della richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.Operatore">
+ <summary>
+ Restituisce o imposta l'utente che ha effettuato la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore a cui è stata assegnata la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha effettuato la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.Cliente">
+ <summary>
+ Restituisce o imposta la persona per cui si è fatta la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.IDCliente">
+ <summary>
+ Restituisce o imposta l'ID del cliente per cui si è fatta la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.NomeCliente">
+ <summary>
+ Restituisce o imposta il nominativo del cliente per cui si è fatta la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.TipoRichiesta">
+ <summary>
+ Restituisce o imposta il tipo della richiesta (Richiesta conteggio estintivo, Rimborso quote, ...)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.Amministrazione">
+ <summary>
+ Restituisce o imposta l'amministrazione a cui si è stata inviata la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.IDAmministrazione">
+ <summary>
+ Restituisce o imposta l'ID dell'amministrazione a cui è stata fatta la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.NomeAmministrazione">
+ <summary>
+ Restituisce o imposta il nome dell'amministrazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.RichiestaAMezzo">
+ <summary>
+ Restituisce o imposta il mezzo usato per la richiesta (e-mail, fax, telefono)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.RichiestaAIndirizzo">
+ <summary>
+ Restituisce o imposta l'indirizzo usato per la richiesta (numero di telefono o di fax, indirizzo email, indirizzo postale)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.Note">
+ <summary>
+ Restituisce o imposta una stringa per informazioni aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.StatoOperazione">
+ <summary>
+ Restituisce o imposta lo stato dell'operazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.DataPrevista">
+ <summary>
+ Restituisce o imposta la data prevista per il ritiro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.DataEffettiva">
+ <summary>
+ Restituisce o imposta la data di ritiro (o di annullamento/rifiuto)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.OperatoreEffettivo">
+ <summary>
+ Restituisce o imposta l'operatore che ha ritirato (annullato o memorizzato il rifiuto)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.IDOperatoreEffettivo">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha ritirato (annulato o memorizzato il rifiuto)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.NomeOperatoreEffettivo">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha ritirato (annullato o memorizzato il rifiuto)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.Commissione">
+ <summary>
+ Restituisce o imposta la pratica per cui è stata effettuata la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.IDCommissione">
+ <summary>
+ Restituisce o imposta l'ID della pratica per cui è stata fatta la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.ContextType">
+ <summary>
+ Restituisce o imposta il tipo del contesto a cui è associata la richiesta (es. una pratica)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.RichiestaCERQ.ContextID">
+ <summary>
+ Restituisce o imposta l'ID del contesto che ha generato la richiesta (es. una pratica)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.RichiestaCERQCursor">
+ <summary>
+ Cursore sulla tabella delle richieste di conteggi / quote
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.CPrimaNotaClass">
+ <summary>
+ Gestione della prima nota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CPrimaNotaClass.CheckSottoSoglia">
+ <summary>
+ Verifica per ogni punto operativo che la giacenza in cassa sia non inferiore al limite.
+ In caso la giacenza sia inferiore viene generato l'evento sottosoglia
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Office.CPrimaNotaClass.CheckSottoSoglia(FinSeA.Anagrafica.CUfficio)">
+ <summary>
+ Verifica per l'ufficio specificato la giacenza in cassa sia non inferiore al limite.
+ In caso la giacenza sia inferiore viene generato l'evento sottosoglia
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.RigaPrimaNota">
+ <summary>
+ Rappresenta la registrazione di una voce di entrata/uscita nella prima nota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.Uscita">
+ <summary>
+ Rappresenta una uscita che comprende più commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.IDVeicoloUsato">
+ <summary>
+ Restituisce o imposta l'ID del veicolo usato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.VeicoloUsato">
+ <summary>
+ Restituisce o imposta il veicolo usato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.NomeVeicoloUsato">
+ <summary>
+ Restituisce o imposta il nome del veicolo usato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.LitriCarburante">
+ <summary>
+ Restituisce o imposta i litri di carburante consumati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.Rimborso">
+ <summary>
+ Restituisce o imposta il rimborso per l'uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.Operatore">
+ <summary>
+ Restituisce o imposta l'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha effettuate la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.OraUscita">
+ <summary>
+ Restituisce o imposta la data e l'ora di uscita per la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.Durata">
+ <summary>
+ Restituisce o imposta la durata in secondi (differenza tra ora ingresso ed ora uscita)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.OraRientro">
+ <summary>
+ Restituisce o imposta la data di rientro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Office.Uscita.DistanzaPercorsa">
+ <summary>
+ Restituisce o imposta la distanza percorsa
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Office.UsciteCursor">
+ <summary>
+ Cursore sulla tabella delle commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Internals.CMailApplications.GetUserApp(FinSeA.Sistema.CUser)">
+ <summary>
+ Questa funzione cerca l'applicazione associata all'utente e se non la trova la crea.
+ </summary>
+ <param name="user"></param>
+ <returns></returns>
+</member>
+<member name="T:FinSeA.Internals.CLicenzeSoftwareClass">
+ <summary>
+ Gestione delle licenze software
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Internals.CSotfwaresClass">
+ <summary>
+ Gestione dei software installati su un dispositivo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Internals.COggettiDaSpedireClass">
+ <summary>
+ Modulo degli oggetti da spedire
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Internals.CSpedizioniClass">
+ <summary>
+ Gestione delle uscite
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Internals.CPBXsClass">
+ <summary>
+ Gestione dei centralini
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Internals.ChiamateRegistrate">
+ <summary>
+ Gestione dei veicoli
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Internals.CTicketsClass.GruppoResponsabili">
+ <summary>
+ Restituisce il gruppo dei responsabili cioè gli utenti a cui vengono notificate tutte le richieste di assistenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Internals.CTicketsClass.GruppoEsclusi">
+ <summary>
+ Restituisce il gruppo degli utenti a cui non inviare alcun tipo di richiesta di assistenza.
+ Questo gruppo bypassa tutti gli altri 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Internals.CTicketCategoriesClass.GetItemByName(System.String,System.String)">
+ <summary>
+ Restituisce l'oggetto in base a categoria e sottocategoria
+ </summary>
+ <param name="categoria"></param>
+ <param name="sottocategoria"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Internals.CTicketCategoriesClass.GetTargetUsers(System.String,System.String)">
+ <summary>
+ Restituisce gli utenti a cui vengono inviati le notifiche per la categoria e la sottocategoria.
+ Agli utenti di { categoria, sottocategoria } vengono aggiunti anche gli utenti di { categoria, NULL }
+ </summary>
+ <param name="categoria"></param>
+ <param name="sottocategoria"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Internals.CMailAccounts">
+ <summary>
+ Rappresenta la collezione degli account definiti per l'applicazione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Internals.CMailsClass">
+ <summary>
+ Rappresenta la base per il gestore della posta elettronica
+ </summary>
+</member>
+<member name="E:FinSeA.Internals.CMailsClass.EmailReceived">
+ <summary>
+ Evento generato quando viene terminato il download di una nuova email
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Internals.CMailsClass.EmailSent">
+ <summary>
+ Evento generato quando viene terminato l'invio di una email
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Internals.CMailsClass.DownloadException">
+ <summary>
+ Evento generato quando si verifica un errore in fase di download dei messaggi
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Internals.CMailsClass.Folders">
+ <summary>
+ Restituisec o imposta la struttura principale delle cartelle
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Internals.CMailsClass.Accounts">
+ <summary>
+ Restituisce la collezione degli accounts configurati per l'applicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Internals.CMailsClass.NotifyChanges">
+ <summary>
+ Informa l'applicazione che deve ricaricare accounts e folders a causa di cambiamenti esterni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Internals.CDispositiviClass">
+ <summary>
+ Gestione dei dispositivi hardware assegnati ad un utente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Internals.GPSRecordsClass">
+ <summary>
+ Gestione dei luoghi "attraversati" dall'operatore per effettuare la commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Internals.CUsciteClass">
+ <summary>
+ Gestione delle uscite
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

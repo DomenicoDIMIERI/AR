@@ -1,0 +1,35 @@
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDHylaFax.pdb
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\Hylafax.net.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\bin\x86\Debug\DMDHylaFax.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\bin\x86\Debug\DMDHylaFax.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\bin\x86\Debug\DMDHylaFax.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\bin\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\bin\x86\Debug\Hylafax.net.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\bin\x86\Debug\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\bin\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\bin\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAHylaFax\obj\x86\Debug\DMDHylaFax.vbprojAssemblyReference.cache

@@ -1,0 +1,150 @@
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\db.mdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\blockedcontent.html
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDApp.exe.config
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDApp.exe.manifest
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDApp.application
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDApp.exe
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDApp.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDApp.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DialTPLib.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDAsteriskLib.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDControls.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDCRM.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDHylaFax.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDLibs.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDWebLibs.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\nQuant.Core.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\Hylafax.net.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDAsteriskLib.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDAsteriskLib.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDBaseCore.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDBaseCore.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDControls.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDControls.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DialTPLib.dll.config
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDCRM.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDCRM.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDHylaFax.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDHylaFax.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDLibs.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\DMDWebLibs.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Release\nQuant.Core.pdb
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.AsteriskServersForm.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.DispositiviForm.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.frmAppPassword.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.frmCheckPassword.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.frmChoseFolder.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.FrmConfigServer.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.frmDialer.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.FrmFolderMonitor.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.frmFormatta.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.frmInCall.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.frmMain.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.FrmParametri.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.FrmProxyConfig.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.frmSendFax.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.frmLogin.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.FrmServers.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.UploadEventArgs.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.frmUploadServer.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.HylaFaxConfig.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.LineeForm.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.MailSettings.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.SearchPersona.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.Resources.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.TrustInfo.xml
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.exe.manifest
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.application
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.vbproj.CopyComplete
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.exe
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.xml
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Release\DMDApp.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\blockedcontent.html
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDApp.exe.config
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDApp.exe
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDApp.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDApp.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DialTPLib.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDAsteriskLib.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDControls.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDCRM.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDHylaFax.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDWebLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DShowNET.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\nQuant.Core.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\Hylafax.net.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDAsteriskLib.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDAsteriskLib.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDControls.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDControls.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DialTPLib.dll.config
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDCRM.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDHylaFax.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDHylaFax.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDWebLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\nQuant.Core.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.AsteriskServersForm.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.DispositiviForm.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmAppPassword.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmCheckPassword.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmChoseFolder.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.FrmConfigServer.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmDialer.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.FrmFolderMonitor.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmFormatta.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmInCall.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmMain.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.FrmParametri.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.FrmProxyConfig.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmSendFax.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmLogin.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.FrmServers.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.UploadEventArgs.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmUploadServer.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.HylaFaxConfig.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.LineeForm.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.MailSettings.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.SearchPersona.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.exe
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmSettings.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\templates\maildb.mdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDOffice.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDPDF.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDOffice.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDOffice.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDPDF.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDPDF.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\templates\db.mdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\db.mdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmAudioConfig.resources
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\LumiSoft.Net.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\WavPlayer.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\LumiSoft.Net.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\WavPlayer.dll
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDApp.exe.manifest
+C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Release\DMDApp.application
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.TrustInfo.xml
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.exe.manifest
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.application
+C:\Works\My Web Sites\AR1\Projects\DMDApp\obj\x86\Release\DMDApp.frmPhone.resources

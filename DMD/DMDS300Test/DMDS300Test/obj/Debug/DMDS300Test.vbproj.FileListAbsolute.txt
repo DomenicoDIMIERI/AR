@@ -1,0 +1,11 @@
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.Form1.resources
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.frmDeviceConfiguration.resources
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.frmNetworkConfig.resources
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.frmPersonInfo.resources
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.frmRingTimes.resources
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.IPAddressControl.resources
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.MACAddressControl.resources
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.Resources.resources
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.S300TimeSync.resources
+C:\Work\Programmazione\DMD\DMDS300Test\DMDS300Test\obj\Debug\DMDS300Test.vbproj.GenerateResource.Cache

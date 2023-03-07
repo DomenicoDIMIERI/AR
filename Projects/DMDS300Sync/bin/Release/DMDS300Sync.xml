@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DMDS300Sync
+</name>
+</assembly>
+<members>
+<member name="T:DMD.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="P:DMD.MyApplicationContext.IDAziendaPrincipale">
+ <summary>
+ Restituisce o imposta l'azienda utilizzata come azienda principale
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

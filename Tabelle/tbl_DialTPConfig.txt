@@ -1,0 +1,1 @@
+alter table tbl_DialTPConfig add column ProxyConfig Memo

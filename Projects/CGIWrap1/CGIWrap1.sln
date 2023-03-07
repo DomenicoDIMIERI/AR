@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CGIWrap1", "CGIWrap1\CGIWrap1.vcxproj", "{B4C5D431-72DB-4078-B23B-F26E6ABC5DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4C5D431-72DB-4078-B23B-F26E6ABC5DBE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4C5D431-72DB-4078-B23B-F26E6ABC5DBE}.Debug|Win32.Build.0 = Debug|Win32
+		{B4C5D431-72DB-4078-B23B-F26E6ABC5DBE}.Release|Win32.ActiveCfg = Release|Win32
+		{B4C5D431-72DB-4078-B23B-F26E6ABC5DBE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

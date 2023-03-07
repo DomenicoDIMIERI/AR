@@ -1,0 +1,40 @@
+alter table tbl_RichiesteFinanziamenti add column IDFinestraLavorazione int
+create index idxRichiesteFinanziamentiIWL on tbl_RichiesteFinanziamenti (IDFinestraLavorazione)
+
+alter table tbl_CQSPDConsulenze add column IDFinestraLavorazione int
+create index idxCQSPDConsulenzeIWL on tbl_CQSPDConsulenze (IDFinestraLavorazione)
+
+* alter table tbl_Rapportini drop column AnnullatoDa
+* alter table tbl_Rapportini drop column DataAnnullamento
+* alter table tbl_Rapportini drop column DataContatto
+* alter table tbl_Rapportini drop column DataLicenziamento
+* alter table tbl_Rapportini drop column DataStato1
+* alter table tbl_Rapportini drop column DataStatoLH
+* alter table tbl_Rapportini drop column IDOperatoreContatto
+* alter table tbl_Rapportini drop column Operatore1
+* alter table tbl_Rapportini drop column OperatoreLH
+* alter table tbl_Rapportini drop column QuotaFPC
+* alter table tbl_Rapportini drop column ResidenteACivico
+* alter table tbl_Rapportini drop column SPL_Data
+* alter table tbl_Rapportini drop column SPL_IDOP
+* alter table tbl_Rapportini drop column Spread
+* alter table tbl_Rapportini drop column StatAnn_Note
+* alter table tbl_Rapportini drop column StatAnn_Params
+* alter table tbl_Rapportini drop column StatArch_Data
+* alter table tbl_Rapportini drop column StatArch_OpID
+* alter table tbl_Rapportini drop column StatDel_Data
+* alter table tbl_Rapportini drop column StatDel_OpID
+
+alter table tbl_Rapportini add column IDFinestraLavorazione int
+create index idxRapportiniFL on tbl_Rapportini (IDFinestraLavorazione)
+
+* alter table tbl_Rapportini drop column Trasferita
+* alter table tbl_Rapportini drop column DaVedere
+
+Assegna diritti per il modulo modCQSPDWinLavorazione
+
+Esegui correzioni tabella
+
+
+
+Esegui aggiornamenti finestre di lavorazione

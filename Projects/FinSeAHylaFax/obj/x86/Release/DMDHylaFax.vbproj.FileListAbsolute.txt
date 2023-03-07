@@ -1,0 +1,16 @@
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Release\DMDHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Release\DMDHylaFax.pdb
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Release\DMDHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Release\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Release\Hylafax.net.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Release\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Release\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Release\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Release\DMDHylaFax.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Release\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Release\DMDHylaFax.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Release\DMDHylaFax.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Release\DMDHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Release\DMDHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Release\DMDHylaFax.pdb

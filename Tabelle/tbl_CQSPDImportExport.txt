@@ -1,0 +1,3 @@
+alter table tbl_CQSPDImportExport add column StatoConferma int
+
+alter table tbl_CQSPDImportExport add column IDOperatoreConferma int, NomeOperatoreConferma text(255)

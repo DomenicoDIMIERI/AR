@@ -1,0 +1,43 @@
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\tc400.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\templates\maildb.mdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\templates\anvizdb.mdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300Sync.exe.config
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300Sync.exe.manifest
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300Sync.application
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300Sync.exe
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300Sync.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300Sync.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDOffice.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDCRM.dll
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDS300.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDOffice.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDOffice.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDCRM.pdb
+C:\Work\Programmazione\Projects\FinSeAS300Sync\bin\x86\Debug\DMDCRM.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMD.frmMain.resources
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMD.frmUtenti.resources
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.exe.manifest
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.application
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.exe
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.xml
+C:\Work\Programmazione\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.vbprojResolveAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAS300Sync\obj\x86\Debug\DMD.frmMain.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAS300Sync\obj\x86\Debug\DMD.frmUtenti.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAS300Sync\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.exe
+C:\Works\My Web Sites\AR1\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAS300Sync\obj\x86\Debug\DMDS300Sync.pdb

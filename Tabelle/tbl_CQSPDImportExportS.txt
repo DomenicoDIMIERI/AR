@@ -1,0 +1,19 @@
+create table [tbl_CQSPDImportExportS]
+(
+ID Counter Primary Key,
+[Name] Text(255),
+[Flags] Int,
+[Password] Text(255),
+[Attributi] Memo,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+alter table [tbl_CQSPDImportExportS] add column [RemoteURL] Text(255)
+
+create index idxCQSPDImportExportSNM on [tbl_CQSPDImportExportS] ([Name])
+create index idxCQSPDImportExportST on [tbl_CQSPDImportExportS] ([Stato])
+create index idxCQSPDImportExportRTUR on [tbl_CQSPDImportExportS] ([RemoteURL])

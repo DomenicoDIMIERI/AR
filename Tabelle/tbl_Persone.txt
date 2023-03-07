@@ -1,0 +1,1 @@
+alter table tbl_Persone add column IMP_Flags Int

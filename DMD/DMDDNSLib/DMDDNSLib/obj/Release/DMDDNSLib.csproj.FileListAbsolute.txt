@@ -1,0 +1,5 @@
+D:\DMD\DMDDNSLib\DMDDNSLib\obj\Release\DMDDNSLib.csprojResolveAssemblyReference.cache
+D:\DMD\DMDDNSLib\DMDDNSLib\bin\Release\DMDDNSLib.dll
+D:\DMD\DMDDNSLib\DMDDNSLib\bin\Release\DMDDNSLib.pdb
+D:\DMD\DMDDNSLib\DMDDNSLib\obj\Release\DMDDNSLib.dll
+D:\DMD\DMDDNSLib\DMDDNSLib\obj\Release\DMDDNSLib.pdb

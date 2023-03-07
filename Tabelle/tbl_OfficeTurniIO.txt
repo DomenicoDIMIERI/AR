@@ -1,0 +1,32 @@
+create table [tbl_OfficeTurniIO]
+(
+[ID] Counter Primary Key,
+[Nome] Text(255),
+[OraIngresso] Date,
+[OraUscita] Date,
+[TolleranzaIngressoAnticipato] Int,
+[TolleranzaIngressoRitardato] Int,
+[TolleranzaUscitaAnticipata] Int,
+[TolleranzaUscitaRitardata] Int,
+[ValidoDal] Date,
+[ValidoAl] Date,
+[Attivo] bit,
+[GiorniDellaSettimana] Int,
+[Parametri] Memo,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+create index [idxOfficeTurniIO] on [tbl_OfficeTurniIO] ([Nome])
+create index [idxOfficeTurniIOOI] on [tbl_OfficeTurniIO] ([OraIngresso])
+create index [idxOfficeTurniIOOU] on [tbl_OfficeTurniIO] ([OraUscita])
+create index [idxOfficeTurniIOVD] on [tbl_OfficeTurniIO] ([ValidoDal])
+create index [idxOfficeTurniIOVA] on [tbl_OfficeTurniIO] ([ValidoAl])
+create index [idxOfficeTurniIOCD] on [tbl_OfficeTurniIO] ([CreatoDa])
+create index [idxOfficeTurniIOST] on [tbl_OfficeTurniIO] ([Stato])
+
+alter table [tbl_OfficeTurniIO] add column [Utenti] Memo
+alter table [tbl_OfficeTurniIO] add column [Periodicita] int

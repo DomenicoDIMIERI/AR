@@ -1,0 +1,36 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\bin\x86\Release\FinSeAWebLibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\bin\x86\Release\FinSeAWebLibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\bin\x86\Release\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\bin\x86\Release\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\bin\x86\Release\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\bin\x86\Release\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\obj\x86\Release\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\FinSeAWebLibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\FinSeAWebLibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.xml
+E:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\FinSeAWebLibs.dll
+E:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\FinSeAWebLibs.xml
+E:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\DMDBaseCore.dll
+E:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\FinSeALibs.dll
+E:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\Ionic.Zip.dll
+E:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\FinSeALibs.xml
+E:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\FinSeALibs.dll.config
+E:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeA.Resources.resources
+E:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.dll
+E:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\FinSeALibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\FinSeAWebLibs.vbproj.CoreCompileInputs.cache

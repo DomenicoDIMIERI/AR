@@ -1,0 +1,83 @@
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\tc400.dll
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\templates\maildb.mdb
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\templates\anvizdb.mdb
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.exe.config
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.exe.manifest
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.application
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.exe
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.pdb
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.xml
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDLibs.dll
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDOffice.dll
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDS300.dll
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDCRM.dll
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDBaseCore.pdb
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDBaseCore.xml
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDS300.pdb
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDS300.xml
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDLibs.xml
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDOffice.pdb
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDOffice.xml
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDCRM.pdb
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDCRM.xml
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMD.frmMain.resources
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMD.frmUtenti.resources
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMD.Resources.resources
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.exe.manifest
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.application
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.vbproj.CopyComplete
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.exe
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.xml
+C:\Work\Programmazione\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.pdb
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDPDF.dll
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDPDF.pdb
+C:\Work\Programmazione\Projects\DMDS300Sync\bin\x86\Release\DMDPDF.xml
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\tc400.dll
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\templates\maildb.mdb
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\templates\anvizdb.mdb
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.exe.config
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.exe.manifest
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.application
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.exe
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDS300Sync.xml
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDOffice.dll
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDS300.dll
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDCRM.dll
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDPDF.dll
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDS300.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDS300.xml
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDOffice.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDOffice.xml
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDCRM.xml
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDPDF.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\bin\x86\Release\DMDPDF.xml
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMD.frmMain.resources
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMD.frmUtenti.resources
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.exe.manifest
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.application
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.exe
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.xml
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMDS300Sync.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMD.frmConfig.resources
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMD.frmDeviceConfig.resources
+C:\Works\My Web Sites\AR1\Projects\DMDS300Sync\obj\x86\Release\DMD.frmDevicesList.resources

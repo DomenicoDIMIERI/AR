@@ -1,0 +1,9 @@
+C:\Work\Programmazione\Projects\DMDWin32\bin\x86\Release\DMDWin32.dll
+C:\Work\Programmazione\Projects\DMDWin32\bin\x86\Release\DMDWin32.pdb
+C:\Work\Programmazione\Projects\DMDWin32\bin\x86\Release\DMDWin32.xml
+C:\Work\Programmazione\Projects\DMDWin32\obj\x86\Release\DMD.Resources.resources
+C:\Work\Programmazione\Projects\DMDWin32\obj\x86\Release\DMDWin32.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DMDWin32\obj\x86\Release\DMDWin32.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DMDWin32\obj\x86\Release\DMDWin32.dll
+C:\Work\Programmazione\Projects\DMDWin32\obj\x86\Release\DMDWin32.xml
+C:\Work\Programmazione\Projects\DMDWin32\obj\x86\Release\DMDWin32.pdb

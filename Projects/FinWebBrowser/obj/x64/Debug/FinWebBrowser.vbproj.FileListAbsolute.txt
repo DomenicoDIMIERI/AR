@@ -1,0 +1,13 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\bin\x64\Debug\FinWebBrowser.exe.config
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\bin\x64\Debug\FinWebBrowser.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\bin\x64\Debug\FinWebBrowser.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\bin\x64\Debug\FinWebBrowser.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\x64\Debug\Interop.SHDocVw.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\x64\Debug\FinWebBrowser.vbproj.ResolveComReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\x64\Debug\FinSeA.frmTextViewer.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\x64\Debug\FinSeA.frmWebBrowser.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\x64\Debug\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\x64\Debug\FinWebBrowser.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\x64\Debug\FinWebBrowser.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\x64\Debug\FinWebBrowser.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinWebBrowser\obj\x64\Debug\FinWebBrowser.pdb

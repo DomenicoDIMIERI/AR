@@ -1,0 +1,40 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDControls\obj\x86\Release\DMD.Controls.ToastForm.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDControls\obj\x86\Release\DMD.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDControls\obj\x86\Release\DMDControls.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDControls\bin\x86\Release\DMDControls.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDControls\bin\x86\Release\DMDControls.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDControls\bin\x86\Release\DMDControls.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDControls\bin\x86\Release\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDControls\obj\x86\Release\DMDControls.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDControls\obj\x86\Release\DMDControls.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDControls\obj\x86\Release\DMDControls.pdb
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Release\DMDControls.dll
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Release\DMDControls.pdb
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Release\DMDControls.xml
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Release\DMDBaseCore.dll
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Release\DMDBaseCore.pdb
+C:\Work\Programmazione\DMD\DMDControls\bin\x86\Release\DMDBaseCore.xml
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Release\DMDControls.vbprojAssemblyReference.cache
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Release\DMD.Controls.ToastForm.resources
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Release\DMD.Resources.resources
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Release\DMDControls.vbproj.GenerateResource.cache
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Release\DMDControls.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Release\DMDControls.vbproj.CopyComplete
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Release\DMDControls.dll
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Release\DMDControls.xml
+C:\Work\Programmazione\DMD\DMDControls\obj\x86\Release\DMDControls.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Release\DMDControls.dll
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Release\DMDControls.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Release\DMDControls.xml
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Release\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Release\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\x86\Release\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Release\DMDControls.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Release\DMD.Controls.ToastForm.resources
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Release\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Release\DMDControls.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Release\DMDControls.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Release\DMDControls.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Release\DMDControls.dll
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Release\DMDControls.xml
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\x86\Release\DMDControls.pdb

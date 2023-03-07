@@ -1,0 +1,453 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DMDS300
+</name>
+</assembly>
+<members>
+<member name="T:DMD.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="T:DMD.S300.S300Clocking">
+ <summary>
+ Oggetto che rappresenta una marcatura temporale di un utente
+ </summary>
+</member>
+<member name="P:DMD.S300.S300Clocking.DeviceID">
+ <summary>
+ Restituisce l'ID del dispositivo su cui è registrata la marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.S300.S300Clocking.Device">
+ <summary>
+ Restituisce il dispositivo su cui è registrata la marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.S300.S300Clocking.PersonID">
+ <summary>
+ Restituisce l'ID della persona che ha effettuato la marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.S300.S300Clocking.Person">
+ <summary>
+ Restituisce la persona che ha effettuato la marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.S300.S300Clocking.Type">
+ <summary>
+ Restituisce il tipo di marcatura Ingresso/Uscita
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.S300.S300Clocking.Time">
+ <summary>
+ Restituisce o imposta la data e l'ora della marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.S300.S300FingerPrint">
+ <summary>
+ Racchiude le informazioni su un'impronta digitale di un utente
+ </summary>
+</member>
+<member name="M:DMD.S300.S300FingerPrint.#ctor(System.String)">
+ <summary>
+ Carica i dati dell'impronta dal file
+ </summary>
+ <param name="fileName"></param>
+</member>
+<member name="M:DMD.S300.S300FingerPrint.#ctor(System.IO.Stream)">
+ <summary>
+ Carica i dati dell'impronta dallo stream
+ </summary>
+ <param name="stream"></param>
+</member>
+<member name="P:DMD.S300.S300FingerPrint.User">
+ <summary>
+ Restituisce l'utente a cui appartiene questa impronta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.S300.S300FingerPrint.FPID">
+ <summary>
+ Restituisce l'ID dell'impronta
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300FingerPrint.GetDataAsArray">
+ <summary>
+ Restituisce un array contenente i dati dell'impronta
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300FingerPrint.SetDataAsArray(System.Byte[])">
+ <summary>
+ Imposta i dati dell'imprtona 
+ </summary>
+ <param name="data"></param>
+</member>
+<member name="M:DMD.S300.S300FingerPrint.SaveToFile(System.String)">
+ <summary>
+ Salva i dati relativi all'impronta su un file
+ </summary>
+ <param name="fileName"></param>
+</member>
+<member name="M:DMD.S300.S300FingerPrint.LoadFromFile(System.String)">
+ <summary>
+ Carica i dati relativi all'impronta da un file
+ </summary>
+ <param name="fileName"></param>
+</member>
+<member name="M:DMD.S300.S300FingerPrint.SaveToStream(System.IO.Stream)">
+ <summary>
+ Salve i dati dell'impronta nello stream specificato
+ </summary>
+ <param name="stream"></param>
+</member>
+<member name="M:DMD.S300.S300FingerPrint.LoadFromStream(System.IO.Stream)">
+ <summary>
+ Carica i dati dell'impronta dallo stream specificato
+ </summary>
+ <param name="stream"></param>
+</member>
+<member name="T:DMD.S300.S300Exception">
+ <summary>
+ Classe che rappresenta una eccezione della libreria
+ </summary>
+</member>
+<member name="P:DMD.S300.S300Exception.Code">
+ <summary>
+ Restituisce il codice dell'eccezione
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.S300.S300PersonInfo">
+ <summary>
+ Classe che rappresenta una persona censita sul dispositivo
+ </summary>
+</member>
+<member name="M:DMD.S300.S300PersonInfo.Save">
+ <summary>
+ Salva le modifiche fatte sulla periferica
+ </summary>
+</member>
+<member name="M:DMD.S300.S300PersonInfo.Delete">
+ <summary>
+ Elimina l'utente sul dispositivo
+ </summary>
+</member>
+<member name="P:DMD.S300.S300PersonInfo.FingerPrints">
+ <summary>
+ Restituisce la collezione delle impronte digitali registrate per questo utente
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.S300.S300Config">
+ <summary>
+ Struttura che racchiude le informazioni sulla configurazione del dispositivo
+ </summary>
+</member>
+<member name="F:DMD.S300.S300Config.RingAllow">
+ <summary>
+ 
+ </summary>
+</member>
+<member name="F:DMD.S300.S300Config.AutoUpdateFingerprint">
+ <summary>
+ Valore booleano che indica se il dispositivo può aggiornare in maniera "intelligente" in maniera automatica
+ </summary>
+</member>
+<member name="F:DMD.S300.S300Config.SpeakerVolume">
+ <summary>
+ Restituisce o imposta un valore intero compreso tra 0 e 5 che definisce il volume dell'altoparlante
+ </summary>
+</member>
+<member name="F:DMD.S300.S300Config.DoorLockDelay">
+ <summary>
+ Restituisce o imposta il ritardo in secondi per il blocco del rele
+ </summary>
+</member>
+<member name="F:DMD.S300.S300Config.MinDelayInOut">
+ <summary>
+ Ritardo minimo (in minuti) tra due marcature consecutive
+ </summary>
+</member>
+<member name="T:DMD.S300.S300CountsInfo">
+ <summary>
+ Struttura che racchiude le informazioni sui contatori di sistema
+ </summary>
+</member>
+<member name="F:DMD.S300.S300CountsInfo.PersonsCount">
+ <summary>
+ Numero di "persone" definite sul dispositivo
+ </summary>
+</member>
+<member name="F:DMD.S300.S300CountsInfo.FingerPrintsCount">
+ <summary>
+ Numero di impronte digitali registrate sul dispositivo
+ </summary>
+</member>
+<member name="F:DMD.S300.S300CountsInfo.ClockingsCounts">
+ <summary>
+ Numero di marcature di ingresso/uscita registrate sul dispositivo
+ </summary>
+</member>
+<member name="E:DMD.S300.S300Devices.DeviceConnected">
+ <summary>
+ Evento generato quando il dispositivo si connette correttamente al PC
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="E:DMD.S300.S300Devices.DeviceDisconnected">
+ <summary>
+ Evento generato quando il dispositivo si disconnette dal PC
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="E:DMD.S300.S300Devices.DeviceNetworkConfigurationChanged">
+ <summary>
+ Evento generato quando viene modificata la configurazione di rete del dispositivo
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DMD.S300.S300Devices.Initialize">
+ <summary>
+ Inizializza la libreria
+ </summary>
+</member>
+<member name="M:DMD.S300.S300Devices.Terminate">
+ <summary>
+ Finalizza la libreria (nessun metodo di questa libreria deve essere chiamato dopo Terminate)
+ </summary>
+</member>
+<member name="M:DMD.S300.S300Devices.GetConnectedDevicesIDs">
+ <summary>
+ Restituisce un array contenente l'ID di tutti i dispositivi connessi
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Devices.NotifyConnected(DMD.S300.S300EventArgs)">
+ <summary>
+ Metodo richiamato quando un dispositivo si connette
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:DMD.S300.S300Devices.NotifyDisconnected(DMD.S300.S300EventArgs)">
+ <summary>
+ Metodo richiamato quando un dispositivo si disconnette
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:DMD.S300.S300Devices.NotifyNetworkConfigurationChanged(DMD.S300.S300NetConfigEventArgs)">
+ <summary>
+ Metodo richiamato quando viene modificata la configurazione di rete di un dispositivo
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:DMD.S300.S300Devices.RegisterDevice(System.Int32,System.String)">
+ <summary>
+ Registra la periferica nel sistema
+ </summary>
+ <param name="id"></param>
+ <param name="address"></param>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Devices.UnregisterDevice(DMD.S300.S300Device)">
+ <summary>
+ Elimina la registrazione della periferica nel sistema
+ </summary>
+ <param name="device"></param>
+</member>
+<member name="E:DMD.S300.S300Device.Connected">
+ <summary>
+ Evento generato quando il dispositivo si connette correttamente al PC
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="E:DMD.S300.S300Device.Disconnected">
+ <summary>
+ Evento generato quando il dispositivo si disconnette dal PC
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="E:DMD.S300.S300Device.NetworkConfigurationChanged">
+ <summary>
+ Evento generato quando viene modificata la configurazione di rete del dispositivo
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DMD.S300.S300Device.StartSerialCommunication">
+ <summary>
+ Inizializza il collegamento ad un dispositivo collegato su una porta seriale
+ </summary>
+</member>
+<member name="M:DMD.S300.S300Device.StartNetworkCommunication">
+ <summary>
+ Inizializza il collegamento ad un dispositivo collegato in rete
+ </summary>
+</member>
+<member name="M:DMD.S300.S300Device.Start">
+ <summary>
+ Inizializza il collegamento ad un dispositivo
+ </summary>
+</member>
+<member name="M:DMD.S300.S300Device.Stop">
+ <summary>
+ Interrompe il collegamento con il dispositivo remoto
+ </summary>
+</member>
+<member name="P:DMD.S300.S300Device.DeviceID">
+ <summary>
+ Restituisce l'ID della periferica
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.S300.S300Device.Address">
+ <summary>
+ Restituisce l'indirizzo della periferica
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.IsConnected">
+ <summary>
+ Restituisce vero se il dispositivo è correttamente connesso al pc
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.GetNetworkConfiguration">
+ <summary>
+ Restituisce la configurazione di rete del dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.SetNetworkConfiguration(DMD.S300.CKT_DLL.NETINFO)">
+ <summary>
+ Imposta i parametri di rete del dispositivo
+ </summary>
+ <param name="config"></param>
+</member>
+<member name="M:DMD.S300.S300Device.GetDeviceTime">
+ <summary>
+ Restituisce la data e l'ora di sistema sul dispositivo remoto
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.SetDeviceTime(System.DateTime)">
+ <summary>
+ Imposta la data e l'ora di sistema sul dispositivo remoto
+ </summary>
+ <param name="[date]"></param>
+</member>
+<member name="M:DMD.S300.S300Device.GetDeviceSoftwareVersion">
+ <summary>
+ Restituisce la versione del software installato sul dispositivo remoto
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.GetDeviceID">
+ <summary>
+ Restituisce la versione del software installato sul dispositivo remoto
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.GetCounts">
+ <summary>
+ Restituisce i contatori relative alle strutture dati definite sul dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.GetConfiguration">
+ <summary>
+ Restituisce la configurazione del dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.SetConfiguration(DMD.S300.S300Config)">
+ <summary>
+ Imposta la configurazione
+ </summary>
+ <param name="value"></param>
+</member>
+<member name="M:DMD.S300.S300Device.ForceOpenLock">
+ <summary>
+ Forza l'apertura del relè
+ </summary>
+</member>
+<member name="P:DMD.S300.S300Device.Users">
+ <summary>
+ Restituisce l'elenco degli utenti definiti sul dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.GetAllClockings">
+ <summary>
+ Scarica le mercature dal dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.GetNewClockings">
+ <summary>
+ Scarica le mercature dal dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.DeleteAllClockings">
+ <summary>
+ Elimina tutte le marcature
+ </summary>
+</member>
+<member name="M:DMD.S300.S300Device.DeleteFirstNClockings(System.Int32)">
+ <summary>
+ Elimina le prime N marcature
+ </summary>
+ <param name="n"></param>
+</member>
+<member name="M:DMD.S300.S300Device.FactoryReset">
+ <summary>
+ Resetta il dispositivo riportandolo alle impostazioni di fabbrica
+ </summary>
+</member>
+<member name="M:DMD.S300.S300Device.GetRingTimes">
+ <summary>
+ Restituisce un array di strutture contenenti gli orari per la sirena
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.S300.S300Device.SetRingTimes(DMD.S300.CKT_DLL.RINGTIME[])">
+ <summary>
+ Imposta gli orari 
+ </summary>
+ <param name="arr"></param>
+</member>
+<member name="M:DMD.Internals.S300FingerPrintsCollection.Load(DMD.S300.S300PersonInfo)">
+ <summary>
+ 
+ </summary>
+ <param name="user"></param>
+</member>
+</members>
+</doc>

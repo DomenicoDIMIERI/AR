@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6154502-E7F9-4DFC-A695-6B51AFEE770B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DMD</RootNamespace>
+    <AssemblyName>DMDLibs</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDLibs.xml</DocumentationFile>
+    <NoWarn>41999,42016</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDLibs.xml</DocumentationFile>
+    <NoWarn>41999,42016</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DMDLibs.xml</DocumentationFile>
+    <NoWarn>41999,42016</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DMDLibs.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016</NoWarn>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>DMDLibs.xml</DocumentationFile>
+    <NoWarn>41999,42016</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>DMDLibs.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DMDBaseCore">
+      <HintPath>..\..\..\..\..\..\Librerie\DMDBaseCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\..\..\..\Librerie\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zlib">
+      <HintPath>..\..\..\..\..\..\Librerie\Ionic.Zlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DMD\Anagrafica\Anagrafica.vb" />
+    <Compile Include="DMD\Anagrafica\Aziende\Aziende.vb" />
+    <Compile Include="DMD\Anagrafica\Aziende\CAzienda.vb" />
+    <Compile Include="DMD\Anagrafica\Aziende\CAziendaPrincipale.vb" />
+    <Compile Include="DMD\Anagrafica\Aziende\CAziendeCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Aziende\CAziendaUffici.vb" />
+    <Compile Include="DMD\Anagrafica\Banche\Banche.vb" />
+    <Compile Include="DMD\Anagrafica\Banche\CBanca.vb" />
+    <Compile Include="DMD\Anagrafica\Banche\CBancheCursor.vb" />
+    <Compile Include="DMD\Anagrafica\BBAN\CBBAN.vb" />
+    <Compile Include="DMD\Anagrafica\BBAN\CBBANIT.vb" />
+    <Compile Include="DMD\Anagrafica\Canali\Canali.vb" />
+    <Compile Include="DMD\Anagrafica\Canali\CCanale.vb" />
+    <Compile Include="DMD\Anagrafica\Canali\CCanaleCursor.vb" />
+    <Compile Include="DMD\Anagrafica\CategoriaAzienda\CCategoriaAzienda.vb" />
+    <Compile Include="DMD\Anagrafica\CategoriaAzienda\CCategorieAziendaCursor.vb" />
+    <Compile Include="DMD\Anagrafica\CategoriaAzienda\CategorieAzienda.vb" />
+    <Compile Include="DMD\Anagrafica\CodiceFiscale\CodiceFiscale.vb" />
+    <Compile Include="DMD\Anagrafica\ConsensiInformati\ConsensoInformato.vb" />
+    <Compile Include="DMD\Anagrafica\ConsensiInformati\ConsensoInformatoCollection.vb" />
+    <Compile Include="DMD\Anagrafica\ConsensiInformati\ConsensoInformatoCursor.vb" />
+    <Compile Include="DMD\Anagrafica\ConsensiInformati\ConsensiInformati.vb" />
+    <None Include="efwTeggiano.cer" />
+    <None Include="DMD\Anagrafica\ContattiEsterni\CContattoEsterno.vb" />
+    <Compile Include="DMD\Anagrafica\Contatto\CContatto.vb" />
+    <Compile Include="DMD\Anagrafica\Contatto\CContattiPerPersonaCollection.vb" />
+    <Compile Include="DMD\Anagrafica\Impiegati\CImpiegatiCursor.vb" />
+    <Compile Include="DMD\Anagrafica\CImpieghi.vb" />
+    <Compile Include="DMD\Anagrafica\Contatto\CContattoCursor.vb" />
+    <None Include="DMD\Anagrafica\Tasks\AzioniTaskLavorazione\AzioniTasksDiLavorazione.vb" />
+    <None Include="DMD\Anagrafica\Tasks\AzioniTaskLavorazione\AzioneTaskLavorazione.vb" />
+    <None Include="DMD\Anagrafica\Tasks\AzioniTaskLavorazione\AzioneTaskLavorazioneCursor.vb" />
+    <Compile Include="DMD\Anagrafica\ContiCorrente\ContiCorrente.vb" />
+    <Compile Include="DMD\Anagrafica\ContiCorrente\ContoCorrente.vb" />
+    <Compile Include="DMD\Anagrafica\ContiCorrente\ContoCorrenteCursor.vb" />
+    <Compile Include="DMD\Anagrafica\ContiCorrente\Intestatari\CIntestatariContoCorrente.vb" />
+    <Compile Include="DMD\Anagrafica\ContiCorrente\Intestatari\IntestatarioContoCorrenteCursor.vb" />
+    <Compile Include="DMD\Anagrafica\ContiCorrente\Intestatari\IntestatarioContoCorrente.vb" />
+    <Compile Include="DMD\Anagrafica\ContiOnline\ContoOnline.vb" />
+    <Compile Include="DMD\Anagrafica\ContiOnline\ContoOnlineCursor.vb" />
+    <Compile Include="DMD\Anagrafica\ContiOnline\ContiOnline.vb" />
+    <Compile Include="DMD\Anagrafica\Fonti\CFonteExternalStats.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontatto\Importers\XLSImporter.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontatto\Importers\XLSImporterColumn.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontatto\Importers\XLSImporterResult.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontatto\Importers\XLSImporterTable.vb" />
+    <Compile Include="DMD\Anagrafica\Manutenzioni\Voci\VociManutenzione.vb" />
+    <Compile Include="DMD\Anagrafica\Manutenzioni\Voci\VociManutenzioneCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Manutenzioni\Voci\VoceManutenzione.vb" />
+    <Compile Include="DMD\Anagrafica\Manutenzioni\Voci\VociManutenzioneCollection.vb" />
+    <Compile Include="DMD\Anagrafica\MergePersonaRecord\CMergePersonaCursor.vb" />
+    <Compile Include="DMD\Anagrafica\MergePersonaRecord\MergePersone.vb" />
+    <Compile Include="DMD\Anagrafica\MergePersonaRecord\CMergePersona.vb" />
+    <Compile Include="DMD\Anagrafica\MergePersonaRecord\MergePersonaRecord.vb" />
+    <Compile Include="DMD\Anagrafica\MetodiDiPagamento\IMetodiDiPagamento.vb" />
+    <Compile Include="DMD\Anagrafica\CarteDiCredito\CarteDiCredito.vb" />
+    <Compile Include="DMD\Anagrafica\CarteDiCredito\CartaDiCredito.vb" />
+    <Compile Include="DMD\Anagrafica\CarteDiCredito\CartaDiCreditoCursor.vb" />
+    <Compile Include="DMD\Anagrafica\FindPersonaHandler.vb" />
+    <Compile Include="DMD\Anagrafica\CRMFinlterI.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontatto\Items\ListaRicontattoItemCursor.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontatto\Items\ListaRicontattoItem.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontatto\Items\ListeRicontattoItems.vb" />
+    <Compile Include="DMD\Anagrafica\Manutenzioni\CManutenzione.vb" />
+    <Compile Include="DMD\Anagrafica\Manutenzioni\CManutenzioniCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Manutenzioni\Manutenzioni.vb" />
+    <Compile Include="DMD\Anagrafica\Postazioni\Contatori\ValoriRegistri.vb" />
+    <Compile Include="DMD\Anagrafica\Postazioni\Contatori\ValoreRegistroCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Postazioni\Contatori\ValoreRegistroContatore.vb" />
+    <Compile Include="DMD\Anagrafica\Postazioni\RegistriContatori\RegistroContatore.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\BaseTaskHandler.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\ITaskHandler.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\RegoleTaskLavorazione\RegoleTaskLavorazionePerStato.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\RegoleTaskLavorazione\RegolaTaskLavorazione.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\RegoleTaskLavorazione\RegolaTaskLavorazioneCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\RegoleTaskLavorazione\RegoleTasksDiLavorazione.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\StatiTaskLavorazione\StatoTaskLavorazione.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\StatiTaskLavorazione\StatoTaskLavorazioneCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\StatiTaskLavorazione\StatiTasksDiLavorazione.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\TaskLavorazione.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\TaskLavorazioneCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Tasks\TasksDiLavorazione.vb" />
+    <Compile Include="DMD\Anagrafica\CPersonaComparer.vb" />
+    <Compile Include="DMD\Anagrafica\CPersonaInfo.vb" />
+    <Compile Include="DMD\Anagrafica\CPersona.vb" />
+    <Compile Include="DMD\Anagrafica\CPersonaCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Distributori\CDistributore.vb" />
+    <Compile Include="DMD\Anagrafica\Distributori\CDistributoriCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Distributori\DistributoriFonteProvider.vb" />
+    <Compile Include="DMD\Anagrafica\Distributori\Distributori.vb" />
+    <Compile Include="DMD\Anagrafica\Events\TransferPersonaEventArgs.vb" />
+    <Compile Include="DMD\Anagrafica\Events\MergePersonaEventArgs.vb" />
+    <Compile Include="DMD\Anagrafica\Events\PersonaEventArgs.vb" />
+    <Compile Include="DMD\Anagrafica\Fonti\CFonte.vb" />
+    <Compile Include="DMD\Anagrafica\Fonti\CFontiCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Fonti\Fonti.vb" />
+    <Compile Include="DMD\Anagrafica\Fonti\FontiDefaultProvider.vb" />
+    <Compile Include="DMD\Anagrafica\Fonti\IFonte.vb" />
+    <Compile Include="DMD\Anagrafica\Fonti\IFonteProvider.vb" />
+    <Compile Include="DMD\Anagrafica\FormeGiuridicheAzienda\FormeGiuridicheAzienda.vb" />
+    <Compile Include="DMD\Anagrafica\FormeGiuridicheAzienda\CFormeGiuridicheAziendaCursor.vb" />
+    <Compile Include="DMD\Anagrafica\FormeGiuridicheAzienda\CFormaGiuridicaAzienda.vb" />
+    <Compile Include="DMD\Anagrafica\IBAN\CIBAN.vb" />
+    <Compile Include="DMD\Anagrafica\Impiegati\CImpiegati.vb" />
+    <Compile Include="DMD\Anagrafica\Impiegati\CImpiegato.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontatto\CListaRicontatti.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontatto\CListaRicontattiCursor.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontatto\ListeRicontatto.vb" />
+    <Compile Include="DMD\Anagrafica\Persone.vb" />
+    <Compile Include="DMD\Anagrafica\PersoneFisiche\CPersonaFisica.vb" />
+    <Compile Include="DMD\Anagrafica\PersoneFisiche\CPersonaFisicaCursor.vb" />
+    <Compile Include="DMD\Anagrafica\RelazioniParentali\CRelazioneParentale.vb" />
+    <Compile Include="DMD\Anagrafica\RelazioniParentali\CRelazioneParentaleCursor.vb" />
+    <Compile Include="DMD\Anagrafica\RelazioniParentali\RelazioniParentali.vb" />
+    <Compile Include="DMD\Anagrafica\Ricontatti\RicontattoEventArgs.vb" />
+    <Compile Include="DMD\Anagrafica\Ricontatti\CRMFilter.vb" />
+    <Compile Include="DMD\Anagrafica\Ricontatti\CRicontattiCalProvider.vb" />
+    <Compile Include="DMD\Anagrafica\Ricontatti\CRicontattiCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Ricontatti\CRicontatto.vb" />
+    <Compile Include="DMD\Anagrafica\Ricontatti\Ricontatti.vb" />
+    <Compile Include="DMD\Anagrafica\TipiRapporto\CTipoRapporto.vb" />
+    <Compile Include="DMD\Anagrafica\TipiRapporto\CTipoRapportoCursor.vb" />
+    <Compile Include="DMD\Anagrafica\TipiRapporto\TipiRapporto.vb" />
+    <None Include="app.config" />
+    <Compile Include="DMD\Anagrafica\TipologieAziende\TipologieAzienda.vb" />
+    <Compile Include="DMD\Anagrafica\TipologieAziende\CTipologiaAziendaCursor.vb" />
+    <Compile Include="DMD\Anagrafica\TipologieAziende\CTipologiaAzienda.vb" />
+    <Compile Include="DMD\Anagrafica\Postazioni\CPostazioniCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Postazioni\CPostazione.vb" />
+    <Compile Include="DMD\Anagrafica\Postazioni\CUtenteXPostazione.vb" />
+    <Compile Include="DMD\Anagrafica\Postazioni\CUtentiXPostazioneCollection.vb" />
+    <Compile Include="DMD\Anagrafica\Postazioni\Postazioni.vb" />
+    <Compile Include="DMD\Anagrafica\Uffici\CUtentiXUfficioCollection.vb" />
+    <Compile Include="DMD\Anagrafica\Uffici\CUtentiXUfficioCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Uffici\CUtenteXUfficio.vb" />
+    <Compile Include="DMD\Anagrafica\Uffici\CUfficiCursor.vb" />
+    <Compile Include="DMD\Anagrafica\Uffici\CUfficio.vb" />
+    <Compile Include="DMD\Anagrafica\Uffici\Uffici.vb" />
+    <Compile Include="DMD\Arrays\Arrays.vb" />
+    <Compile Include="DMD\Calendar\CStatisticheOperazione.vb" />
+    <Compile Include="DMD\Calendar\Scheduling\ISchedulable.vb" />
+    <Compile Include="DMD\Collections\CKeyCollection - Copia.vb" />
+    <Compile Include="DMD\Collections\CSyncCollectionOfT.vb" />
+    <Compile Include="DMD\Collections\CSyncCollection.vb" />
+    <Compile Include="DMD\Collections\CSyncKeyCollectionOfT.vb" />
+    <Compile Include="DMD\Collections\CSyncKeyCollection.vb" />
+    <Compile Include="DMD\Collections\EnumeratorOfT.vb" />
+    <Compile Include="DMD\common\Anomalia.vb" />
+    <Compile Include="DMD\common\CPoint.vb" />
+    <Compile Include="DMD\common\CSize.vb" />
+    <Compile Include="DMD\common\CRectangle.vb" />
+    <Compile Include="DMD\common\OggettoAnomalo.vb" />
+    <Compile Include="DMD\common\GroupAllowNegateCursorOf.vb" />
+    <Compile Include="DMD\common\GroupAllowNegateOf.vb" />
+    <Compile Include="DMD\common\UserAllowNegateCursorOf.vb" />
+    <Compile Include="DMD\common\UserAllowNegateOf.vb" />
+    <Compile Include="DMD\Databases\CCursorFieldOf.vb" />
+    <Compile Include="DMD\Databases\CCursorFieldObjOf.vb" />
+    <Compile Include="DMD\Databases\CCursorFieldDBDate.vb" />
+    <Compile Include="DMD\Databases\Struttura\MySQL\CMySQLDBConnection.vb" />
+    <Compile Include="DMD\Databases\Struttura\Remote\XMLRemoteConnection.vb" />
+    <Compile Include="DMD\Net\Ftp\FtpClient.vb" />
+    <Compile Include="DMD\Net\HttpProxy\ProxyServerUtils.vb" />
+    <Compile Include="DMD\Net\HttpProxy\ProxyUtils.vb" />
+    <Compile Include="DMD\Net\HttpProxy\ProxyCacheMissEventArgs.vb" />
+    <Compile Include="DMD\Net\HttpProxy\ProxyRequest.vb" />
+    <Compile Include="DMD\Net\HttpProxy\ProxyRequestEventArgs.vb" />
+    <Compile Include="DMD\Net\Mime\MIME.vb" />
+    <Compile Include="DMD\Serialization\BinaryReader.vb" />
+    <Compile Include="DMD\Serialization\IBinarySerializable.vb" />
+    <Compile Include="DMD\Serialization\BinarySerializer.vb" />
+    <Compile Include="DMD\Serialization\Utils.vb" />
+    <Compile Include="DMD\Serialization\BinaryWriter.vb" />
+    <Compile Include="DMD\Databases\Events\DBQueryCompletedEventArgs.vb" />
+    <Compile Include="DMD\Databases\Events\DBQueryEventArgs.vb" />
+    <Compile Include="DMD\Drivers\NullSMSDriver.vb" />
+    <Compile Include="DMD\Drivers\Driver.vb" />
+    <Compile Include="DMD\Drivers\DriverOptions.vb" />
+    <Compile Include="DMD\Net\DeliveryNotificationOptions.vb" />
+    <Compile Include="DMD\Net\Exceptions\BadServerResponseException.vb" />
+    <Compile Include="DMD\Net\Exceptions\CommandException.vb" />
+    <Compile Include="DMD\Net\Exceptions\ConnectionException.vb" />
+    <Compile Include="DMD\Net\Exceptions\NotConnectedException.vb" />
+    <Compile Include="DMD\Net\Exceptions\ServerException.vb" />
+    <Compile Include="DMD\Net\GenericClients\Commands\ServerCommand.vb" />
+    <Compile Include="DMD\Net\GenericClients\Commands\ServerResponse.vb" />
+    <Compile Include="DMD\Net\GenericClients\DataReceivedEventArgs.vb" />
+    <Compile Include="DMD\Net\GenericClients\GenericClient.vb" />
+    <Compile Include="DMD\Net\GenericClients\MultiChannelClient.vb" />
+    <Compile Include="DMD\Net\HttpProxy\HTTPProxyLogEventArgs.vb" />
+    <Compile Include="DMD\Net\HttpProxy\HttpHeader.vb" />
+    <Compile Include="DMD\Net\Mail\AttachmentEx.vb" />
+    <Compile Include="DMD\Net\Mail\AttachmentCollectionEx.vb" />
+    <Compile Include="DMD\Net\Mail\AlternateViewEx.vb" />
+    <Compile Include="DMD\Net\Mail\AlternateViewCollectionEx.vb" />
+    <Compile Include="DMD\Net\Mail\LinkedResourceCollectionEx.vb" />
+    <Compile Include="DMD\Net\Mail\LinkedResourceEx.vb" />
+    <Compile Include="DMD\Net\Mail\MailAddressCollectionEx.vb" />
+    <Compile Include="DMD\Net\Mail\MailAddressEx.vb" />
+    <Compile Include="DMD\Net\Mail\GenericMailClient.vb" />
+    <Compile Include="DMD\Net\Mail\MailBaseObject.vb" />
+    <Compile Include="DMD\Net\Mail\MailHeaders.vb" />
+    <Compile Include="DMD\Net\Mail\MailMessageEx.vb" />
+    <Compile Include="DMD\Net\Mail\Pop3Client.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\ConnectCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\DeleCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\ListCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\NoopCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\PassCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\Pop3Command.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\Pop3Commands.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\QuitCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\RetrCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\RsetCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\StatCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\TopCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Commands\UserCommand.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Pop3Exception.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Pop3ListItem.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Pop3State.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Responses\ConnectResponse.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Responses\ListResponse.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Responses\Pop3Response.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Responses\Pop3Responses.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Responses\RetrResponse.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Responses\Stat.vb" />
+    <Compile Include="DMD\Net\Mail\POP\Responses\StatResponse.vb" />
+    <Compile Include="DMD\Net\Mime\MediaTypes.vb" />
+    <Compile Include="DMD\Net\Mime\MimeEntity.vb" />
+    <Compile Include="DMD\Net\Mime\MimeHeaders.vb" />
+    <Compile Include="DMD\Net\Mime\MimeReader.vb" />
+    <Compile Include="DMD\Net\Mime\QuotedPrintableEncoding.vb" />
+    <Compile Include="DMD\Net\Telnet\Commands\TelnetConnectCommand.vb" />
+    <Compile Include="DMD\Net\Telnet\Commands\TelnetConnectResponse.vb" />
+    <Compile Include="DMD\Net\Telnet\TelnetClient.vb" />
+    <Compile Include="DMD\Net\URL\URL.vb" />
+    <Compile Include="DMD\Sistema\Attachments\CAttachmentChilds.vb" />
+    <Compile Include="DMD\Sistema\Backup\Catalog\CBackupItem.vb" />
+    <Compile Include="DMD\Sistema\Backup\Catalog\CBackupItems.vb" />
+    <Compile Include="DMD\Sistema\Backup\CBackup.vb" />
+    <Compile Include="DMD\Sistema\Backup\Configuration.vb" />
+    <Compile Include="DMD\Sistema\Backup\CBackupCursor.vb" />
+    <Compile Include="DMD\Calendar\ActivePersonComparer.vb" />
+    <Compile Include="DMD\Calendar\ActivePersonDateComparer.vb" />
+    <Compile Include="DMD\Calendar\Providers\BaseCalendarActivitiesProvider.vb" />
+    <Compile Include="DMD\Calendar\CActivePerson.vb" />
+    <Compile Include="DMD\Calendar\Calendar.vb" />
+    <Compile Include="DMD\Calendar\Providers\CCalendarActivitiesProvider.vb" />
+    <Compile Include="DMD\Calendar\Activities\CCalendarActivity.vb" />
+    <Compile Include="DMD\Calendar\Activities\CCalendarActivityCursor.vb" />
+    <Compile Include="DMD\Calendar\Activities\CCalendarActivityInfo.vb" />
+    <Compile Include="DMD\Calendar\Providers\CCalendarItemsComparer.vb" />
+    <Compile Include="DMD\Calendar\CCalendarStats.vb" />
+    <Compile Include="DMD\Calendar\CIntervalloData.vb" />
+    <Compile Include="DMD\Calendar\CRegisteredCalendarProvider.vb" />
+    <Compile Include="DMD\Calendar\CRegisteredCalendarProvidersCollection.vb" />
+    <Compile Include="DMD\Calendar\Activities\ICalendarActivity.vb" />
+    <Compile Include="DMD\Calendar\Providers\ICalendarProvider.vb" />
+    <Compile Include="DMD\Calendar\Scheduling\CalendarSchedule.vb" />
+    <Compile Include="DMD\Calendar\Scheduling\CalendarScheduleCursor.vb" />
+    <Compile Include="DMD\Calendar\Scheduling\MultipleScheduleCollection.vb" />
+    <Compile Include="DMD\Calendar\Scheduling\ScheduledTasks.vb" />
+    <Compile Include="DMD\Collections\CKeyCollectionOf.vb" />
+    <None Include="DMD\Collections\CKeyCollection - NEW.vb" />
+    <Compile Include="DMD\common\CDefaultComparer.vb" />
+    <Compile Include="DMD\common\CharSequence.vb" />
+    <Compile Include="DMD\common\CFunctionComparer.vb" />
+    <Compile Include="DMD\common\CStringComparer.vb" />
+    <Compile Include="DMD\common\ItemEventArgsOfT.vb" />
+    <Compile Include="DMD\common\ItemEventArgs.vb" />
+    <Compile Include="DMD\common\ItemAllowNegate.vb" />
+    <Compile Include="DMD\common\Performance\StatsItemComparerByCounter.vb" />
+    <Compile Include="DMD\common\Performance\StatsItemComparerByName.vb" />
+    <Compile Include="DMD\common\Performance\StatsItem.vb" />
+    <Compile Include="DMD\Anagrafica\CUserUffici.vb" />
+    <Compile Include="DMD\Databases\DBReader.vb" />
+    <Compile Include="DMD\Databases\DBUtils.vb" />
+    <Compile Include="DMD\Databases\Events\DBEventArgs.vb" />
+    <Compile Include="DMD\Databases\Events\DBCursorEventArgs.vb" />
+    <None Include="DMD\Databases\Struttura\MDF\CMdfDbConnection.vb" />
+    <Compile Include="DMD\Databases\Struttura\MDF\CMdfDbConnection1.vb" />
+    <Compile Include="DMD\Databases\Struttura\CVS\CCvsDBConnection.vb" />
+    <Compile Include="DMD\Luoghi\IntervalliCAP\IntervalliCAP.vb" />
+    <Compile Include="DMD\Sistema\CGeneralClass.vb" />
+    <Compile Include="DMD\Sistema\EMailSys\MailMessageReceivedEventArgs.vb" />
+    <Compile Include="DMD\Sistema\FaxService\Drivers\FaxDriverModems.vb" />
+    <Compile Include="DMD\Sistema\FaxService\Drivers\FaxDriverModem.vb" />
+    <Compile Include="DMD\Sistema\Procedure\Handlers\BaseProceduraHandler.vb" />
+    <Compile Include="DMD\Sistema\Procedure\Handlers\IProceduraHandler.vb" />
+    <Compile Include="DMD\Sistema\Procedure\CProcedureCursor.vb" />
+    <Compile Include="DMD\Sistema\Procedure\CProcedureClass.vb" />
+    <Compile Include="DMD\Sistema\Procedure\CProcedura.vb" />
+    <Compile Include="DMD\Sistema\SMSService\Drivers\SMSEventArgs.vb" />
+    <Compile Include="DMD\Sistema\SMSService\Drivers\SMSDriverModem.vb" />
+    <Compile Include="DMD\Sistema\SMSService\Drivers\SMSDriverModems.vb" />
+    <Compile Include="DMD\Sistema\SMSService\Drivers\SMSStatusEventArgs.vb" />
+    <Compile Include="DMD\Sistema\SysDebugInfo.vb" />
+    <Compile Include="DMD\Sistema\EMailSys\CEmailAccount.vb" />
+    <Compile Include="DMD\Sistema\EMailSys\CEmailAccounts.vb" />
+    <Compile Include="DMD\Sistema\EMailSys\MailMessageEventArgs.vb" />
+    <Compile Include="DMD\Sistema\EMailSys\MailCertificateEventArgs.vb" />
+    <Compile Include="DMD\Sistema\FaxService\CFaxConfig.vb" />
+    <Compile Include="DMD\Drivers\NullFaxDriver.vb" />
+    <Compile Include="DMD\Sistema\FaxService\Drivers\FaxJobEventArgs.vb" />
+    <Compile Include="DMD\Sistema\FaxService\FaxJob.vb" />
+    <Compile Include="DMD\Sistema\Security\CSecurityTokenCursor.vb" />
+    <Compile Include="DMD\Sistema\Security\CSecurityToken.vb" />
+    <Compile Include="DMD\Sistema\IModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\IndexingService.vb" />
+    <Compile Include="DMD\Sistema\FaxService\Drivers\FaxDriverOptions.vb" />
+    <Compile Include="DMD\Sistema\FaxService\Drivers\FaxDeliverEventArgs.vb" />
+    <Compile Include="DMD\Sistema\FaxService\Drivers\FaxReceivedEventArgs.vb" />
+    <Compile Include="DMD\Sistema\Groups\CGroupMembersCollection.vb" />
+    <Compile Include="DMD\Sistema\Groups\CGroupCursor.vb" />
+    <Compile Include="DMD\Sistema\Notifiche\AzioneEseguita\AzioneEseguitaCursor.vb" />
+    <Compile Include="DMD\Sistema\Notifiche\AzioniEseguibili\EliminaNotificaAction.vb" />
+    <Compile Include="DMD\Sistema\Security\Security.vb" />
+    <Compile Include="DMD\Sistema\Settings\ISettingsOwner.vb" />
+    <Compile Include="DMD\Sistema\SMSService\CSMSConfig.vb" />
+    <Compile Include="DMD\Sistema\SMSService\Drivers\BasicSMSDriver.vb" />
+    <Compile Include="DMD\Sistema\SMSService\Drivers\SMSDeliverEventArgs.vb" />
+    <Compile Include="DMD\Sistema\SMSService\Drivers\SMSReceivedEventArgs.vb" />
+    <Compile Include="DMD\Sistema\SMSService\Drivers\SMSDriverOptions.vb" />
+    <Compile Include="DMD\Sistema\SMSService\Drivers\MessageStatus.vb" />
+    <Compile Include="DMD\Sistema\SMSService\SMSService.vb" />
+    <Compile Include="DMD\IO\Closeable.vb" />
+    <Compile Include="DMD\IO\Readeable.vb" />
+    <Compile Include="DMD\IO\Reader.vb" />
+    <Compile Include="DMD\Sistema\Annotazioni\CAnnotazione.vb" />
+    <Compile Include="DMD\Sistema\Annotazioni\CAnnotazioni.vb" />
+    <Compile Include="DMD\Sistema\Annotazioni\CAnnotazioniCursor.vb" />
+    <Compile Include="DMD\Sistema\Annotazioni\CAnnotazioniClass.vb" />
+    <Compile Include="DMD\Sistema\Attachments\CAttachment.vb" />
+    <Compile Include="DMD\Sistema\Attachments\CAttachmentsCursor.vb" />
+    <Compile Include="DMD\Sistema\Attachments\CAttachments.vb" />
+    <Compile Include="DMD\Databases\Attributes\CObjectAttribute.vb" />
+    <Compile Include="DMD\Databases\Attributes\CObjectAttributeCursor.vb" />
+    <Compile Include="DMD\Databases\Attributes\Attributes.vb" />
+    <Compile Include="DMD\Databases\CCursorField.vb" />
+    <Compile Include="DMD\Databases\CCursorFieldsCollection.vb" />
+    <Compile Include="DMD\Databases\DBObjectCursor.vb" />
+    <Compile Include="DMD\Databases\DBObjectCursorBaseOf.vb" />
+    <Compile Include="DMD\Databases\DBObjectCursorOf.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBEntityField.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBEntityFields.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBObject.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBEntity.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBFieldConstraint.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBFieldConstraints.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBTableConstraint.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBConstraintsCollection.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBTable.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBQuery.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBTablesCollection.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBQueriesCollection.vb" />
+    <Compile Include="DMD\Databases\Struttura\OLEDB\COleDBConnection.vb" />
+    <Compile Include="DMD\Databases\Struttura\MDB\CMdbDBConnection.vb" />
+    <Compile Include="DMD\Databases\Struttura\XLS\CXlsDBConnection.vb" />
+    <Compile Include="DMD\Exceptions\PrinterException.vb" />
+    <Compile Include="DMD\Exceptions\NoSuchProviderException.vb" />
+    <Compile Include="DMD\Exceptions\FontFormatException.vb" />
+    <Compile Include="DMD\Exceptions\UnrecoverableKeyException.vb" />
+    <Compile Include="DMD\Exceptions\KeyStoreException.vb" />
+    <Compile Include="DMD\Exceptions\PrinterIOException.vb" />
+    <Compile Include="DMD\Exceptions\NoninvertibleTransformException.vb" />
+    <Compile Include="DMD\Exceptions\UnsupportedOperationException.vb" />
+    <Compile Include="DMD\Exceptions\NoSuchPaddingException.vb" />
+    <Compile Include="DMD\Exceptions\InvalidAlgorithmParameterException.vb" />
+    <Compile Include="DMD\Sistema\FileSystem\FindFolderCursor.vb" />
+    <Compile Include="DMD\Sistema\FileSystem\FindFileCursor.vb" />
+    <Compile Include="DMD\Formats\DecimalFormatSymbols.vb" />
+    <Compile Include="DMD\Formats\Formats.vb" />
+    <Compile Include="DMD\Formats\TimeZone.vb" />
+    <Compile Include="DMD\Formats\SimpleTimeZone.vb" />
+    <Compile Include="DMD\Formats\SimpleDateFormat.vb" />
+    <Compile Include="DMD\IO\BufferedWriter.vb" />
+    <Compile Include="DMD\IO\PrintWriter.vb" />
+    <Compile Include="DMD\IO\StringWriter.vb" />
+    <Compile Include="DMD\IO\FileWriter.vb" />
+    <Compile Include="DMD\IO\Writer.vb" />
+    <Compile Include="DMD\IO\DataOutputStream.vb" />
+    <Compile Include="DMD\IO\FileDescriptor.vb" />
+    <Compile Include="DMD\IO\FileChannel.vb" />
+    <Compile Include="DMD\IO\RandomAccessFile.vb" />
+    <Compile Include="DMD\IO\OutputStreamWriter.vb" />
+    <Compile Include="DMD\Luoghi\Comuni\CComune.vb" />
+    <Compile Include="DMD\Luoghi\Comuni\CComuniCursor.vb" />
+    <Compile Include="DMD\Luoghi\Comuni\Comuni.vb" />
+    <Compile Include="DMD\Luoghi\Nazioni\CNazione.vb" />
+    <Compile Include="DMD\Luoghi\Nazioni\CNazioniCursor.vb" />
+    <Compile Include="DMD\Luoghi\Indirizzi\CIndirizzo.vb" />
+    <Compile Include="DMD\Luoghi\Indirizzi\CIndirizziCursor.vb" />
+    <Compile Include="DMD\Luoghi\Indirizzi\CIndirizziCollection.vb" />
+    <Compile Include="DMD\Luoghi\IntervalliCAP\CIntervalloCAP.vb" />
+    <Compile Include="DMD\Luoghi\IntervalliCAP\CIntervalloCAPCursor.vb" />
+    <Compile Include="DMD\Luoghi\IntervalliCAP\CIntervalliCAP.vb" />
+    <Compile Include="DMD\Luoghi\Indirizzi\Indirizzi.vb" />
+    <Compile Include="DMD\Luoghi\Nazioni\Nazioni.vb" />
+    <Compile Include="DMD\Luoghi\Regioni\Regioni.vb" />
+    <Compile Include="DMD\Luoghi\Regioni\CRegioniCursor.vb" />
+    <Compile Include="DMD\Luoghi\Regioni\CRegione.vb" />
+    <Compile Include="DMD\Luoghi\Province\Province.vb" />
+    <Compile Include="DMD\Luoghi\Province\CProvinceCursor.vb" />
+    <Compile Include="DMD\Luoghi\Province\CProvincia.vb" />
+    <Compile Include="DMD\Luoghi\LuogoCursorISTAT.vb" />
+    <Compile Include="DMD\Luoghi\LuogoISTAT.vb" />
+    <Compile Include="DMD\Luoghi\LuogoCursor.vb" />
+    <Compile Include="DMD\Luoghi\Luogo.vb" />
+    <Compile Include="DMD\RPC\MethodResults.vb" />
+    <Compile Include="DMD\Security\Cipher.vb" />
+    <Compile Include="DMD\Security\CipherInputStream.vb" />
+    <Compile Include="DMD\Exceptions\InvalidKeyException.vb" />
+    <Compile Include="DMD\Security\BouncyCastel\CMSEnvelopedData.vb" />
+    <Compile Include="DMD\Security\ASN1InputStream.vb" />
+    <Compile Include="DMD\Security\AlgorithmIdentifier.vb" />
+    <Compile Include="DMD\Security\AlgorithmParameters.vb" />
+    <Compile Include="DMD\Security\AlgorithmParameterGenerator.vb" />
+    <Compile Include="DMD\Security\ContentInfo.vb" />
+    <Compile Include="DMD\Security\BouncyCastel\BouncyCastleProvider.vb" />
+    <Compile Include="DMD\Security\BouncyCastel\CMSException.vb" />
+    <Compile Include="DMD\Security\Providers.vb" />
+    <Compile Include="DMD\Security\DEROutputStream.vb" />
+    <Compile Include="DMD\Security\RecipientInfo.vb" />
+    <Compile Include="DMD\Security\PKCSObjectIdentifiers.vb" />
+    <Compile Include="DMD\Security\DERObjectIdentifier.vb" />
+    <Compile Include="DMD\Security\EnvelopedData.vb" />
+    <Compile Include="DMD\Security\DERSet.vb" />
+    <Compile Include="DMD\Security\EncryptedContentInfo.vb" />
+    <Compile Include="DMD\Security\DERObject.vb" />
+    <Compile Include="DMD\Security\RecipientIdentifier.vb" />
+    <Compile Include="DMD\Security\DEROctetString.vb" />
+    <Compile Include="DMD\Security\IssuerAndSerialNumber.vb" />
+    <Compile Include="DMD\Security\TBSCertificateStructure.vb" />
+    <Compile Include="DMD\Security\KeyTransRecipientInfo.vb" />
+    <Compile Include="DMD\Security\RecipientInformation.vb" />
+    <Compile Include="DMD\Security\SecureRandom.vb" />
+    <Compile Include="DMD\Security\KeyGenerator.vb" />
+    <Compile Include="DMD\Security\KeyStore.vb" />
+    <Compile Include="DMD\Security\X509Certificate.vb" />
+    <Compile Include="DMD\Security\Key.vb" />
+    <Compile Include="DMD\Security\IvParameterSpec.vb" />
+    <Compile Include="DMD\Security\SecretKeySpec.vb" />
+    <Compile Include="DMD\Security\SecretKey.vb" />
+    <Compile Include="DMD\Security\MessageDigest.vb" />
+    <Compile Include="DMD\Exceptions\NumberFormatException.vb" />
+    <Compile Include="DMD\Exceptions\HeadlessException.vb" />
+    <Compile Include="DMD\Exceptions\IllegalStateException.vb" />
+    <Compile Include="DMD\Exceptions\UnsupportedEncodingException.vb" />
+    <Compile Include="DMD\Exceptions\NoSuchAlgorithmException.vb" />
+    <Compile Include="DMD\Formats\DecimalFormat.vb" />
+    <Compile Include="DMD\Formats\NumberFormat.vb" />
+    <Compile Include="DMD\IO\BufferedReader.vb" />
+    <Compile Include="DMD\IO\File.vb" />
+    <Compile Include="DMD\IO\InputStreamReader.vb" />
+    <Compile Include="DMD\IO\PushBackInputStream.vb" />
+    <Compile Include="DMD\IO\FileOutputStream.vb" />
+    <Compile Include="DMD\IO\FileInputStream.vb" />
+    <Compile Include="DMD\Sistema\Attachments\CAttachmentsClass.vb" />
+    <Compile Include="DMD\Sistema\Notifiche\AzioniRegistrate\AzioneRegistrataCursor.vb" />
+    <Compile Include="DMD\Sistema\Notifiche\AzioniRegistrate\AzioniRegistrate.vb" />
+    <Compile Include="DMD\Sistema\IApplicationContext.vb" />
+    <Compile Include="DMD\Sistema\LoginHistory\CLoginHistory.vb" />
+    <Compile Include="DMD\Sistema\LoginHistory\CLoginHistoryCursor.vb" />
+    <Compile Include="DMD\Sistema\ModuleActions\ActionsResult\ModuleActionResult.vb" />
+    <Compile Include="DMD\Sistema\ModuleActions\Handlers\ModuleActionHandler.vb" />
+    <Compile Include="DMD\Sistema\Notifiche\AzioniRegistrate\AzioneRegistrata.vb" />
+    <Compile Include="DMD\Sistema\Notifiche\AzioneEseguita\AzioneEseguita.vb" />
+    <Compile Include="DMD\Sistema\Notifiche\NotificaCursor.vb" />
+    <Compile Include="DMD\Sistema\Notifiche\Notifiche.vb" />
+    <Compile Include="DMD\Sistema\Notifiche\AzioniEseguibili\AzioneEseguibile.vb" />
+    <Compile Include="DMD\Sistema\Notifiche\Notifica.vb" />
+    <Compile Include="DMD\Sistema\Property Pages\PropertyPages.vb" />
+    <Compile Include="DMD\Sistema\Property Pages\CRegisteredPropertyPageCursor.vb" />
+    <Compile Include="DMD\Sistema\Property Pages\CRegisteredPropertyPage.vb" />
+    <Compile Include="DMD\Sistema\Settings\CSettingsCursor.vb" />
+    <Compile Include="DMD\Sistema\Settings\CSetting.vb" />
+    <Compile Include="DMD\Sistema\Settings\CSettings.vb" />
+    <Compile Include="DMD\Sistema\Users\Args\UserLogoutEventArgs.vb" />
+    <Compile Include="DMD\Sistema\Users\Args\UserLoginEventArgs.vb" />
+    <Compile Include="DMD\Sistema\Users\Args\UserEventArgs.vb" />
+    <Compile Include="DMD\Sistema\Users\Exceptions\PasswordExpiredException.vb" />
+    <Compile Include="DMD\Sistema\Users\Exceptions\UserForcePwdPasswordException.vb" />
+    <Compile Include="DMD\Sistema\Users\Exceptions\BadPasswordException.vb" />
+    <Compile Include="DMD\Sistema\Users\Exceptions\UserNotEnabledException.vb" />
+    <Compile Include="DMD\Sistema\Users\Exceptions\UserNotFoundException.vb" />
+    <Compile Include="DMD\Sistema\Users\Exceptions\UserLoginException.vb" />
+    <Compile Include="DMD\Sistema\Users\Exceptions\UserExpiredException.vb" />
+    <Compile Include="DMD\Sistema\Users\Args\UserLogEventArgs.vb" />
+    <Compile Include="DMD\Text\Bidi.vb" />
+    <Compile Include="DMD\Text\ParsePosition.vb" />
+    <Compile Include="DMD\Text\Matcher.vb" />
+    <Compile Include="DMD\Text\Pattern.vb" />
+    <Compile Include="DMD\Text\StringBuffer.vb" />
+    <Compile Include="DMD\Text\Normalizer.vb" />
+    <Compile Include="DMD\Types\CImportedNameSpaces.vb" />
+    <Compile Include="DMD\Types\NewTypeHandlersCollection.vb" />
+    <Compile Include="DMD\Types\NewTypeHandler.vb" />
+    <Compile Include="DMD\Types\Numbers\BigInteger.vb" />
+    <Compile Include="DMD\Types\Numbers\NLong.vb" />
+    <Compile Include="DMD\Types\Numbers\NChar.vb" />
+    <Compile Include="DMD\Types\Numbers\NDate.vb" />
+    <Compile Include="DMD\Types\Numbers\NBoolean.vb" />
+    <Compile Include="DMD\Types\Numbers\NDouble.vb" />
+    <Compile Include="DMD\Types\Numbers\NFloat.vb" />
+    <Compile Include="DMD\Types\Numbers\NInteger.vb" />
+    <Compile Include="DMD\common\LOG.vb" />
+    <Compile Include="DMD\Types\Numbers\Number.vb" />
+    <Compile Include="DMD\common\RuntimeException.vb" />
+    <Compile Include="DMD\common\Strings.vb" />
+    <Compile Include="DMD\Sistema\Backup\Backups.vb" />
+    <Compile Include="DMD\Collections\CCollectionOfT.vb" />
+    <Compile Include="DMD\Collections\CCollection.vb" />
+    <Compile Include="DMD\Collections\CReadoOnlyCollectionOfT.vb" />
+    <Compile Include="DMD\Collections\CReadoOnlyCollection.vb" />
+    <Compile Include="DMD\common\common.vb" />
+    <Compile Include="DMD\Databases\APPConn.vb" />
+    <Compile Include="DMD\Databases\Struttura\CDBConnection.vb" />
+    <Compile Include="DMD\Databases\DBObjectCursorBase.vb" />
+    <Compile Include="DMD\Databases\DBWriter.vb" />
+    <Compile Include="DMD\Databases\DBObjectCursorPO.vb" />
+    <Compile Include="DMD\Databases\DBObjectPO.vb" />
+    <Compile Include="DMD\Databases\DBObject.vb" />
+    <Compile Include="DMD\Databases\DBObjectBase.vb" />
+    <Compile Include="DMD\Sistema\EMailSys\CEmailConfig.vb" />
+    <Compile Include="DMD\Sistema\EMailSys\EMailService.vb" />
+    <Compile Include="DMD\Encoders\ASCII85.vb" />
+    <Compile Include="DMD\Encoders\Encoder.vb" />
+    <Compile Include="DMD\Exceptions\StreamCorruptedException.vb" />
+    <Compile Include="DMD\Sistema\FaxService\Drivers\BasicFaxDriver.vb" />
+    <Compile Include="DMD\Sistema\FaxService\FaxService.vb" />
+    <Compile Include="DMD\IO\BufferedOutputStream.vb" />
+    <Compile Include="DMD\IO\BufferedInputStream.vb" />
+    <Compile Include="DMD\IO\ByteArrayInputStream.vb" />
+    <Compile Include="DMD\IO\ByteArrayOutputStream.vb" />
+    <Compile Include="DMD\IO\SequenceInputStream.vb" />
+    <Compile Include="DMD\IO\FilterInputStream.vb" />
+    <Compile Include="DMD\IO\FilterOutputStream.vb" />
+    <Compile Include="DMD\IO\InputStream.vb" />
+    <Compile Include="DMD\IO\OutputStream.vb" />
+    <Compile Include="DMD\Text\StringTokenizer.vb" />
+    <Compile Include="DMD\RPC\AsyncState.vb" />
+    <Compile Include="DMD\RPC\AsyncResult.vb" />
+    <Compile Include="DMD\RPC\RPC.vb" />
+    <Compile Include="DMD\Sistema\Events\Handlers\CBaseEventHandler.vb" />
+    <Compile Include="DMD\Sistema\Events\RegisteredEventsHandler\RegisteredEventHandlerCursor.vb" />
+    <Compile Include="DMD\Sistema\Events\RegisteredEventsHandler\RegisteredEventHandlers.vb" />
+    <Compile Include="DMD\Sistema\Events\RegisteredEventsHandler\RegisteredEventHandler.vb" />
+    <Compile Include="DMD\Sistema\Events\Log\CEventsCursor.vb" />
+    <Compile Include="DMD\Sistema\Events\Handlers\IEventHandler.vb" />
+    <Compile Include="DMD\Sistema\Events\Events.vb" />
+    <Compile Include="DMD\Sistema\Events\Log\CEventLog.vb" />
+    <Compile Include="DMD\Sistema\Events\Log\CEventsFilter.vb" />
+    <Compile Include="DMD\Sistema\GroupAuthorizations\CGroupAuthorization.vb" />
+    <Compile Include="DMD\Sistema\GroupAuthorizations\CGroupAuthorizationCursor.vb" />
+    <Compile Include="DMD\Sistema\GroupAuthorizations\CGroupAuthorizationsCollection.vb" />
+    <Compile Include="DMD\Sistema\Groups\CGroup.vb" />
+    <Compile Include="DMD\Sistema\ModuleActions\AzioniDefinite\CModuleAction.vb" />
+    <Compile Include="DMD\Sistema\ModuleActions\AzioniDefinite\CModuleActions.vb" />
+    <Compile Include="DMD\Sistema\ModuleActions\AzioniDefinite\CModuleActionsCursor.vb" />
+    <Compile Include="DMD\Sistema\ModuleActions\AzioniDefinite\CDefinedActions.vb" />
+    <Compile Include="DMD\Sistema\ModulesXGroup\CModuleXGroupCursor.vb" />
+    <Compile Include="DMD\Sistema\ModulesXGroup\CModuleXGroupCollection.vb" />
+    <Compile Include="DMD\Sistema\ModulesXUser\CModuleXUserCollection.vb" />
+    <Compile Include="DMD\Sistema\ModulesXUser\CModuleXUserCursor.vb" />
+    <Compile Include="DMD\Sistema\ModulesXUser\CModuleXUser.vb" />
+    <Compile Include="DMD\Sistema\Modules\CModule.vb" />
+    <Compile Include="DMD\Sistema\Modules\CModulesCollection.vb" />
+    <Compile Include="DMD\Sistema\Modules\CModulesCursor.vb" />
+    <Compile Include="DMD\Sistema\Modules\CModuleSettings.vb" />
+    <Compile Include="DMD\Sistema\Modules\ModuleEventArgs.vb" />
+    <Compile Include="DMD\Sistema\Modules\Modules.vb" />
+    <Compile Include="DMD\Sistema\ModulesXGroup\CModuleXGroup.vb" />
+    <Compile Include="DMD\Types\Types.vb" />
+    <Compile Include="DMD\Sistema\FileSystem\FileSystem.vb" />
+    <Compile Include="DMD\Sistema\Groups\Groups.vb" />
+    <Compile Include="DMD\Sistema\UserAuthorizations\CUserAuthorizationsCollection.vb" />
+    <Compile Include="DMD\Sistema\UserAuthorizations\CUserAuthorizationCursor.vb" />
+    <Compile Include="DMD\Sistema\UserAuthorizations\CUserAuthorization.vb" />
+    <Compile Include="DMD\Sistema\Users\Handlers\CUserLogginHandler.vb" />
+    <Compile Include="DMD\Sistema\Users\KnownUsers.vb" />
+    <Compile Include="DMD\Sistema\Users\CUserComparer.vb" />
+    <Compile Include="DMD\Sistema\Users\CUsersComparer.vb" />
+    <Compile Include="DMD\Sistema\Users\CUserXGroupCursor.vb" />
+    <Compile Include="DMD\Sistema\Users\CUserXGroup.vb" />
+    <Compile Include="DMD\Sistema\Users\CUserGroups.vb" />
+    <Compile Include="DMD\Sistema\Users\CUserSettings.vb" />
+    <Compile Include="DMD\Sistema\Users\CUserCursor.vb" />
+    <Compile Include="DMD\Sistema\Users\CUser.vb" />
+    <Compile Include="DMD\Sistema\Users\Users.vb" />
+    <Compile Include="DMD\Math\Math.vb" />
+    <Compile Include="DMD\Databases\Databases.vb" />
+    <Compile Include="DMD\Encoders\Encoding.vb" />
+    <Compile Include="DMD\XML\XMLCapsule.vb" />
+    <Compile Include="DMD\XML\XMLSerializer.vb" />
+    <Compile Include="DMD\XML\IFinSeAXMLSerializable.vb" />
+    <Compile Include="DMD\XML\XMLWriter.vb" />
+    <Compile Include="DMD\XML\XMLUtils.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DMD\Luoghi\Luoghi.vb" />
+    <Compile Include="DMD\Sistema\Sistema.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DMD\Anagrafica\VerificheAmministrative\" />
+    <Folder Include="DMD\Net\Mail\IMAP\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DMD\Net\HttpProxy\CacheEntry.vb" />
+    <Compile Include="DMD\Net\HttpProxy\ProxyCache.vb" />
+    <Compile Include="DMD\Net\HttpProxy\HttpProxyServer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DMD\Net\HttpProxy\CacheKey.vb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

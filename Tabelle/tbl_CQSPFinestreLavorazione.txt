@@ -1,0 +1,30 @@
+alter table tbl_CQSPDFinestreLavorazione add column DataRichiestaFinanziamento Date, DataStudioDiFattibilita Date, DataCQS Date, DataPD Date, DataCQSI Date, DataPDI Date
+
+alter table tbl_CQSPDFinestreLavorazione add column IDPrimaVisita int , StatoPrimaVisita int, DataPrivaVisita Date
+
+create index idxFinestreLavorazioneSTPV on tbl_CQSPDFinestreLavorazione  (DataPrivaVisita, StatoPrimaVisita)
+
+alter table tbl_CQSPDFinestreLavorazione add column DataImportazione Date
+
+--------------------------------------
+26/06/2018
+alter table tbl_CQSPDFinestreLavorazione add column 
+DataAttivazione date,
+DettaglioStato text(255),
+DettaglioStato1  text(255),
+DataRicontatto date,
+MotivoRicontatto  text(255),
+IDOperatore1 int,
+IDOperatore2 int
+
+create index idxCQSPDWLAV ON [tbl_CQSPDFinestreLavorazione] (DettaglioStato, DettaglioStato1)
+
+
+
+create index idxCQSPDFLContatto on tbl_CQSPDFinestreLavorazione (StatoContatto, IDContatto, DataContattoStr)
+create index idxCQSPDFLRichFin on tbl_CQSPDFinestreLavorazione (StatoRichiestaF, IDRichiestaF)
+create index idxCQSPDFLStudF on tbl_CQSPDFinestreLavorazione (StatoSF, IDStudioF)
+create index idxCQSPDFLBustP on tbl_CQSPDFinestreLavorazione (StatoBustaPaga, IDBustaPaga, DataBustaPaga)
+create index idxCQSPDFLRichCert on tbl_CQSPDFinestreLavorazione ( IDRichiestaCertificato, DataRichiestaCertificato)
+create index idxCQSPDFLIDOP on tbl_CQSPDFinestreLavorazione ( IDOperatore2, IDOperatore1)
+           

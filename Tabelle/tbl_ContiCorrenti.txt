@@ -1,0 +1,28 @@
+create table tbl_ContiCorrenti 
+(
+ID Counter Primary Key,
+Nome Text(255),
+Numero Text(255),
+IBAN Text(255),
+SWIFT Text(32),
+IDBanca Int,
+NomeBanca Text(255),
+DataApertura Date,
+DataChiusura Date,
+Saldo Real,
+SaldoDisponibile Real,
+StatoContoCorrente Int,
+Flags Int,
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+create index idxContiCorrentiNM on tbl_ContiCorrenti ([Nome])
+create index idxContiCorrentiNUM on tbl_ContiCorrenti ([IDBanca], [Numero])
+create index idxContiCorrentiDTAP on tbl_ContiCorrenti ([DataApertura])
+create index idxContiCorrentiDTCH on tbl_ContiCorrenti ([DataChiusura])
+create index idxContiCorrentiSTConto on tbl_ContiCorrenti ([StatoContoCorrente])
+create index idxContiCorrentiST on tbl_ContiCorrenti ([Stato])

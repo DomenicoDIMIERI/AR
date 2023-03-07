@@ -1,0 +1,30 @@
+CREATE TABLE [tbl_Estinzioni] 
+(
+[ID] Counter Primary Key,
+[Tipo] INT,
+[Istituto] INT,
+[NomeIstituto] TEXT(255),
+[DataInizio] DATE,
+[Scadenza] DATE,
+[Rata] FLOAT,
+[Durata] INT,
+[TAN] FLOAT,
+[Estingue] BIT,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+CREATE TABLE [tbl_EstinzioniXPersona] 
+(
+[ID] Counter Primary Key,
+[Estinzione] INT,
+[Persona] INT,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)

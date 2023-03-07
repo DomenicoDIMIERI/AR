@@ -1,0 +1,49 @@
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\DMDFaxServer.exe.config
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\DMDFaxServer.exe
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\DMDFaxServer.pdb
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\DMDHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\Hylafax.net.dll
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\DMDHylaFax.pdb
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\DMDHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeAFaxServer\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\Interop.FAXCOMEXLib.dll
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.vbproj.ResolveComReference.cache
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.SMTPSettings.resources
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.POPConfiguration.resources
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.HylaFaxConfig.resources
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.frmMain.resources
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.exe
+C:\Work\Programmazione\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\DMDFaxServer.exe.config
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\DMDFaxServer.exe
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\DMDFaxServer.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\DMDHylaFax.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\Hylafax.net.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\DMDHylaFax.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\DMDHylaFax.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.vbprojResolveAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\Interop.FAXCOMEXLib.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.vbproj.ResolveComReference.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.SMTPSettings.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.POPConfiguration.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.HylaFaxConfig.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.frmMain.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.exe
+C:\Works\My Web Sites\AR1\Projects\FinSeAFaxServer\obj\x86\Debug\DMDFaxServer.pdb

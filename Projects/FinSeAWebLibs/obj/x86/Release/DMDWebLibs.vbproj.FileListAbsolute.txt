@@ -1,0 +1,12 @@
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\DMDWebLibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\DMDWebLibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Release\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\DMDWebLibs.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\DMDWebLibs.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\DMDWebLibs.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\DMDWebLibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Release\DMDWebLibs.xml

@@ -1,0 +1,71 @@
+create table tbl_CQSPDClientiLavorati
+(
+ID Counter Primary Key,
+IDCliente int,
+NomeCliente Text(255),
+IconaCliente Text(255),
+StatoLavorazione int,
+SottostatoLavorazione int,
+DataInizioLavorazione Date,
+DataFineLavorazione Date,
+Operatori Memo,
+NumeroBustePaga Int,
+NumeroVisite Int,
+NumeroVisiteConsulenza Int,
+NumeroRichiesteFinanziamento Int,
+NumeroRichiesteConteggiEstintivi Int,
+NumeroStudiDiFattibilita Int,
+NumeroOfferteProposte Int,
+NumeroOfferteAccettate Int,
+NumeroOfferteRifiutate Int,
+NumeroOfferteNonFattibili Int,
+NumeroOfferteBocciate Int,
+NumeroPratiche Int,
+NumeroPraticheLiquidate Int,
+NumeroPraticheAnnullate Int,
+NumeroPraticheRifiutate Int,
+NumeroPraticheNonFattibili Int,
+NumeroPraticheBocciate Int,
+IDPuntoOperativo Int,
+NomePuntoOperativo Text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+create index idxCQSPDClientiLavoratiIDClt on tbl_CQSPDClientiLavorati (IDCliente)
+create index idxCQSPDClientiLavoratiStLav on tbl_CQSPDClientiLavorati (StatoLavorazione)
+create index idxCQSPDClientiLavoratiSStLav on tbl_CQSPDClientiLavorati (SottostatoLavorazione)
+create index idxCQSPDClientiLavoratiDtIni on tbl_CQSPDClientiLavorati (DataInizioLavorazione)
+create index idxCQSPDClientiLavoratiStat on tbl_CQSPDClientiLavorati (IDPuntoOperativo)
+create index idxCQSPDClientiLavoratiStat on tbl_CQSPDClientiLavorati (Stato)
+
+alter table tbl_CQSPDClientiLavorati add Column Flags Int
+alter table tbl_CQSPDClientiLavorati add Column IDOperatore Int, NomeOperatore Text(255)
+
+create index idxCQSPDClientiLavoratiIDOp on tbl_CQSPDClientiLavorati (IDOperatore)
+
+alter table tbl_CQSPDClientiLavorati add Column ArrayVisite Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayRichiesteC Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayRichiesteF Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayConsulenze Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayPratiche Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayBustePaga Memo
+
+alter table tbl_CQSPDClientiLavorati add Column ArrayPraticheBocciate Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayPraticheInCorso Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayPraticheLiquidate Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayPraticheRifiutate Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayPraticheNonFatt Memo
+
+alter table tbl_CQSPDClientiLavorati add Column ArrayOfferteInserite Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayOfferteProposte Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayOfferteRifiutate Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayOfferteBocciate Memo
+alter table tbl_CQSPDClientiLavorati add Column ArrayOfferteNonFatt Memo
+
+alter table tbl_CQSPDClientiLavorati add Column DataUltimoAggiornamento Date
+
+create index idxCQSPDClientiLavoratiDtAgg on tbl_CQSPDClientiLavorati (DataUltimoAggiornamento)

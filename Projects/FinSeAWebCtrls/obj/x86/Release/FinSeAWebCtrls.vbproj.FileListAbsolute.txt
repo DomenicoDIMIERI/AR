@@ -1,0 +1,84 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\templates\maildb.mdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebCtrls.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebCtrls.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACQSPD.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACRM.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAHylaFax.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAOffice.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebLibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\Hylafax.net.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACQSPD.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACQSPD.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACRM.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACRM.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAHylaFax.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAHylaFax.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAOffice.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAOffice.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebLibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.xml
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\templates\maildb.mdb
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebCtrls.dll
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebCtrls.xml
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACQSPD.dll
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACRM.dll
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAOffice.dll
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebLibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\Hylafax.net.dll
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACQSPD.pdb
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACQSPD.xml
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACRM.pdb
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACRM.xml
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAHylaFax.pdb
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAOffice.pdb
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAOffice.xml
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebLibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.dll
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.xml
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\templates\maildb.mdb
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebCtrls.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebCtrls.xml
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\DMDBaseCore.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACQSPD.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACRM.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAHylaFax.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeALibs.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAOffice.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebLibs.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\Hylafax.net.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\Ionic.Zip.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACQSPD.pdb
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACQSPD.xml
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACRM.pdb
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeACRM.xml
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAHylaFax.pdb
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAHylaFax.xml
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeALibs.xml
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeALibs.dll.config
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAOffice.pdb
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAOffice.xml
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeAWebLibs.xml
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeA.Resources.resources
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.dll
+E:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.xml
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\bin\x86\Release\FinSeALibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAWebCtrls\obj\x86\Release\FinSeAWebCtrls.vbproj.CoreCompileInputs.cache

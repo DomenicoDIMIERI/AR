@@ -1,0 +1,44 @@
+create table tbl_PausaCRM
+(
+ID Counter Primary Key,
+IDSessioneCRM int,
+IDUtente int,
+NomeUtente text(255),
+Inizio Date,
+Fine Date,
+Motivo text(255),
+DurataPrevista int,
+DettaglioMotivo Memo,
+IDSupervisore int,
+NomeSupervisore text(255),
+EsitoSupervisione text(255),
+NoteAmministrative Memo,
+StatoRichiesta int,
+Flags int,
+OraRichiesta Date,
+OraInizioValutazione Date,
+OraFineValutazione Date,
+OraPrevista Date,
+Attributi Memo,
+IDPuntoOperativo int,
+NomePuntoOperativo text(255),
+CreatoDa int,
+CreatoIl date,
+ModificatoDa int,
+ModificatoIl date,
+Stato int
+)
+
+create index idxPausaCRMIDSess on tbl_PausaCRM (IDSessioneCRM)
+create index idxPausaCRMIDUser on tbl_PausaCRM (IDUtente)
+create index idxPausaCRMini on tbl_PausaCRM (Inizio)
+create index idxPausaCRMend on tbl_PausaCRM (Fine)
+create index idxPausaCRMmot on tbl_PausaCRM (Motivo)
+create index idxPausaCRMIDSup on tbl_PausaCRM (IDSupervisore)
+create index idxPausaCRMEsitSup on tbl_PausaCRM (EsitoSupervisione)
+create index idxPausaCRMStRich on tbl_PausaCRM (StatoRichiesta)
+create index idxPausaCRMoreval on tbl_PausaCRM (OraRichiesta, OraInizioValutazione, OraFineValutazione)
+create index idxPausaCRMoreprev on tbl_PausaCRM (OraPrevista)
+create index idxPausaCRMIDPO on tbl_PausaCRM (IDPuntoOperativo)
+create index idxPausaCRMcrtda on tbl_PausaCRM (CreatoDa)
+create index idxPausaCRMstato on tbl_PausaCRM (Stato)

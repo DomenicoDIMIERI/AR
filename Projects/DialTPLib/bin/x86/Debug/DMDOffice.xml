@@ -1,0 +1,6257 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DMDOffice
+</name>
+</assembly>
+<members>
+<member name="T:DMD.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="T:DMD.Office.DocumentoContabileCursor">
+ <summary>
+ Rappresenta un documento contabile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.VoceDiPagamento">
+ <summary>
+ Rappresenta una movimentazione contabile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive la movimentazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.Quantita">
+ <summary>
+ Restituisce o imposta la quantità di denaro movimentata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.NomeValuta">
+ <summary>
+ Restituisce o imposta il nome della valuta utilizzata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.DataOperazione">
+ <summary>
+ Restituisce o imposta la data dell'operazione  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.DataEffettiva">
+ <summary>
+ Restituisce o imposta la data effettiva
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.Source">
+ <summary>
+ Restituisce o imposta il documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.SourceType">
+ <summary>
+ Restituisec o imposta il tipo del documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.SourceID">
+ <summary>
+ Restituisce o imposta l'ID del documento o dell'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.SourceParams">
+ <summary>
+ Restituisce o imposta dei parametri aggiuntivi per il documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.Flags">
+ <summary>
+ Restituisce o imposta dei flags
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.CCOrigine">
+ <summary>
+ Restituisce o imposta il conto corrente di origine (da cui vengono prelevati i soldi)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.IDCCOrigine">
+ <summary>
+ Restituisce o imposta l'ID del conto corrente da cui vengono prelevati i soldi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.NomeCCOrigine">
+ <summary>
+ Restituisce o imposta il nome del conto corrente di origine
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.CCDestinazione">
+ <summary>
+ Restituisce o imposta il conto corrente destinazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.IDCCDestinazione">
+ <summary>
+ Restituisce o imposta l'ID del conto corrente destinazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.NomeCCDestinazione">
+ <summary>
+ Restituisce o imposta il nome del conto corrente di destinazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.MetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.TipoMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il tipo del metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.IDMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta l'ID del metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.VoceDiPagamento.NomeMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il nome del metodo di pagamento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.VoceDiPagamentoCursor">
+ <summary>
+ Rappresenta un documento contabile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.StoricoHandlerOggettiSpedire">
+ <summary>
+ Aggiunge gli oggetti da spedire
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.StoricoHandlerEstrattiContributivi">
+ <summary>
+ Aggiunge gli estratti contributivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.StoricoHandlerEMails">
+ <summary>
+ Aggiunge le email inviate o ricevute 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.AttributiCategoriaCollection">
+ <summary>
+ Collezione degli attributi specificato per una istanza di un Categoria
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.AttributoCategoria">
+ <summary>
+ Descrive un attributo di un Categoria
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoCategoria.Categoria">
+ <summary>
+ Restituisce o imposta l'Categoria a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoCategoria.NomeAttributo">
+ <summary>
+ Restituisce o imposta il nome dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoCategoria.ValoreAttributoFormattato">
+ <summary>
+ Restituisce o imposta il valore formattato dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoCategoria.ValoreAttributo">
+ <summary>
+ Restituisce o imposta il valore dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoCategoria.TipoAttributo">
+ <summary>
+ Restituisce un valore che indica il tipo dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoCategoria.UnitaDiMisura">
+ <summary>
+ Restituisce o imposta l'unità di misura dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailRootFolder.Archive">
+ <summary>
+ Cartella archivio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailRootFolder.FindFolder">
+ <summary>
+ Cartelle ricerche
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailRootFolder.Inbox">
+ <summary>
+ Cartella principale della posta in arrivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailRootFolder.TrashBin">
+ <summary>
+ Cartella principale del cestino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailRootFolder.Drafts">
+ <summary>
+ Cartella delle bozze
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailRootFolder.Sent">
+ <summary>
+ Cartella delle email inviate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailRootFolder.Spam">
+ <summary>
+ Cartella delle email indesiderate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRuleBase.Attiva">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la regola è attiva
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailRuleBase.Priorita">
+ <summary>
+ Restituisce o imposta l'ordine di applicazione della regola
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.MailRuleBase.Check(DMD.Office.MailMessage)">
+ <summary>
+ Restituisce vero se la regola si applica al messaaggio
+ </summary>
+ <param name="m"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.MailRuleBase.Execute(DMD.Office.MailMessage)">
+ <summary>
+ Applica la regola al messaggio
+ </summary>
+ <param name="m"></param>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRuleDisposition.None">
+ <summary>
+ Nessuna azione richiesta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRuleDisposition.Delete">
+ <summary>
+ Sposta il messaggio nel cestino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRuleDisposition.CopyTo">
+ <summary>
+ Copia il messaggio nella cartella specificata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRuleDisposition.MoveTo">
+ <summary>
+ Sposta il messaggio nella cartella specificata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRuleDisposition.SendTo">
+ <summary>
+ Invia una copia del messaggio al destinatario specificato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.FromAddress">
+ <summary>
+ Restituisce o imposta un elenco di indirizzi e-mail separati da "," che vengono verificati nel campo "From" 
+ Il test è definito vero l'intersezione tra i due elenchi non è vuota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.ToAddress">
+ <summary>
+ Restituisce o imposta un elenco di indirizzi e-mail separati da "," che vengono verificati nei campi "To, CC, CCN"
+ Il test è definito vero l'intersezione tra i due elenchi non è vuota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.JustToAddress">
+ <summary>
+ Restituisce o imposta un elenco di indirizzi e-mail separati da "," che vengono verificati nel campo "To"
+ Il test è definito vero l'intersezione tra i due elenchi non è vuota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.FromDomain">
+ <summary>
+ Restituisce o imposta un elenco di domini separati da "," che vengono testati nel campo "From"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.ToDomain">
+ <summary>
+ Restituisce o imposta un elenco di domini separati da "," che vengono testati nel campo "To, CC e CCN"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.SendDateInterval">
+ <summary>
+ Restituisce o imposta un intervallo per la data di invio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.SendDateFrom">
+ <summary>
+ Restituisce o imposta l'estremo inferiore per la data di invio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.SendDateTo">
+ <summary>
+ Restituisce o imposta l'estremo superiore della data di invio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.ReceiveDateInterval">
+ <summary>
+ Restituisce o imposta un intervallo per la data di ricezione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.ReceiveDateFrom">
+ <summary>
+ Restituisce o imposta l'estremo inferiore per la data di ricezione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.ReceiveDateTo">
+ <summary>
+ Restituisce o imposta l'estremo superiore della data di ricezione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.AccountName">
+ <summary>
+ Restituisce o imposta il nome dell'account utilizzato per inviare/ricevere il messaggio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.BodyContains">
+ <summary>
+ Elenco di parole o frasi (separate dal CR+LF) contenute nel corpo del messaggio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailRule.SubjectContains">
+ <summary>
+ Frase contenuto nel soggetto 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailRule.Actions">
+ <summary>
+ Elenco di azioni da eseguire in sequenza dalla prima all'ultima
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.PersonaPerEMail">
+ <summary>
+ Rappresenta un collegamento tra una persona ed un messaggio email
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.PersonaPerEMail.IDMessaggio">
+ <summary>
+ Restituisce o imposta l'ID del messaggio associato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.PersonaPerEMail.Messaggio">
+ <summary>
+ Restituisce o imposta il messaggio associato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.PersonaPerEMail.IDPersona">
+ <summary>
+ Restituisce o imposta l'ID della persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.PersonaPerEMail.Persona">
+ <summary>
+ Restituisce o imposta la persona a cui è associato il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.PersonaPerEMail.NomePersona">
+ <summary>
+ Restituisce o imposta il nome della persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.PersonaPerEMail.IconURL">
+ <summary>
+ Restituisce o imposta l'icona associata alla persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.PersonaPerEMail.Indirizzo">
+ <summary>
+ Restituisce o imposta l'indirizzo email che correla la persona al messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazioneAlert.Comunicazione">
+ <summary>
+ Restitusice o impsta l'oggetto comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazioneAlert.TargetUser">
+ <summary>
+ Restituisce o imposta l'utente destinatario della comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazioneAlert.DettaglioStato">
+ <summary>
+ Restituosce o imposta una stringa che descrive lo stato della comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazioneAlert.Via">
+ <summary>
+ Restituisce o imposta il nome del mezzo attraverso cui è stata inviata la comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CComunicazione">
+ <summary>
+ Rappresenta un documento o una comunicazione pubblicata sul sito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazione.Attachments">
+ <summary>
+ Restituisce la collezione degli allegati alla comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazione.Progressivo">
+ <summary>
+ Restituisce o imposta il numero progressivo del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazione.DataInizio">
+ <summary>
+ Restituisce o imposta la data di inizio validità del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazione.DataFine">
+ <summary>
+ Restituisce o imposta la data di fine validità del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazione.Categoria">
+ <summary>
+ Restituisce o imposta la categoria del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazione.Descrizione">
+ <summary>
+ Restituisce o imposta la descrizione del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazione.Priorita">
+ <summary>
+ Restituisce o imposta il livello di priorità del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazione.URL">
+ <summary>
+ Restituisce o imposta la URL del collegamento esterno
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazione.PrimaPagina">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il documento deve essere visualizzato nell'elenco delle comunicazioni
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CComunicazione.Note">
+ <summary>
+ Restituisce o imposta le note
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CComunicazione.GetAffectedUsers">
+ <summary>
+ Restituisce un oggetto CCollection contenente gli utenti interessati alla modifica
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CComunicazioneXUser">
+ <summary>
+ Rappresenta un documento o una comunicazione pubblicata sul sito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CComunicazioniClass.Notify(DMD.Office.CComunicazione,System.String)">
+ <summary>
+ Crea un avviso per la ricezione della comunicazione
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CComunicazioniClass.GetNextAvailableProgressivo">
+ <summary>
+ Restituisce il primo numero progressivo disponibile
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CComunicazioneXGroup">
+ <summary>
+ Rappresenta un documento o una comunicazione pubblicata sul sito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CCommissioniClass">
+ <summary>
+ Gestione delle commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Office.CCommissioniClass.NotificaStatoCommissione">
+ <summary>
+ Evento generato quando viene modificato lo stato di una commissione
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CCommissioniClass.GetCommissioniSuggerite(System.Int32[],DMD.CCollection{DMD.Office.LuogoDaVisitare},System.Boolean)">
+ <summary>
+ Restituisce una collezione di tutte le commissioni (programate per qualsiasi ufficio e operatore) che si svolgono presso i luoghi specificati o presso le persone specificate
+ </summary>
+ <param name="personeVisitate">Array contenente gli ID delle aziende o delle persone visitate</param>
+ <param name="luoghi">Collezione contenente gli indirizzi visitati durante la commissione</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.StatoCommissione">
+ <summary>
+ Stati di una commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoCommissione.NonIniziata">
+ <summary>
+ Non iniziata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoCommissione.Iniziata">
+ <summary>
+ Iniziata 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoCommissione.Rimandata">
+ <summary>
+ Rimandata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoCommissione.Completata">
+ <summary>
+ Completata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoCommissione.Annullata">
+ <summary>
+ Annullata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Commissione">
+ <summary>
+ Rappresenta una commissione fatta da un operatore 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Source">
+ <summary>
+ Restituisce o importa l'oggetto che ha creato la commissione (la commissione è associata in relazione 1 a molti a questo oggetto)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Flags">
+ <summary>
+ Restituisce o imposta i flags per la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.GiornataIntera">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la commissione non specifica un orario per essere eseguita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.ContextID">
+ <summary>
+ Restituisce o imposta l'ID del contesto in cui è stata creata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.ContextType">
+ <summary>
+ Restituisce o imposta il tipo del contesto in cui è stata creata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Uscite">
+ <summary>
+ Restituisce l'elenco delle uscite in cui è stata "iniziata" questa commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.StatoCommissione">
+ <summary>
+ Restituisce o imposta lo stato della commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Operatore">
+ <summary>
+ Restituisce o imposta l'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha effettuate la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.DataPrevista">
+ <summary>
+ Restituisce o imposta la data prevista per la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.OraUscita">
+ <summary>
+ Restituisce o imposta la data e l'ora di uscita per la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Durata">
+ <summary>
+ Restituisce o imposta la durata in secondi (differenza tra ora ingresso ed ora uscita)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.OraRientro">
+ <summary>
+ Restituisce o imposta la data di rientro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Motivo">
+ <summary>
+ Restituisce o imposta il motivo della commissione (descrizione breve)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Azienda">
+ <summary>
+ Restituisce o imposta l'azienda presso cui si è recato l'operatore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.IDAzienda">
+ <summary>
+ Restituisce o imposta l'ID dell'azienda presso cui si è recato l'operatore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.NomeAzienda">
+ <summary>
+ Restituisce o imposta il nome dell'azienda presso cui si è recato l'operatore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.PersonaIncontrata">
+ <summary>
+ Restituisce o imposta la persona fisica che si è incontrato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.IDPersonaIncontrata">
+ <summary>
+ Restituisce o imposta l'ID della persona fisica incontrata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Esito">
+ <summary>
+ Restituisce o imposta l'esito dell'incontro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Scadenzario">
+ <summary>
+ Restituisce o imposta un eventuale data per il promemoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.NoteScadenzario">
+ <summary>
+ Restituisce o imposta delle note per l'eventuale promemoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.IDRichiesta">
+ <summary>
+ Restituisce o imposta l'ID della richiesta associata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Richiesta">
+ <summary>
+ Restituisce o imposta la richiesta associata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.DistanzaPercorsa">
+ <summary>
+ Restituisce o imposta la distanza percorsa
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.AssegnataIl">
+ <summary>
+ Restitusice o imposta la data in cui è stata programmata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.IDAssegnataA">
+ <summary>
+ Restituisce o imposta l'ID dell'utente a cui è stata assegnata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.AssegnataA">
+ <summary>
+ Restituisce o imposta l'utente a cui è stata assegnata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.NomeAssegnataA">
+ <summary>
+ Restituisce o imposta il nome dell'utente a cui è stata assegnata la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Commissione.Presso">
+ <summary>
+ Restituisce o imposta il nome del luogo presso cui svolgere la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CommissioneCursor">
+ <summary>
+ Cursore sulla tabella delle commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.StoricoHandlerTickets">
+ <summary>
+ Aggiunge le richieste di conteggi estintivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.StoricoHandlerRichiesteCERQ">
+ <summary>
+ Aggiunge le richieste di 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.StoricoHandlerCommissioni">
+ <summary>
+ Aggiunge le commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Articolo">
+ <summary>
+ Definisce un oggetto in magazzino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.ProductPage">
+ <summary>
+ Restituisce o imposta la URL della pagina descrittiva del prodtotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.SupportPage">
+ <summary>
+ Restituisce o imposta la URL della pagina di supporto del prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.UnitaBase">
+ <summary>
+ Restituisce o imposta l'unità di misura base per l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.DecimaliValuta">
+ <summary>
+ Restituisce o imposta i decimali validi per i prezzi. Un valore negativo indica al programma di utilizzare tutti i numeri disponibili
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.DecimaliQuantita">
+ <summary>
+ Restituisce o imposta i decimali validi per le quantità. Un valore negativo indica al programma di utilizzare tutti i numeri disponibili
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.Nome">
+ <summary>
+ Restituisce o imposta il nome dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.CategoriaPrincipale">
+ <summary>
+ Restituisce o imposta la categoria principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.Marca">
+ <summary>
+ Restituisce o imposta la marca dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.Modello">
+ <summary>
+ Restituisce o imposta il modello dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags associati all'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Articolo.Codici">
+ <summary>
+ Restituisce la collezione dei codici articolo associati 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.AttributiArticoloCollection">
+ <summary>
+ Collezione degli attributi specificato per una istanza di un Articolo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.AttributoArticolo">
+ <summary>
+ Descrive un attributo di un articolo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoArticolo.Articolo">
+ <summary>
+ Restituisce o imposta l'Articolo a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoArticolo.NomeAttributo">
+ <summary>
+ Restituisce o imposta il nome dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoArticolo.ValoreAttributoFormattato">
+ <summary>
+ Restituisce o imposta il valore formattato dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoArticolo.ValoreAttributo">
+ <summary>
+ Restituisce o imposta il valore dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoArticolo.TipoAttributo">
+ <summary>
+ Restituisce un valore che indica il tipo dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoArticolo.UnitaDiMisura">
+ <summary>
+ Restituisce o imposta l'unità di misura dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.AttributiOggettoCollection">
+ <summary>
+ Collezione degli attributi specificato per una istanza di un Oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.ArticoloInMagazzino">
+ <summary>
+ Definisce la relazione tra un articolo ed il magazzino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.ArticoloInMagazzino.Articolo">
+ <summary>
+ Restituisce o imposta l'articolo a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.ArticoloInMagazzino.Magazzino">
+ <summary>
+ Restituisce o imposta il magazzino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.ArticoloInMagazzino.Quantita">
+ <summary>
+ Restituisce o imposta la quantità dell'articolo in magazzino espressa in unità base
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.ArticoloInMagazzino.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags associati al codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.TipoPrezzoListino">
+ <summary>
+ Definisce il tipo prezzo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.ArticoloXListino">
+ <summary>
+ Definisce la relazione tra un articolo ed un listino prezzi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.ArticoloXListino.TipoPrezzo">
+ <summary>
+ Restituisce o imposta il tipo prezzo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.ArticoloXListino.Articolo">
+ <summary>
+ Restituisce o imposta l'articolo a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.ArticoloXListino.Listino">
+ <summary>
+ Restituisce o imposta il magazzino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.ArticoloXListino.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags associati al codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.AttributoOggetto">
+ <summary>
+ Specifica il valore di un attributo dell'Oggetto per l'oggetto inventariato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoOggetto.Oggetto">
+ <summary>
+ Restituisce o imposta l'Oggetto a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoOggetto.NomeAttributo">
+ <summary>
+ Restituisce o imposta il nome dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoOggetto.ValoreAttributoFormattato">
+ <summary>
+ Restituisce o imposta il valore formattato dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoOggetto.ValoreAttributo">
+ <summary>
+ Restituisce o imposta il valore dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoOggetto.TipoAttributo">
+ <summary>
+ Restituisce un valore che indica il tipo dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.AttributoOggetto.UnitaDiMisura">
+ <summary>
+ Restituisce o imposta l'unità di misura dell'attributo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CategoriaArticolo">
+ <summary>
+ Definisce la categoria di un articolo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CategoriaArticolo.Nome">
+ <summary>
+ Restituisce o imposta il nome della categoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CategoriaArticolo.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CategoriaArticolo.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CategoriaArticolo.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CategoriaArticolo.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CodiceArticolo">
+ <summary>
+ Definisce un codice articolo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CodiceArticolo.Articolo">
+ <summary>
+ Restituisce o imposta l'articolo a cui è associato il codice
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CodiceArticolo.Nome">
+ <summary>
+ Restituisce o imposta il nome del codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CodiceArticolo.Tipo">
+ <summary>
+ Restituisce o imposta il tipo del codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CodiceArticolo.Valore">
+ <summary>
+ Restituisce o imposta il valore del codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CodiceArticolo.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags associati al codice articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CodiceArticolo.Ordine">
+ <summary>
+ Restituisce o imposta l'ordine inteso anche come priorità nella ricerca degli articoli per codice in caso di codici duplicati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.FlagsOggettoInventariato.InUso">
+ <summary>
+ Indica che l'oggetto è in uso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.CodiceRFID">
+ <summary>
+ Restituisce o imposta il codice RFID associato all'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.PosizioneGPS">
+ <summary>
+ Restituisce o imposta le coordinate GPS che determinano la posizione dell'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.IsPosizioneGPSRelativa">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la posizione GPS è relativa all'ufficio di appartenenza o se è assoluta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.IDOrdineAcquisto">
+ <summary>
+ Restituisce o imposta l'ID del documento di ordine di acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.OrdineAcquisto">
+ <summary>
+ Restituisce o imposta l'ordine di acquisto  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.IDDocumentoAcquisto">
+ <summary>
+ Restituisce o imposta l'ID del documento che convalida l'acquisto dell'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.DocumentoAcquisto">
+ <summary>
+ Restituisce o imposta il documento di acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.IDSpedizione">
+ <summary>
+ Restituisce o imposta l'ID della spedizione con cui è stato ricevuto l'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.Spedizione">
+ <summary>
+ Restituisce o imposta la spedizione con cui è stato ricevuto l'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.Relazioni">
+ <summary>
+ Restituisce la collezione delle relazione con gli altri oggetti inventariati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.DataProduzione">
+ <summary>
+ Restituisce o imposta la data di produzione del lotto a cui appartiene questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.IDArticolo">
+ <summary>
+ Restituisce o imposta l'ID dell'articolo associato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.NomeArticolo">
+ <summary>
+ Nome Articolo associato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.Codice">
+ <summary>
+ Restituisce o imposta il codice di inventario dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.Nome">
+ <summary>
+ Restituisce o imposta il nome dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.Marca">
+ <summary>
+ Restituisce o imposta la marca dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.Modello">
+ <summary>
+ Restituisce o imposta il modello dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.StatoAttuale">
+ <summary>
+ Restituisce o imposta lo stato attuale dell'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.TipoInUsoDa">
+ <summary>
+ Restituisce o imposta il tipo di oggetto che utilizza l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.IDInUsoDa">
+ <summary>
+ Restitusice o imposta l'ID dell'oggetto che utilizza questo articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.InUsoDa">
+ <summary>
+ Restituisce o imposta l'oggetto che utilizza questo artcillo 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.NomeInUsoDa">
+ <summary>
+ Restituisce o imposta il nome dell'oggetto che utilizza questo articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.ValoreStimato">
+ <summary>
+ Restituisce o imposta il valore stimato dell'articolo alla data memorizzata in DataValutazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.DataValutazione">
+ <summary>
+ Restituisce o imposta la data di valutazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.DataAcquisto">
+ <summary>
+ Restituisce o imposta la data di acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.TipoDocumentoAcquisto">
+ <summary>
+ Restituisce o imposta il tipo del documento di acquisto (Fattura, Scontrino, ...)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.NumeroDocumentoAcquisto">
+ <summary>
+ Restituisce o imposta il numero del documento di acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.StatoAcquisto">
+ <summary>
+ Restituisce o imposta lo stato dell'oggetto al momento dell'acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.AcquistatoDaID">
+ <summary>
+ Restitusice o imposta l'ID dell'utente che ha acquistato l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.NomeAcquistatoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha acquistato l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.PrezzoAcquisto">
+ <summary>
+ Restituisce o imposta il prezzo (imponibile) di acquisto dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.AliquotaIVA">
+ <summary>
+ Restitusice o imposta l'aliquota iva espressa in % sul prezzo imponibile di acquisto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.IDUfficioOriginale">
+ <summary>
+ Restituisce o imposta l'ID del punto di operativo per cui è stato originariamente acquistato l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.UfficioOriginale">
+ <summary>
+ Restituisce o imposta l'ufficio per cui è stato originariamente acquistato l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.CodiceReparto">
+ <summary>
+ Restituisce o imposta il codice del reparto in cui è stoccato l'articolo se non in uso
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.CodiceScaffale">
+ <summary>
+ Restituisce o imposta il codice dello scaffale in cui è stoccato l'articolo se non in uso
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.DataDismissione">
+ <summary>
+ Restituisce o imposta la data di dismissione dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.DismessoDaID">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha dismesso l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.DismessoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha dismesso l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.NomeDismessoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha dismesso l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoInventariato.MotivoDismissione">
+ <summary>
+ Restitusice o imposta il motivo della dismissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DeviceLogFlags.On">
+ <summary>
+ Dispositivo acceso
+ </summary>
+</member>
+<member name="F:DMD.Office.DeviceLogFlags.Suspended">
+ <summary>
+ Dispositivo in stato sospeso
+ </summary>
+</member>
+<member name="T:DMD.Office.DeviceLog">
+ <summary>
+ Rappresenta lo stato di un dispositivo in un determinato intervallo di tempo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DeviceLog.MACAddress">
+ <summary>
+ Restituisce o imposta l'indirizzo MAC della macchina
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.IPAddress">
+ <summary>
+ Restituisce o imposta l'indirizzo IP della macchina
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.OSVersion">
+ <summary>
+ Restituisce o imposta il software usato sul dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.IDDevice">
+ <summary>
+ Restituisce o imposta l'ID del dispositivo a cui fa riferimento il log
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.DettaglioStato">
+ <summary>
+ Restituisce o imposta il dettaglio dello stato
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.Device">
+ <summary>
+ Restituisce o imposta il dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.Flags">
+ <summary>
+ Restituisce o imposta dei flags che descrivo la categoria
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.StartDate">
+ <summary>
+ Restituisce o imposta la data di inizio
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.EndDate">
+ <summary>
+ Restituisce o imposta la data di fine
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.IDUtente">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che sta utilizzando il dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.Utente">
+ <summary>
+ Restituisce o imposta l'utente che sta utilizzando il dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.NomeUtente">
+ <summary>
+ Restituisce o imposta il nome dell'utente che sta usando il dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.CPUUsage">
+ <summary>
+ Restituisce o imposta la percentuale di utlizzo medio della cpu (se presente) del dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.CPUMaximum">
+ <summary>
+ Restituisce o imposta la percentuale di utilizzo di picco della cpu (se presente) del dispositivo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.Office.DeviceLog.NotifyCPU(System.Nullable{System.Int32})">
+ <summary>
+ Aggiorna le statistiche per la cpu. Il valore di numeroCampioni va incrementato a mano dopo aver aggiornato le statistiche
+ </summary>
+ <param name="cpuUsage"></param>
+</member>
+<member name="P:DMD.Office.DeviceLog.RAMTotal">
+ <summary>
+ Restituisce o imposta la quantità totale di memoria RAM installata 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.RAMAvailable">
+ <summary>
+ Restituisce o imposta la quantità media di memoria disponibile
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.RAMMinimum">
+ <summary>
+ Restituisce o imposta la quantità minima di memoria disponibile
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.Office.DeviceLog.NotifyRAMAvailable(System.Nullable{System.Double})">
+ <summary>
+ Aggiorna le statistiche per la RAM disponibile. Il valore di numeroCampioni va incrementato a mano dopo aver aggiornato le statistiche
+ </summary>
+ <param name="ram"></param>
+</member>
+<member name="P:DMD.Office.DeviceLog.DiskTotal">
+ <summary>
+ Restituisce o imposta la quantità di memoria totale su disco
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.DiskAvailable">
+ <summary>
+ Restituisce o imposta la quantità media di memoria disponibile su disco
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.DiskMinimum">
+ <summary>
+ Restitusice o imposta la quantità minima di memoria disponibile su disco (misura di picco)
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.Office.DeviceLog.NotifyDiskAvailable(System.Nullable{System.Double})">
+ <summary>
+ Aggiorna le statistiche per la quantità di memoria disponibile su disco. Il valore di numeroCampioni va incrementato a mano dopo aver aggiornato le statistiche
+ </summary>
+ <param name="value"></param>
+</member>
+<member name="P:DMD.Office.DeviceLog.Temperature">
+ <summary>
+ Restituisce o imposta la temperatura 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.Office.DeviceLog.NotifyTemperature(System.Nullable{System.Single})">
+ <summary>
+ Aggiorna le statistiche per la temperatura. Il valore di numeroCampioni va incrementato a mano dopo aver aggiornato le statistiche
+ </summary>
+ <param name="value"></param>
+</member>
+<member name="P:DMD.Office.DeviceLog.GPS">
+ <summary>
+ Restituisce o imposta la posizione GPS
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.DeviceLog.Params">
+ <summary>
+ Restituisce o imposta dei parametri aggiuntivi
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.Office.DeviceLogCursor">
+ <summary>
+ Cursore sulla tabella dei log
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Candidatura">
+ <summary>
+ Rappresenta una candidatura di una persona ad un posto di lavoro
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CandidaturaCursor">
+ <summary>
+ Cursore sulla tabella delle candidature ad un'offerta di lavoro
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CurriculumCursor">
+ <summary>
+ Cursore sulla tabella dei curricula
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.OffertaDiLavoroCursor">
+ <summary>
+ Cursore sulla tabella delle offerte di lavoro
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.OffertaDiLavoro">
+ <summary>
+ Rappresenta un'offerta di lavoro
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Curriculum">
+ <summary>
+ Rappresenta un curriculum vitae
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DeviceFlags.CanGPS">
+ <summary>
+ Se vero indica che il tipo di dispositivo supporta le funzioni di localizzazione GPS
+ </summary>
+</member>
+<member name="F:DMD.Office.DeviceFlags.CanPrint">
+ <summary>
+ Se vero indica che il dispositivo può stampare dei documenti cartacei
+ </summary>
+</member>
+<member name="F:DMD.Office.DeviceFlags.CanScan">
+ <summary>
+ Se vero indica che il dispositivo può effettuare scansioni
+ </summary>
+</member>
+<member name="F:DMD.Office.DeviceFlags.CanFingerprint">
+ <summary>
+ Se vero indica che il dispositivo supporta il riconoscimento tramite impronte digitali
+ </summary>
+</member>
+<member name="F:DMD.Office.DeviceFlags.CanRecognizeOther">
+ <summary>
+ Se vero indica che il dispositivo può effettuare riconoscimenti tramite metodi diversi dall'impronta digitale
+ </summary>
+</member>
+<member name="F:DMD.Office.DeviceFlags.IsDesktop">
+ <summary>
+ Se vero indica che il dispositivo è utilizzabile come destkop
+ </summary>
+</member>
+<member name="F:DMD.Office.DeviceFlags.IsPhone">
+ <summary>
+ Se vero indica che il dispositivo è utilizzabile come telefono per le conversazioni 
+ </summary>
+</member>
+<member name="F:DMD.Office.DeviceFlags.IsSMS">
+ <summary>
+ Se vero indica che il dispositivo supporta l'invio o la ricezione di SMS
+ </summary>
+</member>
+<member name="T:DMD.Office.ClasseDispositivo">
+ <summary>
+ Rappresenta la categoria di un dispositivo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.ClasseDispositivo.Nome">
+ <summary>
+ Restituisce o imposta il nome del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.ClasseDispositivo.Flags">
+ <summary>
+ Restituisce o imposta dei flags che descrivo la categoria
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.Office.ClassiDispositivoCursor">
+ <summary>
+ Cursore sulla tabella delle classi di dispositivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DocFlags.HaNumero">
+ <summary>
+ Il documento è caratterizzato da un numero che lo identifica
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DocFlags.RichiedeNumero">
+ <summary>
+ Il documento richiede l'inserimento del numero che lo identifica
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DocFlags.HaRilasciatoDa">
+ <summary>
+ Il documento ha un campo "Rilasciato Da"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DocFlags.RichiedeRilasciatoDa">
+ <summary>
+ Il documento richiede di compilare il campo "Rilasciato Da"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DocFlags.HaDataInizio">
+ <summary>
+ Il documento ha il campo "Data Inizio"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DocFlags.RichiedeDataInizio">
+ <summary>
+ Il documento richiede di compilare il campo "Data Inizio"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DocFlags.HaDataFine">
+ <summary>
+ Il documento ha il campo "Data Fine"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DocFlags.RichiedeDataFine">
+ <summary>
+ Il documento richiede di compulare il campo "Data Fine"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.DocFlags.UsaTemplate">
+ <summary>
+ Il documento viene generato dal sistema in base ad un template
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CDocumento">
+ <summary>
+ Rappresenta un documento che è possibile caricare
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CDocumento.Nome">
+ <summary>
+ Restituisce o imposta il nome del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CDocumento.Categoria">
+ <summary>
+ Restituisce o imposta la categoria del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CDocumento.SottoCategoria">
+ <summary>
+ Restituisce o imposta la categoria secondaria del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CDocumento.Descrizione">
+ <summary>
+ Restituisce o imposta la descrizione del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CDocumento.TemplatePath">
+ <summary>
+ Restituisce o imposta la URL del modello utilizzato per creare il documento 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CDocumento.Uploadable">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il documento può essere caricato a sistema
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CDocumento.ValiditaLimitata">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il documento ha una scadenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CDocumentiCursor">
+ <summary>
+ Cursore sulla tabella dei documenti
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.DocumentiCaricati.CDocCarPerPersona">
+ <summary>
+ Rappresenta un documento caricato per una persona
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentiCaricati.CDocCarPerPersona.IDDocumento">
+ <summary>
+ Restituisce 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentiCaricati.CDocCarPerPersona.Documento">
+ <summary>
+ Restituisce la descrizione del documento caricato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentiCaricati.CDocCarPerPersona.IDPersona">
+ <summary>
+ Restituisce o imposta l'ID della persona a cui è associato il documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentiCaricati.CDocCarPerPersona.Persona">
+ <summary>
+ Restituisce o imposta la persona a cui è associato il documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentiCaricati.CDocCarPerPersona.DataCaricamento">
+ <summary>
+ Restituisce o imposta la data di caricamento del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentiCaricati.CDocCarPerPersona.IDOperatoreCaricamento">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha caricato il documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentiCaricati.CDocCarPerPersona.OperatoreCaricamento">
+ <summary>
+ Restituisce l'operatore che ha caricato il documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentiCaricati.CDocCarPerPersona.NomeOperatoreCaricamento">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha caricato il documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentiCaricati.CDocCarPerPersona.IDAttachment">
+ <summary>
+ Restituisce o imposta l'ID del file caricato sul server
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentiCaricati.CDocCarPerPersona.Attachment">
+ <summary>
+ Restituisce o imposta l'ID dell'oggetto caricato sul server
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.LuogoVisitato">
+ <summary>
+ Rappresenta un punto della mappa del territorio attraversato dall'utente per la commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.LuoghiVisitatiCursor">
+ <summary>
+ Cursore sulla tabella dei luoghi attraversati dall'utente per le commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CLuoghiVisitatiClass">
+ <summary>
+ Gestione dei luoghi "attraversati" dall'operatore per effettuare la commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.StatoEstrattoContributivo">
+ <summary>
+ Stati di una commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.EstrattoContributivo">
+ <summary>
+ Rappresenta una richiesta di estratto contributivo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.EstrattoContributivo.Richiedi">
+ <summary>
+ Salva e richiede
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.EstrattoContributivo.PrendiInCarico">
+ <summary>
+ Salva e prende in carico la richiesta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.EstrattoContributivo.Evadi">
+ <summary>
+ Salva ed evade
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.EstrattoContributivo.Errore">
+ <summary>
+ Salva ed errore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.EstrattoContributivo.Sospendi">
+ <summary>
+ Sospende la richiesta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.EstrattiContributiviCursor">
+ <summary>
+ Cursore sulla tabella degli estratti contributivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CEstrattiContributiviClass">
+ <summary>
+ Gestione degli estratti contributivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CEstrattiContributiviClass.GruppoResponsabili">
+ <summary>
+ Restituisce il gruppo dei responsabili
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Listino">
+ <summary>
+ Definisce un listino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Listino.Nome">
+ <summary>
+ Restituisce o imposta il nome del listino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Listino.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Listino.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Listino.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Listino.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Magazzino">
+ <summary>
+ Definisce un magazzino
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Magazzino.Nome">
+ <summary>
+ Restituisce o imposta il nome del listino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Magazzino.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Magazzino.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Magazzino.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Magazzino.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.MarcaArticolo">
+ <summary>
+ Definisce una marca
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MarcaArticolo.Nome">
+ <summary>
+ Restituisce o imposta il nome della categoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MarcaArticolo.Attributi">
+ <summary>
+ Restitusice una collezione di proprietà aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MarcaArticolo.Descrizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive in dettaglio l'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MarcaArticolo.IconURL">
+ <summary>
+ Restituisce o imposta la url dell'immagine principale dell'articolo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MarcaArticolo.Flags">
+ <summary>
+ Restituisce o imposta una serie di flags  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.IRichiestaHandler">
+ <summary>
+ Cursore sulla tabella dei motivi delle richieste
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.FlagsLicenzaSoftware.OEM">
+ <summary>
+ Licenza di tipo OEM
+ </summary>
+</member>
+<member name="F:DMD.Office.FlagsLicenzaSoftware.Volume">
+ <summary>
+ Licenza di tipo "volume"
+ </summary>
+</member>
+<member name="T:DMD.Office.LicenzaSoftware">
+ <summary>
+ Rappresenta una licenza di un software 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.LicenzeSoftwareCursor">
+ <summary>
+ Cursore sulla tabella delle licenze software
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Software">
+ <summary>
+ Rappresenta un programma o un'applicazione installata su un Dispositivo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Software.Nome">
+ <summary>
+ Restituisce o imposta il nome del prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Software.Versione">
+ <summary>
+ Restituisce o imposta la versione del prodotto
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Software.IconURL">
+ <summary>
+ Restituisce o imposta il percorso dell'icona associata al prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Software.DataPubblicazione">
+ <summary>
+ Restituisce o imposta la data di pubblicazione del software
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Software.DataRitiro">
+ <summary>
+ Restituisce o imposta la data di ritiro (intesa come ultimo giorno disponibile per l'acquisto) del software
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.Office.SoftwareCursor">
+ <summary>
+ Cursore sulla tabella dei software
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.OggettiDaSpedireCursor">
+ <summary>
+ Cursore sulla tabella degli oggetti da spedire
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.InPreparazione">
+ <summary>
+ Oggetto in preparazione (ancora non deve essere spedito)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.ProntoPerLaSpedizione">
+ <summary>
+ Oggetto pronto (deve essere spedito)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.Spedito">
+ <summary>
+ L'oggetto è stato Spedito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.SpedizioneAnnullata">
+ <summary>
+ La spedizione è stata annullata dall'operatore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.SpedizioneRifiutata">
+ <summary>
+ La spedizione è stata rifiutata dal corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.SpedizioneBocciata">
+ <summary>
+ La spedizione è stata fermata dall'agenzia 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.Consegnato">
+ <summary>
+ L'oggetto è stato consegnato correttamente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.ConsegnaFallita">
+ <summary>
+ Non è stato possibile consegnare l'oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.ConsegnaFallitaIndirizzoErrato">
+ <summary>
+ Consegna fallita perché l'indirizzo è errato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.ConsegnaFallitaRifiutoDestinatario">
+ <summary>
+ Consegna fallita perché il destinatario ha rifiutato l'oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoOggettoDaSpedire.ConsegnaFallitaNonTrovato">
+ <summary>
+ Consegna fallita perché il destinatario non era all'indirizzo indicato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.OggettoDaSpedire">
+ <summary>
+ Rappresenta un oggetto da spedire
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.CategoriaContenuto">
+ <summary>
+ Restituisce o imposta una stringa che identifica la categoria del contenuto (es. Documenti, ...)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.DescrizioneContenuto">
+ <summary>
+ Restituisce la descrizione per esteso del contenuto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.AspettoBeni">
+ <summary>
+ Restituisce o imposta una stringa che descrive l'aspetto degli oggetti spediti (Buste, Pacchi, Pallet, )
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.IDCliente">
+ <summary>
+ Restituisce o imposta l'ID della persona che ha inviato l'oggetto (mittente)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.Cliente">
+ <summary>
+ Restituisce o imposta la persona che ha inviato l'oggetto (mittente)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.NomeCliente">
+ <summary>
+ Restituisce o imposta il nome del mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.IndirizzoMittente">
+ <summary>
+ Restituisce l'oggetto che descrive l'indirizzo del mittente (da cui parte la spedizione)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.IDDestinatario">
+ <summary>
+ Restituisce o imposta l'ID della persona a cui è destinata la spedizione (Destinatario)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.Destinatario">
+ <summary>
+ Restituisce o imposta la persona a cui è destinata la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.NomeDestinatario">
+ <summary>
+ Restituisce o imposta il nome della persoan a cui è destinata la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.IndirizzoDestinatario">
+ <summary>
+ Restituisce l'oggetto che descrive l'indirizzo presso cui consegnare la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.NumeroColli">
+ <summary>
+ Restituisce o imosta il numero di colli della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.Peso">
+ <summary>
+ Restituisce o imposta il peso totale degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.Altezza">
+ <summary>
+ Restituisce o imposta l'altezza degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.Larghezza">
+ <summary>
+ Restituisce o imposta la larghezza degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.Profondita">
+ <summary>
+ Restituisce o imposta la profondità degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.RichiestaDa">
+ <summary>
+ Restituisce o imposta l'utente che richiesto la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.IDRichiestaDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha richiesto la spedizione 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.NomeRichiestaDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha richiesto la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.DataRichiesta">
+ <summary>
+ Restituisce o imposta la data e l'ora in cui l'oggetto è stato marcato come pronto per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.PresaInCaricoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha preso in carico la spedizione dell'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.IDPresaInCaricoDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha preso in carico l'oggetto per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.NomePresaInCaricoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha preso in carico l'oggetto per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.DataPresaInCarico">
+ <summary>
+ Restituisce o imposta la data in cui l'utente ha preso in carico l'oggetto per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.ConfermatoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha registrato la conclusione della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.IDConfermatoDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha confermato l'esito della registrazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.NomeConfermatoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha confermato l'esito della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.DataConferma">
+ <summary>
+ Restituisce o imposta la data di registrazione dell'esito della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.DataInizioSpedizione">
+ <summary>
+ Restituisce o imposta la data di inizio della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.DescrizioneSpedizione">
+ <summary>
+ Restituisce o imposta una stringa che descrive la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.NotePerIlCorriere">
+ <summary>
+ Restituisce o imposta una stringa contenente degli avvertimenti diretti al corriere
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.NotePerIlDestinatario">
+ <summary>
+ Restituisce o imposta delle annotazioni dirette al destinatario
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.StatoOggetto">
+ <summary>
+ Restituisce o imposta lo stato della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.OggettoDaSpedire.DataConsegna">
+ <summary>
+ Restituisce o imposta la data di consegna
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.PassaggioSpedizione">
+ <summary>
+ Rappresenta una spedizione effettuata tramite corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoSpedizione.InPreparazione">
+ <summary>
+ Oggetto in preparazione, non ancora spedito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoSpedizione.Spedita">
+ <summary>
+ L'oggetto è stato dato nelle mani del corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoSpedizione.FermaInMagazzino">
+ <summary>
+ L'oggetto è stato stoccato nel magazzino del corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoSpedizione.TrasferimentoMagazzino">
+ <summary>
+ L'ggetto è stato spedito ad un altro magazzino del corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoSpedizione.InConsegna">
+ <summary>
+ L'oggetto è in consegna (dal magazzino del corriere al destinatario)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoSpedizione.Fallita">
+ <summary>
+ C'è stato un problema nella consegna dell'oggetto (vedi flags) e 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoConsegna.NonConsegnata">
+ <summary>
+ Non consegnato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoConsegna.Consegnata">
+ <summary>
+ Consegnato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoConsegna.IndirizzoDestinatarioErrato">
+ <summary>
+ Indirizzo del destinatario non corretto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoConsegna.DestinatarioNonTrovato">
+ <summary>
+ Il destinatario non era all'indirizzo indicato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoConsegna.DestinatarioRifiuto">
+ <summary>
+ Il destinatario ha rifiutato la consegna
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Spedizione">
+ <summary>
+ Rappresenta una spedizione effettuata tramite corriere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.AspettoBeni">
+ <summary>
+ Restituisce o imposta una stringa che descrive l'aspetto degli oggetti spediti (Buste, Pacchi, Pallet, )
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.IDMittente">
+ <summary>
+ Restituisce o imposta l'ID della persona che ha inviato l'oggetto (mittente)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.Mittente">
+ <summary>
+ Restituisce o imposta la persona che ha inviato l'oggetto (mittente)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.NomeMittente">
+ <summary>
+ Restituisce o imposta il nome del mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.IndirizzoMittente">
+ <summary>
+ Restituisce l'oggetto che descrive l'indirizzo del mittente (da cui parte la spedizione)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.IDDestinatario">
+ <summary>
+ Restituisce o imposta l'ID della persona a cui è destinata la spedizione (Destinatario)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.Destinatario">
+ <summary>
+ Restituisce o imposta la persona a cui è destinata la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.NomeDestinatario">
+ <summary>
+ Restituisce o imposta il nome della persoan a cui è destinata la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.IndirizzoDestinatario">
+ <summary>
+ Restituisce l'oggetto che descrive l'indirizzo presso cui consegnare la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.NumeroColli">
+ <summary>
+ Restituisce o imosta il numero di colli della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.Peso">
+ <summary>
+ Restituisce o imposta il peso totale degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.Altezza">
+ <summary>
+ Restituisce o imposta l'altezza degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.Larghezza">
+ <summary>
+ Restituisce o imposta la larghezza degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.Profondita">
+ <summary>
+ Restituisce o imposta la profondità degli oggetti spediti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.SpeditoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha effettuato la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.IDSpeditoDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha effettuato la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.NomeSpeditoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha effettuato la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.RicevutoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha ricevuto la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.IDRicevutoDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha ricevuto la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.NomeRicevutoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha ricevuto la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.DataInizioSpedizione">
+ <summary>
+ Restituisce o imposta la data di inizio della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.NotePerIlCorriere">
+ <summary>
+ Restituisce o imposta una stringa contenente degli avvertimenti diretti al corriere
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.NotePerIlDestinatario">
+ <summary>
+ Restituisce o imposta delle annotazioni dirette al destinatario
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.StatoSpedizione">
+ <summary>
+ Restituisce o imposta lo stato della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.StatoConsegna">
+ <summary>
+ Restituisce o imposta lo stato della consegna
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.DataConsegna">
+ <summary>
+ Restituisce o imposta la data di consegna
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.Flags">
+ <summary>
+ Restituisce o imposta dei flags
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.IDCorriere">
+ <summary>
+ Restituisce o imposta l'ID del corriere utilizzato per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.NomeCorriere">
+ <summary>
+ Restituisce o imposta il nome del corriere utilizzato per la spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.NumeroSpedizione">
+ <summary>
+ Restituisce o imposta il numero della spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.Passaggi">
+ <summary>
+ Restituisce la sequenza dei passaggi di stato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Spedizione.Attributi">
+ <summary>
+ Restituisce degli attributi aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.SpedizioniCursor">
+ <summary>
+ Cursore sulla tabella delle spedizioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.PBX">
+ <summary>
+ PBX
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.PBXCursor">
+ <summary>
+ Cursore sulla tabella dei centralini
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.DriverRilevatorePresenze.GetName">
+ <summary>
+ Restituisce il nome del driver
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.Office.DriverRilevatorePresenze.GetVersion">
+ <summary>
+ Restituisce la versione del driver
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.Office.DriverRilevatorePresenze.Supports(DMD.Office.RilevatorePresenze)">
+ <summary>
+ Restituisce vero se il driver supporta il rilevatore 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.Office.DriverRilevatorePresenze.SincronizzaOrario(DMD.Office.RilevatorePresenze)">
+ <summary>
+ Imposta l'orario sul dispositivo di rilavore presenze in modo che corrisponde con l'orario di questo sistema
+ </summary>
+ <param name="rilevatore"></param>
+</member>
+<member name="M:DMD.Office.DriverRilevatorePresenze.ScaricaNuoveMarcature(DMD.Office.RilevatorePresenze)">
+ <summary>
+ Scarica le marcature dal rilevatore
+ </summary>
+ <param name="rilevatore"></param>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.DataRichiesta">
+ <summary>
+ Restituisce o imposta la data in cui è stata inviata la richiesta di permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.DataInizio">
+ <summary>
+ Restituisce o imposta la data e l'ora di inizio del permesso richiesto
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.DataFine">
+ <summary>
+ Restituisce o imposta la data e l'ora di fine del permesso richiesto
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.MotivoRichiesta">
+ <summary>
+ Restituisce o imposta una stringa "breve" che indica il motivo della richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.NoteRichiesta">
+ <summary>
+ Restituisce o imposta delle note aggiuntive per descrivere la richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.TipoRichiesta">
+ <summary>
+ Restituisce o importa la tipologia della richiesta di permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.IDRichiedente">
+ <summary>
+ Restituisce o imposta l'ID del richiedente il permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.Richiedente">
+ <summary>
+ Restituisce o imposta il richiedente il permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.NomeRichiedente">
+ <summary>
+ Restituisce o imposta il nome del richiedente il permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.DataPresaInCarico">
+ <summary>
+ Restituisce o imposta la data di presa in carico della richiesta di permesso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.IDInCaricoA">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha preso in carico la richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.InCaricoA">
+ <summary>
+ Restituisce o imposta l'utente che ha preso in carico la richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.NomeInCaricoA">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha preso in carico la richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.EsitoRichiesta">
+ <summary>
+ Restituisce o imposta un valore che indica l'esito della richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.DettaglioEsitoRichiesta">
+ <summary>
+ Restituisce o imposta una nota lunga che descrive il motivo per l'esito della richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.NotaPrvSupervisore">
+ <summary>
+ Nota privata per il supervisore
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.Attachments">
+ <summary>
+ Restituisce la collezione dei documenti allegati alla richiesta
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.RichiestaPermessoFerie.Params">
+ <summary>
+ Restituisce o imposta dei parametri aggiuntivi
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.Nome">
+ <summary>
+ Restituisce o imposta il nome del turno
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.OraIngresso">
+ <summary>
+ Restituisce o imposta l'ora di ingresso pervista
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.OraUscita">
+ <summary>
+ Restituisce o imposta l'ora di uscita prevista
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.TolleranzaIngressoAnticipato">
+ <summary>
+ Restituisce o imposta il numero di minuti consentiti per l'ingresso anticipato
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.TolleranzaIngressoRitardato">
+ <summary>
+ Restituisce o imposta il numero di minuti di tolleranza per l'ingresso posticipato
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.TolleranzaUscitaAnticipata">
+ <summary>
+ Restituisce o imposta il numero di minuti di tolleranza per l'uscita anticipata
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.TolleranzaUscitaRitardata">
+ <summary>
+ Restituisce o imposta la tolleranza in minuti per l'uscita ritardata
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.ValidoDal">
+ <summary>
+ Restituisce o imposta la data di inizio validità del turno
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.ValidoAl">
+ <summary>
+ Restituisce o imposta la data di fine validità del turno
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.Periodicita">
+ <summary>
+ Restituisce o imposta 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.Attivo">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il turno è abilitato
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.AttivoGiornoSettimana(DMD.Office.TurnoFlagGiorni)">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il turno è attivo per i giorni della settimana specificati
+ </summary>
+ <param name="giorni"></param>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.Parametri">
+ <summary>
+ Restitusice o imposta dei parametri aggiuntivi
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.Turno.Utenti">
+ <summary>
+ Restituisce la collezione degli utenti a cui è assegnato il turno
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DMD.Office.RilevatorePresenze.SincronizzaOrario">
+ <summary>
+ Sincronizza l'orario sul dispositivo
+ </summary>
+</member>
+<member name="M:DMD.Office.RilevatorePresenze.ScaricaNuoveMarcature">
+ <summary>
+ Scarica le presenze 
+ </summary>
+</member>
+<member name="T:DMD.Office.StoricoHandlerCR">
+ <summary>
+ Handler delle chiamate registrate
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.ChiamataRegistrataCursor">
+ <summary>
+ Cursore sulla tabella chiamate registrate
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoChiamataRegistrata.Sconosciuto">
+ <summary>
+ Stato sconosciuto
+ </summary>
+</member>
+<member name="F:DMD.Office.StatoChiamataRegistrata.Composizione">
+ <summary>
+ La chiamata è in fase di composizione
+ </summary>
+</member>
+<member name="F:DMD.Office.StatoChiamataRegistrata.InCorso">
+ <summary>
+ La chiamata è in corso (la controparte ha risposto)
+ </summary>
+</member>
+<member name="F:DMD.Office.StatoChiamataRegistrata.NonRisposto">
+ <summary>
+ La chiamata è terminata senza che la controparte abbia risposto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoChiamataRegistrata.AgganciatoChiamante">
+ <summary>
+ Il chiamante ha agganciato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoChiamataRegistrata.AgganciatoChiamato">
+ <summary>
+ Il chiamato ha agganciato
+ </summary>
+</member>
+<member name="F:DMD.Office.StatoChiamataRegistrata.Rifiutata">
+ <summary>
+ Il chiamato ha rifiutato la chiamata
+ </summary>
+</member>
+<member name="F:DMD.Office.StatoChiamataRegistrata.Errore">
+ <summary>
+ La chiamata non è stata effettuata a causa di un errore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.ChiamataRegistrata">
+ <summary>
+ Rappresenta una chiamata registrata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.ScansioneCursor">
+ <summary>
+ Cursore sulla tabella dei scansioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Scansione">
+ <summary>
+ Rappresenta una scansione fatta da un dispositivo in ufficio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.NomeDispositivo">
+ <summary>
+ Restituisce o imposta il nome del dispositivo da cui è stata fatta la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.NomeDocumento">
+ <summary>
+ Restituisce o imposta il nome del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.ParametriScansione">
+ <summary>
+ Restituisce o imposta i parametri di scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.MetodoRicezione">
+ <summary>
+ Restituisce o imposta il metodo tramite cui è stata ricevuta la scansione (e-mail, ftp, directory)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.DataInvio">
+ <summary>
+ Restituisce o imposta la data e lora in cui il dispositivo remoto ha inviato la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.DataRicezione">
+ <summary>
+ Restituisce o imposta la data in cui il sistema ha ricevuto la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.DataElaborazione">
+ <summary>
+ Restituisce o imposta la data di elaborazione (cioè la data in cui l'utente ha associato la scansione ad un cliente)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.IDCliente">
+ <summary>
+ Restituisce o imposta l'ID del cliente a cui è associata la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.Cliente">
+ <summary>
+ Restituisce o imposta il cliente a cui è associata la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.NomeCliente">
+ <summary>
+ Restituisce o imposta il nome del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.IDAttachment">
+ <summary>
+ Restituisce o imposta l'ID dell'allegato che contiene la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.IDInviataDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.InviataDa">
+ <summary>
+ Restituisce o imposta l'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.NomeInviataDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha inviato la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.IDInviataA">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.InviataA">
+ <summary>
+ Restituisce o imposta l'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.NomeInviataA">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha inviato la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.IDElaborataDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.ElaborataDa">
+ <summary>
+ Restituisce o imposta l'utente che ha inviato la scansione dal dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Scansione.NomeElaborataDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha inviato la scansione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CTicketAnswaresCollection">
+ <summary>
+ Collezione delle risposte per un ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CTicketAnswareCursor">
+ <summary>
+ Cursore sulla tabella delle risposte ai messaggi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CTicketAnsware">
+ <summary>
+ Rappresenta una richiesta fatta da un utente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketAnsware.IDTicket">
+ <summary>
+ Restituisce o imposta l'ID del ticket a cui appartiene il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketAnsware.Ticket">
+ <summary>
+ Restituisce o imposta il ticket a cui appartiene il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketAnsware.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha inserito il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketAnsware.Operatore">
+ <summary>
+ Restituisce o imposta l'operatore che ha inserito il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketAnsware.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha inserito il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketAnsware.Data">
+ <summary>
+ Restituisce o imposta la data in cui è stato inserito il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketAnsware.Messaggio">
+ <summary>
+ Restituisce o imposta il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketAnsware.StatoTicket">
+ <summary>
+ Restituisce o imposta lo stato in cui viene portato il ticket in seguito a questa risposta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.TicketStatus">
+ <summary>
+ Valori enumerativi che indicano lo stato di una segnalazione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.TicketStatus.INSERITO">
+ <summary>
+ Ticket inserito ma non ancora aperto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.TicketStatus.APERTO">
+ <summary>
+ Aperto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.TicketStatus.INLAVORAZIONE">
+ <summary>
+ Preso in carico
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.TicketStatus.RISOLTO">
+ <summary>
+ Risolto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.TicketStatus.NONRISOLVIBILE">
+ <summary>
+ L'utente ha chiuso il ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.TicketStatus.SOSPESO">
+ <summary>
+ Sospeso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.TicketStatus.RIAPERTO">
+ <summary>
+ L'utente ha riaperto il ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CTicket">
+ <summary>
+ Rappresenta una richiesta fatta da un utente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicket.DataRichiesta">
+ <summary>
+ Restituisce o imposta la data in cui è stata effettuata la richiesta di assistenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicket.IDInCaricoA">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha preso in carico la segnalazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicket.InCaricoA">
+ <summary>
+ Restituisec o imposta l'Utente che ha preso in carico la segnalazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicket.NomeInCaricoA">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha preso in carico la segnalazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicket.Categoria">
+ <summary>
+ Restituisce o imposta la categoria del problema
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicket.Sottocategoria">
+ <summary>
+ Restituisce o imposta la sotto-categoria del problema
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicket.Messaggio">
+ <summary>
+ Restituisce o imposta il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicket.StatoSegnalazione">
+ <summary>
+ Restituisce o imposta lo stato della segnalazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CTicket.Apri">
+ <summary>
+ Apre il ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CTicket.PrendiInCarico">
+ <summary>
+ Prende in carico
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CTicket.Risolto">
+ <summary>
+ Chiude il ticket come risolto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CTicket.Errore">
+ <summary>
+ Chiude il ticket come non risolvibile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CTicket.Riapri">
+ <summary>
+ Riapre il ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CTicket.Sospendi">
+ <summary>
+ Sospende il ticket
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CTicketCursor">
+ <summary>
+ Cursore sulla tabelle delle segnalazioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CTicketCategory">
+ <summary>
+ Rappresenta una categoria e sottocategoria per una richiesta di assistenza
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketCategory.NotifyUsers">
+ <summary>
+ Restituisce l'elenco degli utenti a cui vengono notificate le richieste di assistenza per questo tipo di categoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketCategory.Categoria">
+ <summary>
+ Restituisce o imposta il nome della categoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CTicketCategory.Sottocategoria">
+ <summary>
+ Restituisce o imposta il nome della sottocategoria
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CTicketCategoryCursor">
+ <summary>
+ Cursore sulla tabelle delle segnalazioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.DocumentoContabile">
+ <summary>
+ Rappresenta un documento contabile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.Source">
+ <summary>
+ Restituisce o imposta il documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.SourceType">
+ <summary>
+ Restituisec o imposta il tipo del documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.SourceID">
+ <summary>
+ Restituisce o imposta l'ID del documento o dell'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.SourceParams">
+ <summary>
+ Restituisce o imposta dei parametri aggiuntivi per il documento o l'oggetto che ha causato la movimentazione di denaro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.TipoDocumento">
+ <summary>
+ Restituisce o imposta il tipo del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.NumeroDocumento">
+ <summary>
+ Restituisce o imposta il numero del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.DataRegistrazione">
+ <summary>
+ Restituisce o imposta la data di registrazione del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.DataEmissione">
+ <summary>
+ Restituisce o imposta la data di emissione del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.DataEvasione">
+ <summary>
+ Restituisce o imposta la data di evasione del documento (es. per gli ordini)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.StatoDocumento">
+ <summary>
+ Restituisce o imposta lo stato del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.IDCliente">
+ <summary>
+ Restituisce o imposta l'ID del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.Cliente">
+ <summary>
+ Restituisce o imposta il cliente 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.NomeCliente">
+ <summary>
+ Restituisce o imposta il nome del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.IndirizzoCliente">
+ <summary>
+ Restituisce l'indirizzo del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.CodiceFiscaleCliente">
+ <summary>
+ Restituisce o imposta il codice fiscale del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.PartitaIVACliente">
+ <summary>
+ Restituisce o imposta la partita IVA del cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.IDFornitore">
+ <summary>
+ Restituisce o imposta l'ID del fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.Fornitore">
+ <summary>
+ Restituisce o imposta il Fornitore 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.NomeFornitore">
+ <summary>
+ Restituisce o imposta il nome del Fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.IndirizzoFornitore">
+ <summary>
+ Restituisce l'indirizzo del Fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.CodiceFiscaleFornitore">
+ <summary>
+ Restituisce o imposta il codice fiscale del Fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.PartitaIVAFornitore">
+ <summary>
+ Restituisce o imposta la partita IVA del Fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.IndirizzoSpedizione">
+ <summary>
+ Restituisce l'indirizzo di spedizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.Descrizione">
+ <summary>
+ Restituisce o imposta il campo descrizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.Attribiti">
+ <summary>
+ Restitusice un campo 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.TotaleImponibile">
+ <summary>
+ Restituisce o imposta il totale imponibile del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.TotaleIvato">
+ <summary>
+ Restituisce o imposta il totale ivato del documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.DocumentoContabile.VociDiPagamento">
+ <summary>
+ Restituisce o imposta l'elenco delle movimentazioni di denaro causate da questo documento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.IUtenzaBollettaHandler">
+ <summary>
+ Interfaccia implementata dalle classi utilizzabili per generare una bolletta a partire da un'utenza
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.IUtenzaBollettaHandler.GenerateNext(DMD.Office.Utenza)">
+ <summary>
+ Genera la prossima bolletta 
+ </summary>
+ <param name="utenza"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.PeriodicitaUtenza">
+ <summary>
+ Rappresenta il tipo di periodicità delle bollette generate dall'utenza
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.Nessuna">
+ <summary>
+ Nessuna periodicità: le bollette non vengono generate in automatico
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.Giornaliera">
+ <summary>
+ Viene generata una bolletta ogni n - giorni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.Settimanale">
+ <summary>
+ Viene generata una bolletta ogni n - settimane
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.Mensile">
+ <summary>
+ Viene generata una bolletta ogni n - mesi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.Bimestrale">
+ <summary>
+ Viene generata una bolletta ogni n - bimestri
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.Trimestrale">
+ <summary>
+ Viene generata una bolletta ogni n - trimestri
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.Quadrimestrale">
+ <summary>
+ Viene generata una bolletta ogni n - quadrimestri
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.Semestrale">
+ <summary>
+ Viene generata una bolletta ogni n - semstri
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.Annuale">
+ <summary>
+ Viene generata una bolletta ogni n - anni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.IlGiornoXDelMese">
+ <summary>
+ Viene generata una bolletta il giorno n di ogni mese
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.PeriodicitaUtenza.IlGiornoXDellAnno">
+ <summary>
+ Viene generata una bolletta il giorno n di ogni anno
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Utenza">
+ <summary>
+ Rappresenta una utenza
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.StimatoreBolletta">
+ <summary>
+ Restituisce o imposta il nome di una classe che viene utilizzata per stimare la prossima bolletta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.Nome">
+ <summary>
+ Restituisce o imposta il nome dell'utenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.IDFornitore">
+ <summary>
+ Restituisce o imposta l'ID del fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.Fornitore">
+ <summary>
+ Restituisce o imposta il fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.NomeFornitore">
+ <summary>
+ Restituisce o imposta il nome del fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.IDCliente">
+ <summary>
+ Restituisce o imposta l'ID del Cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.Cliente">
+ <summary>
+ Restituisce o imposta il Cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.NomeCliente">
+ <summary>
+ Restituisce o imposta il nome del Cliente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.NumeroContratto">
+ <summary>
+ Restituisce o imposta il numero del contratto registrato dal fornitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.CodiceCliente">
+ <summary>
+ Restituisce o imposta il codice del cliente (utilizzato dal fornitore)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.CodiceUtenza">
+ <summary>
+ Restituisce o imposta il codice dell'utenza (nel sistema del fornitore)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.Descrizione">
+ <summary>
+ Restituisce o imposta la descrizione dell'utenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.TipoPeriodicita">
+ <summary>
+ Restituisce o imposta il tipo di periodicità delle bollette generate da questa utenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.IntervalloPeriodicita">
+ <summary>
+ Restituisce o imposta l'intervallo di periodicità
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.DataSottoscrizione">
+ <summary>
+ Restituisce o imposta la data di sottoscrizione del contratto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.DataInizioPeriodo">
+ <summary>
+ Restituisce o imposta la data di inizio di fornitura del servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.DataFinePeriodo">
+ <summary>
+ Restituisce o imposta la data di invio della prima bolletta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.UnitaMisura">
+ <summary>
+ Restituisce o imposta l'unità di misura del servizio fatturato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.CostoUnitario">
+ <summary>
+ Restituisce o imposta il costo per unità del servizio erogato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.CostiFissi">
+ <summary>
+ Restituisce o imposta i costi fissi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.NomeValuta">
+ <summary>
+ Restituisce o imposta il nome della valuta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.TipoUtenza">
+ <summary>
+ Restituisce o imposta il tipo di utenza (Es. Luce, Gas, Acqua)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.Flags">
+ <summary>
+ Restituisce o imposta dei flags
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.MetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.TipoMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il tipo del metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.IDMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta l'ID del metodo di pagamento utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Utenza.NomeMetodoDiPagamento">
+ <summary>
+ Restituisce o imposta il nome del metodo di pagamento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.UtenzeCursor">
+ <summary>
+ Cursore sulla tabella delle utenze
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.PercorsoDefinito">
+ <summary>
+ Rappresenta la definizione di percorso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.LuogoDaVisitare">
+ <summary>
+ Rappresenta la definizione di percorso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.LuogoDaVisitare.Progressivo">
+ <summary>
+ Restituisce o imposta un numero che indica l'ordine da seguire in un elenco di luoghi da visitare
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.LuogoDaVisitare.Priorita">
+ <summary>
+ Restituisce o imposta la priorità da dare a questo luogo (in caso non si possano effettuare tutti)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.LuogoDaVisitare.Etichetta">
+ <summary>
+ Restituisce o imposta una etichetta che identifica il luogo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.LuogoDaVisitare.IDPercorso">
+ <summary>
+ Restituisce o imposta l'ID del percorso a cui appartiene questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.LuogoDaVisitare.Percorso">
+ <summary>
+ Restituisce o imposta il percorso a cui appartiene questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.LuogoDaVisitare.Indirizzo">
+ <summary>
+ Restituisce l'indirizzo 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.LuogoDaVisitare.IDPersona">
+ <summary>
+ Restituisce o imposta l'ID della persona o dell'azienda da visitare
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.LuogoDaVisitare.Persona">
+ <summary>
+ Restituisce o imposta la persona o l'azienda da visitare
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.LuogoDaVisitare.NomePersona">
+ <summary>
+ Restituisce o imposta il nome della persona o dell'azienda da visitare
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.MailAccount">
+ <summary>
+ Rappresenta un account di posta elettronica configurato sul sistema
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.FirmaPerNuoviMessaggi">
+ <summary>
+ Restituisce o imposta la firma da inserire in coda ai nuovi messaggi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.FirmaPerRisposte">
+ <summary>
+ Restituisce o imposta la firma da inserire in coda ai messaggi inviati come risposta o inoltrati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.LastStync">
+ <summary>
+ Restituisce o imposta la data dell'ultima sincronizzazione completa avvenuta con il server
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.SMTPCrittografia">
+ <summary>
+ Restituisce o imposta il tipo di crittografia utilizzato dal server della posta in uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.TimeOut">
+ <summary>
+ Restituisce o imposta il tempo massimo di attesa per scaricare i messaggi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.AccountName">
+ <summary>
+ Restituisce o imposta il nome dell'account
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.UserName">
+ <summary>
+ Restitusice o imposta la username utilizzata per accedere al server della posta in arrivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.Password">
+ <summary>
+ Restituisce o imposta la password utilizzata per accedere al server della posta in arrivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.ServerName">
+ <summary>
+ Restituisce o imposta il nome del server della posta in arrivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.ServerPort">
+ <summary>
+ Restituisce o imposta il numero della porta per la connessione al server della posta in arrivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.eMailAddress">
+ <summary>
+ Restituisce o imposta l'indirizzo di posta elettronica gestito da questo account
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.Protocol">
+ <summary>
+ Restituisce o imposta il nome del protocollo utilizzate per ricevere le email (POP3 o IMAP)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.UseSSL">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la connessione al server della posta in arrivo deve avvenire su SSL
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.DisplayName">
+ <summary>
+ Restituisce o imposta il nome visualizzato per le email inviate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.SMTPServerName">
+ <summary>
+ Restituisce o imposta il nome del server per la posta in uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.SMTPPort">
+ <summary>
+ Restituisce o imposta la porta per la connessione al server della posta in uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.ReplayTo">
+ <summary>
+ Restituisce o imposta l'indirizzo per le risposte
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.SMTPUserName">
+ <summary>
+ Restituisce o imposta il nome utente per il server della posta in uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.SMTPPassword">
+ <summary>
+ Restituisce o imposta la password per l'accesso al server della posta in uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.POPBeforeSMTP">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se accedere al server SMTP solo dopo aver effettuato il login su POP
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.DelServerAfterRecycleClean">
+ <summary>
+ Restituisce o imposta un valore che indica se le email devono essere eliminate dal server dopo aver svuotato il cestino
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.DelServerAfterRecycle">
+ <summary>
+ Restituisce o imposta un valore che indica se le email devono essere eliminate dal server dopo averle cestinate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.DelServerAfterNDays">
+ <summary>
+ Restituisce o imposta un valore che indica se le email devono essere eliminate dopo N giorni
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailAccount.DelServerAfterDays">
+ <summary>
+ Restituisce o imposta il numero di giorni dalla data di scaricamento per eliminare le email dal server.
+ 0 indica che le email non verranno eliminate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailFolder.Utente">
+ <summary>
+ Restituisce o imposta il proprietario della cartella
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.MailFolder.TotalMessages">
+ <summary>
+ Restituisce o imposta il numero totale di messaggio memorizzati nella cartella (questo valore viene aggiornato dall'applicazione e potrebbe essere non sincronizzato)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailFolder.TotalUnread">
+ <summary>
+ Restituisce o imposta il numero totale di messaggi non letti (aggiornato dall'applicazione)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailFolder.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailFolder.Attributi">
+ <summary>
+ Restituisce una collezione di attributi aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailFolder.Name">
+ <summary>
+ Restituisce o imposta il nome della cartella
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailFolder.ParentID">
+ <summary>
+ Restituisce o imposta l'ID del contenitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailFolder.Parent">
+ <summary>
+ Restituisce o imposta il contenitore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailFolder.Childs">
+ <summary>
+ Restituisce la collezione delle sottocartelle
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailFlags.Unread">
+ <summary>
+ Il messaggio non è ancora stato letto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.MailFlags.Attachments">
+ <summary>
+ Se vero indica che la mail contiene degli allegati
+ </summary>
+</member>
+<member name="P:DMD.Office.MailMessage.Folder">
+ <summary>
+ Restitusice o imposta il percorso in cui il messaggio è stato archiviato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailMessage.AccountName">
+ <summary>
+ Restituisce o imposta il nome dell'account utilizzate per scaricare il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailMessage.DeliveryDate">
+ <summary>
+ Gets the delivery date.
+ </summary>
+ <value>The delivery date.</value>
+</member>
+<member name="P:DMD.Office.MailMessage.DownloadDate">
+ <summary>
+ Restituisce o imposta la data in cui il messaggio è stato scaricato dal server
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailMessage.ReadDate">
+ <summary>
+ Restituisce o imposta la data in cui il messaggio è stato marcato come letto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailMessage.MessageId">
+ <summary>
+ Gets the message id.
+ </summary>
+ <value>The message id.</value>
+</member>
+<member name="P:DMD.Office.MailMessage.MimeVersion">
+ <summary>
+ Gets the MIME version.
+ </summary>
+ <value>The MIME version.</value>
+</member>
+<member name="P:DMD.Office.MailMessage.ContentId">
+ <summary>
+ Gets the content id.
+ </summary>
+ <value>The content id.</value>
+</member>
+<member name="P:DMD.Office.MailMessage.ContentDescription">
+ <summary>
+ Gets the content description.
+ </summary>
+ <value>The content description.</value>
+</member>
+<member name="P:DMD.Office.MailMessage.ContentDisposition">
+ <summary>
+ Gets the content disposition.
+ </summary>
+ <value>The content disposition.</value>
+</member>
+<member name="P:DMD.Office.MailMessage.ContentType">
+ <summary>
+ Gets the type of the content.
+ </summary>
+ <value>The type of the content.</value>
+</member>
+<member name="M:DMD.Office.MailMessage.GetHeader(System.String)">
+ <summary>
+ Gets the header.
+ </summary>
+ <param name="header">The header.</param>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.MailMessage.Attachments">
+ <summary>
+ Restituisce la collezione degli allegati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailMessage.Body">
+ <summary>
+ Restituisce il corpo del messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailMessage.Cc">
+ <summary>
+ Restituisce la collezione degli indirizzi destinatari in Copia Carbone
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailMessage.Bcc">
+ <summary>
+ Restituisce la collezione degli indirizzi destinatari in Copia Carbone Nascosta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailMessage.DeliveryNotificationOptions">
+ <summary>
+ Restituisce o imposta un valore che indica se richiedere o meno la conferma di consegna
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MailMessage.From">
+ <summary>
+ Restituisce o imposta l'indirizzo del mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MarcaturaIngressoUscita.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha effettualo la marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.MarcaturaIngressoUscita.IDDispositivo">
+ <summary>
+ Restituisce o imposta l'ID del dispositivo che ha registrato la marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.MarcaturaIngressoUscita.Data">
+ <summary>
+ Restituisce o imposta la data della marcatura
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.Office.MarcaturaIngressoUscita.IDReparto">
+ <summary>
+ Restituisce o imposta l'ID del reparto 
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.Office.CommissionePerUscita">
+ <summary>
+ Descrive lo svolgimento di una commissione durante un'uscita
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CommissionePerUscita.Operatore">
+ <summary>
+ Restituisce o imposta l'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CommissionePerUscita.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CommissionePerUscita.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha effettuate la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CommissionePerUscita.OraInizio">
+ <summary>
+ Restituisce o imposta la data e l'ora di uscita per la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CommissionePerUscita.Durata">
+ <summary>
+ Restituisce o imposta la durata in secondi (differenza tra ora ingresso ed ora uscita)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CommissionePerUscita.OraFine">
+ <summary>
+ Restituisce o imposta la data di rientro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.CommissionePerUscita.DistanzaPercorsa">
+ <summary>
+ Restituisce o imposta la distanza percorsa
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CommissioniPerUscitaCursor">
+ <summary>
+ Cursore sulla tabella delle commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CVeicoliClass">
+ <summary>
+ Gestione dei veicoli
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoVeicolo.NUOVO">
+ <summary>
+ L'oggetto non presenta difetti
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoVeicolo.USURATO">
+ <summary>
+ L'oggetto presenta qualche segno di usura ma è ancora funzionale
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoVeicolo.DANNEGGIATO">
+ <summary>
+ L'oggetto è danneggiato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoVeicolo.DISMESSO">
+ <summary>
+ L'oggetto è stato dismesso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.VeicoloFlags.Disponibile">
+ <summary>
+ Indica che il veicolo è disponibile per l'azienda
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Veicolo">
+ <summary>
+ Rappresenta un veicolo 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Veicolo.Alimentazione">
+ <summary>
+ Restituisce o imposta il tipo di alimentazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Veicolo.KmALitro">
+ <summary>
+ Restituisce o imposta i km/l medi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Veicolo.Nome">
+ <summary>
+ Restituisce o imposta il nome del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Veicolo.Tipo">
+ <summary>
+ Restituisce o imposta il tipo del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Veicolo.Modello">
+ <summary>
+ Restituisce o imposta il modello del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Veicolo.Seriale">
+ <summary>
+ Restituisce o imposta il numero di serie del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Veicolo.IconURL">
+ <summary>
+ Restituisce o imposta il percorso dell'icona associata al dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Veicolo.StatoVeicolo">
+ <summary>
+ Restituisce o imposta un valore che indica lo stato del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Veicolo.DataAcquisto">
+ <summary>
+ Restituisce o imposta la data di acquisto del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Veicolo.DataDismissione">
+ <summary>
+ Restituisce o imposta la data di dismissione del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.VeicoliCursor">
+ <summary>
+ Cursore sulla tabella dei veicoli
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoDispositivo.NUOVO">
+ <summary>
+ L'oggetto non presenta difetti
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoDispositivo.USURATO">
+ <summary>
+ L'oggetto presenta qualche segno di usura ma è ancora funzionale
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoDispositivo.DANNEGGIATO">
+ <summary>
+ L'oggetto è danneggiato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoDispositivo.DISMESSO">
+ <summary>
+ L'oggetto è stato dismesso
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Dispositivo">
+ <summary>
+ Rappresenta un dispositivo assegnato ad un utente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Dispositivo.User">
+ <summary>
+ Restituisce o imposta l'utente a cui è assegnato il dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Dispositivo.UserID">
+ <summary>
+ Restituisce o imposta l'ID dell'utente a cui è assegnato il dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Dispositivo.Nome">
+ <summary>
+ Restituisce o imposta il nome del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Dispositivo.Tipo">
+ <summary>
+ Restituisce o imposta il tipo del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Dispositivo.Modello">
+ <summary>
+ Restituisce o imposta il modello del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Dispositivo.Seriale">
+ <summary>
+ Restituisce o imposta il numero di serie del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Dispositivo.IconURL">
+ <summary>
+ Restituisce o imposta il percorso dell'icona associata al dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Dispositivo.StatoDispositivo">
+ <summary>
+ Restituisce o imposta un valore che indica lo stato del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Dispositivo.DataAcquisto">
+ <summary>
+ Restituisce o imposta la data di acquisto del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Dispositivo.DataDismissione">
+ <summary>
+ Restituisce o imposta la data di dismissione del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.DispositivoCursor">
+ <summary>
+ Cursore sulla tabella dei dispositivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.GPSRecords">
+ <summary>
+ Gestione dei luoghi "attraversati" dall'operatore per effettuare la commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.GPSRecord">
+ <summary>
+ Rappresenta un punto della mappa del territorio attraversato dall'utente per la commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.GPSRecord.Dispositivo">
+ <summary>
+ Restituisce o imposta il dispositivo 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.GPSRecord.IDDispositivo">
+ <summary>
+ Restituisce o imposta l'ID del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.GPSRecord.Istante1">
+ <summary>
+ Restituisce o imposta l'istante in cui è stato memorizzata la posizione per la prima volta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.GPSRecord.Istante2">
+ <summary>
+ Restituisce o imposta l'istante in cui è stato memorizzata la posizione per l'ultima volta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.GPSRecord.Latitudine">
+ <summary>
+ Restituisce o imposta la latitudine
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.GPSRecord.Longitudine">
+ <summary>
+ Restituisce o imposta la longitudine
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.GPSRecord.Altitudine">
+ <summary>
+ Restituisce o imposta l'altitudine
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.GPSRecord.Radius">
+ <summary>
+ Restituisce la distanza del punto dal centro della terra
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.GPSRecord.DistanceTo(DMD.Office.GPSRecord)">
+ <summary>
+ Calcola la distanza sul globo tra il punto corrente ed il punto specificato
+ </summary>
+ <param name="p"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.GPSRecord.bearingTo(DMD.Office.GPSRecord)">
+ <summary>
+ Returns the (initial) bearing from this point to the supplied point, in degrees
+ see http://williams.best.vwh.net/avform.htm#Crs
+ * @param   {LatLon} point: Latitude/longitude of destination point
+ </summary>
+ <param name="point"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.GPSRecordCursor">
+ <summary>
+ Cursore sulla tabella dei luoghi attraversati dall'utente per le commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.MotivoCommissione">
+ <summary>
+ Rappresenta un motivo di una commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MotivoCommissione.Motivo">
+ <summary>
+ Restituisce o imposta il motivo della commissione (descrizione breve)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.MotivoCommissioneCursor">
+ <summary>
+ Cursore sulla tabella dei motivi delle commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.RigaPrimaNotaCursor">
+ <summary>
+ Cursore sulla tabella delle entrate/uscite di prima nota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CRichiesteCERQClass">
+ <summary>
+ Gestione delle richieste conteggi estintivi e rimborso quote
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CRichiesteCERQClass.CMotiviRichiesteClass">
+ <summary>
+ Gestione dei motivi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Office.CRichiesteCERQClass.RichiestaCreata">
+ <summary>
+ Evento generato quando viene memorizzata una nuova richiesta
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Office.CRichiesteCERQClass.RichiestaEffettuata">
+ <summary>
+ Evento generato quando viene effettuata una nuova richiesta ad un cessionario
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Office.CRichiesteCERQClass.RichiestaRitirata">
+ <summary>
+ Evento generato quando viene ritirata un richiesta ad un cessionario
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Office.CRichiesteCERQClass.RichiestaRifiutata">
+ <summary>
+ Evento generato quando viene rifiutata un richiesta da un cessionario
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Office.CRichiesteCERQClass.RichiestaAnnullata">
+ <summary>
+ Evento generato quando viene annullata una richiesta da un utente
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CRichiesteCERQClass.InitModule">
+ <summary>
+ Inizializza modulo e tabelle
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.MotivoRichiesta">
+ <summary>
+ Rappresenta un motivo di una commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.MotivoRichiesta.Motivo">
+ <summary>
+ Restituisce o imposta il motivo della commissione (descrizione breve)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.MotivoRichiestaCursor">
+ <summary>
+ Cursore sulla tabella dei motivi delle richieste
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoRichiestaCERQ.DA_RICHIEDERE">
+ <summary>
+ La quota non è ancora stata richiesta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoRichiestaCERQ.RICHIESTA">
+ <summary>
+ La quota è stata richiesta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoRichiestaCERQ.RITIRATA">
+ <summary>
+ La quota è stata ritirata
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoRichiestaCERQ.ANNULLATA">
+ <summary>
+ La richiesta è stata annullata dall'operatore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Office.StatoRichiestaCERQ.RIFIUTATA">
+ <summary>
+ La richiesta è stata rifiutata dall'amministrazione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.RichiestaCERQ">
+ <summary>
+ Rappresenta una richiesta di conteggio estintivo/rimborso quote
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Office.RichiestaCERQ.RichiestaInviata">
+ <summary>
+ Evento generato quando la richiesta viene inviata
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Office.RichiestaCERQ.RichiestaRitirata">
+ <summary>
+ Evento generato quando la richiesta viene conclusa completandola
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Office.RichiestaCERQ.RichiestaAnnullata">
+ <summary>
+ Evento generato quando la richiesta viene annullata da un operatore interno
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Office.RichiestaCERQ.RichiestaRifiutata">
+ <summary>
+ Evento generato quando la richiesta viene annullata da un operatore esterno
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.DocumentoProdotto">
+ <summary>
+ Restituisce o imposta il documento prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.IDDocumentoProdotto">
+ <summary>
+ Restituisce o imposta l'ID del documento prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.TipoDocumentoProdotto">
+ <summary>
+ Restituisce o imposta il nome del tipo del documento prodotto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.AziendaRichiedente">
+ <summary>
+ Restituisce o importa l'azienda che ha effettuato la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.IDAziendaRichiedente">
+ <summary>
+ Restituisce o imposta l'ID dell'azienda richiedente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.NomeAziendaRichiedente">
+ <summary>
+ Restituisce o imposta il nome dell'azienda che ha effettuato la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.Data">
+ <summary>
+ Restituisce o imposta la data della richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.Operatore">
+ <summary>
+ Restituisce o imposta l'utente che ha effettuato la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore a cui è stata assegnata la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha effettuato la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.Cliente">
+ <summary>
+ Restituisce o imposta la persona per cui si è fatta la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.IDCliente">
+ <summary>
+ Restituisce o imposta l'ID del cliente per cui si è fatta la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.NomeCliente">
+ <summary>
+ Restituisce o imposta il nominativo del cliente per cui si è fatta la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.TipoRichiesta">
+ <summary>
+ Restituisce o imposta il tipo della richiesta (Richiesta conteggio estintivo, Rimborso quote, ...)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.Amministrazione">
+ <summary>
+ Restituisce o imposta l'amministrazione a cui si è stata inviata la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.IDAmministrazione">
+ <summary>
+ Restituisce o imposta l'ID dell'amministrazione a cui è stata fatta la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.NomeAmministrazione">
+ <summary>
+ Restituisce o imposta il nome dell'amministrazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.RichiestaAMezzo">
+ <summary>
+ Restituisce o imposta il mezzo usato per la richiesta (e-mail, fax, telefono)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.RichiestaAIndirizzo">
+ <summary>
+ Restituisce o imposta l'indirizzo usato per la richiesta (numero di telefono o di fax, indirizzo email, indirizzo postale)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.Note">
+ <summary>
+ Restituisce o imposta una stringa per informazioni aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.StatoOperazione">
+ <summary>
+ Restituisce o imposta lo stato dell'operazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.DataPrevista">
+ <summary>
+ Restituisce o imposta la data prevista per il ritiro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.DataEffettiva">
+ <summary>
+ Restituisce o imposta la data di ritiro (o di annullamento/rifiuto)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.OperatoreEffettivo">
+ <summary>
+ Restituisce o imposta l'operatore che ha ritirato (annullato o memorizzato il rifiuto)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.IDOperatoreEffettivo">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha ritirato (annulato o memorizzato il rifiuto)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.NomeOperatoreEffettivo">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha ritirato (annullato o memorizzato il rifiuto)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.Commissione">
+ <summary>
+ Restituisce o imposta la pratica per cui è stata effettuata la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.IDCommissione">
+ <summary>
+ Restituisce o imposta l'ID della pratica per cui è stata fatta la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.ContextType">
+ <summary>
+ Restituisce o imposta il tipo del contesto a cui è associata la richiesta (es. una pratica)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.RichiestaCERQ.ContextID">
+ <summary>
+ Restituisce o imposta l'ID del contesto che ha generato la richiesta (es. una pratica)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.RichiestaCERQCursor">
+ <summary>
+ Cursore sulla tabella delle richieste di conteggi / quote
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.CPrimaNotaClass">
+ <summary>
+ Gestione della prima nota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CPrimaNotaClass.CheckSottoSoglia">
+ <summary>
+ Verifica per ogni punto operativo che la giacenza in cassa sia non inferiore al limite.
+ In caso la giacenza sia inferiore viene generato l'evento sottosoglia
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Office.CPrimaNotaClass.CheckSottoSoglia(DMD.Anagrafica.CUfficio)">
+ <summary>
+ Verifica per l'ufficio specificato la giacenza in cassa sia non inferiore al limite.
+ In caso la giacenza sia inferiore viene generato l'evento sottosoglia
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.RigaPrimaNota">
+ <summary>
+ Rappresenta la registrazione di una voce di entrata/uscita nella prima nota
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.Uscita">
+ <summary>
+ Rappresenta una uscita che comprende più commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.IDVeicoloUsato">
+ <summary>
+ Restituisce o imposta l'ID del veicolo usato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.VeicoloUsato">
+ <summary>
+ Restituisce o imposta il veicolo usato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.NomeVeicoloUsato">
+ <summary>
+ Restituisce o imposta il nome del veicolo usato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.LitriCarburante">
+ <summary>
+ Restituisce o imposta i litri di carburante consumati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.Rimborso">
+ <summary>
+ Restituisce o imposta il rimborso per l'uscita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.Operatore">
+ <summary>
+ Restituisce o imposta l'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha effettuato la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha effettuate la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.OraUscita">
+ <summary>
+ Restituisce o imposta la data e l'ora di uscita per la commissione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.Durata">
+ <summary>
+ Restituisce o imposta la durata in secondi (differenza tra ora ingresso ed ora uscita)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.OraRientro">
+ <summary>
+ Restituisce o imposta la data di rientro
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Office.Uscita.DistanzaPercorsa">
+ <summary>
+ Restituisce o imposta la distanza percorsa
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Office.UsciteCursor">
+ <summary>
+ Cursore sulla tabella delle commissioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CMailApplications.GetUserApp(DMD.Sistema.CUser)">
+ <summary>
+ Questa funzione cerca l'applicazione associata all'utente e se non la trova la crea.
+ </summary>
+ <param name="user"></param>
+ <returns></returns>
+</member>
+<member name="T:DMD.Internals.CLicenzeSoftwareClass">
+ <summary>
+ Gestione delle licenze software
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CSotfwaresClass">
+ <summary>
+ Gestione dei software installati su un dispositivo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.COggettiDaSpedireClass">
+ <summary>
+ Modulo degli oggetti da spedire
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CSpedizioniClass">
+ <summary>
+ Gestione delle uscite
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CPBXsClass">
+ <summary>
+ Gestione dei centralini
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.ChiamateRegistrate">
+ <summary>
+ Gestione dei veicoli
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CTicketsClass.GruppoResponsabili">
+ <summary>
+ Restituisce il gruppo dei responsabili cioè gli utenti a cui vengono notificate tutte le richieste di assistenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CTicketsClass.GruppoEsclusi">
+ <summary>
+ Restituisce il gruppo degli utenti a cui non inviare alcun tipo di richiesta di assistenza.
+ Questo gruppo bypassa tutti gli altri 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CTicketCategoriesClass.GetItemByName(System.String,System.String)">
+ <summary>
+ Restituisce l'oggetto in base a categoria e sottocategoria
+ </summary>
+ <param name="categoria"></param>
+ <param name="sottocategoria"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CTicketCategoriesClass.GetTargetUsers(System.String,System.String)">
+ <summary>
+ Restituisce gli utenti a cui vengono inviati le notifiche per la categoria e la sottocategoria.
+ Agli utenti di { categoria, sottocategoria } vengono aggiunti anche gli utenti di { categoria, NULL }
+ </summary>
+ <param name="categoria"></param>
+ <param name="sottocategoria"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CMailAccounts">
+ <summary>
+ Rappresenta la collezione degli account definiti per l'applicazione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CMailsClass">
+ <summary>
+ Rappresenta la base per il gestore della posta elettronica
+ </summary>
+</member>
+<member name="E:DMD.Internals.CMailsClass.EmailReceived">
+ <summary>
+ Evento generato quando viene terminato il download di una nuova email
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Internals.CMailsClass.EmailSent">
+ <summary>
+ Evento generato quando viene terminato l'invio di una email
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Internals.CMailsClass.DownloadException">
+ <summary>
+ Evento generato quando si verifica un errore in fase di download dei messaggi
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CMailsClass.Folders">
+ <summary>
+ Restituisec o imposta la struttura principale delle cartelle
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CMailsClass.Accounts">
+ <summary>
+ Restituisce la collezione degli accounts configurati per l'applicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CMailsClass.NotifyChanges">
+ <summary>
+ Informa l'applicazione che deve ricaricare accounts e folders a causa di cambiamenti esterni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CDispositiviClass">
+ <summary>
+ Gestione dei dispositivi hardware assegnati ad un utente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.GPSRecordsClass">
+ <summary>
+ Gestione dei luoghi "attraversati" dall'operatore per effettuare la commissione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CUsciteClass">
+ <summary>
+ Gestione delle uscite
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,85 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastPrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastDialerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AsteriskServers" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FoldersToWatch" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SMTPServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">smtp.DMD.net</Value>
+    </Setting>
+    <Setting Name="SMTPPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="SMTPUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dialtp@dmdstore.it</Value>
+    </Setting>
+    <Setting Name="APPUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">admin</Value>
+    </Setting>
+    <Setting Name="APPPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SMTPDisplayName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SMTPSubject" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">KLOG</Value>
+    </Setting>
+    <Setting Name="SMTPNotifyTo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dialtp@dmdstore.it</Value>
+    </Setting>
+    <Setting Name="SMTPSSL" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="BackEnd" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Flags" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LogEvery" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3600</Value>
+    </Setting>
+    <Setting Name="ServersList" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.dmdstore.it</Value>
+    </Setting>
+    <Setting Name="SMTPLimitOutSent" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="LastFaxPrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="PROXYIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PROXYPORT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8080</Value>
+    </Setting>
+    <Setting Name="PROXYCERT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DMDsrl.crt</Value>
+    </Setting>
+    <Setting Name="PROXYENABLED" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="autostart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="registerprotocol" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SMTPPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">
+                </Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

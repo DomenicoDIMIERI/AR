@@ -1,0 +1,9 @@
+create table [tbl_WordStats]
+(
+[ID] Counter Primary Key,
+[Word] Text(255),
+[Frequenza] Int,
+[Indice] Image
+)
+
+create index idxWordStatsWD on tbl_WordStats (Word)

@@ -1,0 +1,35 @@
+C:\Work\Programmazione\DMD\DMDNokiaUtils\bin\x86\Debug\DMDNokiaUtils.dll
+C:\Work\Programmazione\DMD\DMDNokiaUtils\bin\x86\Debug\DMDNokiaUtils.pdb
+C:\Work\Programmazione\DMD\DMDNokiaUtils\bin\x86\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\DMD\DMDNokiaUtils\bin\x86\Debug\DMDBaseCore.pdb
+C:\Work\Programmazione\DMD\DMDNokiaUtils\bin\x86\Debug\DMDBaseCore.xml
+C:\Work\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbprojAssemblyReference.cache
+C:\Work\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbproj.GenerateResource.cache
+C:\Work\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbproj.CopyComplete
+C:\Work\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.dll
+C:\Work\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.pdb
+C:\Works\Programmazione\DMD\DMDNokiaUtils\bin\x86\Debug\DMDNokiaUtils.dll
+C:\Works\Programmazione\DMD\DMDNokiaUtils\bin\x86\Debug\DMDNokiaUtils.pdb
+C:\Works\Programmazione\DMD\DMDNokiaUtils\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\Programmazione\DMD\DMDNokiaUtils\bin\x86\Debug\DMDBaseCore.pdb
+C:\Works\Programmazione\DMD\DMDNokiaUtils\bin\x86\Debug\DMDBaseCore.xml
+C:\Works\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbprojResolveAssemblyReference.cache
+C:\Works\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMD.Resources.resources
+C:\Works\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbproj.GenerateResource.Cache
+C:\Works\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbproj.CoreCompileInputs.cache
+C:\Works\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.dll
+C:\Works\Programmazione\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\x86\Debug\DMDNokiaUtils.dll
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\x86\Debug\DMDNokiaUtils.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\x86\Debug\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\x86\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.dll
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\x86\Debug\DMDNokiaUtils.pdb

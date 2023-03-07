@@ -1,0 +1,10 @@
+create table [tbl_Index]
+(
+[ID] Counter Primary Key,
+[ObjectID] Int,
+[Word] Text(255),
+[Rank] Int
+)
+
+create index idxIndexOID on tbl_Index ([ObjectID])
+create index idxIndexWD on tbl_Index ([Word])

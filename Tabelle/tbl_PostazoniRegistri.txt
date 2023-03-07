@@ -1,0 +1,14 @@
+create table tbl_PostazoniRegistri
+(
+ID Counter Primary Key,
+IDPostazione int,
+NomePostazione text(255),
+DataRegistrazione date,
+NomeRegistro text(255),
+ValoreRegistro real,
+CreatoDa int,
+CreatoIl Date,
+ModificatoDa int,
+ModificatoIl date,
+Stato int
+)

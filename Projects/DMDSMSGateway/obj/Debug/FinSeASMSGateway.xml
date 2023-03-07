@@ -1,0 +1,304 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinSeASMSGateway
+</name>
+</assembly>
+<members>
+<member name="T:FinSeA.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FinSeA.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FinSeA.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.ComPort">
+ <summary>
+ Restituisce o imposta il nome della porta COM associata al modem per inviare i messaggi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.DeviceSerialNumber">
+ <summary>
+ Restituisce o imposta il numero seriale del dispositivo associato 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.Nome">
+ <summary>
+ Restituisce o imposta il nome del servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.CreditoResiduo">
+ <summary>
+ Restituisce o imposta il credito residuo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.CostoSMS">
+ <summary>
+ Restituisce o imposta il costo per il singolo SMS inviato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.ScadenzaCredito">
+ <summary>
+ Restituisce o imposta la data di scadenza del credito
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.Note">
+ <summary>
+ Restituisce o imposta delle note aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.SogliaCredito">
+ <summary>
+ Restituisce o imposta la soglia del credito al di sotto della quale viene inviato un messaggio email all'indirizzo specificato da NotificaA
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.NotificaA">
+ <summary>
+ Restituisce o imposta l'indirizzo e-mail a cui viene inviata la mail di notifica sotto la soglia credito
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.Flags">
+ <summary>
+ Restituisce o imposta dei flags aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.UserName">
+ <summary>
+ Restituisce o imposta la username utilizzata per l'accesso al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.OutService.Password">
+ <summary>
+ Restituisce o imposta la password per l'accesso al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.SMSGateway.SMSSendStatus.NotSend">
+ <summary>
+ Messaggio da inviare
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.SMSGateway.SMSSendStatus.Sending">
+ <summary>
+ Messaggio in fase di invio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.SMSGateway.SMSSendStatus.Sent">
+ <summary>
+ Messaggio inviato correttamente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.SMSGateway.SMSSendStatus.Retry">
+ <summary>
+ Messaggio da inviare nuovamente a causa di un errore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.SMSGateway.SMSSendStatus.Error">
+ <summary>
+ Messaggio non inviato a causa di un errore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.SMSGateway.SMSReceiveStatus.NotReceived">
+ <summary>
+ Il messaggio non è stato ricevuto dal destinatario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.SMSGateway.SMSReceiveStatus.Received">
+ <summary>
+ Il messaggio è stato ricevuto  
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.SMSGateway.SMSReceiveStatus.Read">
+ <summary>
+ Il messaggio è stato letto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.SMSGateway.SMSReceiveStatus.Deleted">
+ <summary>
+ Il messaggio è stato eliminato senza leggerlo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.Driver">
+ <summary>
+ Restitusice o imposta il nome del driver utilizzato dal server per inviare il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.Modem">
+ <summary>
+ Restituisce o imposta il nome del modem utilizzato dal server per inviare il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.DataInvio">
+ <summary>
+ Restituisce o imposta la data in cui l'utente ha richiesto l'invio del messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.DataRicezioneServer">
+ <summary>
+ Restituisce o imposta la data in cui il server ha ricevuto la richiesta di invio del messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.DataInvioServer">
+ <summary>
+ Restituisce o imposta la data in cui 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.NumeroTentativiInvio">
+ <summary>
+ Restituisce o imposta il numero di tentativi di invio effettuati dal server prima di rinunciare ad inviare il messaggio (in caso di errore)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.DataRicezione">
+ <summary>
+ Restituisce o imposta la data di ricezione del messaggio da parte del destinatario
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.NumeroMittente">
+ <summary>
+ Restituisce o imposta il numero del mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.NomeMittente">
+ <summary>
+ Restituisce o imposta il nome del mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.NumeroDestinatario">
+ <summary>
+ Restituisce o imposta il nome del destinatario
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.NomeDestinatario">
+ <summary>
+ Restituisce o imposta il nome del destinatario
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.Messaggio">
+ <summary>
+ Restituisce o imposta il contenuto del messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.Flags">
+ <summary>
+ Restituisce o imposta dei flags
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.StatoInvio">
+ <summary>
+ Restituisce o imposta lo stato di invio del messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.DettaglioStatoRicezione">
+ <summary>
+ Restituisce o imposta il dettaglio sullo stato di ricezione del messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.SMSGateway.SMSMessage.MessageID">
+ <summary>
+ Restituisce l'ID del messaggio definito dall'applicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

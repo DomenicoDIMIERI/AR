@@ -1,0 +1,4 @@
+alter table tbl_Attachments add column Flags Int, ParentID int
+
+create index idxAttachmentsFLG on tbl_Attachments (Flags)
+create index idxAttachmentsPID on tbl_Attachments (ParentID)

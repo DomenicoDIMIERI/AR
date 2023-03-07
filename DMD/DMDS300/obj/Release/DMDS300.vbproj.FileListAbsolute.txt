@@ -1,0 +1,11 @@
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\Release\tc400.dll
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\Release\DMDS300.dll
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\Release\DMDS300.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\Release\DMDS300.xml
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Release\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Release\DMDS300.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Release\DMDS300.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Release\DMDS300.dll
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Release\DMDS300.xml
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Release\DMDS300.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Release\DMDS300.vbprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Work\Programmazione\Projects\PDDApp\bin\x86\Debug\PDDApp.exe.config
+C:\Work\Programmazione\Projects\PDDApp\bin\x86\Debug\PDDApp.exe
+C:\Work\Programmazione\Projects\PDDApp\bin\x86\Debug\PDDApp.pdb
+C:\Work\Programmazione\Projects\PDDApp\bin\x86\Debug\PDDApp.xml
+C:\Work\Programmazione\Projects\PDDApp\obj\x86\Debug\PDDApp.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\PDDApp\obj\x86\Debug\PDDApp.Resources.resources
+C:\Work\Programmazione\Projects\PDDApp\obj\x86\Debug\PDDApp.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\PDDApp\obj\x86\Debug\PDDApp.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\PDDApp\obj\x86\Debug\PDDApp.exe
+C:\Work\Programmazione\Projects\PDDApp\obj\x86\Debug\PDDApp.xml
+C:\Work\Programmazione\Projects\PDDApp\obj\x86\Debug\PDDApp.pdb

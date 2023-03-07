@@ -1,0 +1,72 @@
+create table tbl_OfficeOggettiDaSpedire
+(
+[ID] Counter Primary Key,
+AspettoBeni Text(255),
+IDCliente int,
+NomeCliente text(255),
+IDDestinatario int,
+NomeDestinatario text(255),
+INDMITT_LABEL text(255),
+INDMITT_CAP text(16),
+INDMITT_CITTA text(255),
+INDMITT_PROV text(255),
+INDMITT_VIA text(255),
+INDDEST_LABEL text(255),
+INDDEST_CAP text(16),
+INDDEST_CITTA Text(255),
+INDDEST_PROV text(255),
+INDDEST_VIA Text(255),
+NumeroColli int,
+Peso real,
+Altezza real,
+Larghezza real,
+Profondita real,
+IDRichiestaDa int,
+NomeRichiestaDa text(255),
+DataRichiesta Date,
+IDPresaInCaricoDa int,
+NomePresaInCaricoDa Text(255),
+DataPresaInCarico Date,
+IDConfermatoDa int,
+NomeConfermatoDa Text(255),
+DataConferma Date,
+DescrizioneSpedizione Memo,
+NotePerIlCorriere Memo,
+NotePerIlDestinatario memo,
+StatoOggetto Int,
+Flags int,
+DettaglioStato Text(255),
+DataInizioSpedizione Date,
+DataConsegna Date,
+CategoriaContenuto text(255),
+DescrizioneContenuto text(255),
+IDPuntoOperativo int,
+NomePuntoOperativo text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato int
+)
+
+
+alter table tbl_OfficeOggettiDaSpedire add column IDSpedizione Int, NumeroSpedizione text(255), IDCorriere Int, NomeCorriere Text(255)
+
+create index idxOfficeOggettiDaSpedireIDCliente on tbl_OfficeOggettiDaSpedire  (IDCliente)
+create index idxOfficeOggettiDaSpedireIDDest on tbl_OfficeOggettiDaSpedire  (IDDestinatario)
+create index idxOfficeOggettiDaSpedireIDRICHD on tbl_OfficeOggettiDaSpedire  (IDRichiestaDa)
+create index idxOfficeOggettiDaSpedireDTRICHD on tbl_OfficeOggettiDaSpedire  (DataRichiesta)
+create index idxOfficeOggettiDaSpedireIDPRINC on tbl_OfficeOggettiDaSpedire  (IDPresaInCaricoDa)
+create index idxOfficeOggettiDaSpedireDTPRINC on tbl_OfficeOggettiDaSpedire  (DataPresaInCarico)
+create index idxOfficeOggettiDaSpedireIDCNFD on tbl_OfficeOggettiDaSpedire  (IDConfermatoDa)
+create index idxOfficeOggettiDaSpedireDTCNF on tbl_OfficeOggettiDaSpedire  (DataConferma)
+create index idxOfficeOggettiDaSpedireSTO on tbl_OfficeOggettiDaSpedire  (StatoOggetto)
+create index idxOfficeOggettiDaSpedireDTINSP on tbl_OfficeOggettiDaSpedire  (DataInizioSpedizione)
+create index idxOfficeOggettiDaSpedireDTCNT on tbl_OfficeOggettiDaSpedire  (DataConsegna)
+create index idxOfficeOggettiDaSpedireCTCNT on tbl_OfficeOggettiDaSpedire  (CategoriaContenuto)
+create index idxOfficeOggettiDaSpedireIDPO on tbl_OfficeOggettiDaSpedire  (IDPuntoOperativo)
+create index idxOfficeOggettiDaSpedireCTDA on tbl_OfficeOggettiDaSpedire  (CreatoDa)
+ 
+ 
+ 
+Stato 

@@ -1,0 +1,12 @@
+C:\Work\Programmazione\Projects\PDDApp\bin\Debug\PDDApp.exe.config
+C:\Work\Programmazione\Projects\PDDApp\bin\Debug\PDDApp.exe
+C:\Work\Programmazione\Projects\PDDApp\bin\Debug\PDDApp.pdb
+C:\Work\Programmazione\Projects\PDDApp\bin\Debug\PDDApp.xml
+C:\Work\Programmazione\Projects\PDDApp\bin\Debug\System.Net.Http.dll
+C:\Work\Programmazione\Projects\PDDApp\bin\Debug\System.Net.Http.xml
+C:\Work\Programmazione\Projects\PDDApp\obj\Debug\PDDApp.Resources.resources
+C:\Work\Programmazione\Projects\PDDApp\obj\Debug\PDDApp.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\PDDApp\obj\Debug\PDDApp.exe
+C:\Work\Programmazione\Projects\PDDApp\obj\Debug\PDDApp.xml
+C:\Work\Programmazione\Projects\PDDApp\obj\Debug\PDDApp.pdb
+C:\Work\Programmazione\Projects\PDDApp\obj\Debug\PDDApp.vbprojResolveAssemblyReference.cache

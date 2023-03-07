@@ -1,0 +1,5 @@
+alter table [tbl_UltimaChiamata] Add column DettaglioEsito Text(255), DettaglioEsito1 Text(255)
+
+
+create index idxUltimaChiamataDettEsito on tbl_UltimaChiamata (DettaglioEsito)
+create index idxUltimaChiamataDettEsito1 on tbl_UltimaChiamata (DettaglioEsito1)

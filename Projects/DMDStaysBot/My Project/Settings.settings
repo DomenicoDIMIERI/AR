@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="POP3Server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pop3.DMD.net</Value>
+    </Setting>
+    <Setting Name="POP3Port" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">110</Value>
+    </Setting>
+    <Setting Name="POP3UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">staybot@DMD.net</Value>
+    </Setting>
+    <Setting Name="POP3Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cF3mWpSgAuO9</Value>
+    </Setting>
+    <Setting Name="POP3CheckEvery" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="UploadToPage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://areariservata.DMD.net/bd/stay.aspx?_a=SegnalazioneStay</Value>
+    </Setting>
+    <Setting Name="POP3SSL" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

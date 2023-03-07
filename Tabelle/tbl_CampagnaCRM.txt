@@ -1,0 +1,28 @@
+create table tbl_CampagnaCRM
+(
+ID Counter Primary Key,
+Nome text(255),
+Inizio Date,
+Fine Date,
+TipoAssegnazione int,
+TipoCampagna text(255),
+Flags int,
+Attributi Memo,
+Gruppi Memo,
+IDPuntoOperativo int,
+NomePuntoOperativo text(255),
+CreatoDa int,
+CreatoIl date,
+ModificatoDa int,
+ModificatoIl date,
+Stato int
+)
+
+create index idxCampagnaCRMNome on tbl_CampagnaCRM (Nome)
+create index idxCampagnaCRMini on tbl_CampagnaCRM (Inizio)
+create index idxCampagnaCRMend on tbl_CampagnaCRM (Fine)
+create index idxCampagnaCRMtpass on tbl_CampagnaCRM (TipoAssegnazione)
+create index idxCampagnaCRMtpcmp on tbl_CampagnaCRM (TipoCampagna)
+create index idxCampagnaCRMidpo on tbl_CampagnaCRM (IDPuntoOperativo)
+create index idxCampagnaCRMcrtda on tbl_CampagnaCRM (CreatoDa)
+create index idxCampagnaCRMstato on tbl_CampagnaCRM (Stato)

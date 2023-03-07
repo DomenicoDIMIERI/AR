@@ -1,0 +1,66 @@
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\PDFUtils1.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\PDFUtils1.pdb
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.AWT.WinForms.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Core.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Media.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Text.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Util.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.Runtime.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\pdfbox-1.8.9.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\Spire.Pdf.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\commons-logging.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\fontbox-1.8.9.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\Spire.License.dll
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\Spire.Pdf.xml
+C:\Work\Programmazione\Projects\PDFUtils1\bin\x86\Debug\Spire.License.xml
+C:\Work\Programmazione\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.csprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.csproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.csproj.CopyComplete
+C:\Work\Programmazione\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.dll
+C:\Work\Programmazione\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.pdb
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\PDFUtils1.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\PDFUtils1.pdb
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.AWT.WinForms.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Core.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Media.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Text.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Util.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\IKVM.Runtime.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\pdfbox-1.8.9.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\Spire.Pdf.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\commons-logging.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\fontbox-1.8.9.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\Spire.License.dll
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\Spire.Pdf.xml
+C:\Works\Programmazione\Projects\PDFUtils1\bin\x86\Debug\Spire.License.xml
+C:\Works\Programmazione\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.csprojResolveAssemblyReference.cache
+C:\Works\Programmazione\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.csproj.CoreCompileInputs.cache
+C:\Works\Programmazione\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.dll
+C:\Works\Programmazione\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.pdb
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\PDFUtils1.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\PDFUtils1.pdb
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\IKVM.AWT.WinForms.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Core.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Media.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Text.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.Util.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\IKVM.Runtime.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\pdfbox-1.8.9.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\Spire.Pdf.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\commons-logging.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\fontbox-1.8.9.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\Spire.License.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\Spire.Pdf.xml
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\Spire.License.xml
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.csprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.csproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.csproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.dll
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\obj\x86\Debug\PDFUtils1.pdb
+C:\Works\My Web Sites\AR1\Projects\PDFUtils1\bin\x86\Debug\Microsoft.mshtml.dll

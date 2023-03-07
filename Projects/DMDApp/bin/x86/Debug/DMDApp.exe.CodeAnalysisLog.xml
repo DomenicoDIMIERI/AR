@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Works\My Web Sites\AR1\Projects\DMDApp\bin\x86\Debug\DMDApp.exe">
+   <Modules>
+    <Module Name="dmdapp.exe">
+     <Namespaces>
+      <Namespace Name="DMDApp">
+       <Types>
+        <Type Name="frmAudioConfig" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="m_Stream" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2019-04-15 08:51:14Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Works\My Web Sites\AR1\Projects\DMDApp\Forms" File="frmAudioConfig.Designer.vb" Line="7">'frmAudioConfig' contiene il campo 'frmAudioConfig.m_Stream' di tipo IDisposable: 'Stream'. Modificare il metodo Dispose di 'frmAudioConfig' in modo che chiami Dispose o Close su questo campo.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmInCall" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#SetActiveWindow(System.IntPtr)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2019-04-15 08:51:14Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Poiché si tratta di un metodo P/Invoke, 'frmInCall.SetActiveWindow(IntPtr)' deve essere definito in una classe chiamata NativeMethods, SafeNativeMethods o UnsafeNativeMethods.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Utils" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#OpenRegKey(Microsoft.Win32.RegistryKey,System.String,System.Boolean)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Non eliminare gli oggetti più volte" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-04-15 08:51:14Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Works\My Web Sites\AR1\Projects\DMDApp" File="Utils.vb" Line="79">L'oggetto 'n' può essere eliminato più volte nel metodo 'Utils.OpenRegKey(RegistryKey, String, Boolean)'. Per evitare di generare System.ObjectDisposedException, è consigliabile chiamare Dispose su un oggetto non più di una volta.: Lines: 79</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>I campi eliminabili devono essere eliminati</Name>
+   <Description>Se un tipo che implementa IDisposable è proprietario di campi che a loro volta implementano IDisposable, l'implementazione Dispose() del tipo incapsulante deve chiamare Dispose() su ogni campo eliminabile.</Description>
+   <Resolution Name="Default">{0} contiene il campo {1} di tipo IDisposable: {2}. Modificare il metodo Dispose di {0} in modo che chiami Dispose o Close su questo campo.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060">
+   <Name>Spostare i P/Invoke nella classe NativeMethods</Name>
+   <Description>Questo tipo contiene membri con l'attributo DllImport. I membri con l'attributo DllImport devono essere contenuti in classi chiamate NativeMethods, SafeNativeMethods o UnsafeNativeMethods.</Description>
+   <Resolution Name="Default">Poiché si tratta di un metodo P/Invoke, {0} deve essere definito in una classe chiamata NativeMethods, SafeNativeMethods o UnsafeNativeMethods.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182161.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="Non eliminare gli oggetti più volte" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Non eliminare gli oggetti più volte</Name>
+   <Description>È possibile chiamare più volte un metodo Dispose implementato in modo corretto senza che vengano generate eccezioni. Poiché tuttavia tale risultato non è garantito, per evitare di generare System.ObjectDisposedException è consigliabile chiamare Dispose su un oggetto non più di una volta.</Description>
+   <Resolution Name="Default">L'oggetto {0} può essere eliminato più volte nel metodo {1}. Per evitare di generare System.ObjectDisposedException, è consigliabile chiamare Dispose su un oggetto non più di una volta.: Lines: 79</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoria</String>
+  <String Key="Certainty">Attendibilità</String>
+  <String Key="CollapseAll">Comprimi tutto</String>
+  <String Key="CheckId">ID controllo</String>
+  <String Key="Error">Errore</String>
+  <String Key="Errors">errori</String>
+  <String Key="ExpandAll">Espandi tutto</String>
+  <String Key="Help">Guida</String>
+  <String Key="Line">Riga</String>
+  <String Key="Messages">messaggi</String>
+  <String Key="LocationNotStoredInPdb">[Percorso non archiviato nel PDB]</String>
+  <String Key="Project">Progetto</String>
+  <String Key="Resolution">Risoluzione</String>
+  <String Key="Rule">Regola</String>
+  <String Key="RuleFile">File delle regole</String>
+  <String Key="RuleDescription">Descrizione regola</String>
+  <String Key="Source">Origine</String>
+  <String Key="Status">Stato</String>
+  <String Key="Target">Destinazione</String>
+  <String Key="Warning">Avviso</String>
+  <String Key="Warnings">avvisi</String>
+  <String Key="ReportTitle">Report di analisi codice</String>
+ </Localized>
+</FxCopReport>

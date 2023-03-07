@@ -1,0 +1,374 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DMDWin32
+</name>
+</assembly>
+<members>
+<member name="T:DMD.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="T:DMD.Net.Messaging.XDMessageEventArgs">
+ <summary>
+ The event args used by the message handler. This enables DataGram data 
+ to be passed to the handler.
+ </summary>
+</member>
+<member name="P:DMD.Net.Messaging.XDMessageEventArgs.DataGram">
+ <summary>
+ Gets the DataGram associated with this instance.
+ </summary>
+</member>
+<member name="M:DMD.Net.Messaging.XDMessageEventArgs.#ctor(DMD.Net.Messaging.DataGram)">
+ <summary>
+ Constructor used to create a new instance from a DataGram struct.
+ </summary>
+ <param name="dataGram">The DataGram instance.</param>
+</member>
+<member name="T:DMD.Net.Messaging.XDListener">
+ <summary>
+ A class used to send and recieve cross AppDomain messages. Applications may
+ leverage this instance to register listeners on pseudo 'channels', and 
+ broadcast messages to other applications.
+ </summary>
+</member>
+<member name="T:DMD.Net.Messaging.XDListener.XDMessageHandler">
+ <summary>
+ The delegate used for handling cross AppDomain communications.
+ </summary>
+ <param name="sender">The event sender.</param>
+ <param name="e">The event args containing the DataGram data.</param>
+</member>
+<member name="E:DMD.Net.Messaging.XDListener.MessageReceived">
+ <summary>
+ The event fired when messages are received.
+ </summary>
+</member>
+<member name="M:DMD.Net.Messaging.XDListener.#ctor">
+ <summary>
+ Default constructor. This creates a hidden native window used to 
+ listen for Windows Messages, and filter out the WM_COPYDATA commands.
+ </summary>
+</member>
+<member name="M:DMD.Net.Messaging.XDListener.RegisterChannel(System.String)">
+ <summary>
+ Registers the instance to recieve messages from a named channel.
+ </summary>
+ <param name="channelName">The channel name to listen on.</param>
+</member>
+<member name="M:DMD.Net.Messaging.XDListener.UnRegisterChannel(System.String)">
+ <summary>
+ Unregisters the channel name with the instance, so that messages from this 
+ channel will no longer be received.
+ </summary>
+ <param name="channelName">The channel name to stop listening for.</param>
+</member>
+<member name="M:DMD.Net.Messaging.XDListener.WndProc(System.Windows.Forms.Message@)">
+ <summary>
+ The native window message filter used to catch our custom WM_COPYDATA
+ messages containing cross AppDomain messages. All other messages are ignored.
+ </summary>
+ <param name="msg">A representation of the native Windows Message.</param>
+</member>
+<member name="M:DMD.Net.Messaging.XDListener.GetChannelKey(System.String)">
+ <summary>
+ Gets a channel key string associated with the channel name. This is used as the 
+ property name attached to listening windows in order to identify them as
+ listeners. Using the key instead of user defined channel name avoids protential 
+ property name clashes. 
+ </summary>
+ <param name="channelName">The channel name for which a channel key is required.</param>
+ <returns>The string channel key.</returns>
+</member>
+<member name="T:DMD.Net.Messaging.XDBroadcast">
+ <summary>
+ Class used to broadcast messages to other applications listening
+ on a particular channel.
+ </summary>
+</member>
+<member name="M:DMD.Net.Messaging.XDBroadcast.SendToChannel(System.String,System.Object)">
+ <summary>
+ The API used to broadcast messages to a channel, and other applications that
+ may be listening.
+ </summary>
+ <param name="channel">The channel name to broadcast on.</param>
+ <param name="message">The string message data.</param>
+</member>
+<member name="T:DMD.Net.Messaging.WindowEnumFilter">
+ <summary>
+ A class used as a WindowFilterHandler for the WindowsEnum class. This 
+ filters the results of a windows enumeration based on whether the windows
+ contain a named property.
+ </summary>
+</member>
+<member name="F:DMD.Net.Messaging.WindowEnumFilter.property">
+ <summary>
+ The property to search for when filtering the windows.
+ </summary>
+</member>
+<member name="M:DMD.Net.Messaging.WindowEnumFilter.#ctor(System.String)">
+ <summary>
+ The constructor which takes the property name used for filtering
+ results.
+ </summary>
+ <param name="property">The windows property name.</param>
+</member>
+<member name="M:DMD.Net.Messaging.WindowEnumFilter.WindowFilterHandler(System.IntPtr,System.Boolean@)">
+ <summary>
+ The delegate used to filter windows during emuneration. Only windows 
+ that contain a named property are added to the enum.
+ </summary>
+ <param name="hWnd">The window being filtered.</param>
+ <param name="include">Indicates whether the window should be
+ inclused in the enumeration output.</param>
+</member>
+<member name="T:DMD.Net.Messaging.DataGram">
+ <summary>
+ The data struct that is passed between AppDomain boundaries. This is
+ sent as a delimited string containing the channel and message.
+ </summary>
+</member>
+<member name="F:DMD.Net.Messaging.DataGram._channel">
+ <summary>
+ Stores the channel name associated with Me message.
+ </summary>
+</member>
+<member name="F:DMD.Net.Messaging.DataGram._message">
+ <summary>
+ Stores the string message.
+ </summary>
+</member>
+<member name="F:DMD.Net.Messaging.DataGram.dataStruct">
+ <summary>
+ The native data struct used to pass the data between applications. This
+ contains a pointer to the data packet.
+ </summary>
+</member>
+<member name="M:DMD.Net.Messaging.DataGram.#ctor(System.String,System.Object)">
+ <summary>
+ Constructor which creates the data gram from a message and channel name.
+ </summary>
+ <param name="channel">The channel through which the message will be sent.</param>
+ <param name="message">The string message to send.</param>
+</member>
+<member name="M:DMD.Net.Messaging.DataGram.#ctor(System.IntPtr)">
+ <summary>
+ Constructor creates an instance of the class from a pointer address, and expands
+ the data packet into the originating channel name and message.
+ </summary>
+ <param name="lpParam">A pointer the a COPYDATASTRUCT containing information required to 
+ expand the DataGram.</param>
+</member>
+<member name="P:DMD.Net.Messaging.DataGram.Channel">
+ <summary>
+ Gets the channel name.
+ </summary>
+</member>
+<member name="P:DMD.Net.Messaging.DataGram.Message">
+ <summary>
+ Gets the message.
+ </summary>
+</member>
+<member name="M:DMD.Net.Messaging.DataGram.ToStruct">
+ <summary>
+ Pushes the DatGram's data into memory and returns a COPYDATASTRUCT instance with
+ a pointer to the data so it can be sent in a Windows Message and read by another application.
+ </summary>
+ <returns>A struct containing the pointer to Me DataGram's data.</returns>
+</member>
+<member name="M:DMD.Net.Messaging.DataGram.FromPointer(System.IntPtr)">
+ <summary>
+ Creates an instance of a DataGram struct from a pointer to a COPYDATASTRUCT
+ object containing the address of the data.
+ </summary>
+ <param name="lpParam">A pointer to a COPYDATASTRUCT object from which the DataGram data
+ can be derived.</param>
+ <returns>A DataGram instance containing a message, and the channel through which
+ it was sent.</returns>
+</member>
+<member name="M:DMD.Net.Messaging.DataGram.Dispose">
+ <summary>
+ Disposes of the unmanaged memory stored by the COPYDATASTRUCT instance
+ when data is passed between applications.
+ </summary>
+</member>
+<member name="F:DMD.Native.Win32.WM_COPYDATA">
+ <summary>
+ WM_COPYDATA constant.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Native.Win32.WS_CHILD">
+ <summary>
+ The WM_CHILD window style constant.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Native.Win32.COPYDATASTRUCT">
+ <summary>
+ The struct used to marshal data between applications using the windows messaging API.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Native.Win32.SendMessageTimeoutFlags">
+ <summary>
+ Specifies how to send the message. This parameter can be one or more of the following values.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Native.Win32.SendMessageTimeoutFlags.SMTO_NORMAL">
+ <summary>
+ The calling thread is not prevented from processing other requests while waiting for the function to return.
+ </summary>
+</member>
+<member name="F:DMD.Native.Win32.SendMessageTimeoutFlags.SMTO_BLOCK">
+ <summary>
+ Prevents the calling thread from processing any other
+ requests until the function returns.
+ </summary>
+</member>
+<member name="F:DMD.Native.Win32.SendMessageTimeoutFlags.SMTO_ABORTIFHUNG">
+ <summary>
+ Returns without waiting for the time-out period to elapse 
+ if the receiving thread appears to not respond or "hangs."
+ </summary>
+</member>
+<member name="F:DMD.Native.Win32.SendMessageTimeoutFlags.SMTO_NOTIMEOUTIFNOTHUNG">
+ <summary>
+ Microsoft Windows 2000/Windows XP: Do not enforce the time-out 
+ period as long as the receiving thread is processing messages.
+ </summary>
+</member>
+<member name="M:DMD.Native.Win32.GetDesktopWindow">
+ <summary>
+ Returns a pointer to the Desktop window.
+ </summary>
+ <returns>Pointer to the desktop window.</returns>
+</member>
+<member name="M:DMD.Native.Win32.SendMessageTimeout(System.IntPtr,System.UInt32,System.Int32,DMD.Native.Win32.COPYDATASTRUCT@,DMD.Native.Win32.SendMessageTimeoutFlags,System.UInt32,System.IntPtr@)">
+ <summary>
+ Sends a native windows message to a specified window.
+ </summary>
+ <param name="hwnd">The window to which the message should be sent.</param>
+ <param name="wMsg">The native windows message type.</param>
+ <param name="wParam">A pointer to the wPAram data.</param>
+ <param name="lParam">The struct containing lParam data</param>
+ <param name="flags">The timeout flags.</param>
+ <param name="timeout">The timeout value in miliseconds.</param>
+ <param name="result">The result.</param>
+ <returns></returns>
+</member>
+<member name="T:DMD.Native.Win32.EnumWindowsProc">
+ <summary>
+ A delegate used by the EnumChildWindows windows API to enumerate windows.
+ </summary>
+ <param name="hwnd">A pointer to a window that was found.</param>
+ <param name="lParam">The lParam passed by the EnumChildWindows API.</param>
+ <returns></returns>
+</member>
+<member name="M:DMD.Native.Win32.EnumChildWindows(System.IntPtr,DMD.Native.Win32.EnumWindowsProc,System.IntPtr)">
+ <summary>
+ The API used to enumerate child windows of a given parent window.
+ </summary>
+ <param name="hwndParent">The parent window.</param>
+ <param name="lpEnumFunc">The delegate called when a window is located.</param>
+ <param name="lParam">The lParam passed to the deleage.</param>
+ <returns></returns>
+</member>
+<member name="M:DMD.Native.Win32.GetProp(System.IntPtr,System.String)">
+ <summary>
+ Gets a named window property for a given window address. 
+ This returns zero if not found.
+ </summary>
+ <param name="hwnd">The window containing the property.</param>
+ <param name="lpString">The property name to lookup.</param>
+ <returns>The property data, or 0 if not found.</returns>
+</member>
+<member name="M:DMD.Native.Win32.SetProp(System.IntPtr,System.String,System.Int32)">
+ <summary>
+ Sets a window proerty value.
+ </summary>
+ <param name="hwnd">The window on which to attach the property.</param>
+ <param name="lpString">The property name.</param>
+ <param name="hData">The property value.</param>
+ <returns>A value indicating whether the function succeeded.</returns>
+</member>
+<member name="M:DMD.Native.Win32.RemoveProp(System.IntPtr,System.String)">
+ <summary>
+ Removes a named property from a given window.
+ </summary>
+ <param name="hwnd">The window whose property should be removed.</param>
+ <param name="lpString">The property name.</param>
+ <returns>A value indicating whether the function succeeded.</returns>
+</member>
+<member name="T:DMD.Utils.WindowsEnum">
+ <summary>
+ A utility class built ontop of the native windows API. This is used to 
+ enumerate child windows of a parent. The class defines a delegate for the 
+ the logic as to whether a window should or should not be included during
+ the enumeration.
+ </summary>
+</member>
+<member name="T:DMD.Utils.WindowsEnum.WindowFilterHandler">
+ <summary>
+ The delegate used for processing the windows enumeration results.
+ </summary>
+ <param name="hWnd">The window being enumerated.</param>
+ <param name="include">A reference to a bool, which may be set to true/false in 
+ order to determine whether it should be included in the enumeration output.</param>
+</member>
+<member name="F:DMD.Utils.WindowsEnum.winEnumList">
+ <summary>
+ A list used to store the windows pointers during enumeration.
+ </summary>
+</member>
+<member name="F:DMD.Utils.WindowsEnum.filterHandler">
+ <summary>
+ The delegate allocated to the instance for processing the enumerated windows.
+ </summary>
+</member>
+<member name="M:DMD.Utils.WindowsEnum.#ctor(DMD.Utils.WindowsEnum.WindowFilterHandler)">
+ <summary>
+ The constructor which takes a filter delegate for filtering enumeration results.
+ </summary>
+ <param name="filterHandler">A delegate which may filter the results.</param>
+</member>
+<member name="M:DMD.Utils.WindowsEnum.#ctor">
+ <summary>
+ A constructor used when there is no requirement to filter the enumeration results. 
+ </summary>
+</member>
+<member name="M:DMD.Utils.WindowsEnum.Enumerate(System.IntPtr)">
+ <summary>
+ Enumerates the child windows of a parent and returns a list of pointers. If a filter
+ delegate is specified Me is used to determine whether the windows are included in 
+ the resultant list.
+ </summary>
+ <param name="parent">The parent window.</param>
+ <returns>A filtered list of child windows.</returns>
+</member>
+<member name="M:DMD.Utils.WindowsEnum.OnWindowEnum(System.IntPtr,System.Int32)">
+ <summary>
+ A delegate used by the native API to process the enumerated windows from the 
+ Enumerate method call.
+ </summary>
+ <param name="hWnd">The window being enumerated</param>
+ <param name="lParam">The lParam passed by the windows API.</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

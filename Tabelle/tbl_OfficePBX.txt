@@ -1,0 +1,17 @@
+create table tbl_OfficePBX
+(
+[ID] Counter Primary Key,
+[Nome] Text(255),
+[Tipo] Text(255),
+[Versione] Text(255),
+[DataInstallazione] Date,
+[DataDismissione] Date,
+[Flags] Int,
+[IDPuntoOperativo] Int,
+[NomePuntoOperativo] Text(255),
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)

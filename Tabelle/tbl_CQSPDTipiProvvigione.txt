@@ -1,0 +1,33 @@
+create table tbl_CQSPDTipiProvvigione
+(
+ID Counter Primary Key,
+[Nome] Text(255),
+[IDGruppoProdotti] Int,
+[PagataDa] Int,
+[PagataA] Int,
+[TipoCalcolo] Int,
+[Percentuale] Real,
+[Fisso] Real,
+[Formula] Text(255),
+[Flags] Int,
+[Params] Memo,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+create index idxCQSPDTipoProvvNm on tbl_CQSPDTipiProvvigione (Nome)
+create index idxCQSPDTipoProvvGP on tbl_CQSPDTipiProvvigione (IDGruppoProdotti)
+create index idxCQSPDTipoProvvPGTD on tbl_CQSPDTipiProvvigione (TipoCalcolo, PagataDa, PagataA)
+create index idxCQSPDTipoProvvPCFI on tbl_CQSPDTipiProvvigione (Percentuale, Fisso, Formula)
+create index idxCQSPDTipoProvvCTDA on tbl_CQSPDTipiProvvigione (CreatoDa, CreatoIl)
+create index idxCQSPDTipoProvvMDDA on tbl_CQSPDTipiProvvigione (ModificatoDa, ModificatoIl)
+create index idxCQSPDTipoProvvSTAT on tbl_CQSPDTipiProvvigione (Stato)
+
+alter table tbl_CQSPDTipiProvvigione drop column Formula  
+alter table tbl_CQSPDTipiProvvigione add column Formula  text(255)
+create index idxCQSPDTipoProvvPCFI on tbl_CQSPDTipiProvvigione (Percentuale, Fisso, Formula)
+
+alter table  tbl_CQSPDTipiProvvigione add column Vincoli Memo

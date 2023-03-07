@@ -1,0 +1,10 @@
+create index idxProdottiCAT on tbl_Prodotti (idcategoria)
+
+alter table tbl_Rapportini add column DataValuta Date
+
+alter table tbl_Rapportini add column IDUltimaVerifica Int
+
+alter table tbl_Rapportini add column DataStampaSecci as Date
+
+
+alter table tbl_Rapportini add column ProvvTAN real

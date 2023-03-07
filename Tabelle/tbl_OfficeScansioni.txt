@@ -1,0 +1,42 @@
+create table tbl_OfficeScansioni
+(
+ID Counter Primary Key,
+NomeDispositivo Text(255),
+NomeDocumento Text(255),
+MetodoRicezione Text(255),
+ParametriScansione Text(255),
+DataInvio Date,
+DataRicezione Date,
+DataElaborazione Date,
+IDCliente Int,
+NomeCliente Text(255),
+IDAttachment Int,
+Flags Int,
+IDInviataDa Int,
+NomeInviataDa Text(255),
+IDInviataA Int,
+NomeInviataA Text(255),
+IDElaborataDa Int,
+NomeElaborataDa Text(255),
+IDPuntoOperativo Int,
+NomePuntoOperativo Text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+create index idxOfficeScansioniNMDISP on tbl_OfficeScansioni (NomeDispositivo)
+create index idxOfficeScansioniNMDOC on tbl_OfficeScansioni (NomeDocumento)
+create index idxOfficeScansioniMTHRIC on tbl_OfficeScansioni (MetodoRicezione)
+create index idxOfficeScansioniDTINV on tbl_OfficeScansioni (DataInvio)
+create index idxOfficeScansioniDTRIC on tbl_OfficeScansioni (DataRicezione)
+create index idxOfficeScansioniDTELA on tbl_OfficeScansioni (DataElaborazione)
+create index idxOfficeScansioniIDCLT on tbl_OfficeScansioni (IDCliente)
+create index idxOfficeScansioniIDATT on tbl_OfficeScansioni (IDAttachment)
+create index idxOfficeScansioniIDINVD on tbl_OfficeScansioni (IDInviataDa)
+create index idxOfficeScansioniIDINVA on tbl_OfficeScansioni (IDInviataA)
+create index idxOfficeScansioniIDELDA on tbl_OfficeScansioni (IDElaborataDa)
+create index idxOfficeScansioniIDPO on tbl_OfficeScansioni (IDPuntoOperativo)
+create index idxOfficeScansioniST on tbl_OfficeScansioni (Stato)

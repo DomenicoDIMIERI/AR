@@ -1,0 +1,8 @@
+create table [tbl_MailAddresses] 
+(
+[ID] Counter Primary Key,
+[MessageID] Int,
+[FieldName] Text(255),
+[Address] Text(255),
+[DisplayName] Text(255)
+)

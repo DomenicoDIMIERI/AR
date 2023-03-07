@@ -1,0 +1,14 @@
+create table tbl_CRMTemplates
+(
+ID Counter Primary Key,
+Nome text(255),
+Flags int,
+Scopo Text(255),
+TipoContatto text(255),
+Testo Memo,
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)

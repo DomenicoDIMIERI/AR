@@ -1,0 +1,9 @@
+C:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Release\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\DMDLibs.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\DMDLibs.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\DMDLibs.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Release\DMDLibs.xml

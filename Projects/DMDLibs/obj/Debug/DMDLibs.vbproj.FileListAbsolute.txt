@@ -1,0 +1,17 @@
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\Debug\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\Debug\Ionic.Zlib.dll
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\Debug\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\bin\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\Debug\DMDLibs.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\Debug\DMDLibs.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\Debug\DMDLibs.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\Debug\DMDLibs.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDLibs\obj\Debug\DMDLibs.pdb

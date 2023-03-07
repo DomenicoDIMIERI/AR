@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://ftp.dmdstore.it/dmdstore.it/Apps/DMDAppLog/|publish\</PublishUrlHistory>
+    <InstallUrlHistory>https://www.dmdstore.it/Apps/DMDAppLog/</InstallUrlHistory>
+    <SupportUrlHistory>https://www.dmdstore.it</SupportUrlHistory>
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory>https://www.dmdstore.it</ErrorReportUrlHistory>
+    <FallbackCulture>it-IT</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

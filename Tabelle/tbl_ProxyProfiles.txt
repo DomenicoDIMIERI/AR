@@ -1,0 +1,8 @@
+create table tbl_ProxyProfiles 
+(
+ID Counter Primary Key,
+Flags int,
+Name Text(255),
+AllowedURLs Memo,
+BlockedURLs Memo
+)

@@ -1,0 +1,28 @@
+create table tbl_Telefonate
+(
+[ID] Counter Primary Key,
+[ServerIP] Text(255),
+[ServerName] Text(255),
+[Channel] Text(255),
+[SourceNumber] Text(255),
+[TargetNumber] Text(255),
+[StartTime] Date,
+[AnswerTime] Date,
+[EndTime] Date,
+[StatoChiamata] Int,
+[Direzione] Int,
+[Flags] Int,
+[Parameters] Memo
+)
+
+create index idxTelefonateSVRIP on tbl_Telefonate (ServerIP)
+create index idxTelefonateSVRNM on tbl_Telefonate (ServerName)
+create index idxTelefonateCHN on tbl_Telefonate (Channel)
+create index idxTelefonateSRCNUM on tbl_Telefonate (SourceNumber)
+create index idxTelefonateTRGNUM on tbl_Telefonate (TargetNumber)
+create index idxTelefonateSTIME on tbl_Telefonate (StartTime)
+create index idxTelefonateATIME on tbl_Telefonate (AnswerTime)
+create index idxTelefonateETIME on tbl_Telefonate (EndTime)
+create index idxTelefonateSTCH on tbl_Telefonate (StatoChiamata)
+create index idxTelefonateDIR on tbl_Telefonate (Direzione)
+create index idxTelefonateFLAG on tbl_Telefonate (Flags)

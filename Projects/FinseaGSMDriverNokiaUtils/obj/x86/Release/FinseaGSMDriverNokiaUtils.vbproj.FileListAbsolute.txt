@@ -1,0 +1,85 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\obj\x86\Release\FinseaGSMDriverNokiaUtils.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\obj\x86\Release\FinSeA.frmMain.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\obj\x86\Release\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\obj\x86\Release\FinseaGSMDriverNokiaUtils.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\templates\maildb.mdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\FinseaGSMDriverNokiaUtils.exe.config
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\FinseaGSMDriverNokiaUtils.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\FinseaGSMDriverNokiaUtils.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\FinseaGSMDriverNokiaUtils.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\DMDNokiaUtils.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\FinSeASMSGateway.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\FinSeASMSGateway.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\FinSeASMSGateway.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\Ionic.Zip.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\obj\x86\Release\FinseaGSMDriverNokiaUtils.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\obj\x86\Release\FinseaGSMDriverNokiaUtils.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\obj\x86\Release\FinseaGSMDriverNokiaUtils.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\DMDBaseCore.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\WindowsApplication1\bin\x86\Release\DMDBaseCore.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.exe.config
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\templates\maildb.mdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\DMDNokiaUtils.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeASMSGateway.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeASMSGateway.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeASMSGateway.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinSeA.frmMain.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\templates\maildb.mdb
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.exe.config
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.exe
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.pdb
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.xml
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeASMSGateway.dll
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeASMSGateway.pdb
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeASMSGateway.xml
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinSeA.frmMain.resources
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.exe
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.xml
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.pdb
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\templates\maildb.mdb
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.exe.config
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.exe
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.pdb
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinseaGSMDriverNokiaUtils.xml
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\DMDBaseCore.dll
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\DMDNokiaUtils.dll
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeALibs.dll
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeASMSGateway.dll
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\Ionic.Zip.dll
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeALibs.xml
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeALibs.dll.config
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeASMSGateway.pdb
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeASMSGateway.xml
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinSeA.frmMain.resources
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinSeA.Resources.resources
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.exe
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.xml
+E:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.pdb
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\bin\x86\Release\FinSeALibs.dll.config
+C:\Work\Programmazione\Projects\FinseaGSMDriverNokiaUtils\obj\x86\Release\FinseaGSMDriverNokiaUtils.vbproj.CoreCompileInputs.cache

@@ -1,0 +1,45 @@
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\templates\maildb.mdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDCQSPD.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDCQSPD.pdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDCQSPD.xml
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDCRM.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDOffice.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDCRM.pdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDCRM.xml
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDOffice.pdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDOffice.xml
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.xml
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\templates\maildb.mdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDCQSPD.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDCQSPD.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDCQSPD.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDCRM.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDOffice.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDCRM.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDOffice.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\bin\x86\Debug\DMDOffice.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACQSPD\obj\x86\Debug\DMDCQSPD.vbprojAssemblyReference.cache

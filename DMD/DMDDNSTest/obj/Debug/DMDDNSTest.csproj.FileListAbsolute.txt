@@ -1,0 +1,7 @@
+D:\DMD\DMDDNSTest\obj\Debug\DMDDNSTest.csprojResolveAssemblyReference.cache
+D:\DMD\DMDDNSTest\bin\Debug\DMDDNSTest.dll
+D:\DMD\DMDDNSTest\bin\Debug\DMDDNSTest.pdb
+D:\DMD\DMDDNSTest\bin\Debug\DMDDNSLib.dll
+D:\DMD\DMDDNSTest\bin\Debug\DMDDNSLib.pdb
+D:\DMD\DMDDNSTest\obj\Debug\DMDDNSTest.dll
+D:\DMD\DMDDNSTest\obj\Debug\DMDDNSTest.pdb

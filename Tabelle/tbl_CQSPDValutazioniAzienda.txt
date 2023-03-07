@@ -1,0 +1,42 @@
+create table tbl_CQSPDValutazioniAzienda 
+(
+ID Counter Primary Key,
+IDAzienda int,
+NomeAzienda text(255),
+IDOperatore int,
+NomeOperatore text(255),
+TipoFonte text(255),
+IDFonte int,
+NomeFonte text(255),
+CapitaleSociale real,
+NumeroDipendenti int,
+FatturatoAnnuo real,
+RapportoTFR_VN real,
+Rating int,
+DataRevisione Date,
+DataScadenzaRevisione Date,
+StatoAzienda text(255),
+DettaglioStatoAzienda Memo,
+GiorniAnticipoEstinzione int,
+Flags int,
+Parameters Memo,
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+create index idxCQSPDValAzieIDAZ on tbl_CQSPDValutazioniAzienda ([IDAzienda], [NomeAzienda])
+create index idxCQSPDValAzieIDOP on tbl_CQSPDValutazioniAzienda ([IDOperatore], [NomeOperatore])
+create index idxCQSPDValAzieFONT on tbl_CQSPDValutazioniAzienda ([TipoFonte], [IDFonte], [NomeFonte])
+create index idxCQSPDValAzieFATT on tbl_CQSPDValutazioniAzienda ([NumeroDipendenti], [CapitaleSociale], [FatturatoAnnuo])
+create index idxCQSPDValAzieRATI on tbl_CQSPDValutazioniAzienda ([Rating], [RapportoTFR_VN])
+create index idxCQSPDValAzieDATE on tbl_CQSPDValutazioniAzienda ([DataRevisione], [DataScadenzaRevisione])
+create index idxCQSPDValAzieSTATO on tbl_CQSPDValutazioniAzienda ([StatoAzienda], [Flags], [GiorniAnticipoEstinzione])
+create index idxCQSPDValAzieDETTS on tbl_CQSPDValutazioniAzienda ([DettaglioStatoAzienda])
+create index idxCQSPDValAzieCTDA on tbl_CQSPDValutazioniAzienda ([CreatoDa], [CreatoIl])
+create index idxCQSPDValAzieMDDA on tbl_CQSPDValutazioniAzienda ([ModificatoDa], [ModificatoIl])
+create index idxCQSPDValAzieST on tbl_CQSPDValutazioniAzienda ([Stato])
+
+alter table tbl_CQSPDValutazioniAzienda add Column Assicurazioni Memo

@@ -1,0 +1,9 @@
+{
+  "name": "com.finseasrl.chromeext",
+  "description": "Chrome Extension",
+  "path": "C:\\Work\\Programmazione\\Projects\\FinSeAChromeExcetion\\finseachromext.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://*.finsea.net/*"
+  ]
+}

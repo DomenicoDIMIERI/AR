@@ -1,0 +1,31 @@
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Debug\DMDWebLibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Debug\DMDWebLibs.pdb
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Debug\DMDWebLibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebLibs\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.dll
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.xml
+C:\Work\Programmazione\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\bin\x86\Debug\DMDWebLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\bin\x86\Debug\DMDWebLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\bin\x86\Debug\DMDWebLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\bin\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\bin\x86\Debug\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\bin\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\bin\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeAWebLibs\obj\x86\Debug\DMDWebLibs.vbprojAssemblyReference.cache

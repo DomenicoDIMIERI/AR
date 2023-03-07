@@ -1,0 +1,18 @@
+alter table [tbl_RichiesteFinanziamentiC] Add column Esito Text(255)
+
+ alter table [tbl_RichiesteFinanziamentiC] add column
+[IDCessionario] int,
+[NomeCessionario] text(255),
+DurataMesi int,
+ImportoRata real,
+TAN real,
+TAEG real,
+DataDecorrenzaPratica Date,
+UltimaScadenza Date,
+ATCPIVA text(64),
+ATCDescrizione text(255)
+
+create index [idxRichiesteFinanziamentiCIDCESS]  on [tbl_RichiesteFinanziamentiC]  ([IDCessionario] )
+create index [idxRichiesteFinanziamentiCDR]  on [tbl_RichiesteFinanziamentiC]  ([DurataMesi], [ImportoRata] )
+create index [idxRichiesteFinanziamentiDD]  on [tbl_RichiesteFinanziamentiC]  ([DataDecorrenzaPratica], [UltimaScadenza] )
+create index [idxRichiesteFinanziamentiATC]  on [tbl_RichiesteFinanziamentiC]  ([ATCPIVA], [ATCDescrizione] )

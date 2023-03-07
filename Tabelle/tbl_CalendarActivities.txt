@@ -1,0 +1,29 @@
+create table tbl_CalendarActivities
+(
+ID Counter Primary Key,
+Categoria Text(255),
+Descrizione Text(255),
+DataInizio Date,
+DataFine Date,
+StatoAttivita Int,
+Operatore Int,
+NomeOperatore Text(255),
+[Note] Memo,
+Luogo Text(255),
+Promemoria int,
+Ripetizione Int,
+GiornataIntera Bit,
+IconURL Text(255),
+Flags int,
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+
+create index idxCalendarActivitiesCat on tbl_CalendarActivities (Categoria)
+alter table tbl_CalendarActivities add column IDPersona Int, NomePersona Text(255)
+create index idxCalendarActivitiesIDPer on tbl_CalendarActivities (IDPersona)
+create index idxCalendarActivitiesDIni on tbl_CalendarActivities (DataInizio)

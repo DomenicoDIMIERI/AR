@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF8567A3-B154-4F14-AAF7-223253FA523D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DMD</RootNamespace>
+    <AssemblyName>DMDOffice</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDOffice.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDOffice.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DMDOffice.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DMDOffice.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>DMDOffice.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>DMDOffice.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calendar\CommissioniCalProvider.vb" />
+    <Compile Include="Calendar\EstrattiContributiviCalProvider.vb" />
+    <Compile Include="Calendar\CTicketsCalProvider.vb" />
+    <Compile Include="DocumentiContabili\VociDiPagamentoPerDocumento.vb" />
+    <Compile Include="DocumentiContabili\DocumentiContabili.vb" />
+    <Compile Include="DocumentiContabili\DocumentoContabileCursor.vb" />
+    <Compile Include="DocumentiContabili\VociPagamento\VociDiPagamento.vb" />
+    <Compile Include="DocumentiContabili\VociPagamento\VoceDiPagamento.vb" />
+    <Compile Include="DocumentiContabili\VociPagamento\VoceDiPagamentoCursor.vb" />
+    <Compile Include="Handlers\StoricoHandlerOggettiSpedire.vb" />
+    <Compile Include="Handlers\FindPersonaByTargaVeicolo.vb" />
+    <Compile Include="Handlers\StoricoHandlerEstrattiContributivi.vb" />
+    <Compile Include="Handlers\StoricoHandlerEMails.vb" />
+    <Compile Include="Magazzino\Categoria\AttributiCategoria\AttributiCategoriaCollection.vb" />
+    <Compile Include="Magazzino\Categoria\AttributiCategoria\AttributoCategoria.vb" />
+    <Compile Include="Magazzino\Categoria\AttributiCategoria\AttributoCategoriaCursor.vb" />
+    <Compile Include="Mail\Address\MailAddressCursor.vb" />
+    <Compile Include="Mail\Address\MailAddressCollection.vb" />
+    <Compile Include="Mail\Address\MailAddress.vb" />
+    <Compile Include="Mail\Application\MailApplicationAccounts.vb" />
+    <Compile Include="Mail\Application\CMailApplications.vb" />
+    <Compile Include="Mail\Application\MailApplicationCursor.vb" />
+    <Compile Include="Mail\Application\MailRootFolder.vb" />
+    <Compile Include="Mail\Attachment\CMailAttachments.vb" />
+    <Compile Include="Mail\DownloadWorker.vb" />
+    <Compile Include="Mail\EventArgs\DownloadErrorEventArgs.vb" />
+    <Compile Include="Mail\Folders\CFoldersClass.vb" />
+    <Compile Include="Mail\Rules\MailApplicationRules.vb" />
+    <Compile Include="Mail\Rules\MailRuleBase.vb" />
+    <Compile Include="Mail\Rules\MailRule.vb" />
+    <Compile Include="Mail\PresoneXEMail\PersonaPerEMail.vb" />
+    <Compile Include="Mail\PresoneXEMail\PersonePerEMailCursor.vb" />
+    <Compile Include="Office\Circolari\Alerts\CComunicazioneAlert.vb" />
+    <Compile Include="Office\Circolari\Alerts\CComunicazioneAlertCursor.vb" />
+    <Compile Include="Office\Circolari\CComunicazione.vb" />
+    <Compile Include="Office\Circolari\CComunicazioniCursor.vb" />
+    <Compile Include="Office\Circolari\CommXUser\CComunicazioneXUser.vb" />
+    <Compile Include="Office\Circolari\CommXUser\CComunicazioneXUserCursor.vb" />
+    <Compile Include="Office\Circolari\Comunicazioni.vb" />
+    <Compile Include="Office\Circolari\CommXGroup\CComunicazioneXGroup.vb" />
+    <Compile Include="Office\Circolari\CommXGroup\CComunicazioneXGroupCursor.vb" />
+    <Compile Include="Office\Commissioni\Commissioni.vb" />
+    <Compile Include="Office\Commissioni\Commissione.vb" />
+    <Compile Include="Office\Commissioni\CommissioneCursor.vb" />
+    <Compile Include="Office\Commissioni\Events\CommissioneEventArgs.vb" />
+    <Compile Include="Handlers\StoricoHandlerTickets.vb" />
+    <Compile Include="Handlers\StoricoHandlerRichiesteCERQ.vb" />
+    <Compile Include="Handlers\StoricoHandlerCommissioni.vb" />
+    <Compile Include="Magazzino\Articolo\Articolo.vb" />
+    <Compile Include="Magazzino\Articolo\ArticoloCursor.vb" />
+    <Compile Include="Magazzino\Articolo\Articoli.vb" />
+    <Compile Include="Magazzino\Articolo\AttributiArticolo\AttributiArticoloCollection.vb" />
+    <Compile Include="Magazzino\Articolo\AttributiArticolo\AttributoArticolo.vb" />
+    <Compile Include="Magazzino\Articolo\AttributiArticolo\AttributoArticoloCursor.vb" />
+    <Compile Include="Magazzino\Inventario\AttributiOggetto\AttributiOggettoCollection.vb" />
+    <Compile Include="Magazzino\Articolo\CodiciArticolo\CCodiciPerArticolo.vb" />
+    <Compile Include="Magazzino\Articolo\ArticoloInMagazzino\ArticoloInMagazzino.vb" />
+    <Compile Include="Magazzino\Articolo\ArticoloInMagazzino\ArticoloInMagazzinoCursor.vb" />
+    <Compile Include="Magazzino\Articolo\ArticoloXListino\ArticoloXListino.vb" />
+    <Compile Include="Magazzino\Articolo\ArticoloXListino\ArticoloXListinoCursor.vb" />
+    <Compile Include="Magazzino\Inventario\AttributiOggetto\AttributoOggetto.vb" />
+    <Compile Include="Magazzino\Inventario\AttributiOggetto\AttributoOggettoCursor.vb" />
+    <Compile Include="Magazzino\Categoria\CategorieArticoli.vb" />
+    <Compile Include="Magazzino\Categoria\CategoriaArticolo.vb" />
+    <Compile Include="Magazzino\Categoria\CategoriaArticoloCursor.vb" />
+    <Compile Include="Magazzino\Categoria\SottocategorieCollection.vb" />
+    <Compile Include="Magazzino\Collegamenti\OggettoCollegatiCollection.vb" />
+    <Compile Include="Magazzino\Collegamenti\OggettoCollegato.vb" />
+    <Compile Include="Magazzino\Collegamenti\OggettoCollegatoCursor.vb" />
+    <Compile Include="Magazzino\Articolo\CodiciArticolo\CodiceArticolo.vb" />
+    <Compile Include="Magazzino\Articolo\CodiciArticolo\CodiceArticoloCursor.vb" />
+    <Compile Include="Magazzino\Inventario\OggettoInventariatoCursor.vb" />
+    <Compile Include="Magazzino\Inventario\OggettiInventariati.vb" />
+    <Compile Include="Magazzino\Inventario\OggettoInventariato.vb" />
+    <Compile Include="Office\Dispositivi\DeviceLog\DeviceLog.vb" />
+    <Compile Include="Office\Dispositivi\DeviceLog\DevicesLog.vb" />
+    <Compile Include="Office\Dispositivi\DeviceLog\DeviceLogCursor.vb" />
+    <Compile Include="Office\GDE\Templates\DocumentTemplateCursor.vb" />
+    <Compile Include="Office\GDE\Templates\DocumentTemplate.vb" />
+    <Compile Include="Office\GDE\Templates\DocumentRendererBase.vb" />
+    <Compile Include="Office\GDE\Templates\TemplateItem.vb" />
+    <Compile Include="Office\GDE\Templates\TemplateItemsCollection.vb" />
+    <Compile Include="Office\Lavoro\Candidature\Candidatura.vb" />
+    <Compile Include="Office\Lavoro\Candidature\CandidaturaCursor.vb" />
+    <Compile Include="Office\Lavoro\Candidature\Candidature.vb" />
+    <Compile Include="Office\Lavoro\Curricula\CurriculumCursor.vb" />
+    <Compile Include="Office\Lavoro\Curricula\Curricula.vb" />
+    <Compile Include="Office\Lavoro\OfferteDiLavoro\OfferteDiLavoro.vb" />
+    <Compile Include="Office\Lavoro\OfferteDiLavoro\OffertaDiLavoroCursor.vb" />
+    <Compile Include="Office\Lavoro\OfferteDiLavoro\OffertaDiLavoro.vb" />
+    <Compile Include="Office\Lavoro\Curricula\Curriculum.vb" />
+    <Compile Include="Office\DefinizionePercorsi\LuoghiDefinitiPerPercorso.vb" />
+    <Compile Include="Office\Dispositivi\ClassiDispositivo\ClassiDispositivi.vb" />
+    <Compile Include="Office\Dispositivi\ClassiDispositivo\ClasseDispositivo.vb" />
+    <Compile Include="Office\Dispositivi\ClassiDispositivo\ClassiDispositivoCursor.vb" />
+    <Compile Include="Office\GDE\CDocumento.vb" />
+    <Compile Include="Office\GDE\CDocumentiCursor.vb" />
+    <Compile Include="Office\GDE\DocumentiCaricati.vb" />
+    <Compile Include="Office\GDE\GDE.vb" />
+    <Compile Include="Office\GDE\Templates\Templates.vb" />
+    <Compile Include="Office\LuoghiVisitati\LuogoVisitato.vb" />
+    <Compile Include="Office\LuoghiVisitati\LuoghiVisitatiCursor.vb" />
+    <Compile Include="Office\LuoghiVisitati\LuoghiVisitati.vb" />
+    <Compile Include="Office\EstrattiContributivi\EstrattoContributivo.vb" />
+    <Compile Include="Office\EstrattiContributivi\EstrattiContributiviCursor.vb" />
+    <Compile Include="Office\EstrattiContributivi\EstrattiContributivi.vb" />
+    <Compile Include="Magazzino\Listino\Listino.vb" />
+    <Compile Include="Magazzino\Listino\ListinoCursor.vb" />
+    <Compile Include="Magazzino\Listino\Listini.vb" />
+    <Compile Include="Magazzino\Magazzino\Magazzini.vb" />
+    <Compile Include="Magazzino\Magazzino\Magazzino.vb" />
+    <Compile Include="Magazzino\Magazzino\MagazzinoCursor.vb" />
+    <Compile Include="Magazzino\Marca\MarcaArticolo.vb" />
+    <Compile Include="Magazzino\Marca\MarcaArticoloCursor.vb" />
+    <Compile Include="Magazzino\Marca\MarcheArticoli.vb" />
+    <Compile Include="Office\RichiesteCERQ\MotiviRichieste\IRichiestaHander.vb" />
+    <Compile Include="Office\Software\LicenzeSoftware\LicenzaSoftware.vb" />
+    <Compile Include="Office\Software\LicenzeSoftware\LicenzeSoftwareCursor.vb" />
+    <Compile Include="Office\Software\LicenzeSoftware\LicenzeSoftware.vb" />
+    <Compile Include="Office\Software\Softwares.vb" />
+    <Compile Include="Office\Software\Software.vb" />
+    <Compile Include="Office\Software\SoftwareCursor.vb" />
+    <Compile Include="Office\Spedizioni\OggettiDaSpedire\OggettiDaSpedireCursor.vb" />
+    <Compile Include="Office\Spedizioni\OggettiDaSpedire\OggettoDaSpedire.vb" />
+    <Compile Include="Office\Spedizioni\OggettiDaSpedire\OggettiDaSpedire.vb" />
+    <Compile Include="Office\Spedizioni\Passaggi\PassaggioDiSpedizione.vb" />
+    <Compile Include="Office\Spedizioni\Spedizione.vb" />
+    <Compile Include="Office\Spedizioni\Spedizioni.vb" />
+    <Compile Include="Office\Spedizioni\SpedizioniCursor.vb" />
+    <Compile Include="Office\StickyNotes\StickyNote.vb" />
+    <Compile Include="Office\StickyNotes\StickyNotesCursor.vb" />
+    <Compile Include="Office\StickyNotes\StickyNotes.vb" />
+    <Compile Include="Office\Uscite\Repors\RUStats.vb" />
+    <Compile Include="Office\Uscite\Repors\RUStatItem.vb" />
+    <Compile Include="Office\Uscite\Repors\RUStatVeicolo.vb" />
+    <Compile Include="PBX\PBX\PBX.vb" />
+    <Compile Include="PBX\PBX\PBXCursor.vb" />
+    <Compile Include="PBX\PBX\PBXs.vb" />
+    <Compile Include="Presenze\Drivers\DriversRilevatoriPresenze.vb" />
+    <Compile Include="Presenze\Drivers\DriverRilevatorePresenze.vb" />
+    <Compile Include="Presenze\RichiestePermessiFerie\RichiestePermessiFerie.vb" />
+    <Compile Include="Presenze\RichiestePermessiFerie\RichiestaPermessoFerie.vb" />
+    <Compile Include="Presenze\RichiestePermessiFerie\RichiestaPermessoFerieCursor.vb" />
+    <Compile Include="Presenze\OreLavorate\PeriodiLavorati.vb" />
+    <Compile Include="Presenze\OreLavorate\PeriodoLavoratoCursor.vb" />
+    <Compile Include="Presenze\OreLavorate\PeriodoLavorato.vb" />
+    <Compile Include="Presenze\Turni\Turno.vb" />
+    <Compile Include="Presenze\Turni\Turni.vb" />
+    <Compile Include="Presenze\Turni\TurniCursor.vb" />
+    <Compile Include="Presenze\RilevatoriPresenze\RilevatoriPresenze.vb" />
+    <Compile Include="Presenze\RilevatoriPresenze\RilevatorePresenze.vb" />
+    <Compile Include="Presenze\RilevatoriPresenze\RilevatoriPresenzeCursor.vb" />
+    <Compile Include="PBX\RegistroChiamate\ChiamateRegistrate.vb" />
+    <Compile Include="PBX\RegistroChiamate\StoricoHandlerCR.vb" />
+    <Compile Include="PBX\RegistroChiamate\ChiamataRegistrataCursor.vb" />
+    <Compile Include="PBX\RegistroChiamate\ChiamataRegistrata.vb" />
+    <Compile Include="Scansioni\Scansioni.vb" />
+    <Compile Include="Scansioni\ScansioniCursor.vb" />
+    <Compile Include="Scansioni\Scansione.vb" />
+    <Compile Include="Tickets\Messages\CTicketAnswaresCollection.vb" />
+    <Compile Include="Tickets\Messages\CTicketAnswareCursor.vb" />
+    <Compile Include="Tickets\Messages\CTicketAnsware.vb" />
+    <Compile Include="Tickets\CTicket.vb" />
+    <Compile Include="Tickets\CTicketCursor.vb" />
+    <Compile Include="Tickets\Tickets.vb" />
+    <Compile Include="Tickets\TicketsCategory\CTicketCategory.vb" />
+    <Compile Include="Tickets\TicketsCategory\CTicketCategoryCursor.vb" />
+    <Compile Include="Tickets\TicketsCategory\TicketCategories.vb" />
+    <Compile Include="DocumentiContabili\DocumentoContabile.vb" />
+    <Compile Include="Utenze\IUtenzaBollettaHandler.vb" />
+    <Compile Include="Utenze\Utenza.vb" />
+    <Compile Include="Utenze\UtenzeCursor.vb" />
+    <Compile Include="Utenze\Utenze.vb" />
+    <None Include="Office\PrimaNota\Eventi\PrimaNotaVersamentoEventArgs.vb" />
+    <Compile Include="Office\DefinizionePercorsi\PercorsoDefinito.vb" />
+    <Compile Include="Office\DefinizionePercorsi\PercorsiDefinitiCursor.vb" />
+    <Compile Include="Office\DefinizionePercorsi\PercorsiDefiniti.vb" />
+    <Compile Include="Office\DefinizionePercorsi\LuogoDaVisitare\LuoghiDaVisitare.vb" />
+    <Compile Include="Office\DefinizionePercorsi\LuogoDaVisitare\LuoghiDaVisitareCursor.vb" />
+    <Compile Include="Office\DefinizionePercorsi\LuogoDaVisitare\LuogoDaVisitare.vb" />
+    <Compile Include="Mail\Accounts\MailAccount.vb" />
+    <Compile Include="Mail\Accounts\MailAccountCursor.vb" />
+    <Compile Include="Mail\Accounts\CMailAccounts.vb" />
+    <Compile Include="Mail\CMailsClass.vb" />
+    <Compile Include="Mail\Attachment\MailAttachment.vb" />
+    <Compile Include="Mail\Attachment\MailAttachmentCollection.vb" />
+    <Compile Include="Mail\Attachment\MailAttachmentCursor.vb" />
+    <Compile Include="Mail\EventArgs\EmailEventArg.vb" />
+    <Compile Include="Mail\Application\MailApplication.vb" />
+    <Compile Include="Mail\Folders\MailFolder.vb" />
+    <Compile Include="Mail\Folders\MailFolderChilds.vb" />
+    <Compile Include="Mail\Folders\MailFolderCursor.vb" />
+    <Compile Include="Mail\Folders\MailFoldersCollection.vb" />
+    <Compile Include="Mail\Message\MailMessage.vb" />
+    <Compile Include="Mail\Message\MailMessageCursor.vb" />
+    <Compile Include="Presenze\Marcature\MarcatureIngressoUscitaCursor.vb" />
+    <Compile Include="Presenze\Marcature\Marcature.vb" />
+    <Compile Include="Presenze\Marcature\MarcaturaIngressoUscita.vb" />
+    <Compile Include="Office\PrimaNota\Eventi\PrimaNotaSottoSogliaEventArgs.vb" />
+    <Compile Include="Office\Uscite\CommissioniPerUscita\CommissionePerUscita.vb" />
+    <Compile Include="Office\Uscite\CommissioniPerUscita\CommissioniPerUscitaCursor.vb" />
+    <Compile Include="Office\Uscite\CommissioniPerUscita\CommissioniPerUscite.vb" />
+    <Compile Include="Office\Uscite\CommissioniPerUscita\UscitePerCommissioneCollection.vb" />
+    <Compile Include="Office\LuoghiVisitati\LuoghiVisitatiPerUscitaCollection.vb" />
+    <Compile Include="Office\Veicolo\Veicoli.vb" />
+    <Compile Include="Office\Veicolo\Veicolo.vb" />
+    <Compile Include="Office\Veicolo\VeicoliCursor.vb" />
+    <Compile Include="Office\Dispositivi\Dispositivo.vb" />
+    <Compile Include="Office\Dispositivi\DispositivoCursor.vb" />
+    <Compile Include="Office\Dispositivi\Dispositivi.vb" />
+    <Compile Include="Office\GPSRecord\GPSRecords.vb" />
+    <Compile Include="Office\GPSRecord\GPSRecord.vb" />
+    <Compile Include="Office\GPSRecord\GPSRecordCursor.vb" />
+    <Compile Include="Office\Commissioni\MotiviCommissioni\MotivoCommissione.vb" />
+    <Compile Include="Office\Commissioni\MotiviCommissioni\MotivoCommissioneCursor.vb" />
+    <Compile Include="Office\Commissioni\MotiviCommissioni\MotiviCommissioni.vb" />
+    <Compile Include="Office\PrimaNota\RigaPrimaNotaCursor.vb" />
+    <Compile Include="Office\RichiesteCERQ\MotiviRichieste\MotiviRichieste.vb" />
+    <Compile Include="Office\RichiesteCERQ\MotiviRichieste\MotivoRichiesta.vb" />
+    <Compile Include="Office\RichiesteCERQ\MotiviRichieste\MotivoRichiestaCursor.vb" />
+    <Compile Include="Office\RichiesteCERQ\RichiestaCERQ.vb" />
+    <Compile Include="Office\RichiesteCERQ\RichiestaCERQCursor.vb" />
+    <Compile Include="Office\RichiesteCERQ\RichiesteCERQ.vb" />
+    <Compile Include="Office\Ufficio.vb" />
+    <Compile Include="Office\PrimaNota\PrimaNota.vb" />
+    <Compile Include="Office\PrimaNota\RigaPrimaNota.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Office\Uscite\CommissioniPerUscita\CommissioniPerUscitaCollection.vb" />
+    <Compile Include="Office\Uscite\Uscita.vb" />
+    <Compile Include="Office\Uscite\UsciteCursor.vb" />
+    <Compile Include="Office\Uscite\Uscite.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DMD\DMDBaseCore\DMDBaseCore\DMDBaseCore.vbproj">
+      <Project>{10969116-5b14-462b-8ade-7782e14c4736}</Project>
+      <Name>DMDBaseCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DMD\DMDPDF\DMDPDF.vbproj">
+      <Project>{3ea769e3-041e-443e-b8c5-2e256c515754}</Project>
+      <Name>DMDPDF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDCRM\DMDCRM.vbproj">
+      <Project>{19e60d51-7d00-43ee-a26b-6e8a37f05c59}</Project>
+      <Name>DMDCRM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDLibs\DMDLibs.vbproj">
+      <Project>{d6154502-e7f9-4dfc-a695-6b51afee770b}</Project>
+      <Name>DMDLibs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\maildb.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mail\Index\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

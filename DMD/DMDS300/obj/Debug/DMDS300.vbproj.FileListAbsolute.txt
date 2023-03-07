@@ -1,0 +1,21 @@
+C:\Work\Programmazione\DMD\DMDS300\bin\Debug\tc400.dll
+C:\Work\Programmazione\DMD\DMDS300\bin\Debug\DMDS300.dll
+C:\Work\Programmazione\DMD\DMDS300\bin\Debug\DMDS300.pdb
+C:\Work\Programmazione\DMD\DMDS300\bin\Debug\DMDS300.xml
+C:\Work\Programmazione\DMD\DMDS300\obj\Debug\DMDS300.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\DMD\DMDS300\obj\Debug\DMD.Resources.resources
+C:\Work\Programmazione\DMD\DMDS300\obj\Debug\DMDS300.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\DMD\DMDS300\obj\Debug\DMDS300.dll
+C:\Work\Programmazione\DMD\DMDS300\obj\Debug\DMDS300.xml
+C:\Work\Programmazione\DMD\DMDS300\obj\Debug\DMDS300.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\Debug\tc400.dll
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\Debug\DMDS300.dll
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\Debug\DMDS300.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\Debug\DMDS300.xml
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Debug\DMDS300.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Debug\DMDS300.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Debug\DMDS300.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Debug\DMDS300.dll
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Debug\DMDS300.xml
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\Debug\DMDS300.pdb

@@ -1,0 +1,1 @@
+alter table [tbl_Telefonate] Add column Costo real

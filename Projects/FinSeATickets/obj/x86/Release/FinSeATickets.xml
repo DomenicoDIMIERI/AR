@@ -1,0 +1,184 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinSeATickets
+</name>
+</assembly>
+<members>
+<member name="T:FinSeA.Tickets.CTicketCategoryCursor">
+	<summary>
+ Cursore sulla tabelle delle segnalazioni
+ </summary>
+	<remarks></remarks>
+</member><member name="P:FinSeA.Tickets.GruppoResponsabili">
+	<summary>
+ Restituisce il gruppo dei responsabili
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:FinSeA.Tickets.Module">
+	<summary>
+ Restituisce il modulo "modTickets"
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:FinSeA.Tickets.GetItemById(System.Int32)">
+	<summary>
+ Restituisce il ticked in base al suo ID
+ </summary>
+	<param name="id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:FinSeA.Tickets.CTicketCursor">
+	<summary>
+ Cursore sulla tabelle delle segnalazioni
+ </summary>
+	<remarks></remarks>
+</member><member name="P:FinSeA.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:FinSeA.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:FinSeA.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:FinSeA.Tickets.CTicketCategory">
+	<summary>
+ Rappresenta una categoria e sottocategoria per una richiesta di assistenza
+ </summary>
+	<remarks></remarks>
+</member><member name="F:FinSeA.Tickets.TicketStatus.INSERITO">
+	<summary>
+ Ticket inserito ma non ancora aperto
+ </summary>
+	<remarks></remarks>
+</member><member name="F:FinSeA.Tickets.TicketStatus.APERTO">
+	<summary>
+ Aperto
+ </summary>
+	<remarks></remarks>
+</member><member name="F:FinSeA.Tickets.TicketStatus.INLAVORAZIONE">
+	<summary>
+ Preso in carico
+ </summary>
+	<remarks></remarks>
+</member><member name="F:FinSeA.Tickets.TicketStatus.RISOLTO">
+	<summary>
+ Risolto
+ </summary>
+	<remarks></remarks>
+</member><member name="F:FinSeA.Tickets.TicketStatus.NONRISOLVIBILE">
+	<summary>
+ L'utente ha chiuso il ticket
+ </summary>
+	<remarks></remarks>
+</member><member name="F:FinSeA.Tickets.TicketStatus.SOSPESO">
+	<summary>
+ Sospeso
+ </summary>
+	<remarks></remarks>
+</member><member name="F:FinSeA.Tickets.TicketStatus.RIAPERTO">
+	<summary>
+ L'utente ha riaperto il ticket
+ </summary>
+	<remarks></remarks>
+</member><member name="T:FinSeA.Tickets.TicketStatus">
+	<summary>
+ Valori enumerativi che indicano lo stato di una segnalazione
+ </summary>
+	<remarks></remarks>
+</member><member name="P:FinSeA.Tickets.CTicket.IDInCaricoA">
+	<summary>
+ Restituisce o imposta l'ID dell'utente che ha preso in carico la segnalazione
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:FinSeA.Tickets.CTicket.InCaricoA">
+	<summary>
+ Restituisec o imposta l'Utente che ha preso in carico la segnalazione
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:FinSeA.Tickets.CTicket.NomeInCaricoA">
+	<summary>
+ Restituisce o imposta il nome dell'utente che ha preso in carico la segnalazione
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:FinSeA.Tickets.CTicket.Categoria">
+	<summary>
+ Restituisce o imposta la categoria del problema
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:FinSeA.Tickets.CTicket.Sottocategoria">
+	<summary>
+ Restituisce o imposta la sotto-categoria del problema
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:FinSeA.Tickets.CTicket.Messaggio">
+	<summary>
+ Restituisce o imposta il messaggio
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:FinSeA.Tickets.CTicket.StatoSegnalazione">
+	<summary>
+ Restituisce o imposta lo stato della segnalazione
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:FinSeA.Tickets.CTicket.Apri">
+	<summary>
+ Apre il ticket
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FinSeA.Tickets.CTicket.PrendiInCarico">
+	<summary>
+ Prende in carico
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FinSeA.Tickets.CTicket.Risolto">
+	<summary>
+ Chiude il ticket come risolto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FinSeA.Tickets.CTicket.Errore">
+	<summary>
+ Chiude il ticket come non risolvibile
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FinSeA.Tickets.CTicket.Riapri">
+	<summary>
+ Riapre il ticket
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FinSeA.Tickets.CTicket.Sospendi">
+	<summary>
+ Sospende il ticket
+ </summary>
+	<remarks></remarks>
+</member><member name="T:FinSeA.Tickets.CTicket">
+	<summary>
+ Rappresenta una richiesta fatta da un utente
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

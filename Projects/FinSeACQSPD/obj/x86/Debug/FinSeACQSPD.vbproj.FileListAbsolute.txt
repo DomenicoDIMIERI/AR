@@ -1,0 +1,66 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\templates\maildb.mdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACQSPD.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACQSPD.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACQSPD.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACRM.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeAOffice.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACRM.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACRM.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeAOffice.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\bin\x86\Debug\FinSeAOffice.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\obj\x86\Debug\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\templates\maildb.mdb
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACQSPD.dll
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACQSPD.pdb
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACQSPD.xml
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\DMDBaseCore.dll
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACRM.dll
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.dll
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeAOffice.dll
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\Ionic.Zip.dll
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACRM.pdb
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACRM.xml
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.pdb
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.xml
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.dll.config
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeAOffice.pdb
+E:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeAOffice.xml
+E:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeA.Resources.resources
+E:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.dll
+E:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.xml
+E:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.pdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\templates\maildb.mdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACQSPD.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACQSPD.pdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACQSPD.xml
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACRM.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeAOffice.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACRM.pdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeACRM.xml
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.pdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeALibs.dll.config
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeAOffice.pdb
+C:\Work\Programmazione\Projects\FinSeACQSPD\bin\x86\Debug\FinSeAOffice.xml
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.dll
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.xml
+C:\Work\Programmazione\Projects\FinSeACQSPD\obj\x86\Debug\FinSeACQSPD.pdb

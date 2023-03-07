@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F4156CA-165E-4DC4-A5DB-EA5551D2A069}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DMDApp.My.MyApplication</StartupObject>
+    <RootNamespace>DMDApp</RootNamespace>
+    <AssemblyName>DMDApp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>ftp://ftp.dmdstore.it/dmdstore.it/Apps/DMDApp/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://www.dmdstore.it/Apps/DMDApp/</InstallUrl>
+    <SupportUrl>https://www.dmdstore.it</SupportUrl>
+    <ErrorReportUrl>https://www.dmdstore.it/submiterror.aspx</ErrorReportUrl>
+    <TargetCulture>it</TargetCulture>
+    <ProductName>DMDApp</ProductName>
+    <PublisherName>DMDStore</PublisherName>
+    <SuiteName>DMD Store</SuiteName>
+    <MinimumRequiredVersion>1.1.0.111</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>default.htm</WebPage>
+    <ApplicationRevision>179</ApplicationRevision>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>DMDApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>DMDApp.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DMDApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DMDApp.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D48F559DD6CBD356F42629095D7939F2EA17DC3E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>FinSeApp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icona32.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>DMD.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DShowNET">
+      <HintPath>..\..\Librerie\DShowNET.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\Librerie\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Forms\AsteriskEventArgs.vb" />
+    <Compile Include="Forms\frmAudioConfig.Designer.vb">
+      <DependentUpon>frmAudioConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAudioConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmConfigServer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFormatta.Designer.vb">
+      <DependentUpon>frmFormatta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFormatta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInCall.Designer.vb">
+      <DependentUpon>frmInCall.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInCall.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPhone.Designer.vb">
+      <DependentUpon>frmPhone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPhone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmProxyConfig.Designer.vb">
+      <DependentUpon>FrmProxyConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmProxyConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUploadServer.Designer.vb">
+      <DependentUpon>frmUploadServer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUploadServer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmChoseFolder.Designer.vb">
+      <DependentUpon>frmChoseFolder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmChoseFolder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmFolderMonitor.Designer.vb">
+      <DependentUpon>FrmFolderMonitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmFolderMonitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmParametri.Designer.vb">
+      <DependentUpon>FrmParametri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmParametri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSendFax.Designer.vb">
+      <DependentUpon>frmSendFax.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSendFax.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmServers.Designer.vb">
+      <DependentUpon>FrmServers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmServers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmUploader.Designer.vb">
+      <DependentUpon>FrmUploader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmUploader.vb" />
+    <Compile Include="Forms\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationContext.vb" />
+    <Compile Include="Forms\AsteriskServersForm.Designer.vb">
+      <DependentUpon>AsteriskServersForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AsteriskServersForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DispositiviForm.Designer.vb">
+      <DependentUpon>DispositiviForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DispositiviForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAppPassword.Designer.vb">
+      <DependentUpon>frmAppPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAppPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCheckPassword.Designer.vb">
+      <DependentUpon>frmCheckPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCheckPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDialer.Designer.vb">
+      <DependentUpon>frmDialer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDialer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HylaFaxConfig.Designer.vb">
+      <DependentUpon>HylaFaxConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HylaFaxConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LineeForm.Designer.vb">
+      <DependentUpon>LineeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LineeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MailSettings.Designer.vb">
+      <DependentUpon>MailSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MailSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SearchPersona.Designer.vb">
+      <DependentUpon>SearchPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SearchPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Utils.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AsteriskServersForm.resx">
+      <DependentUpon>AsteriskServersForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DispositiviForm.resx">
+      <DependentUpon>DispositiviForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAppPassword.resx">
+      <DependentUpon>frmAppPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAudioConfig.resx">
+      <DependentUpon>frmAudioConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCheckPassword.resx">
+      <DependentUpon>frmCheckPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmChoseFolder.resx">
+      <DependentUpon>frmChoseFolder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmConfigServer.resx">
+      <DependentUpon>FrmConfigServer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDialer.resx">
+      <DependentUpon>frmDialer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmFolderMonitor.resx">
+      <DependentUpon>FrmFolderMonitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFormatta.resx">
+      <DependentUpon>frmFormatta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInCall.resx">
+      <DependentUpon>frmInCall.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmParametri.resx">
+      <DependentUpon>FrmParametri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPhone.resx">
+      <DependentUpon>frmPhone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmProxyConfig.resx">
+      <DependentUpon>FrmProxyConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSendFax.resx">
+      <DependentUpon>frmSendFax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmServers.resx">
+      <DependentUpon>FrmServers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmUploader.resx">
+      <DependentUpon>FrmUploader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUploadServer.resx">
+      <DependentUpon>frmUploadServer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HylaFaxConfig.resx">
+      <DependentUpon>HylaFaxConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LineeForm.resx">
+      <DependentUpon>LineeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MailSettings.resx">
+      <DependentUpon>MailSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchPersona.resx">
+      <DependentUpon>SearchPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="db.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\MICW.png" />
+    <None Include="Resources\MICR.png" />
+    <Content Include="templates\db.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="blockedcontent.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="DMD.pfx" />
+    <None Include="Resources\Logo100.png" />
+    <None Include="Resources\default32.png" />
+    <None Include="app.config" />
+    <Content Include="iconab.ico" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DMD\DMDAsteriskLib\DMDAsteriskLib.vbproj">
+      <Project>{198fdf25-464c-4aa2-9060-a9611d23f84c}</Project>
+      <Name>DMDAsteriskLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DMD\DMDBaseCore\DMDBaseCore\DMDBaseCore.vbproj">
+      <Project>{10969116-5b14-462b-8ade-7782e14c4736}</Project>
+      <Name>DMDBaseCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DMD\DMDControls\DMDControls.vbproj">
+      <Project>{098af559-44ca-433e-886d-cdec70eeaaff}</Project>
+      <Name>DMDControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DialTPLib\DialTPLib.vbproj">
+      <Project>{34177944-33fa-495c-9e8a-1089c0dd0889}</Project>
+      <Name>DialTPLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDCRM\DMDCRM.vbproj">
+      <Project>{19e60d51-7d00-43ee-a26b-6e8a37f05c59}</Project>
+      <Name>DMDCRM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDHylaFax\DMDHylaFax.vbproj">
+      <Project>{3f04292d-bf8f-4554-97d5-198f072b0364}</Project>
+      <Name>DMDHylaFax</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDLibs\DMDLibs.vbproj">
+      <Project>{d6154502-e7f9-4dfc-a695-6b51afee770b}</Project>
+      <Name>DMDLibs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDOffice\DMDOffice.vbproj">
+      <Project>{af8567a3-b154-4f14-aaf7-223253fa523d}</Project>
+      <Name>DMDOffice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDWebLibs\DMDWebLibs.vbproj">
+      <Project>{28820d4c-d20d-48d1-980f-4c230bc6e95e}</Project>
+      <Name>DMDWebLibs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Works\Programmazione\Librerie\AdvancedWave\WavPlayer\WavPlayer.csproj">
+      <Project>{a529ecb4-e537-49b1-bc71-a940ca2491a9}</Project>
+      <Name>WavPlayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Works\Programmazione\Librerie\LumiSoftNet\Net\Net\Net.csproj">
+      <Project>{7ab36ccf-5ffd-4780-a54e-a102eca028b5}</Project>
+      <Name>Net</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnFind.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnFind32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icona32.ico" />
+    <None Include="Resources\LogOut.png" />
+    <None Include="Resources\uparrow16.gif" />
+    <None Include="Resources\faxout.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,23 @@
+GDETemplatesHandler
+
+create table [tbl_DocumentiTemplates]
+(
+[ID] Counter Primary Key,
+[Name] Text(255),
+[Description] Memo,
+[PageFormatName] Text(255),
+[SourceFile] Text(255),
+[PageFormatWidth] real,
+[PageFormatHeight] real,
+[TemplateItems] Memo,
+[IDPuntoOperativo] Int,
+[NomePuntoOperativo] Text(255),
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+
+alter table tbl_DocumentiTemplates add column ContextType text(255)

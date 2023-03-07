@@ -1,0 +1,3 @@
+alter table tbl_Impiegati add column Flags Int
+
+create index idxImpiegatiFlags on tbl_Impiegati (Flags)

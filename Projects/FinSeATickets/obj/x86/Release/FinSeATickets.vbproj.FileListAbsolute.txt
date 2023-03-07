@@ -1,0 +1,16 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\bin\x86\Release\FinSeATickets.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\bin\x86\Release\FinSeATickets.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\bin\x86\Release\FinSeATickets.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\bin\x86\Release\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\bin\x86\Release\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\bin\x86\Release\Interop.MSXML2.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\bin\x86\Release\Interop.JRO.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\bin\x86\Release\Interop.ADODB.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\bin\x86\Release\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\bin\x86\Release\Ionic.Zip.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\obj\x86\Release\FinSeATickets.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\obj\x86\Release\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\obj\x86\Release\FinSeATickets.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\obj\x86\Release\FinSeATickets.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\obj\x86\Release\FinSeATickets.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeATickets\obj\x86\Release\FinSeATickets.pdb

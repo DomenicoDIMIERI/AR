@@ -1,0 +1,4 @@
+alter table tbl_FIN_TblFin add column TipoCalcoloProvvigioni int, FormulaProvvigioni Memo
+alter table tbl_FIN_TblFin add column ScontoVisibile real
+
+alter table tbl_FIN_TblFin add column ProvvTANR real, ProvvTANE real

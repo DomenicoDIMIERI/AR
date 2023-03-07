@@ -1,0 +1,23 @@
+create table tbl_ContiCorrentiInt
+(
+ID Counter Primary Key,
+IDContoCorrente Int,
+NomeConto text(255),
+IDPersona Int,
+NomePersona Text(255),
+DataInizio Date,
+DataFine Date,
+Flags Int,
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+
+create index idxContiCorrentiIntIDCNT on tbl_ContiCorrentiInt (IDContoCorrente)
+create index idxContiCorrentiIntIDPER on tbl_ContiCorrentiInt (IDPersona)
+create index idxContiCorrentiIntDTINI on tbl_ContiCorrentiInt (DataInizio)
+create index idxContiCorrentiIntDTFIN on tbl_ContiCorrentiInt (DataFine)
+create index idxContiCorrentiIntST on tbl_ContiCorrentiInt (Stato)

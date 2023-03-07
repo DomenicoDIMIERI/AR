@@ -1,0 +1,17 @@
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\Debug\FinSeAHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\Debug\FinSeAHylaFax.pdb
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\Debug\FinSeAHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\Debug\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\Debug\Hylafax.net.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\Debug\FinSeALibs.pdb
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\Debug\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\Debug\FinSeAHylaFax.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\Debug\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\Debug\FinSeAHylaFax.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\Debug\FinSeAHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\Debug\FinSeAHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\Debug\FinSeAHylaFax.pdb
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\Debug\FinSeALibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\Debug\FinSeAHylaFax.vbproj.CoreCompileInputs.cache

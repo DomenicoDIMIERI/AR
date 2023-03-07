@@ -1,0 +1,3 @@
+C:\Works\My Web Sites\AR1\Projects\FinSeAScanHandler\obj\x86\Debug\DMDScanHandler.exe
+C:\Works\My Web Sites\AR1\Projects\FinSeAScanHandler\obj\x86\Debug\DMDScanHandler.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeAScanHandler\obj\x86\Debug\DMDScanHandler.pdb

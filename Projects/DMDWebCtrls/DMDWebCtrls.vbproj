@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1320B9A0-AFE0-40B4-8B30-3822C9D15D9C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DMD</RootNamespace>
+    <AssemblyName>DMDWebCtrls</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDWebCtrls.xml</DocumentationFile>
+    <NoWarn>41999,42016</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDWebCtrls.xml</DocumentationFile>
+    <NoWarn>41999,42016</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DMDWebCtrls.xml</DocumentationFile>
+    <NoWarn>41999,42016</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DMDWebCtrls.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016</NoWarn>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>DMDWebCtrls.xml</DocumentationFile>
+    <NoWarn>41999,42016</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>DMDWebCtrls.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="DMD" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DMD\ADV\ADVCampainModuleHandler.vb" />
+    <Compile Include="DMD\ADV\ADVResModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\MotiviAppuntamentoModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\CBancheModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\CAnagraficaModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\CanaliModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\ConsensiInformatiHandler.vb" />
+    <Compile Include="DMD\Anagrafica\CarteDiCreditoHandler.vb" />
+    <Compile Include="DMD\Anagrafica\ListaRicontattiItemModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\VisualizzaAnagraficaImportata.vb" />
+    <Compile Include="DMD\Anagrafica\CPopUpInfoPersona.vb" />
+    <Compile Include="DMD\Anagrafica\InfoParentiEAffini.vb" />
+    <Compile Include="DMD\Anagrafica\PrendiInCaricoAnagraficaImportata.vb" />
+    <Compile Include="DMD\Anagrafica\RelazioniParentaliHandler.vb" />
+    <Compile Include="DMD\Anagrafica\FontiContattoModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\ListeRicontattiHandler.vb" />
+    <None Include="DMD\Anagrafica\AzioniTasksLavorazioneHandler.vb" />
+    <Compile Include="DMD\Anagrafica\ContiCorrenteHandler.vb" />
+    <Compile Include="DMD\Anagrafica\AnaXFonteHandler.vb" />
+    <Compile Include="DMD\Anagrafica\RegoleTasksLavorazioneHandler.vb" />
+    <Compile Include="DMD\Anagrafica\StatiTasksLavorazioneHandler.vb" />
+    <Compile Include="DMD\Anagrafica\TasksLavorazioneHandler.vb" />
+    <Compile Include="DMD\Anagrafica\MergePersoneModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\PersoneUtils.vb" />
+    <Compile Include="DMD\Anagrafica\CPersoneFisicheModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\CPersoneGiuridicheModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\CRicontattiModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\TipiRapportoModuleHandler.vb" />
+    <Compile Include="DMD\Anagrafica\CUfficiModuleHandler.vb" />
+    <Compile Include="DMD\Calendar\CCalendarModuleHandler.vb" />
+    <Compile Include="DMD\Control\CControlPanelHandler.vb" />
+    <Compile Include="DMD\Control\ControlPanelInfo.vb" />
+    <Compile Include="DMD\Control\ControlPanelUserInfo.vb" />
+    <Compile Include="DMD\Control\ControlPanelOfficeInfo.vb" />
+    <Compile Include="DMD\CQSPD\CategorieProdottoModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDVincoliProdottiHandler.vb" />
+    <Compile Include="DMD\CQSPD\ValutazioniAziendeHandler.vb" />
+    <Compile Include="DMD\CQSPD\CCQSPDImportExportSrcHandler.vb" />
+    <Compile Include="DMD\CQSPD\CCQSPDImportExportHandler.vb" />
+    <Compile Include="DMD\CQSPD\CliXCollabModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDRichiesteDerogheHandler.vb" />
+    <Compile Include="DMD\CQSPD\VerificheAmministrativeHandler.vb" />
+    <Compile Include="DMD\CQSPD\FinestreDiLavorazioneHandler.vb" />
+    <Compile Include="DMD\CQSPD\StatiPraticaRuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDRichiesteConteggiHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDRichiesteApprovazioneHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDMotiviScontoPraticaHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDObiettiviPraticaHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDAnomalieHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDBaseStatsHandler.vb" />
+    <Compile Include="DMD\CQSPD\CTabelleSpeseModuleHandler.vb" />
+    <Compile Include="DMD\CRM\Chat\ChatRoomsModuleHandler.vb" />
+    <Compile Include="DMD\CRM\CPausaCRMModuleHandler.vb" />
+    <Compile Include="DMD\CRM\CCampagnaCRMModuleHandler.vb" />
+    <Compile Include="DMD\CRM\CSessioneCRMModuleHandler.vb" />
+    <Compile Include="DMD\CRM\Chat\CMessengerUserList.vb" />
+    <Compile Include="DMD\CRM\Chat\CMessengerModuleHandler.vb" />
+    <Compile Include="DMD\CRM\Chat\ChatStats.vb" />
+    <Compile Include="DMD\CRM\CFAXModuleHandler.vb" />
+    <Compile Include="DMD\CRM\CTelegramModuleHandler.vb" />
+    <Compile Include="DMD\CRM\CSMSModuleHandler.vb" />
+    <Compile Include="DMD\CRM\CTelefonateModuleHandler.vb" />
+    <Compile Include="DMD\CRM\CVisiteModuleHandler.vb" />
+    <Compile Include="DMD\CRM\TemplatesModuleHandler.vb" />
+    <Compile Include="DMD\DialTP\ProxyProfilesHandler.vb" />
+    <Compile Include="DMD\Drivers\FinSeAFAXDriver.vb" />
+    <Compile Include="DMD\Drivers\FaxatorFAXDriver.vb" />
+    <Compile Include="DMD\Forms\CFont.vb" />
+    <Compile Include="DMD\Luoghi\CLuoghiModuleHandler.vb" />
+    <Compile Include="DMD\Luoghi\CIndirizziModuleHandler.vb" />
+    <Compile Include="DMD\Luoghi\RegioniHandler.vb" />
+    <Compile Include="DMD\Luoghi\NazioniHandler.vb" />
+    <Compile Include="DMD\Luoghi\CProvinceModuleHandler.vb" />
+    <Compile Include="DMD\Office\GDETemplatesHandler.vb" />
+    <Compile Include="DMD\Office\LicenzeSoftwarehandler.vb" />
+    <Compile Include="DMD\Office\SoftwareModuleHandler.vb" />
+    <Compile Include="DMD\Office\UtenzeHandler.vb" />
+    <Compile Include="DMD\Office\VociDiPagamentoHandler.vb" />
+    <Compile Include="DMD\Office\RichiestaPermessoFerieHandler.vb" />
+    <Compile Include="DMD\Office\TurniIOHandler.vb" />
+    <Compile Include="DMD\Office\RilevatoriPresenzeHandler.vb" />
+    <Compile Include="DMD\Office\IngressiUsciteHandler.vb" />
+    <Compile Include="DMD\Office\ScansioniHandler.vb" />
+    <Compile Include="DMD\Office\DocumentiContabiliHandler.vb" />
+    <Compile Include="DMD\Office\OfficeArticoliHandler.vb" />
+    <Compile Include="DMD\Office\OfficeCategorieArticoliHandler.vb" />
+    <Compile Include="DMD\Office\OggettiInventariatiHandler.vb" />
+    <Compile Include="DMD\Office\OfficeMagazziniHandler.vb" />
+    <Compile Include="DMD\Office\OfficeListiniArticoliHandler.vb" />
+    <Compile Include="DMD\Office\OfficeMarcheArticoliHandler.vb" />
+    <Compile Include="DMD\Office\OfficeModuleHandler.vb" />
+    <Compile Include="DMD\Office\OfficeSituazionePersona.vb" />
+    <Compile Include="DMD\Office\OggettiDaSpedireHandler.vb" />
+    <Compile Include="DMD\Office\SpedizioniHandler.vb" />
+    <Compile Include="DMD\Office\StickyNotesHandler.vb" />
+    <Compile Include="DMD\POP3\EMailFoldersHandler.vb" />
+    <Compile Include="DMD\Sistema\CGroupsModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CCalendarProcs.vb" />
+    <Compile Include="DMD\Sistema\CManutenzioniModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CVociManutenzioniModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CValoriRegistriModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CPropPagesModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CPostazioniModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\NotificheHandler.vb" />
+    <Compile Include="DMD\Sistema\AzioniRegistrateHandler.vb" />
+    <Compile Include="DMD\Web\CCollegamentiModuleHandler.vb" />
+    <Compile Include="DMD\Comunicazioni\ComunicazioniUtils.vb" />
+    <Compile Include="DMD\Comunicazioni\CComunicazioniModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\AltriPrestitiModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CAmministrazioniModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\AreaManagersModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\AssicurazioniModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CCessionariModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CollaboratoriModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CCreditoVHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDConsulentiModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDConsulenzeHandler.vb" />
+    <Compile Include="DMD\CQSPD\ConvenzioniProdottoHandler.vb" />
+    <Compile Include="DMD\CQSPD\StatiLavPraticaHandler.vb" />
+    <Compile Include="DMD\CQSPD\RichiesteFinanziamentoModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\GruppiConsulenzeHandler.vb" />
+    <Compile Include="DMD\CQSPD\CGruppoProdottiModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDDashInfo.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDPDBInfo.vb" />
+    <Compile Include="DMD\CQSPD\StatiPraticaHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDUtils.vb" />
+    <Compile Include="DMD\CQSPD\CEstinzioniModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\StatSecciHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDCaricatoPraticheHandler.vb" />
+    <Compile Include="DMD\CQSPD\LiquidatoHandler.vb" />
+    <Compile Include="DMD\CQSPD\ValutazioneOperatore1Handler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDPreventiviConclusiHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDScontisticaHandler.vb" />
+    <Compile Include="DMD\CQSPD\GestioneClientiReportHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPTTabelleFinanziarieModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\VisureHandler.vb" />
+    <Compile Include="DMD\Drivers\TrendoSMSDriver.vb" />
+    <Compile Include="DMD\Forms\Charts\ChartMeasure.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartLabel.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartGrid.vb" />
+    <Compile Include="DMD\Forms\Charts\Renderers\ChartRenderer.vb" />
+    <Compile Include="DMD\Forms\Charts\Renderers\PieChartRenderer.vb" />
+    <Compile Include="DMD\Forms\Charts\Renderers\LineChartRenderer.vb" />
+    <Compile Include="DMD\Forms\Utils.vb" />
+    <Compile Include="DMD\Forms\WebControlBackground.vb" />
+    <Compile Include="DMD\Forms\WebControlBorder.vb" />
+    <Compile Include="DMD\Forms\WebControlStyle.vb" />
+    <Compile Include="DMD\Office\CandidatureHandler.vb" />
+    <Compile Include="DMD\Office\CurriculaHandler.vb" />
+    <Compile Include="DMD\Office\OfferteDiLavoroHandler.vb" />
+    <Compile Include="DMD\Office\COfficeDefPercorsiHandler.vb" />
+    <Compile Include="DMD\Office\ClassiDispositivoHandler.vb" />
+    <Compile Include="DMD\Office\LuoghiVisitatiHandler.vb" />
+    <Compile Include="DMD\Office\ReportUsciteHandler.vb" />
+    <Compile Include="DMD\Sistema\CAnnotazioniModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CAttachmentsModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CSysEventsModuleHandler.vb" />
+    <Compile Include="DMD\Tickets\TicketUtils.vb" />
+    <Compile Include="DMD\Tickets\TicketCategoriesHandler.vb" />
+    <Compile Include="DMD\Tickets\TicketsHandler.vb" />
+    <Compile Include="DMD\Utilities\ImportaFinMakerHandler.vb" />
+    <Compile Include="DMD\Utilities\ImportFromCLHandler.vb" />
+    <Compile Include="DMD\CQSPD\OfferteModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\VLikePrintTemplate.vb" />
+    <Compile Include="DMD\CQSPD\CModuleRapportiniHandler.vb" />
+    <Compile Include="DMD\CQSPD\CPraticheDataStatoLiqComparer.vb" />
+    <Compile Include="DMD\CQSPD\CPraticheDataStatoDelComparer.vb" />
+    <Compile Include="DMD\CQSPD\CPraticheDataStatoRichDelComparer.vb" />
+    <Compile Include="DMD\CQSPD\CPraticheDataStatoContattoComparer.vb" />
+    <Compile Include="DMD\CQSPD\PreventiviModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CProdottiModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CProfiliModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\MotivazioniPraticheAnnullateModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\ReportPratichePerComuneHandler.vb" />
+    <Compile Include="DMD\CQSPD\TabelleAssicurativeModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\TeamManagersModuleHandler.vb" />
+    <Compile Include="DMD\Event Handlers\CUserLogginHandler.vb" />
+    <Compile Include="DMD\Event Handlers\CRapportiniCreateEventHandler.vb" />
+    <Compile Include="DMD\Event Handlers\CRMEditActionHandler.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartValue.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartValues.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartSerie.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartSeries.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartLabels.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartElement.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartAxe.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartTitle.vb" />
+    <Compile Include="DMD\Forms\Charts\CChartLegend.vb" />
+    <Compile Include="DMD\Forms\Charts\Renderers\VerticalBarOverlappedChartRenderer.vb" />
+    <Compile Include="DMD\Forms\Charts\Renderers\VerticalBarChartMultibarsRenderer.vb" />
+    <Compile Include="DMD\Luoghi\CComuniModuleHandler.vb" />
+    <Compile Include="DMD\Luoghi\LuoghiUtils.vb" />
+    <Compile Include="DMD\Office\RichiesteECHandler.vb" />
+    <Compile Include="DMD\Office\UsciteHandler.vb" />
+    <Compile Include="DMD\Office\VeicoliHandler.vb" />
+    <Compile Include="DMD\Office\MotiviRichiesteHandler.vb" />
+    <Compile Include="DMD\Office\RichiesteCERQHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDPratPerYearChartMHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDPratPerMeseChartMHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDOperatorStatsHandler.vb" />
+    <Compile Include="DMD\CQSPD\CReqsByFonteModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDPraticheXFonteHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDPraticheXAmmHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDCAPStatsHandler.vb" />
+    <Compile Include="DMD\CQSPD\PratichePerZonaHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDReportProvvigioniHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDScaglioniCaricatoHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDSintStatsHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDCAPStatoSedeStatsHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDTempiPraticheHandler.vb" />
+    <Compile Include="DMD\CQSPD\CTabelleTEGMaxModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\TipiContrattoModuleHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPDZoneHandler.vb" />
+    <Compile Include="DMD\CRM\CCustomerCallsModuleHandler.vb" />
+    <Compile Include="DMD\CRM\CRMUtils.vb" />
+    <Compile Include="DMD\Drivers\MessageNetFaxDriver.vb" />
+    <Compile Include="DMD\Forms\WebControl.vb" />
+    <Compile Include="DMD\Office\DispositiviHandler.vb" />
+    <Compile Include="DMD\Office\GPSRecordsHandler.vb" />
+    <Compile Include="DMD\POP3\MailAppsHandler.vb" />
+    <Compile Include="DMD\POP3\EMailModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CListAutorizzazioniItem.vb" />
+    <Compile Include="DMD\Sistema\CLoginControl.vb" />
+    <Compile Include="DMD\Sistema\CSystemModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\EventHandlersModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CModulesModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CBaseModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\ExportableColumnInfo.vb" />
+    <Compile Include="DMD\Sistema\ISupportsCursor.vb" />
+    <Compile Include="DMD\Sistema\SystemUtils.vb" />
+    <Compile Include="DMD\Sistema\CUsersModuleHandler.vb" />
+    <Compile Include="DMD\Office\CommissioniHandler.vb" />
+    <Compile Include="DMD\Office\MotiviCommissioniHandler.vb" />
+    <Compile Include="DMD\Office\PrimaNotaHandler.vb" />
+    <Compile Include="DMD\CQSPD\CQSPD_StatsControls.vb" />
+    <Compile Include="DMD\CQSPD\CQSPD_Controls.vb" />
+    <Compile Include="DMD\Forms\Charts\CChart.vb" />
+    <Compile Include="DMD\Forms\Forms.vb" />
+    <Compile Include="DMD\Web\WebSiteModuleHandler.vb" />
+    <Compile Include="DMD\Web\MasterPage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DMD\Anagrafica\AziendaPrincipaleModuleHandler.vb" />
+    <Compile Include="DMD\Sistema\CSiteConfigModuleHandler.vb" />
+    <Compile Include="DMD\Web\WebPageEx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="DMD\GDE\CDocumentiModuleHandler.vb" />
+    <Compile Include="DMD\Luoghi\CListProvinceItem.vb" />
+    <Compile Include="DMD\Anagrafica\Persone_Controls.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DMD\DMDBaseCore\DMDBaseCore\DMDBaseCore.vbproj">
+      <Project>{10969116-5b14-462b-8ade-7782e14c4736}</Project>
+      <Name>DMDBaseCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDCQSPD\DMDCQSPD.vbproj">
+      <Project>{3cbf1fa6-9d7a-4745-8b56-4e2c47670209}</Project>
+      <Name>DMDCQSPD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDCRM\DMDCRM.vbproj">
+      <Project>{19e60d51-7d00-43ee-a26b-6e8a37f05c59}</Project>
+      <Name>DMDCRM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDHylaFax\DMDHylaFax.vbproj">
+      <Project>{3f04292d-bf8f-4554-97d5-198f072b0364}</Project>
+      <Name>DMDHylaFax</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDLibs\DMDLibs.vbproj">
+      <Project>{d6154502-e7f9-4dfc-a695-6b51afee770b}</Project>
+      <Name>DMDLibs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDOffice\DMDOffice.vbproj">
+      <Project>{af8567a3-b154-4f14-aaf7-223253fa523d}</Project>
+      <Name>DMDOffice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMDWebLibs\DMDWebLibs.vbproj">
+      <Project>{28820d4c-d20d-48d1-980f-4c230bc6e95e}</Project>
+      <Name>DMDWebLibs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

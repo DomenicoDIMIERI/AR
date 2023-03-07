@@ -1,0 +1,60 @@
+create table tbl_OfficeSpedizioni
+(
+ID Counter Primary Key,
+AspettoBeni text(255),
+IDMittente int,
+NomeMittente Text(255),
+IndirizzoMittente_Nome Text(255),
+IndirizzoMittente_Via Text(255),
+IndirizzoMittente_CAP Text(32),
+IndirizzoMittente_Citta Text(255),
+IndirizzoMittente_Provincia Text(255),
+IDDestinatario Int,
+NomeDestinatario Text(255),
+IndirizzoDest_Nome Text(255),
+IndirizzoDest_Via Text(255),
+IndirizzoDest_CAP Text(32),
+IndirizzoDest_Citta Text(255),
+IndirizzoDest_Provincia Text(255),
+NumeroColli Int,
+Peso real, 
+Altezza real,
+Larghezza real,
+Profondita real,
+IDSpeditoDa int,
+NomeSpeditoDa text(255),
+IDRicevutoDa  int,
+NomeRicevutoDa text(255),
+DataInizioSpedizione Date,
+NotePerIlCorriere Memo,
+NotePerIlDestinatario Memo,
+StatoSpedizione int,
+StatoConsegna int,
+DataConsegna Date,
+Flags int,
+NomeCorriere Text(255),
+IDCorriere Int,
+NumeroSpedizione Text(255),
+Passaggi Memo,
+Attributi Memo,
+IDPuntoOperativo Int,
+NomePuntoOperativo Text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+create index idxOfficeSpedizioniIDMitt on tbl_OfficeSpedizioni (IDMittente)
+create index idxOfficeSpedizioniIDDest on tbl_OfficeSpedizioni (IDDestinatario)
+create index idxOfficeSpedizioniIDSPDA on tbl_OfficeSpedizioni (IDSpeditoDa)
+create index idxOfficeSpedizioniIDRCDA on tbl_OfficeSpedizioni (IDRicevutoDa)
+create index idxOfficeSpedizioniSTSPED on tbl_OfficeSpedizioni (StatoSpedizione)
+create index idxOfficeSpedizioniSTCONS on tbl_OfficeSpedizioni (StatoConsegna)
+create index idxOfficeSpedizioniDTCONS on tbl_OfficeSpedizioni (DataConsegna)
+create index idxOfficeSpedizioniDTSPED on tbl_OfficeSpedizioni (DataInizioSpedizione)
+create index idxOfficeSpedizioniIDCORR on tbl_OfficeSpedizioni (IDCorriere)
+create index idxOfficeSpedizioniNumSped on tbl_OfficeSpedizioni (NumeroSpedizione)
+create index idxOfficeSpedizioniIDPO on tbl_OfficeSpedizioni (IDPuntoOperativo)
+create index idxOfficeSpedizioniSTAT on tbl_OfficeSpedizioni (Stato)

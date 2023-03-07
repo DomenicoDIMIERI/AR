@@ -1,0 +1,64 @@
+create table [tbl_RichiesteDeroghe]
+(
+[ID] Counter Primary Key,
+[IDCliente] int,
+[NomeCliente] Text(255),
+[StatoRichiesta] int,
+[DataRichiesta] Date,
+[IDRichiedente] int,
+[NomeRichiedente] Text(255),
+[MotivoRichiesta] Memo,
+[IDAgenziaConcorrente] int,
+[NomeAgenziaConcorrente] Text(255),
+[NomeProdottoConcorrente] Text(255),
+[NumeroPreventivoConcorrente] Text(255),
+[RataConcorrente] real, 
+[DurataConcorrente] int,
+[NettoRicavoConcorrente] real,
+[TANConcorrente] real,
+[TAEGConcorrente] int,
+[IDOffertaIniziale] int,
+[InviatoA] text(255),
+[InviatoACC] memo,
+[MezzoDiInvio] text(255),
+[SendSubject] text(255),
+[SendMessange] Memo,
+[SendDate] Date,
+[Attachments] Memo,
+[RicevutoIl] Date,
+[RispostoIl] Date,
+[RispostoDa] text(255),
+[RispostoAMezzo] text(255),
+[RispostoSubject] text(255),
+[RispostoMessage] Memo,
+[IDOffertaCorrente] int,
+[Flags] int,
+[Parameters] memo,
+[IDFinestraLavorazione] int,
+[IDPuntoOperativo] int,
+[NomePuntoOperativo] text(255),
+[CreatoDa] int,
+[CreatoIl] Date,
+[ModificatoDa] int,
+[ModificatoIl] Date,
+[Stato] int
+)
+
+create index [idxRichDeroghe] on [tbl_RichiesteDeroghe] ([IDCliente])
+create index [idxRichDerogheSTRICH] on [tbl_RichiesteDeroghe] ([StatoRichiesta])
+create index [idxRichDerogheDTRICH] on [tbl_RichiesteDeroghe] ([DataRichiesta] )
+create index [idxRichDerogheIDRICHD] on [tbl_RichiesteDeroghe] ([IDRichiedente])
+create index [idxRichDerogheIDAGCONC] on [tbl_RichiesteDeroghe] ([IDAgenziaConcorrente], [NomeAgenziaConcorrente] )
+create index [idxRichDerogheNMPRDCON] on [tbl_RichiesteDeroghe] ([NomeProdottoConcorrente] )
+create index [idxRichDerogheNMRPRCON] on [tbl_RichiesteDeroghe] ([NumeroPreventivoConcorrente]  )
+create index [idxRichDerogheOFFDURA] on [tbl_RichiesteDeroghe] ([DurataConcorrente] , [RataConcorrente]   )
+create index [idxRichDerogheINVA] on [tbl_RichiesteDeroghe] ([InviatoA], [MezzoDiInvio])
+create index [idxRichDerogheINDTAT] on [tbl_RichiesteDeroghe] ([SendDate])
+create index [idxRichDerogheRICIL] on [tbl_RichiesteDeroghe] ([RicevutoIl])
+create index [idxRichDerogheRISPIL] on [tbl_RichiesteDeroghe] ([RispostoIl])
+create index [idxRichDerogheRISPDA] on [tbl_RichiesteDeroghe] ([RispostoDa], [RispostoAMezzo])
+create index [idxRichDerogheFLGS] on [tbl_RichiesteDeroghe] ([Flags])
+create index [idxRichDerogheIDWL] on [tbl_RichiesteDeroghe] ([IDFinestraLavorazione])
+create index [idxRichDerogheIDPO] on [tbl_RichiesteDeroghe] ([IDPuntoOperativo])
+create index [idxRichDerogheSTATO] on [tbl_RichiesteDeroghe] ([Stato] )
+create index [idxRichDerogheCTDA] on [tbl_RichiesteDeroghe] ([CreatoDa])

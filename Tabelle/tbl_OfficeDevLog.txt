@@ -1,0 +1,51 @@
+create table tbl_OfficeDevLog 
+(
+[ID] Counter Primary Key,
+[IDDevice] Int,
+[Flags] Int,
+[Params] Memo,
+[StartDate] Date,
+[EndDate] Date,
+[IDPuntoOperativo] Int,
+[NomePuntoOperativo] Text(255),
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+
+create index idxOfficeDevLogIDDev on tbl_OfficeDevLog (IDDevice)
+create index idxOfficeDevLogFlags on tbl_OfficeDevLog (Flags)
+create index idxOfficeDevLogStartDate on tbl_OfficeDevLog (StartDate)
+create index idxOfficeDevLogEndDate on tbl_OfficeDevLog (EndDate)
+create index idxOfficeDevLogIDPO on tbl_OfficeDevLog (IDPuntoOperativo)
+create index idxOfficeDevLogIDCD on tbl_OfficeDevLog (CreatoDa)
+create index idxOfficeDevLogStato on tbl_OfficeDevLog (Stato)
+
+alter table tbl_OfficeDevLog add column IDUtente int
+alter table tbl_OfficeDevLog add column NomeUtente text(255), CPUUsage int, CPUMaximum int
+
+alter table tbl_OfficeDevLog add column RAMTotal real, RAMAvailable real, RAMMinimum real
+
+alter table tbl_OfficeDevLog add column DiskTotal real, DiskAvailable real, DiskMinimum real
+
+alter table tbl_OfficeDevLog add column Temperature real, TemperatureMaximum real
+
+alter table tbl_OfficeDevLog add column Counter1 int, Counter2 int, Counter3 Int, Counter4 int
+
+alter table tbl_OfficeDevLog add column NumeroCampioni int
+
+alter table tbl_OfficeDevLog add column GPS_Alt real, GPS_Lon real, GPS_Lat real
+
+alter table tbl_OfficeDevLog add column Screen_Width Int, Screen_Height int, ScreenColors int
+
+alter table tbl_OfficeDevLog add column GPS_Bear real 
+
+alter table tbl_OfficeDevLog add column IPAddress Text(64), MACAddress Text(16), OSVersion Text(255), DettaglioStato Text(255)
+
+create index idxOfficeDevLogIPAd on tbl_OfficeDevLog (IPAddress)
+create index idxOfficeDevLogMACAd on tbl_OfficeDevLog (MACAddress)
+create index idxOfficeDevLogOSVER on tbl_OfficeDevLog (OSVersion)
+create index idxOfficeDevLogDETST on tbl_OfficeDevLog (DettaglioStato)

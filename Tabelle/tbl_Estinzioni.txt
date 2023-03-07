@@ -1,0 +1,23 @@
+alter table tbl_Estinzioni add column TipoFonte Text(255)
+alter table tbl_Estinzioni add column IDFonte int
+alter table tbl_Estinzioni add column NomeFonte Text(255)
+alter table tbl_Estinzioni add column DataAcquisizione Date
+
+create index idxEstinzioniFonte on tbl_Estinzioni (TipoFonte, IDFonte, NomeFonte)
+
+
+alter table tbl_Estinzioni add column [Note] Memo
+
+alter table tbl_Estinzioni add column DataRinnovo Date, DataRicontatto Date
+
+create index idxEstinzioniDRINN on tbl_Estinzioni (DataRinnovo)
+create index idxEstinzioniDRIC on tbl_Estinzioni (DataRicontatto)
+
+alter table tbl_Estinzioni add column 
+	Validato bit,
+        ValidatoIl Date,
+	IDValidatoDa Int,
+	NomeValidatoDa Text(255),
+	NomeSorgenteValidazione Text(255),
+	TipoSorgenteValidazione Text(255),
+	IDSorgenteValidazione Int

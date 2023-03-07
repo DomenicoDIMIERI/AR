@@ -1,0 +1,47 @@
+create table tbl_CQSPDProvvXOfferta
+(
+ID Counter Primary Key,
+[Nome] Text(255),
+[IDOfferta] Int,
+[IDTipoProvvigione] Int,
+[PagataDa] Int,
+[PagataA] Int,
+[TipoCalcolo] Int,
+[Percentuale] Real,
+[Fisso] Real,
+[Formula] Real,
+[Flags] Int,
+[Params] Memo,
+[IDCedente] Int,
+[NomeCedente] Text(255),
+[IDRicevente] Int,
+[NomeRicevente] Text(255),
+[BaseDiCalcolo] Real,
+[Valore] Real,
+[ValorePagato] Real,
+[DataPagamento] Date,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+create index idxCQSPDTipoProvvNm on tbl_CQSPDProvvXOfferta (Nome)
+create index idxCQSPDTipoProvvIDOFF on tbl_CQSPDProvvXOfferta (IDOfferta, IDTipoProvvigione)
+create index idxCQSPDTipoProvvCEDE on tbl_CQSPDProvvXOfferta (IDCedente, NomeCedente)
+create index idxCQSPDTipoProvvVALORI on tbl_CQSPDProvvXOfferta (Valore, ValorePagato, BaseDiCalcolo)
+create index idxCQSPDTipoProvvDATE on tbl_CQSPDProvvXOfferta (DataPagamento)
+create index idxCQSPDTipoProvvRICE on tbl_CQSPDProvvXOfferta (IDRicevente, NomeRicevente)
+create index idxCQSPDTipoProvvPGTD on tbl_CQSPDProvvXOfferta (TipoCalcolo, PagataDa, PagataA)
+create index idxCQSPDTipoProvvPCFI on tbl_CQSPDProvvXOfferta (Percentuale, Fisso, Formula)
+create index idxCQSPDTipoProvvCTDA on tbl_CQSPDProvvXOfferta (CreatoDa, CreatoIl)
+create index idxCQSPDTipoProvvMDDA on tbl_CQSPDProvvXOfferta (ModificatoDa, ModificatoIl)
+create index idxCQSPDTipoProvvSTAT on tbl_CQSPDProvvXOfferta (Stato)
+ 
+alter  table tbl_CQSPDProvvXOfferta drop column Formula
+alter  table tbl_CQSPDProvvXOfferta add column Formula text(255)
+create index idxCQSPDTipoProvvPCFI on tbl_CQSPDProvvXOfferta (Percentuale, Fisso, Formula)
+
+
+alter table  tbl_CQSPDProvvXOfferta add column Vincoli Memo

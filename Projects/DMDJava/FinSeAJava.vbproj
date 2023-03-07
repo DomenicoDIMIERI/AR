@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BCF6F44-A8B3-4ADB-B7EF-A91E7B0493B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FinSeA</RootNamespace>
+    <AssemblyName>FinSeAJava</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FinSeAJava.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FinSeAJava.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>FinSeAJava.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>FinSeAJava.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>FinSeAJava.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>FinSeAJava.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="FinSeA.Java" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collections\AbstractCollection.vb" />
+    <Compile Include="Collections\AbstractSet.vb" />
+    <Compile Include="Collections\ArrayList.vb" />
+    <Compile Include="Collections\ArrayListOf.vb" />
+    <Compile Include="Collections\Collections.vb" />
+    <Compile Include="Collections\Dictionary.vb" />
+    <Compile Include="Collections\HashSet.vb" />
+    <Compile Include="Collections\HashSetOf.vb" />
+    <Compile Include="Collections\Hashtable.vb" />
+    <Compile Include="Collections\HashtableOf.vb" />
+    <Compile Include="Collections\ICollection.vb" />
+    <Compile Include="Collections\ICollectionOf.vb" />
+    <Compile Include="Collections\Iterator.vb" />
+    <Compile Include="Collections\IteratorOf.vb" />
+    <Compile Include="Collections\LinkedListOf.vb" />
+    <Compile Include="Collections\List.vb" />
+    <Compile Include="Collections\ListOf.vb" />
+    <Compile Include="Collections\NavigableSet.vb" />
+    <Compile Include="Collections\Properties.vb" />
+    <Compile Include="Collections\Set.vb" />
+    <Compile Include="Collections\SetOf.vb" />
+    <Compile Include="Collections\SortedSet.vb" />
+    <Compile Include="Collections\SortedSetOf.vb" />
+    <Compile Include="Collections\Stack.vb" />
+    <Compile Include="Collections\StackOf.vb" />
+    <Compile Include="Collections\TreeSet.vb" />
+    <Compile Include="Collections\TreeSetOf.vb" />
+    <Compile Include="Collections\Vector.vb" />
+    <Compile Include="Collections\VectorOf.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\afm\AFMParser.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\afm\CharMetric.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\afm\Composite.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\afm\CompositePart.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\afm\FontMetric.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\afm\KernPair.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\afm\Ligature.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\afm\TrackKern.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\AFMFormatter.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFDataInput.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFFont.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFFontROS.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFOperator.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFParser.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFStandardString.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\charset\CFFCharset.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\charset\CFFExpertCharset.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\charset\CFFExpertSubsetCharset.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\charset\CFFISOAdobeCharset.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CharStringCommand.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CharStringConverter.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CharStringHandler.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CharStringRenderer.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\CIDKeyedFDSelect.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\DataInput.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\DataOutput.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\encoding\CFFEncoding.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\encoding\CFFExpertEncoding.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\encoding\CFFStandardEncoding.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\IndexData.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\Type1CharStringFormatter.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\Type1CharStringParser.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\Type1FontFormatter.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\Type1FontUtil.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cff\Type2CharStringParser.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cmap\CIDRange.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cmap\CMap.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cmap\CMapParser.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\cmap\CodespaceRange.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\encoding\Encoding.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\encoding\MacRomanEncoding.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\pfb\PfbParser.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\AbstractTTFParser.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\CIDFontType2Parser.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\CMAPEncodingEntry.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\CMAPTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\DigitalSignatureTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyfCompositeComp.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyfCompositeDescript.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyfDescript.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyfSimpleDescript.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\Glyph2D.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyphData.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyphDescription.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyphTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\HeaderTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\HorizontalHeaderTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\HorizontalMetricsTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\IndexToLocationTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\MaximumProfileTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\MemoryTTFDataStream.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\NameRecord.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\NamingTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\OS2WindowsMetricsTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\PostScriptTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\RAFDataStream.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\TrueTypeFont.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\TTFDataStream.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\TTFParser.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\TTFSubFont.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\ttf\TTFTable.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\util\BoundingBox.vb" />
+    <Compile Include="fontbox\src\main\java\org\apache\fontbox\util\ResourceLoader.vb" />
+    <Compile Include="Maps\AbstractMap.vb" />
+    <Compile Include="Maps\AbstractMapOf.vb" />
+    <Compile Include="Maps\ConcurrentHashMap.vb" />
+    <Compile Include="Maps\HashMap.vb" />
+    <Compile Include="Maps\HashMapOf.vb" />
+    <Compile Include="Maps\LinkedHashMap.vb" />
+    <Compile Include="Maps\LinkedHashMapOf.vb" />
+    <Compile Include="Maps\Map.vb" />
+    <Compile Include="Maps\MapOf.vb" />
+    <Compile Include="Maps\SortedMap.vb" />
+    <Compile Include="Maps\SortedMapOf.vb" />
+    <Compile Include="Maps\TreeMap.vb" />
+    <Compile Include="Maps\TreeMapOf.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fontbox\src\main\appended-resources\META-INF\LICENSE" />
+    <None Include="fontbox\src\main\appended-resources\META-INF\NOTICE" />
+    <None Include="fontbox\src\main\site\apt\index.apt" />
+    <None Include="fontbox\src\test\resources\cmap\CMapTest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FinSeAGph\FinSeAGph.vbproj">
+      <Project>{a2aacace-51c3-432d-9c24-8943723735b8}</Project>
+      <Name>FinSeAGph</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FinSeALibs\FinSeALibs.vbproj">
+      <Project>{d6154502-e7f9-4dfc-a695-6b51afee770b}</Project>
+      <Name>FinSeALibs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fontbox\fontbox-checkstyle.xml" />
+    <Content Include="fontbox\pom.xml" />
+    <Content Include="fontbox\README.txt" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\afm\AFMParser.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\afm\CharMetric.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\afm\Composite.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\afm\CompositePart.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\afm\FontMetric.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\afm\KernPair.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\afm\Ligature.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\afm\TrackKern.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\AFMFormatter.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFDataInput.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFFont.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFFontROS.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFOperator.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFParser.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CFFStandardString.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\charset\CFFCharset.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\charset\CFFExpertCharset.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\charset\CFFExpertSubsetCharset.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\charset\CFFISOAdobeCharset.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CharStringCommand.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CharStringConverter.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CharStringHandler.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CharStringRenderer.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\CIDKeyedFDSelect.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\DataInput.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\DataOutput.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\encoding\CFFEncoding.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\encoding\CFFExpertEncoding.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\encoding\CFFStandardEncoding.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\IndexData.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\Type1CharStringFormatter.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\Type1CharStringParser.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\Type1FontFormatter.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\Type1FontUtil.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cff\Type2CharStringParser.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cmap\CIDRange.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cmap\CMap.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cmap\CMapParser.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\cmap\CodespaceRange.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\encoding\Encoding.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\encoding\MacRomanEncoding.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\pfb\PfbParser.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\AbstractTTFParser.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\CIDFontType2Parser.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\CMAPEncodingEntry.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\CMAPTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\DigitalSignatureTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyfCompositeComp.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyfCompositeDescript.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyfDescript.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyfSimpleDescript.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\Glyph2D.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyphData.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyphDescription.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\GlyphTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\HeaderTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\HorizontalHeaderTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\HorizontalMetricsTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\IndexToLocationTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\MaximumProfileTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\MemoryTTFDataStream.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\NameRecord.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\NamingTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\OS2WindowsMetricsTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\PostScriptTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\RAFDataStream.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\TrueTypeFont.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\TTFDataStream.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\TTFParser.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\TTFSubFont.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\ttf\TTFTable.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\util\BoundingBox.java" />
+    <Content Include="fontbox\src\main\java\org\apache\fontbox\util\ResourceLoader.java" />
+    <Content Include="fontbox\src\main\site\resources\images\group.svg" />
+    <Content Include="fontbox\src\main\site\resources\images\Logo.gif" />
+    <Content Include="fontbox\src\main\site\resources\images\Logo.png" />
+    <Content Include="fontbox\src\test\java\org\apache\fontbox\cff\Type1CharStringTest.java" />
+    <Content Include="fontbox\src\test\java\org\apache\fontbox\cff\Type1FontUtilTest.java" />
+    <Content Include="fontbox\src\test\java\org\apache\fontbox\cmap\TestCMap.java" />
+    <Content Include="fontbox\src\test\java\org\apache\fontbox\cmap\TestCMapParser.java" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

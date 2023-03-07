@@ -1,0 +1,15 @@
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\Release\DMDControls.dll
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\Release\DMDControls.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\Release\DMDControls.xml
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\Release\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\Release\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDControls\bin\Release\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\Release\DMDControls.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\Release\DMD.Controls.ToastForm.resources
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\Release\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\Release\DMDControls.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\Release\DMDControls.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\Release\DMDControls.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\Release\DMDControls.dll
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\Release\DMDControls.xml
+C:\Works\My Web Sites\AR1\DMD\DMDControls\obj\Release\DMDControls.pdb

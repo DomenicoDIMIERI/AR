@@ -1,0 +1,1299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C92EE61-DCA6-49A6-AC98-43316DA4BEB7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FinSeA</RootNamespace>
+    <AssemblyName>FinSeAPDF</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FinSeAPDF.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FinSeAPDF.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>FinSeAPDF.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>FinSeAPDF.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>FinSeAPDF.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>FinSeAPDF.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="FinSeA.Java" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing.Drawing2D" />
+    <Import Include="System.Drawing.Imaging" />
+    <Import Include="System.Drawing.Printing" />
+    <Import Include="System.Drawing.Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PDFUtils.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PDFBox\cos\COSArray.vb" />
+    <Compile Include="PDFBox\cos\COSBase.vb" />
+    <Compile Include="PDFBox\cos\COSBoolean.vb" />
+    <Compile Include="PDFBox\cos\COSDictionary.vb" />
+    <Compile Include="PDFBox\cos\COSDictionaryLateBinding.vb" />
+    <Compile Include="PDFBox\cos\COSDocument.vb" />
+    <Compile Include="PDFBox\cos\COSFloat.vb" />
+    <Compile Include="PDFBox\cos\COSInteger.vb" />
+    <Compile Include="PDFBox\cos\COSName.vb" />
+    <Compile Include="PDFBox\cos\COSNull.vb" />
+    <Compile Include="PDFBox\cos\COSNumber.vb" />
+    <Compile Include="PDFBox\cos\COSObject.vb" />
+    <Compile Include="PDFBox\cos\COSStream.vb" />
+    <Compile Include="PDFBox\cos\COSString.vb" />
+    <Compile Include="PDFBox\cos\COSUnread.vb" />
+    <Compile Include="PDFBox\cos\ICOSVisitor.vb" />
+    <Compile Include="PDFBox\encoding\AFMEncoding.vb" />
+    <Compile Include="PDFBox\encoding\conversion\CJKConverter.vb" />
+    <Compile Include="PDFBox\encoding\conversion\CJKEncoding.vb" />
+    <Compile Include="PDFBox\encoding\conversion\CMapSubstitution.vb" />
+    <Compile Include="PDFBox\encoding\conversion\EncodingConversionManager.vb" />
+    <Compile Include="PDFBox\encoding\conversion\EncodingConverter.vb" />
+    <Compile Include="PDFBox\encoding\DictionaryEncoding.vb" />
+    <Compile Include="PDFBox\encoding\Encoding.vb" />
+    <Compile Include="PDFBox\encoding\EncodingManager.vb" />
+    <Compile Include="PDFBox\encoding\MacRomanEncoding.vb" />
+    <Compile Include="PDFBox\encoding\PdfDocEncoding.vb" />
+    <Compile Include="PDFBox\encoding\StandardEncoding.vb" />
+    <Compile Include="PDFBox\encoding\Type1Encoding.vb" />
+    <Compile Include="PDFBox\encoding\WinAnsiEncoding.vb" />
+    <Compile Include="PDFBox\encryption\ARCFour.vb" />
+    <Compile Include="PDFBox\encryption\DocumentEncryption.vb" />
+    <Compile Include="PDFBox\encryption\PDFEncryption.vb" />
+    <Compile Include="PDFBox\exceptions\COSVisitorException.vb" />
+    <Compile Include="PDFBox\exceptions\CryptographyException.vb" />
+    <Compile Include="PDFBox\exceptions\InvalidPasswordException.vb" />
+    <Compile Include="PDFBox\exceptions\OutlineNotLocalException.vb" />
+    <Compile Include="PDFBox\exceptions\SignatureException.vb" />
+    <Compile Include="PDFBox\exceptions\WrappedException.vb" />
+    <Compile Include="PDFBox\exceptions\WrappedIOException.vb" />
+    <Compile Include="PDFBox\filter\ASCII85Filter.vb" />
+    <Compile Include="PDFBox\filter\ASCIIHexFilter.vb" />
+    <Compile Include="PDFBox\filter\CCITTFaxDecodeFilter.vb" />
+    <Compile Include="PDFBox\filter\CryptFilter.vb" />
+    <Compile Include="PDFBox\filter\DCTFilter.vb" />
+    <Compile Include="PDFBox\filter\Filter.vb" />
+    <Compile Include="PDFBox\filter\FilterManager.vb" />
+    <Compile Include="PDFBox\filter\FlateFilter.vb" />
+    <Compile Include="PDFBox\filter\IdentityFilter.vb" />
+    <Compile Include="PDFBox\filter\JBIG2Filter.vb" />
+    <Compile Include="PDFBox\filter\JPXFilter.vb" />
+    <Compile Include="PDFBox\filter\LZWDictionary.vb" />
+    <Compile Include="PDFBox\filter\LZWFilter.vb" />
+    <Compile Include="PDFBox\filter\LZWNode.vb" />
+    <Compile Include="PDFBox\filter\RunLengthDecodeFilter.vb" />
+    <Compile Include="PDFBox\filter\TIFFFaxDecoder.vb" />
+    <Compile Include="PDFBox\io\ASCII85InputStream.vb" />
+    <Compile Include="PDFBox\io\ASCII85OutputStream.vb" />
+    <Compile Include="PDFBox\io\ByteArrayPushBackInputStream.vb" />
+    <Compile Include="PDFBox\io\ccitt\CCITTFaxConstants.vb" />
+    <Compile Include="PDFBox\io\ccitt\CCITTFaxG31DDecodeInputStream.vb" />
+    <Compile Include="PDFBox\io\ccitt\FillOrderChangeInputStream.vb" />
+    <Compile Include="PDFBox\io\ccitt\PackedBitArray.vb" />
+    <Compile Include="PDFBox\io\FastByteArrayOutputStream.vb" />
+    <Compile Include="PDFBox\io\IOUtils.vb" />
+    <Compile Include="PDFBox\io\NBitInputStream.vb" />
+    <Compile Include="PDFBox\io\NBitOutputStream.vb" />
+    <Compile Include="PDFBox\io\PushBackInputStream.vb" />
+    <Compile Include="PDFBox\io\RandomAccess.vb" />
+    <Compile Include="PDFBox\io\RandomAccessBuffer.vb" />
+    <Compile Include="PDFBox\io\RandomAccessBufferedFileInputStream.vb" />
+    <Compile Include="PDFBox\io\RandomAccessFile.vb" />
+    <Compile Include="PDFBox\io\RandomAccessFileInputStream.vb" />
+    <Compile Include="PDFBox\io\RandomAccessFileOutputStream.vb" />
+    <Compile Include="PDFBox\io\RandomAccessRead.vb" />
+    <Compile Include="PDFBox\io\SequentialRead.vb" />
+    <Compile Include="PDFBox\pdfparser\BaseParser.vb" />
+    <Compile Include="PDFBox\pdfparser\ConformingPDFParser.vb" />
+    <Compile Include="PDFBox\pdfparser\NonSequentialPDFParser.vb" />
+    <Compile Include="PDFBox\pdfparser\PDFObjectStreamParser.vb" />
+    <Compile Include="PDFBox\pdfparser\PDFParser.vb" />
+    <Compile Include="PDFBox\pdfparser\PDFStreamParser.vb" />
+    <Compile Include="PDFBox\pdfparser\PDFXRef.vb" />
+    <Compile Include="PDFBox\pdfparser\PDFXRefStream.vb" />
+    <Compile Include="PDFBox\pdfparser\PDFXrefStreamParser.vb" />
+    <Compile Include="PDFBox\pdfparser\VisualSignatureParser.vb" />
+    <Compile Include="PDFBox\pdfparser\XrefTrailerResolver.vb" />
+    <Compile Include="PDFBox\PDFReader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDFBox\pdfviewer\ArrayEntry.vb" />
+    <Compile Include="PDFBox\pdfviewer\MapEntry.vb" />
+    <Compile Include="PDFBox\pdfviewer\PageDrawer.vb" />
+    <Compile Include="PDFBox\pdfviewer\PageWrapper.vb" />
+    <Compile Include="PDFBox\pdfviewer\PDFPagePanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PDFBox\pdfviewer\PDFTreeCellRenderer.vb" />
+    <Compile Include="PDFBox\pdfviewer\PDFTreeModel.vb" />
+    <Compile Include="PDFBox\pdfviewer\ReaderBottomPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PDFBox\pdfwriter\ContentStreamWriter.vb" />
+    <Compile Include="PDFBox\pdfwriter\COSFilterInputStream.vb" />
+    <Compile Include="PDFBox\pdfwriter\COSStandardOutputStream.vb" />
+    <Compile Include="PDFBox\pdfwriter\COSWriter.vb" />
+    <Compile Include="PDFBox\pdfwriter\COSWriterXRefEntry.vb" />
+    <Compile Include="PDFBox\pdmodel\common\COSArrayList.vb" />
+    <Compile Include="PDFBox\pdmodel\common\COSArrayListOf.vb" />
+    <Compile Include="PDFBox\pdmodel\common\COSDictionaryMap.vb" />
+    <Compile Include="PDFBox\pdmodel\common\COSDictionaryMapOf.vb" />
+    <Compile Include="PDFBox\pdmodel\common\COSObjectable.vb" />
+    <Compile Include="PDFBox\pdmodel\common\COSStreamArray.vb" />
+    <Compile Include="PDFBox\pdmodel\common\DualCOSObjectable.vb" />
+    <Compile Include="PDFBox\pdmodel\common\filespecification\PDComplexFileSpecification.vb" />
+    <Compile Include="PDFBox\pdmodel\common\filespecification\PDEmbeddedFile.vb" />
+    <Compile Include="PDFBox\pdmodel\common\filespecification\PDFileSpecification.vb" />
+    <Compile Include="PDFBox\pdmodel\common\filespecification\PDSimpleFileSpecification.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\PDFunction.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\PDFunctionType0.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\PDFunctionType2.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\PDFunctionType3.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\PDFunctionType4.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\ArithmeticOperators.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\BitwiseOperators.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\ConditionalOperators.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\ExecutionContext.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\InstructionSequence.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\InstructionSequenceBuilder.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\Operator.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\Operators.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\Parser.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\RelationalOperators.vb" />
+    <Compile Include="PDFBox\pdmodel\common\function\type4\StackOperators.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDDestinationOrAction.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDDictionaryWrapper.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDMatrix.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDMemoryStream.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDMetadata.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDNamedTextStream.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDNameTreeNode.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDNumberTreeNode.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDObjectStream.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDPageLabelRange.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDPageLabels.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDRange.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDRectangle.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDStream.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDTextStream.vb" />
+    <Compile Include="PDFBox\pdmodel\common\PDTypedDictionaryWrapper.vb" />
+    <Compile Include="PDFBox\pdmodel\common\XrefEntry.vb" />
+    <Compile Include="PDFBox\pdmodel\ConformingPDDocument.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDAttributeObject.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDDefaultAttributeObject.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDMarkedContentReference.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDMarkInfo.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDObjectReference.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDStructureElement.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDStructureNode.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDStructureTreeRoot.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDUserAttributeObject.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDUserProperty.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\logicalstructure\Revisions.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\markedcontent\PDMarkedContent.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\prepress\PDBoxStyle.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDArtifactMarkedContent.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDExportFormatAttributeObject.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDFourColours.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDLayoutAttributeObject.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDListAttributeObject.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDPrintFieldAttributeObject.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDStandardAttributeObject.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDTableAttributeObject.vb" />
+    <Compile Include="PDFBox\pdmodel\documentinterchange\taggedpdf\StandardStructureTypes.vb" />
+    <Compile Include="PDFBox\pdmodel\edit\PDPageContentStream.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\AccessPermission.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\BadSecurityHandlerException.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\DecryptionMaterial.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\PDCryptFilterDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\PDEncryptionDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\PDEncryptionManager.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\PDStandardEncryption.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\ProtectionPolicy.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\PublicKeyDecryptionMaterial.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\PublicKeyProtectionPolicy.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\PublicKeyRecipient.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\PublicKeySecurityHandler.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\SecurityHandler.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\SecurityHandlersManager.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\StandardDecryptionMaterial.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\StandardProtectionPolicy.vb" />
+    <Compile Include="PDFBox\pdmodel\encryption\StandardSecurityHandler.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotation.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationCaret.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationCircle.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationFileAttachment.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationFreeText.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationHighlight.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationInk.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationLine.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationPolygon.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationPolyline.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationSound.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationSquare.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationSquiggly.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationStamp.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationStrikeOut.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationText.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFAnnotationUnderline.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFCatalog.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFDocument.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFField.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFIconFit.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFJavaScript.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFNamedPageReference.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFOptionElement.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFPage.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFPageInfo.vb" />
+    <Compile Include="PDFBox\pdmodel\fdf\FDFTemplate.vb" />
+    <Compile Include="PDFBox\pdmodel\font\FontManager.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDCIDFont.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDCIDFontType0Font.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDCIDFontType2Font.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDFont.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDFontDescriptor.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDFontDescriptorAFM.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDFontDescriptorDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDFontFactory.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDMMType1Font.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDSimpleFont.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDTrueTypeFont.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDType0Font.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDType1AfmPfbFont.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDType1CFont.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDType1Font.vb" />
+    <Compile Include="PDFBox\pdmodel\font\PDType3Font.vb" />
+    <Compile Include="PDFBox\pdmodel\font\Type3StreamParser.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\ColorSpaceCalRGB.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\ColorSpaceCMYK.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\ColorSpaceLab.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDCalGray.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDCalRGB.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDColorSpace.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDColorSpaceFactory.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDColorState.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDDeviceCMYK.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDDeviceGray.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDDeviceN.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDDeviceNAttributes.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDDeviceRGB.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDGamma.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDICCBased.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDIndexed.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDLab.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDOutputIntent.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDPattern.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDSeparation.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\color\PDTristimulus.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\optionalcontent\PDOptionalContentGroup.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\optionalcontent\PDOptionalContentProperties.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\pattern\PDPatternResources.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\pattern\PDShadingPatternResources.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\pattern\PDTilingPatternResources.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\PDExtendedGraphicsState.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\PDFontSetting.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\PDGraphicsState.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\PDLineDashPattern.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\PDShading.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\predictor\Average.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\predictor\None.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\predictor\Optimum.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\predictor\Paeth.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\predictor\PredictorAlgorithm.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\predictor\Sub.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\predictor\Up.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\AxialShadingContext.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\AxialShadingPaint.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\PDShadingResources.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\PDShadingType1.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\PDShadingType2.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\PDShadingType3.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\PDShadingType4.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\PDShadingType5.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\PDShadingType6.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\PDShadingType7.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\RadialShadingContext.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\shading\RadialShadingPaint.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\xobject\CompositeImage.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\xobject\PDCcitt.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\xobject\PDInlinedImage.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\xobject\PDJpeg.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\xobject\PDPixelMap.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\xobject\PDXObject.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\xobject\PDXObjectForm.vb" />
+    <Compile Include="PDFBox\pdmodel\graphics\xobject\PDXObjectImage.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\PDActionFactory.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\PDAdditionalActions.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\PDAnnotationAdditionalActions.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\PDDocumentCatalogAdditionalActions.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\PDFormFieldAdditionalActions.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\PDPageAdditionalActions.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\type\PDAction.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\type\PDActionGoTo.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\type\PDActionJavaScript.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\type\PDActionLaunch.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\type\PDActionRemoteGoTo.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\type\PDActionURI.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\type\PDURIDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\action\type\PDWindowsLaunchParams.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotation.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationFileAttachment.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationLine.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationLink.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationMarkup.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationPopup.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationRubberStamp.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationSquareCircle.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationText.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationTextMarkup.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationUnknown.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationWidget.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAppearanceCharacteristicsDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAppearanceDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDAppearanceStream.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDBorderEffectDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDBorderStyleDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\annotation\PDExternalDataDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\PDPropBuild.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\PDPropBuildDataDict.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\PDSeedValue.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\PDSeedValueMDP.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\PDSeedValueTimeStamp.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\PDSignature.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\SignatureInterface.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\SignatureOptions.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDFTemplateBuilder.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDFTemplateCreator.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDFTemplateStructure.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDVisibleSigBuilder.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDVisibleSignDesigner.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDVisibleSigProperties.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDDestination.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDNamedDestination.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageDestination.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageFitDestination.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageFitHeightDestination.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageFitRectangleDestination.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageFitWidthDestination.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageXYZDestination.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\outline\PDDocumentOutline.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\outline\PDOutlineItem.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\documentnavigation\outline\PDOutlineNode.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDAcroForm.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDAppearance.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDCheckbox.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDChoiceButton.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDChoiceField.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDField.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDFieldFactory.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDPushButton.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDRadioCollection.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDSignature.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDSignatureField.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDTextbox.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDUnknownField.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDVariableText.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\form\PDXFA.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\measurement\PDMeasureDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\measurement\PDNumberFormatDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\measurement\PDRectlinearMeasureDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\measurement\PDViewportDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\pagenavigation\PDThread.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\pagenavigation\PDThreadBead.vb" />
+    <Compile Include="PDFBox\pdmodel\interactive\viewerpreferences\PDViewerPreferences.vb" />
+    <Compile Include="PDFBox\pdmodel\markedcontent\PDPropertyList.vb" />
+    <Compile Include="PDFBox\pdmodel\PDDestinationNameTreeNode.vb" />
+    <Compile Include="PDFBox\pdmodel\PDDocument.vb" />
+    <Compile Include="PDFBox\pdmodel\PDDocumentCatalog.vb" />
+    <Compile Include="PDFBox\pdmodel\PDDocumentInformation.vb" />
+    <Compile Include="PDFBox\pdmodel\PDDocumentNameDictionary.vb" />
+    <Compile Include="PDFBox\pdmodel\PDEmbeddedFilesNameTreeNode.vb" />
+    <Compile Include="PDFBox\pdmodel\PDJavascriptNameTreeNode.vb" />
+    <Compile Include="PDFBox\pdmodel\PDPage.vb" />
+    <Compile Include="PDFBox\pdmodel\PDPageable.vb" />
+    <Compile Include="PDFBox\pdmodel\PDPageNode.vb" />
+    <Compile Include="PDFBox\pdmodel\PDResources.vb" />
+    <Compile Include="PDFBox\pdmodel\text\PDTextState.vb" />
+    <Compile Include="PDFBox\persistence\util\COSHEXTable.vb" />
+    <Compile Include="PDFBox\persistence\util\COSObjectKey.vb" />
+    <Compile Include="PDFBox\util\BitFlagHelper.vb" />
+    <Compile Include="PDFBox\util\DateConverter.vb" />
+    <Compile Include="PDFBox\util\ErrorLogger.vb" />
+    <Compile Include="PDFBox\util\ExtensionFileFilter.vb" />
+    <Compile Include="PDFBox\util\ICU4JImpl.vb" />
+    <Compile Include="PDFBox\util\ImageIOUtil.vb" />
+    <Compile Include="PDFBox\util\ImageParameters.vb" />
+    <Compile Include="PDFBox\util\LayerUtility.vb" />
+    <Compile Include="PDFBox\util\MapUtil.vb" />
+    <Compile Include="PDFBox\util\Matrix.vb" />
+    <Compile Include="PDFBox\util\operator\BeginMarkedContentSequence.vb" />
+    <Compile Include="PDFBox\util\operator\BeginMarkedContentSequenceWithProperties.vb" />
+    <Compile Include="PDFBox\util\operator\BeginText.vb" />
+    <Compile Include="PDFBox\util\operator\CloseAndStrokePath.vb" />
+    <Compile Include="PDFBox\util\operator\Concatenate.vb" />
+    <Compile Include="PDFBox\util\operator\EndMarkedContentSequence.vb" />
+    <Compile Include="PDFBox\util\operator\EndText.vb" />
+    <Compile Include="PDFBox\util\operator\GRestore.vb" />
+    <Compile Include="PDFBox\util\operator\GSave.vb" />
+    <Compile Include="PDFBox\util\operator\Invoke.vb" />
+    <Compile Include="PDFBox\util\operator\MoveAndShow.vb" />
+    <Compile Include="PDFBox\util\operator\MoveText.vb" />
+    <Compile Include="PDFBox\util\operator\MoveTextSetLeading.vb" />
+    <Compile Include="PDFBox\util\operator\NextLine.vb" />
+    <Compile Include="PDFBox\util\operator\OperatorProcessor.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\AppendRectangleToPath.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\BeginInlineImage.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\ClipEvenOddRule.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\ClipNonZeroRule.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\CloseFillEvenOddAndStrokePath.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\CloseFillNonZeroAndStrokePath.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\ClosePath.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\CurveTo.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\CurveToReplicateFinalPoint.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\CurveToReplicateInitialPoint.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\EndPath.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\FillEvenOddAndStrokePath.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\FillEvenOddRule.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\FillNonZeroAndStrokePath.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\FillNonZeroRule.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\Invoke.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\LineTo.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\MoveTo.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\SetLineCapStyle.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\SetLineDashPattern.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\SetLineJoinStyle.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\SetLineMiterLimit.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\SetLineWidth.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\SHFill.vb" />
+    <Compile Include="PDFBox\util\operator\pagedrawer\StrokePath.vb" />
+    <Compile Include="PDFBox\util\operator\SetCharSpacing.vb" />
+    <Compile Include="PDFBox\util\operator\SetGraphicsStateParameters.vb" />
+    <Compile Include="PDFBox\util\operator\SetHorizontalTextScaling.vb" />
+    <Compile Include="PDFBox\util\operator\SetLineCapStyle.vb" />
+    <Compile Include="PDFBox\util\operator\SetLineDashPattern.vb" />
+    <Compile Include="PDFBox\util\operator\SetLineJoinStyle.vb" />
+    <Compile Include="PDFBox\util\operator\SetLineMiterLimit.vb" />
+    <Compile Include="PDFBox\util\operator\SetLineWidth.vb" />
+    <Compile Include="PDFBox\util\operator\SetMatrix.vb" />
+    <Compile Include="PDFBox\util\operator\SetMoveAndShow.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingCalRGBColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingCMYKColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingColorSpace.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingDeviceN.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingGrayColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingICCBasedColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingIndexed.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingLabColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingPattern.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingRGBColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetNonStrokingSeparation.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingCalRGBColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingCMYKColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingColorSpace.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingDeviceN.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingGrayColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingICCBasedColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingIndexed.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingLabColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingPattern.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingRGBColor.vb" />
+    <Compile Include="PDFBox\util\operator\SetStrokingSeparation.vb" />
+    <Compile Include="PDFBox\util\operator\SetTextFont.vb" />
+    <Compile Include="PDFBox\util\operator\SetTextLeading.vb" />
+    <Compile Include="PDFBox\util\operator\SetTextRenderingMode.vb" />
+    <Compile Include="PDFBox\util\operator\SetTextRise.vb" />
+    <Compile Include="PDFBox\util\operator\SetWordSpacing.vb" />
+    <Compile Include="PDFBox\util\operator\ShowText.vb" />
+    <Compile Include="PDFBox\util\operator\ShowTextGlyph.vb" />
+    <Compile Include="PDFBox\util\PageExtractor.vb" />
+    <Compile Include="PDFBox\util\PDFCloneUtility.vb" />
+    <Compile Include="PDFBox\util\PDFHighlighter.vb" />
+    <Compile Include="PDFBox\util\PDFImageWriter.vb" />
+    <Compile Include="PDFBox\util\PDFMarkedContentExtractor.vb" />
+    <Compile Include="PDFBox\util\PDFMergerUtility.vb" />
+    <Compile Include="PDFBox\util\PDFOperator.vb" />
+    <Compile Include="PDFBox\util\PDFStreamEngine.vb" />
+    <Compile Include="PDFBox\util\PDFTextStripper.vb" />
+    <Compile Include="PDFBox\util\PDFTextStripperByArea.vb" />
+    <Compile Include="PDFBox\util\PositionWrapper.vb" />
+    <Compile Include="PDFBox\util\ResourceLoader.vb" />
+    <Compile Include="PDFBox\util\Splitter.vb" />
+    <Compile Include="PDFBox\util\StringUtil.vb" />
+    <Compile Include="PDFBox\util\TextNormalize.vb" />
+    <Compile Include="PDFBox\util\TextPosition.vb" />
+    <Compile Include="PDFBox\util\TextPositionComparator.vb" />
+    <Compile Include="PDFBox\util\XMLUtil.vb" />
+    <Compile Include="PDFBox\WriteDecodedDoc.vb" />
+    <Compile Include="Utils\PaintContext.vb" />
+    <None Include="app.config" />
+    <Compile Include="PDF\Elements\PdfReader.vb" />
+    <Compile Include="PDF\Elements\PdfCrossReferenceEntry.vb" />
+    <Compile Include="PDF\Elements\PdfForm.vb" />
+    <Compile Include="PDF\Elements\PdfCHField.vb" />
+    <Compile Include="PDF\Elements\PdfTXField.vb" />
+    <Compile Include="PDF\Elements\PdfCheckBoxField.vb" />
+    <Compile Include="PDF\Elements\PdfRadioButtonField.vb" />
+    <Compile Include="PDF\Elements\PdfPushButtonField.vb" />
+    <Compile Include="PDF\Elements\PdfButtonField.vb" />
+    <Compile Include="PDF\Elements\PdfField.vb" />
+    <Compile Include="PDF\Elements\PdfBool.vb" />
+    <Compile Include="PDF\Elements\PdfName.vb" />
+    <Compile Include="PDF\Elements\PdfString.vb" />
+    <Compile Include="PDF\Elements\PdfArray.vb" />
+    <Compile Include="PDF\Elements\PdfNull.vb" />
+    <Compile Include="PDF\Elements\PdfDictionary.vb" />
+    <Compile Include="PDF\Elements\PdfReference.vb" />
+    <Compile Include="PDF\Elements\PdfNumber.vb" />
+    <Compile Include="PDF\Elements\PdfComment.vb" />
+    <None Include="PDF\Module2.vb" />
+    <Compile Include="PDF\PDFReader.vb" />
+    <Compile Include="PDF\Elements\PDFCellElement.vb" />
+    <Compile Include="PDF\Elements\PDFColorElement.vb" />
+    <Compile Include="PDF\Elements\PDFDrawColorElement.vb" />
+    <Compile Include="PDF\Elements\PDFObject.vb" />
+    <Compile Include="PDF\Elements\PDFFillColorElement.vb" />
+    <Compile Include="PDF\Elements\PDFTextColorElement.vb" />
+    <Compile Include="PDF\extends\bookmarks.vb" />
+    <Compile Include="PDF\extends\circle.vb" />
+    <Compile Include="PDF\extends\roundrect.vb" />
+    <Compile Include="PDF\extends\sectors.vb" />
+    <Compile Include="PDF\extends\tablemulticell.vb" />
+    <Compile Include="PDF\fonts\calligra.vb" />
+    <Compile Include="PDF\fonts\courier.vb" />
+    <Compile Include="PDF\fonts\helvetica.vb" />
+    <Compile Include="PDF\fonts\helveticab.vb" />
+    <Compile Include="PDF\includes\basics.vb" />
+    <Compile Include="PDF\includes\cImage.vb" />
+    <Compile Include="PDF\PDFBookmark.vb" />
+    <Compile Include="PDF\PDFFont.vb" />
+    <Compile Include="PDF\PDFFontDescriptor.vb" />
+    <Compile Include="PDF\PDFFontFile.vb" />
+    <Compile Include="PDF\PDFImage.vb" />
+    <Compile Include="PDF\PDFLink.vb" />
+    <Compile Include="PDF\PDFPage.vb" />
+    <Compile Include="PDF\PDFPageLink.vb" />
+    <Compile Include="PDF\PDFUsedFont.vb" />
+    <Compile Include="PDF\PDFWriter.vb" />
+    <Compile Include="PDF\Renderers\PDFDocumentRenderer.vb" />
+    <None Include="PDF\PDFWriter1.vb" />
+    <Compile Include="PDF\PDFDocument.vb" />
+    <None Include="Resources\Courier-Bold.afm" />
+    <None Include="Resources\Courier-BoldOblique.afm" />
+    <None Include="Resources\Courier-Oblique.afm" />
+    <None Include="Resources\Courier.afm" />
+    <None Include="Resources\Helvetica-Bold.afm" />
+    <None Include="Resources\Helvetica.afm" />
+    <None Include="Resources\ZapfDingbats.afm" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PDF\fonts\calligra.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FinSeAGph\FinSeAGph.vbproj">
+      <Project>{a2aacace-51c3-432d-9c24-8943723735b8}</Project>
+      <Name>FinSeAGph</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FinSeAJava\FinSeAJava.vbproj">
+      <Project>{1bcf6f44-a8b3-4adb-b7ef-a91e7b0493b1}</Project>
+      <Name>FinSeAJava</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FinSeALibs\FinSeALibs.vbproj">
+      <Project>{d6154502-e7f9-4dfc-a695-6b51afee770b}</Project>
+      <Name>FinSeALibs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FinSeAZIP\FinSeAZIP.vbproj">
+      <Project>{44eaea8e-d55c-4449-8339-c0c36f4ebfd9}</Project>
+      <Name>FinSeAZIP</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PDFBox\ConvertColorspace.java" />
+    <Compile Include="PDFBox\ConvertColorspace.vb" />
+    <Content Include="PDFBox\cos\COSArray.java" />
+    <Content Include="PDFBox\cos\COSBase.java" />
+    <Content Include="PDFBox\cos\COSBoolean.java" />
+    <Content Include="PDFBox\cos\COSDictionary.java" />
+    <Content Include="PDFBox\cos\COSDictionaryLateBinding.java" />
+    <Content Include="PDFBox\cos\COSDocument.java" />
+    <Content Include="PDFBox\cos\COSFloat.java" />
+    <Content Include="PDFBox\cos\COSInteger.java" />
+    <Content Include="PDFBox\cos\COSName.java" />
+    <Content Include="PDFBox\cos\COSNull.java" />
+    <Content Include="PDFBox\cos\COSNumber.java" />
+    <Content Include="PDFBox\cos\COSObject.java" />
+    <Content Include="PDFBox\cos\COSStream.java" />
+    <Content Include="PDFBox\cos\COSString.java" />
+    <Content Include="PDFBox\cos\COSUnread.java" />
+    <Content Include="PDFBox\cos\ICOSVisitor.java" />
+    <Content Include="PDFBox\Decrypt.java" />
+    <Content Include="PDFBox\encoding\AFMEncoding.java" />
+    <Content Include="PDFBox\encoding\conversion\CJKConverter.java" />
+    <Content Include="PDFBox\encoding\conversion\CJKEncoding.java" />
+    <Content Include="PDFBox\encoding\conversion\CMapSubstitution.java" />
+    <Content Include="PDFBox\encoding\conversion\EncodingConversionManager.java" />
+    <Content Include="PDFBox\encoding\conversion\EncodingConverter.java" />
+    <Content Include="PDFBox\encoding\conversion\package.html" />
+    <Content Include="PDFBox\encoding\DictionaryEncoding.java" />
+    <Content Include="PDFBox\encoding\Encoding.java" />
+    <Content Include="PDFBox\encoding\EncodingManager.java" />
+    <Content Include="PDFBox\encoding\MacRomanEncoding.java" />
+    <Content Include="PDFBox\encoding\package.html" />
+    <Content Include="PDFBox\encoding\PdfDocEncoding.java" />
+    <Content Include="PDFBox\encoding\StandardEncoding.java" />
+    <Content Include="PDFBox\encoding\Type1Encoding.java" />
+    <Content Include="PDFBox\encoding\WinAnsiEncoding.java" />
+    <Content Include="PDFBox\Encrypt.java" />
+    <Content Include="PDFBox\encryption\ARCFour.java" />
+    <Content Include="PDFBox\encryption\DocumentEncryption.java" />
+    <Content Include="PDFBox\encryption\PDFEncryption.java" />
+    <Content Include="PDFBox\exceptions\COSVisitorException.java" />
+    <Content Include="PDFBox\exceptions\CryptographyException.java" />
+    <Content Include="PDFBox\exceptions\InvalidPasswordException.java" />
+    <Content Include="PDFBox\exceptions\OutlineNotLocalException.java" />
+    <Content Include="PDFBox\exceptions\package.html" />
+    <Content Include="PDFBox\exceptions\SignatureException.java" />
+    <Content Include="PDFBox\exceptions\WrappedException.java" />
+    <Content Include="PDFBox\exceptions\WrappedIOException.java" />
+    <Content Include="PDFBox\ExportFDF.java" />
+    <Content Include="PDFBox\ExportXFDF.java" />
+    <Content Include="PDFBox\ExtractImages.java" />
+    <Content Include="PDFBox\ExtractText.java" />
+    <Content Include="PDFBox\filter\ASCII85Filter.java" />
+    <Content Include="PDFBox\filter\ASCIIHexFilter.java" />
+    <Content Include="PDFBox\filter\CCITTFaxDecodeFilter.java" />
+    <Content Include="PDFBox\filter\CryptFilter.java" />
+    <Content Include="PDFBox\filter\DCTFilter.java" />
+    <Content Include="PDFBox\filter\Filter.java" />
+    <Content Include="PDFBox\filter\FilterManager.java" />
+    <Content Include="PDFBox\filter\FlateFilter.java" />
+    <Content Include="PDFBox\filter\IdentityFilter.java" />
+    <Content Include="PDFBox\filter\JBIG2Filter.java" />
+    <Content Include="PDFBox\filter\JPXFilter.java" />
+    <Content Include="PDFBox\filter\LZWDictionary.java" />
+    <Content Include="PDFBox\filter\LZWFilter.java" />
+    <Content Include="PDFBox\filter\LZWNode.java" />
+    <Content Include="PDFBox\filter\package.html" />
+    <Content Include="PDFBox\filter\RunLengthDecodeFilter.java" />
+    <Content Include="PDFBox\filter\TIFFFaxDecoder.java" />
+    <Content Include="PDFBox\ImportFDF.java" />
+    <Content Include="PDFBox\ImportXFDF.java" />
+    <Content Include="PDFBox\io\ASCII85InputStream.java" />
+    <Content Include="PDFBox\io\ASCII85OutputStream.java" />
+    <Content Include="PDFBox\io\ByteArrayPushBackInputStream.java" />
+    <Content Include="PDFBox\io\ccitt\CCITTFaxConstants.java" />
+    <Content Include="PDFBox\io\ccitt\CCITTFaxG31DDecodeInputStream.java" />
+    <Content Include="PDFBox\io\ccitt\FillOrderChangeInputStream.java" />
+    <Content Include="PDFBox\io\ccitt\PackedBitArray.java" />
+    <Content Include="PDFBox\io\FastByteArrayOutputStream.java" />
+    <Content Include="PDFBox\io\IOUtils.java" />
+    <Content Include="PDFBox\io\NBitInputStream.java" />
+    <Content Include="PDFBox\io\NBitOutputStream.java" />
+    <Content Include="PDFBox\io\PushBackInputStream.java" />
+    <Content Include="PDFBox\io\RandomAccess.java" />
+    <Content Include="PDFBox\io\RandomAccessBuffer.java" />
+    <Content Include="PDFBox\io\RandomAccessBufferedFileInputStream.java" />
+    <Content Include="PDFBox\io\RandomAccessFile.java" />
+    <Content Include="PDFBox\io\RandomAccessFileInputStream.java" />
+    <Content Include="PDFBox\io\RandomAccessFileOutputStream.java" />
+    <Content Include="PDFBox\io\RandomAccessRead.java" />
+    <Content Include="PDFBox\io\SequentialRead.java" />
+    <Content Include="PDFBox\Overlay.java" />
+    <Content Include="PDFBox\OverlayPDF.java" />
+    <Content Include="PDFBox\PDFBox.java" />
+    <Content Include="PDFBox\PDFDebugger.java" />
+    <Content Include="PDFBox\PdfDecompressor.java" />
+    <Content Include="PDFBox\PDFMerger.java" />
+    <Content Include="PDFBox\pdfparser\BaseParser.java" />
+    <Content Include="PDFBox\pdfparser\ConformingPDFParser.java" />
+    <Content Include="PDFBox\pdfparser\NonSequentialPDFParser.java" />
+    <Content Include="PDFBox\pdfparser\package.html" />
+    <Content Include="PDFBox\pdfparser\PDFObjectStreamParser.java" />
+    <Content Include="PDFBox\pdfparser\PDFParser.java" />
+    <Content Include="PDFBox\pdfparser\PDFStreamParser.java" />
+    <Content Include="PDFBox\pdfparser\PDFXRef.java" />
+    <Content Include="PDFBox\pdfparser\PDFXRefStream.java" />
+    <Content Include="PDFBox\pdfparser\PDFXrefStreamParser.java" />
+    <Content Include="PDFBox\pdfparser\VisualSignatureParser.java" />
+    <Content Include="PDFBox\pdfparser\XrefTrailerResolver.java" />
+    <Content Include="PDFBox\PDFReader.java" />
+    <Content Include="PDFBox\PDFSplit.java" />
+    <Content Include="PDFBox\PDFToImage.java" />
+    <Content Include="PDFBox\pdfviewer\ArrayEntry.java" />
+    <Content Include="PDFBox\pdfviewer\MapEntry.java" />
+    <Content Include="PDFBox\pdfviewer\PageDrawer.java" />
+    <Content Include="PDFBox\pdfviewer\PageWrapper.java" />
+    <Content Include="PDFBox\pdfviewer\PDFPagePanel.java" />
+    <Content Include="PDFBox\pdfviewer\PDFTreeCellRenderer.java" />
+    <Content Include="PDFBox\pdfviewer\PDFTreeModel.java" />
+    <Content Include="PDFBox\pdfviewer\ReaderBottomPanel.java" />
+    <Content Include="PDFBox\pdfwriter\COSFilterInputStream.java" />
+    <Content Include="PDFBox\pdfwriter\COSStandardOutputStream.java" />
+    <Content Include="PDFBox\pdfwriter\COSWriter.java" />
+    <Content Include="PDFBox\pdfwriter\COSWriterXRefEntry.java" />
+    <Content Include="PDFBox\pdmodel\common\COSArrayList.java" />
+    <Content Include="PDFBox\pdmodel\common\COSDictionaryMap.java" />
+    <Content Include="PDFBox\pdmodel\common\COSObjectable.java" />
+    <Content Include="PDFBox\pdmodel\common\COSStreamArray.java" />
+    <Content Include="PDFBox\pdmodel\common\DualCOSObjectable.java" />
+    <Content Include="PDFBox\pdmodel\common\filespecification\PDComplexFileSpecification.java" />
+    <Content Include="PDFBox\pdmodel\common\filespecification\PDEmbeddedFile.java" />
+    <Content Include="PDFBox\pdmodel\common\filespecification\PDFileSpecification.java" />
+    <Content Include="PDFBox\pdmodel\common\filespecification\PDSimpleFileSpecification.java" />
+    <Content Include="PDFBox\pdmodel\common\function\PDFunction.java" />
+    <Content Include="PDFBox\pdmodel\common\function\PDFunctionType0.java" />
+    <Content Include="PDFBox\pdmodel\common\function\PDFunctionType2.java" />
+    <Content Include="PDFBox\pdmodel\common\function\PDFunctionType3.java" />
+    <Content Include="PDFBox\pdmodel\common\function\PDFunctionType4.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\ArithmeticOperators.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\BitwiseOperators.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\ConditionalOperators.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\ExecutionContext.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\InstructionSequence.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\InstructionSequenceBuilder.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\Operator.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\Operators.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\Parser.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\RelationalOperators.java" />
+    <Content Include="PDFBox\pdmodel\common\function\type4\StackOperators.java" />
+    <Content Include="PDFBox\pdmodel\common\PDDestinationOrAction.java" />
+    <Content Include="PDFBox\pdmodel\common\PDDictionaryWrapper.java" />
+    <Content Include="PDFBox\pdmodel\common\PDMatrix.java" />
+    <Content Include="PDFBox\pdmodel\common\PDMemoryStream.java" />
+    <Content Include="PDFBox\pdmodel\common\PDMetadata.java" />
+    <Content Include="PDFBox\pdmodel\common\PDNamedTextStream.java" />
+    <Content Include="PDFBox\pdmodel\common\PDNameTreeNode.java" />
+    <Content Include="PDFBox\pdmodel\common\PDNumberTreeNode.java" />
+    <Content Include="PDFBox\pdmodel\common\PDObjectStream.java" />
+    <Content Include="PDFBox\pdmodel\common\PDPageLabelRange.java" />
+    <Content Include="PDFBox\pdmodel\common\PDPageLabels.java" />
+    <Content Include="PDFBox\pdmodel\common\PDRange.java" />
+    <Content Include="PDFBox\pdmodel\common\PDRectangle.java" />
+    <Content Include="PDFBox\pdmodel\common\PDStream.java" />
+    <Content Include="PDFBox\pdmodel\common\PDTextStream.java" />
+    <Content Include="PDFBox\pdmodel\common\PDTypedDictionaryWrapper.java" />
+    <Content Include="PDFBox\pdmodel\common\XrefEntry.java" />
+    <Content Include="PDFBox\pdmodel\ConformingPDDocument.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDAttributeObject.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDDefaultAttributeObject.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDMarkedContentReference.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDMarkInfo.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDObjectReference.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDStructureElement.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDStructureNode.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDStructureTreeRoot.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDUserAttributeObject.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\PDUserProperty.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\logicalstructure\Revisions.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\markedcontent\PDMarkedContent.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\prepress\PDBoxStyle.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDArtifactMarkedContent.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDExportFormatAttributeObject.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDFourColours.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDLayoutAttributeObject.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDListAttributeObject.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDPrintFieldAttributeObject.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDStandardAttributeObject.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\taggedpdf\PDTableAttributeObject.java" />
+    <Content Include="PDFBox\pdmodel\documentinterchange\taggedpdf\StandardStructureTypes.java" />
+    <Content Include="PDFBox\pdmodel\edit\PDPageContentStream.java" />
+    <Content Include="PDFBox\pdmodel\encryption\AccessPermission.java" />
+    <Content Include="PDFBox\pdmodel\encryption\BadSecurityHandlerException.java" />
+    <Content Include="PDFBox\pdmodel\encryption\DecryptionMaterial.java" />
+    <Content Include="PDFBox\pdmodel\encryption\PDCryptFilterDictionary.java" />
+    <Content Include="PDFBox\pdmodel\encryption\PDEncryptionDictionary.java" />
+    <Content Include="PDFBox\pdmodel\encryption\PDEncryptionManager.java" />
+    <Content Include="PDFBox\pdmodel\encryption\PDStandardEncryption.java" />
+    <Content Include="PDFBox\pdmodel\encryption\ProtectionPolicy.java" />
+    <Content Include="PDFBox\pdmodel\encryption\PublicKeyDecryptionMaterial.java" />
+    <Content Include="PDFBox\pdmodel\encryption\PublicKeyProtectionPolicy.java" />
+    <Content Include="PDFBox\pdmodel\encryption\PublicKeyRecipient.java" />
+    <Content Include="PDFBox\pdmodel\encryption\PublicKeySecurityHandler.java" />
+    <Content Include="PDFBox\pdmodel\encryption\SecurityHandler.java" />
+    <Content Include="PDFBox\pdmodel\encryption\SecurityHandlersManager.java" />
+    <Content Include="PDFBox\pdmodel\encryption\StandardDecryptionMaterial.java" />
+    <Content Include="PDFBox\pdmodel\encryption\StandardProtectionPolicy.java" />
+    <Content Include="PDFBox\pdmodel\encryption\StandardSecurityHandler.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotation.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationCaret.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationCircle.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationFileAttachment.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationFreeText.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationHighlight.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationInk.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationLine.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationPolygon.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationPolyline.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationSound.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationSquare.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationSquiggly.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationStamp.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationStrikeOut.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationText.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFAnnotationUnderline.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFCatalog.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFDictionary.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFDocument.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFField.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFIconFit.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFJavaScript.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFNamedPageReference.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFOptionElement.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFPage.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFPageInfo.java" />
+    <Content Include="PDFBox\pdmodel\fdf\FDFTemplate.java" />
+    <Content Include="PDFBox\pdmodel\font\FontManager.java" />
+    <Content Include="PDFBox\pdmodel\font\PDCIDFont.java" />
+    <Content Include="PDFBox\pdmodel\font\PDCIDFontType0Font.java" />
+    <Content Include="PDFBox\pdmodel\font\PDCIDFontType2Font.java" />
+    <Content Include="PDFBox\pdmodel\font\PDFont.java" />
+    <Content Include="PDFBox\pdmodel\font\PDFontDescriptor.java" />
+    <Content Include="PDFBox\pdmodel\font\PDFontDescriptorAFM.java" />
+    <Content Include="PDFBox\pdmodel\font\PDFontDescriptorDictionary.java" />
+    <Content Include="PDFBox\pdmodel\font\PDFontFactory.java" />
+    <Content Include="PDFBox\pdmodel\font\PDMMType1Font.java" />
+    <Content Include="PDFBox\pdmodel\font\PDSimpleFont.java" />
+    <Content Include="PDFBox\pdmodel\font\PDTrueTypeFont.java" />
+    <Content Include="PDFBox\pdmodel\font\PDType0Font.java" />
+    <Content Include="PDFBox\pdmodel\font\PDType1AfmPfbFont.java" />
+    <Content Include="PDFBox\pdmodel\font\PDType1CFont.java" />
+    <Content Include="PDFBox\pdmodel\font\PDType1Font.java" />
+    <Content Include="PDFBox\pdmodel\font\PDType3Font.java" />
+    <Content Include="PDFBox\pdmodel\font\Type3StreamParser.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\ColorSpaceCalRGB.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\ColorSpaceCMYK.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\ColorSpaceLab.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDCalGray.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDCalRGB.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDColorSpace.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDColorSpaceFactory.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDColorState.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDDeviceCMYK.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDDeviceGray.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDDeviceN.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDDeviceNAttributes.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDDeviceRGB.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDGamma.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDICCBased.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDIndexed.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDLab.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDOutputIntent.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDPattern.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDSeparation.java" />
+    <Content Include="PDFBox\pdmodel\graphics\color\PDTristimulus.java" />
+    <Content Include="PDFBox\pdmodel\graphics\optionalcontent\PDOptionalContentGroup.java" />
+    <Content Include="PDFBox\pdmodel\graphics\optionalcontent\PDOptionalContentProperties.java" />
+    <Content Include="PDFBox\pdmodel\graphics\pattern\PDPatternResources.java" />
+    <Content Include="PDFBox\pdmodel\graphics\pattern\PDShadingPatternResources.java" />
+    <Content Include="PDFBox\pdmodel\graphics\pattern\PDTilingPatternResources.java" />
+    <Content Include="PDFBox\pdmodel\graphics\PDExtendedGraphicsState.java" />
+    <Content Include="PDFBox\pdmodel\graphics\PDFontSetting.java" />
+    <Content Include="PDFBox\pdmodel\graphics\PDGraphicsState.java" />
+    <Content Include="PDFBox\pdmodel\graphics\PDLineDashPattern.java" />
+    <Content Include="PDFBox\pdmodel\graphics\PDShading.java" />
+    <Content Include="PDFBox\pdmodel\graphics\predictor\Average.java" />
+    <Content Include="PDFBox\pdmodel\graphics\predictor\None.java" />
+    <Content Include="PDFBox\pdmodel\graphics\predictor\Optimum.java" />
+    <Content Include="PDFBox\pdmodel\graphics\predictor\Paeth.java" />
+    <Content Include="PDFBox\pdmodel\graphics\predictor\PredictorAlgorithm.java" />
+    <Content Include="PDFBox\pdmodel\graphics\predictor\Sub.java" />
+    <Content Include="PDFBox\pdmodel\graphics\predictor\Up.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\AxialShadingContext.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\AxialShadingPaint.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\PDShadingResources.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\PDShadingType1.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\PDShadingType2.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\PDShadingType3.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\PDShadingType4.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\PDShadingType5.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\PDShadingType6.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\PDShadingType7.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\RadialShadingContext.java" />
+    <Content Include="PDFBox\pdmodel\graphics\shading\RadialShadingPaint.java" />
+    <Content Include="PDFBox\pdmodel\graphics\xobject\CompositeImage.java" />
+    <Content Include="PDFBox\pdmodel\graphics\xobject\PDCcitt.java" />
+    <Content Include="PDFBox\pdmodel\graphics\xobject\PDInlinedImage.java" />
+    <Content Include="PDFBox\pdmodel\graphics\xobject\PDJpeg.java" />
+    <Content Include="PDFBox\pdmodel\graphics\xobject\PDPixelMap.java" />
+    <Content Include="PDFBox\pdmodel\graphics\xobject\PDXObject.java" />
+    <Content Include="PDFBox\pdmodel\graphics\xobject\PDXObjectForm.java" />
+    <Content Include="PDFBox\pdmodel\graphics\xobject\PDXObjectImage.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\PDActionFactory.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\PDAdditionalActions.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\PDAnnotationAdditionalActions.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\PDDocumentCatalogAdditionalActions.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\PDFormFieldAdditionalActions.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\PDPageAdditionalActions.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\type\PDAction.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\type\PDActionGoTo.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\type\PDActionJavaScript.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\type\PDActionLaunch.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\type\PDActionRemoteGoTo.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\type\PDActionURI.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\type\PDURIDictionary.java" />
+    <Content Include="PDFBox\pdmodel\interactive\action\type\PDWindowsLaunchParams.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotation.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationFileAttachment.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationLine.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationLink.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationMarkup.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationPopup.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationRubberStamp.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationSquareCircle.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationText.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationTextMarkup.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationUnknown.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAnnotationWidget.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAppearanceCharacteristicsDictionary.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAppearanceDictionary.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDAppearanceStream.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDBorderEffectDictionary.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDBorderStyleDictionary.java" />
+    <Content Include="PDFBox\pdmodel\interactive\annotation\PDExternalDataDictionary.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\PDPropBuild.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\PDPropBuildDataDict.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\PDSeedValue.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\PDSeedValueMDP.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\PDSeedValueTimeStamp.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\PDSignature.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\SignatureInterface.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\SignatureOptions.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDFTemplateBuilder.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDFTemplateCreator.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDFTemplateStructure.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDVisibleSigBuilder.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDVisibleSignDesigner.java" />
+    <Content Include="PDFBox\pdmodel\interactive\digitalsignature\visible\PDVisibleSigProperties.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDDestination.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDNamedDestination.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageDestination.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageFitDestination.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageFitHeightDestination.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageFitRectangleDestination.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageFitWidthDestination.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\destination\PDPageXYZDestination.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\outline\PDDocumentOutline.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\outline\PDOutlineItem.java" />
+    <Content Include="PDFBox\pdmodel\interactive\documentnavigation\outline\PDOutlineNode.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDAcroForm.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDAppearance.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDCheckbox.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDChoiceButton.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDChoiceField.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDField.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDFieldFactory.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDPushButton.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDRadioCollection.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDSignature.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDSignatureField.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDTextbox.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDUnknownField.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDVariableText.java" />
+    <Content Include="PDFBox\pdmodel\interactive\form\PDXFA.java" />
+    <Content Include="PDFBox\pdmodel\interactive\measurement\PDMeasureDictionary.java" />
+    <Content Include="PDFBox\pdmodel\interactive\measurement\PDNumberFormatDictionary.java" />
+    <Content Include="PDFBox\pdmodel\interactive\measurement\PDRectlinearMeasureDictionary.java" />
+    <Content Include="PDFBox\pdmodel\interactive\measurement\PDViewportDictionary.java" />
+    <Content Include="PDFBox\pdmodel\interactive\pagenavigation\PDThread.java" />
+    <Content Include="PDFBox\pdmodel\interactive\pagenavigation\PDThreadBead.java" />
+    <Content Include="PDFBox\pdmodel\interactive\viewerpreferences\PDViewerPreferences.java" />
+    <Content Include="PDFBox\pdmodel\markedcontent\PDPropertyList.java" />
+    <Content Include="PDFBox\pdmodel\PDDestinationNameTreeNode.java" />
+    <Content Include="PDFBox\pdmodel\PDDocument.java" />
+    <Content Include="PDFBox\pdmodel\PDDocumentCatalog.java" />
+    <Content Include="PDFBox\pdmodel\PDDocumentInformation.java" />
+    <Content Include="PDFBox\pdmodel\PDDocumentNameDictionary.java" />
+    <Content Include="PDFBox\pdmodel\PDEmbeddedFilesNameTreeNode.java" />
+    <Content Include="PDFBox\pdmodel\PDJavascriptNameTreeNode.java" />
+    <Content Include="PDFBox\pdmodel\PDPage.java" />
+    <Content Include="PDFBox\pdmodel\PDPageable.java" />
+    <Content Include="PDFBox\pdmodel\PDPageNode.java" />
+    <Content Include="PDFBox\pdmodel\PDResources.java" />
+    <Content Include="PDFBox\pdmodel\text\PDTextState.java" />
+    <Content Include="PDFBox\persistence\util\COSHEXTable.java" />
+    <Content Include="PDFBox\persistence\util\COSObjectKey.java" />
+    <Content Include="PDFBox\PrintPDF.java" />
+    <Content Include="PDFBox\TextToPDF.java" />
+    <Content Include="PDFBox\util\BitFlagHelper.java" />
+    <Content Include="PDFBox\util\DateConverter.java" />
+    <Content Include="PDFBox\util\ErrorLogger.java" />
+    <Content Include="PDFBox\util\ExtensionFileFilter.java" />
+    <Content Include="PDFBox\util\ICU4JImpl.java" />
+    <Content Include="PDFBox\util\ImageIOUtil.java" />
+    <Content Include="PDFBox\util\ImageParameters.java" />
+    <Content Include="PDFBox\util\LayerUtility.java" />
+    <Content Include="PDFBox\util\MapUtil.java" />
+    <Content Include="PDFBox\util\Matrix.java" />
+    <Content Include="PDFBox\util\operator\BeginMarkedContentSequence.java" />
+    <Content Include="PDFBox\util\operator\BeginMarkedContentSequenceWithProperties.java" />
+    <Content Include="PDFBox\util\operator\BeginText.java" />
+    <Content Include="PDFBox\util\operator\CloseAndStrokePath.java" />
+    <Content Include="PDFBox\util\operator\Concatenate.java" />
+    <Content Include="PDFBox\util\operator\EndMarkedContentSequence.java" />
+    <Content Include="PDFBox\util\operator\EndText.java" />
+    <Content Include="PDFBox\util\operator\GRestore.java" />
+    <Content Include="PDFBox\util\operator\GSave.java" />
+    <Content Include="PDFBox\util\operator\Invoke.java" />
+    <Content Include="PDFBox\util\operator\MoveAndShow.java" />
+    <Content Include="PDFBox\util\operator\MoveText.java" />
+    <Content Include="PDFBox\util\operator\MoveTextSetLeading.java" />
+    <Content Include="PDFBox\util\operator\NextLine.java" />
+    <Content Include="PDFBox\util\operator\OperatorProcessor.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\AppendRectangleToPath.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\BeginInlineImage.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\ClipEvenOddRule.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\ClipNonZeroRule.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\CloseFillEvenOddAndStrokePath.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\CloseFillNonZeroAndStrokePath.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\ClosePath.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\CurveTo.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\CurveToReplicateFinalPoint.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\CurveToReplicateInitialPoint.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\EndPath.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\FillEvenOddAndStrokePath.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\FillEvenOddRule.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\FillNonZeroAndStrokePath.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\FillNonZeroRule.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\Invoke.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\LineTo.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\MoveTo.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\SetLineCapStyle.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\SetLineDashPattern.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\SetLineJoinStyle.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\SetLineMiterLimit.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\SetLineWidth.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\SHFill.java" />
+    <Content Include="PDFBox\util\operator\pagedrawer\StrokePath.java" />
+    <Content Include="PDFBox\util\operator\SetCharSpacing.java" />
+    <Content Include="PDFBox\util\operator\SetGraphicsStateParameters.java" />
+    <Content Include="PDFBox\util\operator\SetHorizontalTextScaling.java" />
+    <Content Include="PDFBox\util\operator\SetLineCapStyle.java" />
+    <Content Include="PDFBox\util\operator\SetLineDashPattern.java" />
+    <Content Include="PDFBox\util\operator\SetLineJoinStyle.java" />
+    <Content Include="PDFBox\util\operator\SetLineMiterLimit.java" />
+    <Content Include="PDFBox\util\operator\SetLineWidth.java" />
+    <Content Include="PDFBox\util\operator\SetMatrix.java" />
+    <Content Include="PDFBox\util\operator\SetMoveAndShow.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingCalRGBColor.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingCMYKColor.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingColor.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingColorSpace.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingDeviceN.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingGrayColor.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingICCBasedColor.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingIndexed.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingLabColor.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingPattern.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingRGBColor.java" />
+    <Content Include="PDFBox\util\operator\SetNonStrokingSeparation.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingCalRGBColor.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingCMYKColor.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingColor.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingColorSpace.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingDeviceN.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingGrayColor.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingICCBasedColor.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingIndexed.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingLabColor.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingPattern.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingRGBColor.java" />
+    <Content Include="PDFBox\util\operator\SetStrokingSeparation.java" />
+    <Content Include="PDFBox\util\operator\SetTextFont.java" />
+    <Content Include="PDFBox\util\operator\SetTextLeading.java" />
+    <Content Include="PDFBox\util\operator\SetTextRenderingMode.java" />
+    <Content Include="PDFBox\util\operator\SetTextRise.java" />
+    <Content Include="PDFBox\util\operator\SetWordSpacing.java" />
+    <Content Include="PDFBox\util\operator\ShowText.java" />
+    <Content Include="PDFBox\util\operator\ShowTextGlyph.java" />
+    <Content Include="PDFBox\util\PageExtractor.java" />
+    <Content Include="PDFBox\util\PDFCloneUtility.java" />
+    <Content Include="PDFBox\util\PDFHighlighter.java" />
+    <Content Include="PDFBox\util\PDFImageWriter.java" />
+    <Content Include="PDFBox\util\PDFMarkedContentExtractor.java" />
+    <Content Include="PDFBox\util\PDFMergerUtility.java" />
+    <Content Include="PDFBox\util\PDFOperator.java" />
+    <Content Include="PDFBox\util\PDFStreamEngine.java" />
+    <Content Include="PDFBox\util\PDFText2HTML.java" />
+    <Content Include="PDFBox\util\PDFTextStripper.java" />
+    <Content Include="PDFBox\util\PDFTextStripperByArea.java" />
+    <Content Include="PDFBox\util\PositionWrapper.java" />
+    <Content Include="PDFBox\util\Splitter.java" />
+    <Content Include="PDFBox\util\StringUtil.java" />
+    <Content Include="PDFBox\util\TextNormalize.java" />
+    <Content Include="PDFBox\util\TextPosition.java" />
+    <Content Include="PDFBox\util\TextPositionComparator.java" />
+    <Content Include="PDFBox\util\XMLUtil.java" />
+    <Content Include="PDFBox\Version.java" />
+    <Content Include="PDFBox\WriteDecodedDoc.java" />
+    <Content Include="PDF\fonts\helveticabi.js" />
+    <Content Include="PDF\fonts\helveticai.js" />
+    <Content Include="PDF\fonts\symbol.js" />
+    <Content Include="PDF\fonts\times.js" />
+    <Content Include="PDF\fonts\timesb.js" />
+    <Content Include="PDF\fonts\timesbi.js" />
+    <Content Include="PDF\fonts\timesi.js" />
+    <Content Include="PDF\fonts\zapfdingbats.js" />
+    <None Include="Resources\glyphlist.txt" />
+    <None Include="Resources\Helvetica-BoldOblique.afm" />
+    <None Include="Resources\Helvetica-Oblique.afm" />
+    <None Include="Resources\sampleForSpec.pdf.txt" />
+    <None Include="Resources\sample_fonts_solidconvertor.pdf-sorted.txt" />
+    <None Include="Resources\sample_fonts_solidconvertor.pdf.txt" />
+    <None Include="Resources\rotation.pdf-sorted.txt" />
+    <None Include="Resources\rotation.pdf.txt" />
+    <None Include="Resources\RELEASE-NOTES.txt" />
+    <None Include="Resources\README.txt" />
+    <None Include="Resources\openoffice-test-document.pdf-sorted.txt" />
+    <None Include="Resources\openoffice-test-document.pdf.txt" />
+    <None Include="Resources\NOTICE.txt" />
+    <None Include="Resources\Liste732004001452_001_0.pdf_0_.pdf-sorted.txt" />
+    <None Include="Resources\Liste732004001452_001_0.pdf_0_.pdf.txt" />
+    <None Include="Resources\LICENSE.txt" />
+    <None Include="Resources\hello3.pdf-sorted.txt" />
+    <None Include="Resources\hello3.pdf.txt" />
+    <None Include="Resources\FC60_Times.pdf-sorted.txt" />
+    <None Include="Resources\FC60_Times.pdf.txt" />
+    <None Include="Resources\expected_errors.txt" />
+    <None Include="Resources\data-000001.pdf-sorted.txt" />
+    <None Include="Resources\data-000001.pdf.txt" />
+    <None Include="Resources\cweb.pdf-sorted.txt" />
+    <None Include="Resources\cweb.pdf.txt" />
+    <None Include="Resources\allah2.pdf-sorted.txt" />
+    <None Include="Resources\allah2.pdf.txt" />
+    <None Include="Resources\additional_glyphlist.txt" />
+    <None Include="Resources\Symbol.afm" />
+    <None Include="Resources\Times-Bold.afm" />
+    <None Include="Resources\Times-BoldItalic.afm" />
+    <None Include="Resources\Times-Italic.afm" />
+    <None Include="Resources\Times-Roman.afm" />
+    <None Include="Resources\yaddatest.pdf-sorted.txt" />
+    <None Include="Resources\yaddatest.pdf.txt" />
+    <None Include="Resources\sRGB Color Space Profile.icm.LICENSE.txt" />
+    <None Include="Resources\simple-openoffice.pdf-sorted.txt" />
+    <None Include="Resources\simple-openoffice.pdf.txt" />
+    <None Include="Resources\sampleForSpec.pdf-sorted.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

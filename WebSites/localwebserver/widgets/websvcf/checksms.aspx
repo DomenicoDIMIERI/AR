@@ -1,0 +1,1 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="checksms.aspx.vb" Inherits="widgets_websvcf_checksms" %>

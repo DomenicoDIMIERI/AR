@@ -1,0 +1,1 @@
+alter table tbl_OfficeArticoli add column ProductPage Text(255), SupportPage Text(255)

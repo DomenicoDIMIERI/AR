@@ -1,0 +1,22 @@
+alter table tbl_CQSPDConsulenze add column IDUltimaVerifica int
+
+create index idxCQSPDConsulenzeIDUV on tbl_CQSPDConsulenze (IDUltimaVerifica)
+
+
+alter table tbl_CQSPDConsulenze add column
+IDProdottoCQS Int,
+NomeProdottoCQS text(255),
+IDProdottoPD Int,
+NomeProdottoPD text(255)
+
+create index idxCQSPDConsulenzePRDCQS on tbl_CQSPDConsulenze (IDProdottoCQS)
+create index idxCQSPDConsulenzePRDPD on tbl_CQSPDConsulenze (IDProdottoPD)
+
+
+drop index idxCQSPDConsulenzePRDCQS on tbl_CQSPDConsulenze  
+drop index idxCQSPDConsulenzePRDPD on tbl_CQSPDConsulenze  
+
+alter table tbl_CQSPDConsulenze drop column IDProdottoPD
+alter table tbl_CQSPDConsulenze drop column IDProdottoCQS
+alter table tbl_CQSPDConsulenze drop column NomeProdottoCQS
+alter table tbl_CQSPDConsulenze drop column NomeProdottoPD

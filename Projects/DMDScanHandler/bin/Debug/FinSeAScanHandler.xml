@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinSeAScanHandler
+</name>
+</assembly>
+<members>
+<member name="F:FinSeAScanHandler.My.AppFlags.NOKEYBOARD">
+ <summary>
+ Non cattura gli eventi della keyboard
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeAScanHandler.My.AppFlags.NOSCREENSCHOTS">
+ <summary>
+ Non cattura gli screenshot
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeAScanHandler.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:FinSeAScanHandler.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:FinSeAScanHandler.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="P:FinSeAScanHandler.ApplicationContext.IDAziendaPrincipale">
+ <summary>
+ Restituisce o imposta l'azienda utilizzata come azienda principale
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

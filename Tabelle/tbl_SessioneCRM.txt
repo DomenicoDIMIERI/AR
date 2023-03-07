@@ -1,0 +1,39 @@
+create table tbl_SessioneCRM
+(
+[ID] Counter Primary Key,
+IDCampagnaCRM int,
+IDUtente int,
+NomeUtente text(255),
+Inizio Date,
+Fine Date,
+NumeroTelefonateRisposte int,
+NumeroTelefonateNonRisposte int,
+MinutiConversazione int,
+MinutiAttesa int,
+NumeroAppuntamentiFissati int,
+Flags int,
+dmdpage text(32),
+Attributi Memo,
+IDPuntoOperativo int,
+NomePuntoOperativo text(255),
+CreatoDa int,
+CreatoIl date,
+ModificatoDa int,
+ModificatoIl date,
+Stato int
+)
+
+create index idxSessioneCRMIDCamp on tbl_SessioneCRM (IDCampagnaCRM)
+create index idxSessioneCRMIDUser on tbl_SessioneCRM (IDUtente)
+create index idxSessioneCRMIni on tbl_SessioneCRM (Inizio)
+create index idxSessioneCRMend on tbl_SessioneCRM (Fine)
+create index idxSessioneCRMpage on tbl_SessioneCRM (dmdpage)
+create index idxSessioneCRMidpo on tbl_SessioneCRM (IDPuntoOperativo)
+create index idxSessioneCRMctda on tbl_SessioneCRM (CreatoDa)
+create index idxSessioneCRMstato on tbl_SessioneCRM (Stato)
+
+alter table tbl_SessioneCRM add column IDSupervisore int, NomeSupervisore text(255)
+create index idxSessioneCRMIDSupU on tbl_SessioneCRM (IDSupervisore)
+
+alter table tbl_SessioneCRM add column LastUpdated Date
+create index idxSessioneCRMLstUp on tbl_SessioneCRM (LastUpdated)

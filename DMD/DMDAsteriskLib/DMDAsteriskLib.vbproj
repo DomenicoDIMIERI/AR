@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{198FDF25-464C-4AA2-9060-A9611D23F84C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DMD</RootNamespace>
+    <AssemblyName>DMDAsteriskLib</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDAsteriskLib.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDAsteriskLib.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DMDAsteriskLib.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DMDAsteriskLib.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>DMDAsteriskLib.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>DMDAsteriskLib.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asterisk\ast_control_frame_type.vb" />
+    <Compile Include="Asterisk\ast_extension_states.vb" />
+    <Compile Include="CallManagers\Events\DialEvent.vb" />
+    <Compile Include="CallManagers\AsteriskEventArgs.vb" />
+    <Compile Include="CallManagers\Objects\AsteriskObject.vb" />
+    <Compile Include="CallManagers\Objects\Links.vb" />
+    <Compile Include="CallManagers\Objects\Link.vb" />
+    <Compile Include="CallManagers\Objects\Peers.vb" />
+    <Compile Include="CallManagers\Objects\Peer.vb" />
+    <Compile Include="CallManagers\ManagerLogoutEventArgs.vb" />
+    <Compile Include="CallManagers\ManagerLoginEventArgs.vb" />
+    <Compile Include="CallManagers\Responses\ActionResponseQueue.vb" />
+    <Compile Include="CallManagers\Action\ZapShowChannels.vb" />
+    <Compile Include="CallManagers\Objects\Channel.vb" />
+    <Compile Include="CallManagers\Objects\Channels.vb" />
+    <Compile Include="CallManagers\Events\ZapShowChannelsComplete.vb" />
+    <Compile Include="CallManagers\Events\ZapShowChannels.vb" />
+    <Compile Include="CallManagers\Objects\IDObject.vb" />
+    <Compile Include="CallManagers\Action.vb" />
+    <Compile Include="CallManagers\ActionPrivilageFlags.vb" />
+    <Compile Include="CallManagers\ActionResponse.vb" />
+    <Compile Include="CallManagers\Action\AbsoluteTimeout.vb" />
+    <Compile Include="CallManagers\Action\ChangeMonitor.vb" />
+    <Compile Include="CallManagers\Action\Command.vb" />
+    <Compile Include="CallManagers\Action\Events.vb" />
+    <Compile Include="CallManagers\Action\ExtensionState.vb" />
+    <Compile Include="CallManagers\Action\GetVar.vb" />
+    <Compile Include="CallManagers\Action\Hangup.vb" />
+    <Compile Include="CallManagers\Action\IAXpeers.vb" />
+    <Compile Include="CallManagers\Action\ListCommands.vb" />
+    <Compile Include="CallManagers\Action\Login.vb" />
+    <Compile Include="CallManagers\Action\Logoff.vb" />
+    <Compile Include="CallManagers\Action\MailboxCount.vb" />
+    <Compile Include="CallManagers\Action\MailboxStatus.vb" />
+    <Compile Include="CallManagers\Action\Monitor.vb" />
+    <Compile Include="CallManagers\Action\Originate.vb" />
+    <Compile Include="CallManagers\Action\ParkedCalls.vb" />
+    <Compile Include="CallManagers\Action\Ping.vb" />
+    <Compile Include="CallManagers\Action\QueueAdd.vb" />
+    <Compile Include="CallManagers\Action\QueueRemove.vb" />
+    <Compile Include="CallManagers\Action\Queues.vb" />
+    <Compile Include="CallManagers\Action\QueueStatus.vb" />
+    <Compile Include="CallManagers\Action\Redirect.vb" />
+    <Compile Include="CallManagers\AsteriskCallManager.vb" />
+    <Compile Include="CallManagers\AsteriskEvent.vb" />
+    <Compile Include="CallManagers\AsyncAction.vb" />
+    <Compile Include="CallManagers\IncomingCallEventArgs.vb" />
+    <Compile Include="CallManagers\DebugFlags.vb" />
+    <Compile Include="CallManagers\Events\Agentcallbacklogin.vb" />
+    <Compile Include="CallManagers\Events\Agentcallbacklogoff.vb" />
+    <Compile Include="CallManagers\Events\AgentCalled.vb" />
+    <Compile Include="CallManagers\Events\AgentComplete.vb" />
+    <Compile Include="CallManagers\Events\AgentConnect.vb" />
+    <Compile Include="CallManagers\Events\AgentDump.vb" />
+    <Compile Include="CallManagers\Events\Agentlogin.vb" />
+    <Compile Include="CallManagers\Events\Agentlogoff.vb" />
+    <Compile Include="CallManagers\Events\Alarm.vb" />
+    <Compile Include="CallManagers\Events\AlarmClear.vb" />
+    <Compile Include="CallManagers\Events\Bridge.vb" />
+    <Compile Include="CallManagers\Events\Cdr.vb" />
+    <Compile Include="CallManagers\Events\ChannelReload.vb" />
+    <None Include="CallManagers\Events\Dial.vb" />
+    <Compile Include="CallManagers\Events\DNDState.vb" />
+    <Compile Include="CallManagers\Events\ExtensionStatus.vb" />
+    <Compile Include="CallManagers\Events\HangupEvent.vb" />
+    <Compile Include="CallManagers\Events\Join.vb" />
+    <Compile Include="CallManagers\Events\Leave.vb" />
+    <Compile Include="CallManagers\Events\Link.vb" />
+    <Compile Include="CallManagers\Events\LogChannel.vb" />
+    <Compile Include="CallManagers\Events\MeetmeJoin.vb" />
+    <Compile Include="CallManagers\Events\MeetmeLeave.vb" />
+    <Compile Include="CallManagers\Events\MeetmeStopTalking.vb" />
+    <Compile Include="CallManagers\Events\MeetmeTalking.vb" />
+    <Compile Include="CallManagers\Events\MessageWaiting.vb" />
+    <Compile Include="CallManagers\Events\MusicOnHold.vb" />
+    <Compile Include="CallManagers\Events\Newcallerid.vb" />
+    <Compile Include="CallManagers\Events\Newchannel.vb" />
+    <Compile Include="CallManagers\Events\Newexten.vb" />
+    <Compile Include="CallManagers\Events\Newstate.vb" />
+    <Compile Include="CallManagers\Events\OriginateResponse.vb" />
+    <Compile Include="CallManagers\Events\ParkedCall.vb" />
+    <Compile Include="CallManagers\Events\ParkedCallsComplete.vb" />
+    <Compile Include="CallManagers\Events\PeerStatus.vb" />
+    <Compile Include="CallManagers\Events\QueueEntry.vb" />
+    <Compile Include="CallManagers\Events\QueueMember.vb" />
+    <Compile Include="CallManagers\Events\QueueMemberAdded.vb" />
+    <Compile Include="CallManagers\Events\QueueMemberPaused.vb" />
+    <Compile Include="CallManagers\Events\QueueMemberStatus.vb" />
+    <Compile Include="CallManagers\Events\QueueParams.vb" />
+    <Compile Include="CallManagers\Events\Registry.vb" />
+    <Compile Include="CallManagers\Events\Reload.vb" />
+    <Compile Include="CallManagers\Events\Rename.vb" />
+    <Compile Include="CallManagers\Events\SetCDRUserField.vb" />
+    <Compile Include="CallManagers\Events\Shutdown.vb" />
+    <Compile Include="CallManagers\Events\Unlink.vb" />
+    <Compile Include="CallManagers\Events\UnParkedCall.vb" />
+    <Compile Include="CallManagers\Events\UserEvent.vb" />
+    <Compile Include="CallManagers\HangupCauses.vb" />
+    <Compile Include="CallManagers\Responses\AbsoluteTimeoutResponse.vb" />
+    <Compile Include="CallManagers\Responses\ChangeMonitorResponse.vb" />
+    <Compile Include="CallManagers\Responses\CommandResponse.vb" />
+    <Compile Include="CallManagers\Responses\ActionResponseQueues.vb" />
+    <Compile Include="CallManagers\Responses\ZapShowChannelsResponse.vb" />
+    <Compile Include="CallManagers\Responses\EventsResponse.vb" />
+    <Compile Include="CallManagers\Responses\ExtensionStateResponse.vb" />
+    <Compile Include="CallManagers\Responses\GetVarResponse.vb" />
+    <Compile Include="CallManagers\Responses\HangupResponse.vb" />
+    <Compile Include="CallManagers\Responses\IAXpeersResponse.vb" />
+    <Compile Include="CallManagers\Responses\ListCommandsResponse.vb" />
+    <Compile Include="CallManagers\Responses\LoginResponse.vb" />
+    <Compile Include="CallManagers\Responses\LogoffResponse.vb" />
+    <Compile Include="CallManagers\Responses\MailboxCountResponse.vb" />
+    <Compile Include="CallManagers\Responses\MailboxStatusResponse.vb" />
+    <Compile Include="CallManagers\Responses\MonitorResponse.vb" />
+    <Compile Include="CallManagers\Responses\OriginateResponse.vb" />
+    <Compile Include="CallManagers\Responses\ParkedCallsResponse.vb" />
+    <Compile Include="CallManagers\Responses\PingResponse.vb" />
+    <Compile Include="CallManagers\Responses\QueueAddResponse.vb" />
+    <Compile Include="CallManagers\Responses\QueueRemoveResponse.vb" />
+    <Compile Include="CallManagers\Responses\QueuesResponse.vb" />
+    <Compile Include="CallManagers\Responses\QueueStatusResponse.vb" />
+    <Compile Include="CallManagers\Responses\RedirectResponse.vb" />
+    <Compile Include="CallManagers\Responses\RowEntry.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMDBaseCore\DMDBaseCore\DMDBaseCore.vbproj">
+      <Project>{10969116-5b14-462b-8ade-7782e14c4736}</Project>
+      <Name>DMDBaseCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

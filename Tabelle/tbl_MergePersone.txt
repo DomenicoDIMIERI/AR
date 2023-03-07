@@ -1,0 +1,22 @@
+create table [tbl_MergePersone]
+(
+[ID] Counter Primary Key,
+[IDPersona1] Int,
+[NomePersona1] Text(255),
+[IDPersona2] Int,
+[NomePersona2] Text(255),
+[DataOperazione] Date,
+[IDOperatore] Int,
+[NomeOperatore] Text(255),
+[Tabelle] Memo,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+create index idxMergePersoneIDP1 on [tbl_MergePersone] ([IDPersona1])
+create index idxMergePersoneIDP2 on [tbl_MergePersone] ([IDPersona2])
+create index idxMergePersoneDATA on [tbl_MergePersone] ([DataOperazione])
+create index idxMergePersoneIDOP on [tbl_MergePersone] ([IDOperatore])

@@ -1,0 +1,14 @@
+create table tbl_OfficeCategorieAttributi
+(
+ID Counter Primary Key,
+IDCategoria Int,
+NomeAttributo Text(255),
+ValoreAttributo Text(255),
+TipoAttributo int,
+UnitaDiMisura text(32),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato int
+)

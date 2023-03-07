@@ -1,0 +1,67 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\bin\x86\Debug\Hylafax.net.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\bin\x86\Debug\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\bin\x86\Debug\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.pdb
+E:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.dll
+E:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.pdb
+E:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.xml
+E:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.dll
+E:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\Hylafax.net.dll
+E:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\Ionic.Zip.dll
+E:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDBaseCore.dll
+E:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.pdb
+E:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.xml
+E:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.dll.config
+E:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeA.Resources.resources
+E:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.dll
+E:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.xml
+E:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.pdb
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.dll
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.pdb
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.xml
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.dll
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\Hylafax.net.dll
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\Ionic.Zip.dll
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDBaseCore.dll
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.pdb
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.xml
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.dll.config
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbprojAssemblyReference.cache
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeA.Resources.resources
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbproj.GenerateResource.cache
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbproj.CoreCompileInputs.cache
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbproj.CopyComplete
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.dll
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.xml
+Z:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.pdb
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.pdb
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeAHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\Hylafax.net.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.pdb
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\bin\x86\Debug\FinSeALibs.dll.config
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeA.Resources.resources
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.dll
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.xml
+C:\Work\Programmazione\Projects\FinSeAHylaFax\obj\x86\Debug\FinSeAHylaFax.pdb

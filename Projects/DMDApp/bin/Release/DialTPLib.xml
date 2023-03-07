@@ -1,0 +1,568 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DialTPLib
+</name>
+</assembly>
+<members>
+<member name="T:DIALTPLib.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:DIALTPLib.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:DIALTPLib.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="P:DIALTPLib.My.Resources.Resources.DMD">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
+</summary>
+</member>
+<member name="T:DIALTPLib.DialTPCommand">
+ <summary>
+ Rappresenta un coamndo inviato ad un sistema remoto
+ </summary>
+</member>
+<member name="P:DIALTPLib.ProxyProfile.Name">
+ <summary>
+ Restituisce o imposta il nome del profilo
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:DIALTPLib.DialtpConfigFlags.ShowInCall">
+ <summary>
+ Se vero indica al programma di mostrare una finestra per le telefonate in ingresso
+ </summary>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.ShowInCall">
+ <summary>
+ Se vero indica al programma di mostrare una finestra per le telefonate in ingresso
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.MinVersion">
+ <summary>
+ Restituisce o imposta la versione minima del programma per cui è applicabile la configurazione
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.MaxVersion">
+ <summary>
+ Restituisce o imposta la versione massima del programma per cui è applicabile la configurazione
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.RemoveLogAfterNDays">
+ <summary>
+ Restituisce o imposta il numero di giorni in cui conservare i log.
+ Un valore pari a 0 indica nessun log.
+ Un valore negativo indica che i log non verranno mai eliminati
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.ServerName">
+ <summary>
+ Server da cui vengono scaricate le informazioni
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.UserName">
+ <summary>
+ Restituisce o imposta l'utente che viene utilizzato per identificarsi sul server delle informazioni
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.UploadServer">
+ <summary>
+ Restituisce o imposta il server a cui vengono inviati i files delle cartelle monitorate
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.NotifyServer">
+ <summary>
+ Restituisce o imposta il server delle notifiche
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.IDPostazione">
+ <summary>
+ Restituisce o imposta l'ID della postazione associata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.IDMacchina">
+ <summary>
+ Restituisce o imposta l'ID della macchina associata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.IDUtente">
+ <summary>
+ Restituisce o imposta l'ID dell'utente associato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.Attiva">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la configurazione è attiva
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.CartelleMonitorate">
+ <summary>
+ Restituisce la collezione delle cartelle che vengono monitorate per la creazione, modifica ed eliminazione di files
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.DialTPConfig.CartelleEscluse">
+ <summary>
+ Restituisce la collezione delle cartelle che vengono escluse dal monitoraggio dei files (le cartelle escluse hanno precedenza)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.CiscoDialer.DeviceIP">
+ <summary>
+ Restituisce o imposta l'IP del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.CiscoDialer.DeviceName">
+ <summary>
+ Restituisce o imposta il nome del dispositivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DIALTPLib.Keyboard.GetKeyboardState(System.Byte[])">
+ <summary>
+ 
+ </summary>
+ <param name="keys"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DIALTPLib.Keyboard.ToAscii(DIALTPLib.Keyboard.VirtualKeys,System.Int32,System.Byte[],System.Text.StringBuilder,System.Int32)">
+ <summary>
+ Translates the specified virtual-key code and keyboard state to the corresponding character or characters. The function translates the code using the input language and physical keyboard layout identified by the keyboard layout handle.
+ To specify a handle to the keyboard layout to use to translate the specified code, use the ToAsciiEx function.
+ </summary>
+ <param name="uVirtKey">The virtual-key code to be translated. See Virtual-Key Codes.</param>
+ <param name="uScanCode">The hardware scan code of the key to be translated. The high-order bit of this value is set if the key is up (not pressed). </param>
+ <param name="lpKeyState">A pointer to a 256-byte array that contains the current keyboard state. Each element (byte) in the array contains the state of one key. If the high-order bit of a byte is set, the key is down (pressed).
+ The low bit, if set, indicates that the key is toggled on. In this function, only the toggle bit of the CAPS LOCK key is relevant. The toggle state of the NUM LOCK and SCROLL LOCK keys is ignored.</param>
+ <param name="lpChar">The buffer that receives the translated character or characters. </param>
+ <param name="uFlags">This parameter must be 1 if a menu is active, or 0 otherwise. </param>
+ <returns>
+ 0  The specified virtual key has no translation for the current state of the keyboard.
+ 1  One character was copied to the buffer.
+ 2  Two characters were copied to the buffer. This usually happens when a dead-key character (accent or diacritic) stored in the keyboard layout cannot be composed with the specified virtual key to form a single character.</returns>
+ <remarks>The parameters supplied to the ToAscii function might not be sufficient to translate the virtual-key code, because a previous dead key is stored in the keyboard layout.
+ Typically, ToAscii performs the translation based on the virtual-key code. In some cases, however, bit 15 of the uScanCode parameter may be used to distinguish between a key press and a key release. The scan code is used for translating ALT+ number key combinations.
+ Although NUM LOCK is a toggle key that affects keyboard behavior, ToAscii ignores the toggle setting (the low bit) of lpKeyState (VK_NUMLOCK) because the uVirtKey parameter alone is sufficient to distinguish the cursor movement keys (VK_HOME, VK_INSERT, and so on) from the numeric keys (VK_DECIMAL, VK_NUMPAD0 - VK_NUMPAD9).</remarks>
+</member>
+<member name="M:DIALTPLib.ProxyService.Start">
+ <summary>
+ Avvia il servizio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DIALTPLib.ProxyService.Stop">
+ <summary>
+ Ferma il servizio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DIALTPLib.ProxyService.Restart">
+ <summary>
+ Riavvia il servizio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DIALTPLib.ProxyService.IsRunning">
+ <summary>
+ Restituisce vero se il servizio è stato avviato
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DIALTPLib.ProxyService.TestIP4(System.Net.IPAddress)">
+ <summary>
+ Restitusice vero se il PC ha un indirizzo di rete che rispetta la maschera passata
+ </summary>
+ <param name="mask"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DIALTPLib.Settings.ConfigServer">
+ <summary>
+ Restituisce o imposta il server da cui viene scaricata la configurazione online
+ </summary>
+ <returns></returns>
+</member>
+<member name="E:DIALTPLib.Machine.MachineStatusChanged">
+ <summary>
+ Evento generato quando viene rilevato un cambiamento dello stato del sistema
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="F:DIALTPLib.Machine.m_BootTime">
+ <summary>
+ Restituisce o imposta l'ora di avvio del sistema operativo
+ </summary>
+</member>
+<member name="F:DIALTPLib.Machine.m_LogInTime">
+ <summary>
+ Restituisce o imposta l'ora in cui l'utente ha fatto il login
+ </summary>
+</member>
+<member name="F:DIALTPLib.Machine.m_ActiveTime">
+ <summary>
+ Restituisce o imposta il numero di minuti di attività dell'utente (se il computer va in standby o se viene effettuato un cambio utente il tempo non viene aggiornato)
+ </summary>
+</member>
+<member name="P:DIALTPLib.Machine.BootTime">
+ <summary>
+ Restituisce la data di avvio del sistema operativo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DIALTPLib.Machine.GetCPUSerialNumber">
+ <summary>
+ Restituisce il numero seriale del processore
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DIALTPLib.Machine.GetMACAddress">
+ <summary>
+ Restituisce l'indirizzo MAC della scheda di rete principale
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DIALTPLib.Machine.GetIPAddress">
+ <summary>
+ Restituisce l'indirizzo IP della scheda di rete principale
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DIALTPLib.Machine.GetSerialNumber">
+ <summary>
+ Restituisce il numero seriale composto da ID del processore, MAC
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DIALTPLib.CodeProject.FileData">
+ <summary>
+ Contains information about a file returned by the 
+ <see cref="T:DIALTPLib.CodeProject.FastDirectoryEnumerator"/> class.
+ </summary>
+</member>
+<member name="F:DIALTPLib.CodeProject.FileData.Attributes">
+ <summary>
+ Attributes of the file.
+ </summary>
+</member>
+<member name="F:DIALTPLib.CodeProject.FileData.CreationTimeUtc">
+ <summary>
+ File creation time in UTC
+ </summary>
+</member>
+<member name="P:DIALTPLib.CodeProject.FileData.LastAccesTime">
+ <summary>
+ Gets the last access time in local time.
+ </summary>
+</member>
+<member name="F:DIALTPLib.CodeProject.FileData.LastAccessTimeUtc">
+ <summary>
+ File last access time in UTC
+ </summary>
+</member>
+<member name="P:DIALTPLib.CodeProject.FileData.LastWriteTime">
+ <summary>
+ Gets the last access time in local time.
+ </summary>
+</member>
+<member name="F:DIALTPLib.CodeProject.FileData.LastWriteTimeUtc">
+ <summary>
+ File last write time in UTC
+ </summary>
+</member>
+<member name="F:DIALTPLib.CodeProject.FileData.Size">
+ <summary>
+ Size of the file in bytes
+ </summary>
+</member>
+<member name="F:DIALTPLib.CodeProject.FileData.Name">
+ <summary>
+ Name of the file
+ </summary>
+</member>
+<member name="F:DIALTPLib.CodeProject.FileData.Path">
+ <summary>
+ Full path to the file.
+ </summary>
+</member>
+<member name="M:DIALTPLib.CodeProject.FileData.ToString">
+ <summary>
+ Returns a <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
+ </summary>
+ <returns>
+ A <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
+ </returns>
+</member>
+<member name="M:DIALTPLib.CodeProject.FileData.#ctor(System.String,DIALTPLib.CodeProject.WIN32_FIND_DATA)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DIALTPLib.CodeProject.FileData"/> class.
+ </summary>
+ <param name="dir">The directory that the file is stored at</param>
+ <param name="findData">WIN32_FIND_DATA structure that this
+ object wraps.</param>
+</member>
+<member name="T:DIALTPLib.CodeProject.WIN32_FIND_DATA">
+ <summary>
+ Contains information about the file that is found 
+ by the FindFirstFile or FindNextFile functions.
+ </summary>
+</member>
+<member name="M:DIALTPLib.CodeProject.WIN32_FIND_DATA.ToString">
+ <summary>
+ Returns a <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
+ </summary>
+ <returns>
+ A <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
+ </returns>
+</member>
+<member name="T:DIALTPLib.CodeProject.FastDirectoryEnumerator">
+ <summary>
+ A fast enumerator of files in a directory.  Use this if you need to get attributes for 
+ all files in a directory.
+ </summary>
+ <remarks>
+ This enumerator is substantially faster than using <see cref="M:System.IO.Directory.GetFiles(System.String)"/>
+ and then creating a new FileInfo object for each path.  Use this version when you 
+ will need to look at the attibutes of each file returned (for example, you need
+ to check each file in a directory to see if it was modified after a specific date).
+ </remarks>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.EnumerateFiles(System.String)">
+ <summary>
+ Gets <see cref="T:DIALTPLib.CodeProject.FileData"/> for all the files in a directory.
+ </summary>
+ <param name="path">The path to search.</param>
+ <returns>An object that implements <see cref="!:IEnumerable{FileData}"/> and 
+ allows you to enumerate the files in the given directory.</returns>
+ <exception cref="T:System.ArgumentNullException">
+ <paramref name="path"/> is a null reference (Nothing in VB)
+ </exception>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.EnumerateFiles(System.String,System.String)">
+ <summary>
+ Gets <see cref="T:DIALTPLib.CodeProject.FileData"/> for all the files in a directory that match a 
+ specific filter.
+ </summary>
+ <param name="path">The path to search.</param>
+ <param name="searchPattern">The search string to match against files in the path.</param>
+ <returns>An object that implements <see cref="!:IEnumerable{FileData}"/> and 
+ allows you to enumerate the files in the given directory.</returns>
+ <exception cref="T:System.ArgumentNullException">
+ <paramref name="path"/> is a null reference (Nothing in VB)
+ </exception>
+ <exception cref="T:System.ArgumentNullException">
+ <paramref name="filter"/> is a null reference (Nothing in VB)
+ </exception>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.EnumerateFiles(System.String,System.String,System.IO.SearchOption)">
+ <summary>
+ Gets <see cref="T:DIALTPLib.CodeProject.FileData"/> for all the files in a directory that 
+ match a specific filter, optionally including all sub directories.
+ </summary>
+ <param name="path">The path to search.</param>
+ <param name="searchPattern">The search string to match against files in the path.</param>
+ <param name="searchOption">
+ One of the SearchOption values that specifies whether the search 
+ operation should include all subdirectories or only the current directory.
+ </param>
+ <returns>An object that implements <see cref="!:IEnumerable{FileData}"/> and 
+ allows you to enumerate the files in the given directory.</returns>
+ <exception cref="T:System.ArgumentNullException">
+ <paramref name="path"/> is a null reference (Nothing in VB)
+ </exception>
+ <exception cref="T:System.ArgumentNullException">
+ <paramref name="filter"/> is a null reference (Nothing in VB)
+ </exception>
+ <exception cref="T:System.ArgumentOutOfRangeException">
+ <paramref name="searchOption"/> is not one of the valid values of the
+ <see cref="T:System.IO.SearchOption"/> enumeration.
+ </exception>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.GetFiles(System.String,System.String,System.IO.SearchOption)">
+ <summary>
+ Gets <see cref="T:DIALTPLib.CodeProject.FileData"/> for all the files in a directory that match a 
+ specific filter.
+ </summary>
+ <param name="path">The path to search.</param>
+ <param name="searchPattern">The search string to match against files in the path.</param>
+ <returns>An object that implements <see cref="!:IEnumerable{FileData}"/> and 
+ allows you to enumerate the files in the given directory.</returns>
+ <exception cref="T:System.ArgumentNullException">
+ <paramref name="path"/> is a null reference (Nothing in VB)
+ </exception>
+ <exception cref="T:System.ArgumentNullException">
+ <paramref name="filter"/> is a null reference (Nothing in VB)
+ </exception>
+</member>
+<member name="T:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerable">
+ <summary>
+ Provides the implementation of the 
+ <see cref="T:System.Collections.Generic.IEnumerable`1"/> interface
+ </summary>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerable.#ctor(System.String,System.String,System.IO.SearchOption)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerable"/> class.
+ </summary>
+ <param name="path">The path to search.</param>
+ <param name="filter">The search string to match against files in the path.</param>
+ <param name="searchOption">
+ One of the SearchOption values that specifies whether the search 
+ operation should include all subdirectories or only the current directory.
+ </param>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerable.GetEnumerator">
+ <summary>
+ Returns an enumerator that iterates through the collection.
+ </summary>
+ <returns>
+ A <see cref="T:System.Collections.Generic.IEnumerator`1"/> that can 
+ be used to iterate through the collection.
+ </returns>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerable._GetEnumerator">
+ <summary>
+ Returns an enumerator that iterates through a collection.
+ </summary>
+ <returns>
+ An <see cref="T:System.Collections.IEnumerator"/> object that can be 
+ used to iterate through the collection.
+ </returns>
+</member>
+<member name="T:DIALTPLib.CodeProject.FastDirectoryEnumerator.SafeFindHandle">
+ <summary>
+ Wraps a FindFirstFile handle.
+ </summary>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.SafeFindHandle.#ctor">
+ <summary>
+ Initializes a new instance of the <see cref="T:DIALTPLib.CodeProject.FastDirectoryEnumerator.SafeFindHandle"/> class.
+ </summary>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.SafeFindHandle.ReleaseHandle">
+ <summary>
+ When overridden in a derived class, executes the code required to free the handle.
+ </summary>
+ <returns>
+ true if the handle is released successfully; otherwise, in the 
+ event of a catastrophic failure, false. In this case, it 
+ generates a releaseHandleFailed MDA Managed Debugging Assistant.
+ </returns>
+</member>
+<member name="T:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerator">
+ <summary>
+ Provides the implementation of the 
+ <see cref="T:System.Collections.Generic.IEnumerator`1"/> interface
+ </summary>
+</member>
+<member name="T:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerator.SearchContext">
+ <summary>
+ Hold context information about where we current are in the directory search.
+ </summary>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerator.#ctor(System.String,System.String,System.IO.SearchOption)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerator"/> class.
+ </summary>
+ <param name="path">The path to search.</param>
+ <param name="filter">The search string to match against files in the path.</param>
+ <param name="searchOption">
+ One of the SearchOption values that specifies whether the search 
+ operation should include all subdirectories or only the current directory.
+ </param>
+</member>
+<member name="P:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerator.Current">
+ <summary>
+ Gets the element in the collection at the current position of the enumerator.
+ </summary>
+ <value></value>
+ <returns>
+ The element in the collection at the current position of the enumerator.
+ </returns>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerator.Dispose">
+ <summary>
+ Performs application-defined tasks associated with freeing, releasing, 
+ or resetting unmanaged resources.
+ </summary>
+</member>
+<member name="P:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerator._Current">
+ <summary>
+ Gets the element in the collection at the current position of the enumerator.
+ </summary>
+ <value></value>
+ <returns>
+ The element in the collection at the current position of the enumerator.
+ </returns>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerator.MoveNext">
+ <summary>
+ Advances the enumerator to the next element of the collection.
+ </summary>
+ <returns>
+ true if the enumerator was successfully advanced to the next element; 
+ false if the enumerator has passed the end of the collection.
+ </returns>
+ <exception cref="T:System.InvalidOperationException">
+ The collection was modified after the enumerator was created.
+ </exception>
+</member>
+<member name="M:DIALTPLib.CodeProject.FastDirectoryEnumerator.FileEnumerator.Reset">
+ <summary>
+ Sets the enumerator to its initial position, which is before the first element in the collection.
+ </summary>
+ <exception cref="T:System.InvalidOperationException">
+ The collection was modified after the enumerator was created.
+ </exception>
+</member>
+</members>
+</doc>

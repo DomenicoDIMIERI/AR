@@ -1,0 +1,11 @@
+C:\Work\Programmazione\Projects\DialTPControls\bin\Debug\DialTPControls.dll.config
+C:\Work\Programmazione\Projects\DialTPControls\bin\Debug\DialTPControls.dll
+C:\Work\Programmazione\Projects\DialTPControls\bin\Debug\DialTPControls.pdb
+C:\Work\Programmazione\Projects\DialTPControls\bin\Debug\DialTPControls.xml
+C:\Work\Programmazione\Projects\DialTPControls\bin\Debug\System.Net.Http.dll
+C:\Work\Programmazione\Projects\DialTPControls\bin\Debug\System.Net.Http.xml
+C:\Work\Programmazione\Projects\DialTPControls\obj\Debug\DialTP.Resources.resources
+C:\Work\Programmazione\Projects\DialTPControls\obj\Debug\DialTPControls.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\DialTPControls\obj\Debug\DialTPControls.dll
+C:\Work\Programmazione\Projects\DialTPControls\obj\Debug\DialTPControls.xml
+C:\Work\Programmazione\Projects\DialTPControls\obj\Debug\DialTPControls.pdb

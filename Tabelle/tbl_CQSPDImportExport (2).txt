@@ -1,0 +1,46 @@
+create table [tbl_CQSPDImportExport]
+(
+[ID] Counter Primary Key,
+[Esportazione] bit,
+DataEsportazione Date,
+IDEsportataDa Int,
+NomeEsportataDa Text(255),
+DataPresaInCarico Date,
+IDPresaInCaricoDa Int,
+NomePresaInCaricoDa Text(255),
+IDPersonaEsportata Int,
+NomePersonaEsportata Text(255),
+IDPersonaImportata Int,
+NomePersonaImportata Text(255),
+IDFinestraLavorazioneEsportata Int,
+IDFinestraLavorazioneImportata Int,
+Flags Int,
+StatoRemoto Int,
+DettaglioStatoRemoto Text(255),
+SourceID Int,
+SharedKey Text(255),
+DataUltimoAggiornamento Date,
+Attributi Memo,
+AltriPrestiti Memo,
+RichiesteFinanziamento Memo,
+Documenti Memo,
+Corrispondenze Memo,
+IDPuntoOperativo Int,
+NomePuntoOperativo Text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+create index [idxCQSPDImportExportEsp] on [tbl_CQSPDImportExport] ([Esportazione], [DataEsportazione])
+create index [idxCQSPDImportExportIDPIMP] on [tbl_CQSPDImportExport] ([IDPersonaEsportata])
+create index [idxCQSPDImportExportIDPEXP] on [tbl_CQSPDImportExport] ([IDPersonaImportata])
+create index [idxCQSPDImportExportStRem] on [tbl_CQSPDImportExport] ([StatoRemoto])
+create index [idxCQSPDImportExportIDWLI] on [tbl_CQSPDImportExport] ([IDFinestraLavorazioneEsportata])
+create index [idxCQSPDImportExportIDWLE] on [tbl_CQSPDImportExport] ([IDFinestraLavorazioneImportata])
+create index [idxCQSPDImportExportIDPO] on [tbl_CQSPDImportExport] ([IDPuntoOperativo])
+create index [idxCQSPDImportExportIDCD] on [tbl_CQSPDImportExport] ([IDCreatoDa])
+
+alter table tbl_CQSPDImportExport add column Consulenze Memo, Pratiche Memo

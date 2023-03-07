@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="FTPServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ftp://areariservata.finsea.net</Value>
+    </Setting>
+    <Setting Name="FTPPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">21</Value>
+    </Setting>
+    <Setting Name="FTPDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/areariservata.finsea.net_Backup_Giornaliero</Value>
+    </Setting>
+    <Setting Name="FTPUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1281780@aruba.it</Value>
+    </Setting>
+    <Setting Name="FTPPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3M8Pke1WTJYr</Value>
+    </Setting>
+    <Setting Name="BKFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\</Value>
+    </Setting>
+    <Setting Name="BKAuto" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

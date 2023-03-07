@@ -1,0 +1,11 @@
+create table [tbl_SupportTicketsCat] (
+[ID] COUNTER PRIMARY KEY,
+[Categoria] Text(255),
+[Sottocategoria] Text(255),
+[NotifyUsers] Memo,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)

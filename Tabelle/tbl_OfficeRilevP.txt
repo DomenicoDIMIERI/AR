@@ -1,0 +1,22 @@
+create table [tbl_OfficeRilevP]
+(
+[ID] Counter Primary Key,
+[Nome] Text(255),
+[Tipo] Text(255),
+[Modello] Text(255),
+[Parametri] Memo,
+[IDPuntoOperativo] Int,
+[NomePuntoOperativo] Text(255),
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+create index idxOfficeRilevPNome on [tbl_OfficeRilevP] ([Nome])
+create index idxOfficeRilevPTipo on [tbl_OfficeRilevP] ([Tipo])
+create index idxOfficeRilevPMod on [tbl_OfficeRilevP] ([Modello])
+create index idxOfficeRilevPCrtD on [tbl_OfficeRilevP] ([CreatoDa])
+create index idxOfficeRilevPStato on [tbl_OfficeRilevP] ([Stato])
+create index idxOfficeRilevPIDPO on [tbl_OfficeRilevP] ([IDPuntoOperativo])

@@ -1,0 +1,18 @@
+create table tbl_OfficeStickyNotes
+(
+ID Counter Primary Key,
+[Text] Memo,
+Flags Int,
+Attributes Memo,
+IDPuntoOperativo Int,
+NomePuntoOperativo Text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+create index idxOfficeStickyNotesIDPO on  tbl_OfficeStickyNotes (IDPuntoOperativo)
+create index idxOfficeStickyNotesCTDA on  tbl_OfficeStickyNotes (CreatoDa)
+create index idxOfficeStickyNotesSTAT on  tbl_OfficeStickyNotes (Stato)

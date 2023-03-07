@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B3D4A72-E62E-47DF-9CEC-1EE0D7397BE1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DMDPDF.samples.My.MyApplication</StartupObject>
+    <RootNamespace>DMDPDF.samples</RootNamespace>
+    <AssemblyName>DMDPDF.samples</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDPDF.samples.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDPDF.samples.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="fonts\GenR102.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="fonts\lazyDog.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="fonts\MgOpenCanonicaRegular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="fonts\Ruritania-Outline.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="fonts\TravelingTypewriter.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\alice.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\eastman.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\form12a_filled.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\fundev.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\healyschussman.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\invlist.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\millenniumDevGoals.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\nattun.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\universalDeclarationOfHumanRights_arabic.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\universalDeclarationOfHumanRights_chinese.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\universalDeclarationOfHumanRights_french.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\universalDeclarationOfHumanRights_greek.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\universalDeclarationOfHumanRights_russian.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="pdf\whyOpenSourceMakeSense.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMDPDF\DMDPDF.vbproj">
+      <Project>{3ea769e3-041e-443e-b8c5-2e256c515754}</Project>
+      <Name>DMDPDF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="samples\cli\AcroFormCreationSample.vb" />
+    <Content Include="samples\cli\AcroFormCreationSample.cs" />
+    <Compile Include="samples\cli\AcroFormFillingSample.vb" />
+    <Content Include="samples\cli\AcroFormFillingSample.cs" />
+    <Compile Include="samples\cli\AcroFormParsingSample.vb" />
+    <Content Include="samples\cli\AcroFormParsingSample.cs" />
+    <Compile Include="samples\cli\ActionSample.vb" />
+    <Content Include="samples\cli\ActionSample.cs" />
+    <Compile Include="samples\cli\AdvancedTextExtractionSample.vb" />
+    <Content Include="samples\cli\AdvancedTextExtractionSample.cs" />
+    <Compile Include="samples\cli\AnnotationSample.vb" />
+    <Content Include="samples\cli\AnnotationSample.cs" />
+    <Compile Include="samples\cli\AttachmentExtractionSample.vb" />
+    <Content Include="samples\cli\AttachmentExtractionSample.cs" />
+    <Compile Include="samples\cli\BarcodeSample.vb" />
+    <Content Include="samples\cli\BarcodeSample.cs" />
+    <Compile Include="samples\cli\BasicTextExtractionSample.vb" />
+    <Content Include="samples\cli\BasicTextExtractionSample.cs" />
+    <Compile Include="samples\cli\BookmarksParsingSample.vb" />
+    <Content Include="samples\cli\BookmarksParsingSample.cs" />
+    <Compile Include="samples\cli\ComplexTypesettingSample.vb" />
+    <Content Include="samples\cli\ComplexTypesettingSample.cs" />
+    <Compile Include="samples\cli\ContentScanningSample.vb" />
+    <Content Include="samples\cli\ContentScanningSample.cs" />
+    <Content Include="samples\cli\GraphicsSample.cs" />
+    <Content Include="samples\cli\HelloWorldSample.cs" />
+    <Content Include="samples\cli\ImageExtractionSample.cs" />
+    <Content Include="samples\cli\ImageSubstitutionSample.cs" />
+    <Content Include="samples\cli\InlineObjectSample.cs" />
+    <Content Include="samples\cli\LayerCreationSample.cs" />
+    <Content Include="samples\cli\LayerParsingSample.cs" />
+    <Content Include="samples\cli\LinkCreationSample.cs" />
+    <Content Include="samples\cli\LinkParsingSample.cs" />
+    <Content Include="samples\cli\NamedDestinationSample.cs" />
+    <Content Include="samples\cli\namespace.cs" />
+    <Content Include="samples\cli\NamesParsingSample.cs" />
+    <Content Include="samples\cli\PageCombinationSample.cs" />
+    <Content Include="samples\cli\PageCoordinatesSample.cs" />
+    <Content Include="samples\cli\PageFormatSample.cs" />
+    <Content Include="samples\cli\PageLabelSample.cs" />
+    <Content Include="samples\cli\PageManagementSample.cs" />
+    <Content Include="samples\cli\PageNumberingSample.cs" />
+    <Content Include="samples\cli\PageToFormSample.cs" />
+    <Content Include="samples\cli\PageTransitionSample.cs" />
+    <Content Include="samples\cli\ParsingSample.cs" />
+    <Content Include="samples\cli\PrintingSample.cs" />
+    <Content Include="samples\cli\RenderingSample.cs" />
+    <Compile Include="samples\cli\Sample.vb" />
+    <Content Include="samples\cli\Sample.cs" />
+    <Content Include="samples\cli\SampleLoader.cs" />
+    <Content Include="samples\cli\StandardFontSample.cs" />
+    <Content Include="samples\cli\StreamExternalizationSample.cs" />
+    <Content Include="samples\cli\TextFrameSample.cs" />
+    <Content Include="samples\cli\TextHighlightSample.cs" />
+    <Content Include="samples\cli\TextInfoExtractionSample.cs" />
+    <Content Include="samples\cli\TypesettingSample.cs" />
+    <Content Include="samples\cli\UnicodeSample.cs" />
+    <Compile Include="samples\cli\Utils.vb" />
+    <Content Include="samples\cli\Utils.cs" />
+    <Content Include="samples\cli\VideoEmbeddingSample.cs" />
+    <Content Include="samples\cli\WatermarkSample.cs" />
+    <Content Include="images\alice_white_rabbit.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Clown.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\gnu.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\mountains.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="input\" />
+    <Folder Include="video\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

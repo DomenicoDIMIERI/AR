@@ -1,0 +1,8 @@
+{
+  "name": "DMDBrowserMessaging",
+  "description": "Connette il browser alle applicazioni PC",
+  "path": "C:\\Work\\Programmazione\\Projects\\DMDBrowserMessaging\\dmdbrowsermessaging.exe",
+  "type": "stdio",
+  "allowed_origins": [ "chrome-extension://dfedkhjaononlbggkkpcnkjolgelkkpo" ]
+
+}

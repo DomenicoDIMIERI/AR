@@ -1,0 +1,3 @@
+alter table tbl_CQSPDConvenzioni add column IDAmministrazione int, NomeAmministrazione Text(255), TipoRapporto Text(32)
+
+create index idxCQSPDConvAmm on tbl_CQSPDConvenzioni (IDAmministrazione, TipoRapporto, NomeAmministrazione)

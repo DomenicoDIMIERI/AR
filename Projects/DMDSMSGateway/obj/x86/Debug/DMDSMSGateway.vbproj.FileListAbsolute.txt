@@ -1,0 +1,119 @@
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\templates\maildb.mdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDSMSGateway.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDSMSGateway.pdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDSMSGateway.xml
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDNokiaUtils.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebCtrls.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebLibs.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCRM.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCQSPD.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDOffice.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDPDF.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDBaseCore.pdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDBaseCore.xml
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDNokiaUtils.pdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebCtrls.pdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebCtrls.xml
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebLibs.pdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebLibs.xml
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCRM.pdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCRM.xml
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCQSPD.pdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCQSPD.xml
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDOffice.pdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDOffice.xml
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDPDF.pdb
+C:\Work\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDPDF.xml
+C:\Work\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbproj.CopyComplete
+C:\Work\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.dll
+C:\Work\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.xml
+C:\Work\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\templates\maildb.mdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDSMSGateway.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDSMSGateway.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDSMSGateway.xml
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDNokiaUtils.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebCtrls.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebLibs.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\Ionic.Zip.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCRM.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCQSPD.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDOffice.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDPDF.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDBaseCore.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDBaseCore.xml
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDNokiaUtils.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.xml
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebCtrls.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebCtrls.xml
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebLibs.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebLibs.xml
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCRM.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCRM.xml
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCQSPD.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDCQSPD.xml
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDOffice.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDOffice.xml
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDPDF.pdb
+C:\Works\Programmazione\Projects\DMDSMSGateway\bin\x86\Debug\DMDPDF.xml
+C:\Works\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbprojResolveAssemblyReference.cache
+C:\Works\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMD.Resources.resources
+C:\Works\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbproj.GenerateResource.Cache
+C:\Works\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbproj.CoreCompileInputs.cache
+C:\Works\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.dll
+C:\Works\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.xml
+C:\Works\Programmazione\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\templates\maildb.mdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDSMSGateway.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDSMSGateway.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDSMSGateway.xml
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDNokiaUtils.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebCtrls.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDCRM.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDCQSPD.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDOffice.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDPDF.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDNokiaUtils.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebCtrls.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebCtrls.xml
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDWebLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDCRM.xml
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDCQSPD.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDCQSPD.xml
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDOffice.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDOffice.xml
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDPDF.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\bin\x86\Debug\DMDPDF.xml
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.dll
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.xml
+C:\Works\My Web Sites\AR1\Projects\DMDSMSGateway\obj\x86\Debug\DMDSMSGateway.pdb

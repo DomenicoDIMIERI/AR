@@ -1,0 +1,1769 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DMDCRM
+</name>
+</assembly>
+<members>
+<member name="T:DMD.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.ListaCC">
+ <summary>
+ Restituisce una lista di destinatari in Copia Carbone
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.ListaCCN">
+ <summary>
+ Restituisce una lista di destinatari in Copia Carbone Nascosta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.FileDaUtilizzare">
+ <summary>
+ Restituisce o imposta il file da inviare (se vuoto verrà utilizzato il campo Testo)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.UsaSoloIndirizziVerificati">
+ <summary>
+ Se vero istruisce l'handler ad utilizzare solo gli indirizzi per cui è stato specificato 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.UsaUnSoloContattoPerPersona">
+ <summary>
+ 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.Programmazione">
+ <summary>
+ Restituisce la programmazione dell'oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.Testo">
+ <summary>
+ Restituisce o imposta il testo (in formato HTML se supportato dall'handler) della campagna. Se il campo FileDaUtilizzare il campo Testo viene ignorato in favore del contenuto del file
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.UsaListaDinamica">
+ <summary>
+ Se vero indica al sistema di utilizzare i parametri della lista per effettuare una ricerca all'interno del CRM (nel momento in cui viene eseguita la campagna). 
+ Se falso i parametri della lista verrano utilizzati come elenco di indirizzi separati dal carattere ;
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.ParametriLista">
+ <summary>
+ Restituisce o imposta una stringa che rappresenta i parametri della lista
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.IndirizzoMittente">
+ <summary>
+ Restituisce o imposta l'indirizzo del mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.NomeMittente">
+ <summary>
+ Restituisce o imposta il nome del mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.TipoCampagna">
+ <summary>
+ Restituisce o imposta il tipo della campagna
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.RichiediConfermaDiLettura">
+ <summary>
+ Restituisce o imposta un valore boolean che indica se è richiesta la conferma di lettura
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.RichiediConfermaDiRecapito">
+ <summary>
+ Restituisce o imposta un valore che indica se è richiesta la conferma di recapito
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.UltimaEsecuzione">
+ <summary>
+ Restituisce la data dell'ultima esecuzione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.ProssimaEsecuzione">
+ <summary>
+ Restituisce la data della prossima esecuzione 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.Attiva">
+ <summary>
+ Restituisce o imposta un valore boolean che indica se la campagna è attiva o meno
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CCampagnaPubblicitaria.StatoCampagna">
+ <summary>
+ Restituisce o imposta lo stato di programmazione della campagna
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.ADV.ConfigurationChanged">
+ <summary>
+ Evento generato quando viene modificata la configurazione
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.Configuration">
+ <summary>
+ Oggetto che contiene alcuni parametri relativi alla configurazione del modulo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.ADV.ADVBannedAddressCollection.IsBanned(System.String)">
+ <summary>
+ Restitusice vero se l'indirizzo o il numero è "bannato" cioè se il test con una delle espressioni contenute in questo elenco è vero
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.ADV.HandlerTipoCampagna">
+ <summary>
+ Handler per le spedizioni
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.ADV.HandlerTipoCampagna.UpdateStatus(DMD.ADV.CRisultatoCampagna)">
+ <summary>
+ Aggiorna lo stato del messaggio inviato
+ </summary>
+ <param name="res"></param>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.HandlerTipoCampagnaEMail.Instance">
+ <summary>
+ Restituisce l'istanza predefinita dell'handler
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.HandlerTipoCampagnaFax.Instance">
+ <summary>
+ Restituisce l'istanza predefinita dell'handler
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.ADV.HandlerTipoCampagnaSMS">
+ <summary>
+ Gestore generico delle campagne SMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.HandlerTipoCampagnaSMS.Instance">
+ <summary>
+ Restituisce l'istanza predefinita dell'handler
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.ADV.StatoMessaggioCampagna">
+ <summary>
+ Valori che indicano lo stato di un messaggio inviato in una campagna pubblicitaria
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.ADV.StatoMessaggioCampagna.InPreparazione">
+ <summary>
+ Il messaggio non è ancora pronto per essere spedito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.ADV.StatoMessaggioCampagna.ProntoPerLaSpedizione">
+ <summary>
+ Il messaggio è pronto per essere spedito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.ADV.StatoMessaggioCampagna.Inviato">
+ <summary>
+ Il messaggio è stato inviato al destinatario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.ADV.StatoMessaggioCampagna.RifiutatoDalVettore">
+ <summary>
+ Il messaggio è stato rifiutato dal vettore di spedizione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.ADV.StatoMessaggioCampagna.RifiutatoDalDestinatario">
+ <summary>
+ Il messaggio è stato rifiutato dal destinatario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.ADV.StatoMessaggioCampagna.Letto">
+ <summary>
+ Il messaggio è stato confermato 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.ADV.CRisultatoCampagna.MessageID">
+ <summary>
+ Restituisce o imposta una stringa utilizzabile dal sistema di invio/ricezione per identificare univocamente il messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.ADV.CRisultatoCampagna.ParseTemplate(System.String)">
+ <summary>
+ Restituisce il testo generato dal modello
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.ADV.CRisultatoCampagna.Update">
+ <summary>
+ Aggiorna lo stato del messaggio
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CCampagneClass.Check">
+ <summary>
+ Effettuia il controllo e l'invio sincrono delle campagne
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Internals.CChatRoomsClass">
+ <summary>
+ Stanze
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CMessagesClass.SendMessageToUser(System.String,DMD.Sistema.CUser)">
+ <summary>
+ Invia un messaggio al destinatario specificato
+ </summary>
+ <param name="target">[in] Utente destinatario</param>
+ <param name="message">[in] Corpo del messaggio da inviare</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CMessagesClass.SendMessageToRoom(System.String,DMD.Messenger.CChatRoom)">
+ <summary>
+ Invia un messaggio a tutti i membri attivi in una stanza
+ </summary>
+ <param name="room">[in] Stanza</param>
+ <param name="message">[in] Corpo del messaggio da inviare</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CMessagesClass.SendMessagToUsere(System.String,System.Int32)">
+ <summary>
+ Invia un messaggio al destinatario specificato
+ </summary>
+ <param name="targetID">[in] Utente destinatario</param>
+ <param name="message">[in] Corpo del messaggio da inviare</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CMessagesClass.LoadPrevUserMessages(DMD.Sistema.CUser,DMD.Sistema.CUser,System.Int32,System.Int32)">
+ <summary>
+ Restituisce l'elenco dei messaggi inviati all'utente 
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CMessagesClass.LoadPrevRoomMessages(DMD.Sistema.CUser,DMD.Messenger.CChatRoom,System.Int32,System.Int32)">
+ <summary>
+ Restituisce l'elenco dei messaggi inviati al gruppo
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CMessagesClass.LoadUserMessages(DMD.Sistema.CUser,DMD.Sistema.CUser,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+ <summary>
+ Restituisce l'elenco dei messaggi inviati all'utente 
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CMessagesClass.LoadRoomMessages(DMD.Sistema.CUser,DMD.Messenger.CChatRoom,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+ <summary>
+ Restituisce l'elenco dei messaggi inviati al gruppo
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CMessagesClass.GetUsersList">
+ <summary>
+ Restituisce un oggetto CCollection di CChatUser contenente tutti gli utenti abilitati a ricevere messaggi
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CTemplatesClass.GetItemByName(System.String)">
+ <summary>
+ Restituisce il modello in base al nome
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Internals.CCRMClass.NuovoContatto">
+ <summary>
+ Evento generato quando viene memorizzato un nuovo contatto (telefonata effettuata o ricevuta)
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Internals.CCRMClass.ContattoEliminato">
+ <summary>
+ Evento generato quando un contatto viene eliminato
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Internals.CCRMClass.ContattoModificato">
+ <summary>
+ Evento generato quando un contatto viene modificato
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Internals.CCRMClass.DatabaseChanged">
+ <summary>
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Internals.CCRMClass.ConfigurationChanged">
+ <summary>
+ Evento generato quando viene modificata la configurazione del CRM
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Internals.CCRMClass.FaxReceived">
+ <summary>
+ Evento generato quando viene ricevuto un Fax
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Internals.CCRMClass.FaxSent">
+ <summary>
+ Evento generato quando un fax viene inviato correttamente
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.Internals.CCRMClass.FaxFailed">
+ <summary>
+ Evento generato quando l'invio di un fax fallisce
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CCRMClass.SetUltimoContatto(DMD.Anagrafica.CPersona,DMD.CustomerCalls.CContattoUtente)">
+ <summary>
+ Aggiorna la tabella delle statistiche impostando il contatto come ultimo contatto
+ </summary>
+ <param name="persona"></param>
+ <param name="telefonata"></param>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CCRMClass.Database">
+ <summary>
+ Restituisce o imposta il database principale 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CCRMClass.StatsDB">
+ <summary>
+ Restituisce o imposta il database in cui vengono memorizzate le statistiche sul CRM.
+ Per impostazione predefinita viene utilizzato il valore restituito dalla proprietà TelDB della stessa classe
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CCRMClass.TelDB">
+ <summary>
+ Restituisce o imposta il database in cui vengono memorizzate telefonate.
+ Per impostazione predefinita viene utilizzato il vaore restituito dalla proprietà Database della stessa classe
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Internals.CCRMClass.Config">
+ <summary>
+ Restituisce la configurazione del CRM
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CCRMClass.GetHandledTypes">
+ <summary>
+ Restituisce la collezione dei tipi di oggetto supportati da GetStoricoContatti.
+ Le coppie restituite sono del indicano la classe ed il nome "amichevole" della classe
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CCRMClass.AggregatoContatti(DMD.CustomerCalls.CCustomerCallsCursor,System.String)">
+ <summary>
+ Restituisce la collezione dei contatti fatti dall'operatore nel periodo indicato suddivisi per persona e raggruppati per tipoPeriodo
+ </summary>
+ <param name="tipoPeriodo"></param>
+ <param name="cursor"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.Internals.CCRMClass.RicalcolaStatistiche(System.DateTime)">
+ <summary>
+ Ricalcola le statistiche CRM per la data specificata
+ </summary>
+ <param name="data"></param>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CAzioneChiama">
+ <summary>
+ Propone un nuovo contatto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CAzioneCreaPratica">
+ <summary>
+ Propone la creazione di una pratica
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CAzioneProposta">
+ <summary>
+ Rappresenta un'azione di una pagina o di un controllo all'interno di una pagina web
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CAzioneProposta.Descrizione">
+ <summary>
+ Restituisce o imposta la descrizione dell'azione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.CAzioneProposta.GetCommand">
+ <summary>
+ Restituisce il comando 
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.CAzioneProposta.IsScript">
+ <summary>
+ Restitusice vero se l'azione è uno script
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CAzioneRicontatto">
+ <summary>
+ Propone un ricontatto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.CustomerCalls.CCallManagersClass.IncomingCall">
+ <summary>
+ Evento generato quando un CallManager riceve una chiamata in ingresso
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.CCallManagersClass.Register(System.String,System.Object)">
+ <summary>
+ Registra il call manager
+ </summary>
+ <param name="cm"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.CCallManagersClass.UnRegister(System.String)">
+ <summary>
+ Cancella il call manager
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.CCallManagersClass.GetCallManagers">
+ <summary>
+ Restituisce la collezione dei CallManagers registrati
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.CCallManagersClass.NotifyIncomingCall(DMD.CustomerCalls.ICallManager,DMD.CustomerCalls.IncomingCallEventArgs)">
+ <summary>
+ Metodo richiamato da un CallManager per notificare al sistema una chiamata in ingresso
+ </summary>
+ <param name="cm"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.ICallManager.Start">
+ <summary>
+ Inizializza il call manager
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.ICallManager.Stop">
+ <summary>
+ Ferma il call manager
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Costo">
+ <summary>
+ Restituisce o imposta il costo totale delle telefonata, sms ecc..
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.AttachmentID">
+ <summary>
+ Restituisce o imposta l'ID dell'allegato 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Attachment">
+ <summary>
+ Restituisce o imposta l'allegato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.IDAccoltoDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha ricevuto per la prima volta il contatto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.AccoltoDa">
+ <summary>
+ Restituisce o imposta l'utente che ha ricevuto per la prima volta il contatto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.NomeAccoltoDa">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha ricevuto per la prima volta il contatto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.DataRicezione">
+ <summary>
+ Restituiscec o imposta la data di ricezione del cliente (senza l'attesa)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.StatoConversazione">
+ <summary>
+ Restituisce o imposta lo stato della conversazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.IDAzienda">
+ <summary>
+ Restituisce o imposta l'ID dell'azienda che ha registrato la pratica
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Azienda">
+ <summary>
+ Restituisce o imposta l'azienda che ha registrato la pratica
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.NumeroOIndirizzo">
+ <summary>
+ Restituisce o imposta l'indirizzo utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.NomeIndirizzo">
+ <summary>
+ Restituisce o imposta l'etichetta dell'indirizzo utilizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Options">
+ <summary>
+ Restituisce una collezione di parametri aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.MessageID">
+ <summary>
+ Restituisce o imposta l'identificativo del messaggio in un sistema esterno
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Durata">
+ <summary>
+ Restituisce o imposta la durata (in secondi) della comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Attesa">
+ <summary>
+ Restituisce o imposta l'attesa (tempo prima della risposta in caso di una telefonata o tempo in sala di attesa per una visita)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.IDPersona">
+ <summary>
+ Restituisce o imposta l'ID della persona con cui è avvenuta la comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Persona">
+ <summary>
+ 'Restituisce o imposta la persona con cui è avvenuta la comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.NomePersona">
+ <summary>
+ Restituisce o imposta il nome della persona con cui è avvenuta la comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.IDPerContoDi">
+ <summary>
+ Restituisce o imposta l'ID della persona per cui è stata fatta la chiamata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.PerContoDi">
+ <summary>
+ 'Restituisce o imposta la persona per cui è stata fatta la chiamata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.NomePerContoDi">
+ <summary>
+ Restituisce o imposta il nome della persona per cui è stata fatta la chiamata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.IDContesto">
+ <summary>
+ Restituisce o i mposta l'ID del contesto in cui è avvenuta la comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Contesto">
+ <summary>
+ Restituisce o imposta il nome del contesto in cui è avvenuta la comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Ricevuta">
+ <summary>
+ Restituisce vero se la comunicazione è in ingresso
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Scopo">
+ <summary>
+ Restituisce o imposta una stringa che indica lo scopo della comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Data">
+ <summary>
+ Restituisce o imposta la data della comunicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha seguito la conversazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha seguito la conversazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Operatore">
+ <summary>
+ Restituisce o imposta l'operatore che ha seguito la conversazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Note">
+ <summary>
+ Restituisce o imposta il testo della conversazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.Esito">
+ <summary>
+ Restituisce o imposta l'esito della conversazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.DettaglioEsito">
+ <summary>
+ Restituisce o imposta una stringa che specifica l'esito della conversazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CContattoUtente.AzioniProposte">
+ <summary>
+ Restituisce un oggetto CCollection di CAzioneProposta contenente le azioni proposte
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CCustomerCallsCursor">
+ <summary>
+ Cursore sulla tabella delle telefonate
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.ContattoEventArgs">
+ <summary>
+ Evento relativo ad un contatto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CAppunto">
+ <summary>
+ Rappresenta una visita effettuata o ricevuta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CAppuntiCursor">
+ <summary>
+ Cursore sulla tabella degli appunti
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CCRMConfig">
+ <summary>
+ Classe che rappresenta la configurazione del CRM
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CCRMConfig.SegnalaNonRisponde">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve segnalare le telefonate senza risposta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CCRMConfig.SegnalaRicontattiTroppoLontani">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve segnalare la programmazioni du un ricontatto oltre il limite di MinutiRicontatto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CCRMConfig.InviaStatisticheGiornaliere">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve segnalare la programmazioni du un ricontatto oltre il limite di MinutiRicontatto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CCRMConfig.FromAddress">
+ <summary>
+ Restituisce o imposta l'indirizzo e-mail utilizzato per inviare le statistiche e gli alert del CRM
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CCRMConfig.FromDisplayName">
+ <summary>
+ Restituisce o imposta il nome visualizzato come mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CCRMConfig.TargetAddress">
+ <summary>
+ Restituisce o imposta l'indirizzo e-mail a cui inviare le segnalazioni e le statistiche
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CCRMConfig.Flags">
+ <summary>
+ Restituisce o imposta flags aggiuntivi
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CCRMConfig.MinutiRicontatto">
+ <summary>
+ Restituisce o imposta i minuti oltre i quali il nuovo ricontatto programmato deve essere segnalato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CSessioneCRM.dmdpage">
+ <summary>
+ Restituisce o imposta l'id della pagina in cui é stata attivata la sessione
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.CustomerCalls.CEMailMessage.From">
+ <summary>
+ Restituisce o imposta l'indirizzo del mittente
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.CustomerCalls.CEMailMessage.To">
+ <summary>
+ Restituisce o imposta l'elenco degli indirizzi dei destinatari separato dal ;
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.CustomerCalls.CEMailMessage.CC">
+ <summary>
+ Restituisce o imposta l'elenco degli indirizzi dei destinatari in copia carbone separato dal ;
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.CustomerCalls.CEMailMessage.CCn">
+ <summary>
+ Restituisce o imposta l'elenco degli indirizzi dei destinatari in copia carbone nascota separato dal ;
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.CustomerCalls.CEMailMessage.Subject">
+ <summary>
+ Restituisce o imposta l'oggetto della mail
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:DMD.CustomerCalls.CTelegramma">
+ <summary>
+ Rappresenta una visita effettuata o ricevuta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CTelegrammiCursor">
+ <summary>
+ Cursore sulla tabella dei telegrammi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CTemplate">
+ <summary>
+ Rappresenta un modello di messaggio o di sms che viene caricato automaticamente quando si seleziona uno scopo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CTemplate.Flags">
+ <summary>
+ Restituisce 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CTemplate.Nome">
+ <summary>
+ Restituisce o imposta il nome del template
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CTemplate.Testo">
+ <summary>
+ Restituisce o imposta il testo del modello
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CTemplate.Scopo">
+ <summary>
+ Restituisce o imposta lo scopo a cui si applica il modello
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CTemplate.TipoContatto">
+ <summary>
+ Restituisce o imposta il tipo contatto a cui si applica il modello
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CTemplatesCursor">
+ <summary>
+ Cursore sulla tabella delle visite
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.Messaggio">
+ <summary>
+ Restituisce o imposta un messaggio per l'operatore a cui viene trasferito il contatto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.IDOperatore">
+ <summary>
+ Restituisce o imposta l'ID dell'operatore che ha effettuato il trasferimento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.Operatore">
+ <summary>
+ Restituisce o imposta l'operatore che ha effettuato il trasferimento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.NomeOperatore">
+ <summary>
+ Restituisce o imposta il nome dell'operatore che ha effettuato il trasferimento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.IDTrasferitoA">
+ <summary>
+ Restituisce o imposta l'ID dell'utente a cui è stato trasferito il contatto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.TrasferitoA">
+ <summary>
+ Restituisce o imposta l'utente a cui è stato trasferito il contatto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.IDRispostoDa">
+ <summary>
+ Restituisce o imposta l'ID dell'utente a cui è stato trasferito il contatto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.RispostoDa">
+ <summary>
+ Restituisce o imposta l'utente a cui è stato trasferito il contatto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.DataTrasferimento">
+ <summary>
+ Restituisce o imposta la data e l'ora in cui il contatto è stato trasferito
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.DataRisposta">
+ <summary>
+ Restituisce o imposta la data 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.IDContatto">
+ <summary>
+ Restituisce o imposta l'ID della telefonata o della visita trasferita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.Contatto">
+ <summary>
+ Restituisce o imposta la telefonata o la visita trasferita
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.IDPuntoOperativo">
+ <summary>
+ Restituisce o imposta l'ID del punto operativo di partenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.PuntoOperativo">
+ <summary>
+ Restituisce o imposta il punto operativo di partenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.NomePuntoOperativo">
+ <summary>
+ Restituisce o imposta il nome del punto operativo di partenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.TrasferimentoContatto.IDPuntoOperativoDestinazione">
+ <summary>
+ Restituisce o imposta l'ID del punto operativo di destinazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.StoricoHandlerContatti">
+ <summary>
+ Aggiunge telefonate, visite, ecc
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.StoricoHandlerBase">
+ <summary>
+ Classe base per i gestori dello storico
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.StoricoHandlerBase.IsSupportedTipoOggetto(DMD.CustomerCalls.CRMFindFilter)">
+ <summary>
+ Funzione che determina se il tipo oggetto specificato nel filtro è supportato da questo gestore
+ </summary>
+ <param name="filter">[in] Filtro</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.IStoricoHandler">
+ <summary>
+ Interfaccia implementata dagli oggetti che si installano nel CRM per essere visualizzati nello storico del cliente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.IStoricoHandler.Aggiungi(DMD.CCollection{DMD.CustomerCalls.StoricoAction},DMD.CustomerCalls.CRMFindFilter)">
+ <summary>
+ Metodo richiamato per aggiungere gli elementi allo storico
+ </summary>
+ <param name="items"></param>
+ <param name="filter"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.IStoricoHandler.GetHandledTypes">
+ <summary>
+ Restituisce la collezione dei tipi gestiti.
+ Le chiavi della collezione indicano il nome della classe mentre il valore indica il nome visibile
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonWatchCond.Data">
+ <summary>
+ Restituisce o imposta la data in cui si è verificata la condizione di attenzione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonWatchCond.SourceType">
+ <summary>
+ Restituisce o imposta il tipo dell'oggetto che ha generato la condizione di attenzione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonWatchCond.SourceID">
+ <summary>
+ Restituisce o imposta l'ID dell'oggetto che ha generato la condizione di attenzione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonWatchCond.Source">
+ <summary>
+ Restituisce o imposta l'oggetto che ha generato la condizione di attenzione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonWatchCond.Descrizione">
+ <summary>
+ Restituisce o imposta una descrizione della condizione di attenzione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonWatchCond.Tag">
+ <summary>
+ Restitusice o imposta dei parametri per la condizione di attenzione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonWatchCond.Gravita">
+ <summary>
+ Restituisce o imposta la gravità (crescente) della condizione di attenzione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.CRMStats.Aggiorna">
+ <summary>
+ Ricalcola le statistiche sulla base dell'effettivo contenuto delle tabelle
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.CStatisticheOperazione.Numero">
+ <summary>
+ Numero delle chiamate
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.CStatisticheOperazione.MinLen">
+ <summary>
+ Durata minima (in secondi)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.CStatisticheOperazione.MaxLen">
+ <summary>
+ Durata massima (in secondi)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.CStatisticheOperazione.TotalLen">
+ <summary>
+ Somma delle durate (in secondi)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.CStatisticheOperazione.TotalWait">
+ <summary>
+ Somma delle attese (in secondi)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.CStatisticheOperazione.TotalCost">
+ <summary>
+ Costo totale
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.PersonFlags.PersonaFisica">
+ <summary>
+ Questo flag indica che la riga è relativa ad una persona fisica
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.PersonFlags.Ricontattabile">
+ <summary>
+ Questo flag indica che la riga è relativa ad una persona da ricontattabile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.PersonFlags.Deceduto">
+ <summary>
+ Questo flag indica che la persona è deceduta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.PersonFlags.ClienteInAquisizione">
+ <summary>
+ Flag che indica che si tratta di un cliente non ancora acquisito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.CustomerCalls.PersonFlags.ClienteAcquisito">
+ <summary>
+ Flag che indica che si tratta di un cliente acquisito (almeno una pratica)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.DettaglioEsito">
+ <summary>
+ Restituisce o imposta una stringa che riporta il valore omonimo impostato per l'oggetto CPersona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.DettaglioEsito1">
+ <summary>
+ Restituisce o imposta una stringa che riporta il valore omonimo impostato per l'oggetto CPersona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.IDUltimaVisita">
+ <summary>
+ Restituisce o imposta l'ID dell'ultima visita (effettuata o ricevuta) registrata per questa persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.DataUltimaVisita">
+ <summary>
+ Restituisce o imposta la data e l'ora dell'ultima visita ricevuta o effettuata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.CondizioniAttenzione">
+ <summary>
+ Restitusice la collezione delle condizioni di attenzione registrate per questa anagrafica
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.Gravita">
+ <summary>
+ Restituisce il valore della gravita maggiore tra le condizioni di attenzione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.DataUltimaOperazione">
+ <summary>
+ Restituisce o imposta la data dell'ultimo aggiornamento di stato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.DataAggiornamento">
+ <summary>
+ Restituisce o imposta la data dell'ultimo aggiornamento di questo record
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.IconURL">
+ <summary>
+ Restituisce o imposta il percorso dell'immagine associata alla persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.DataProssimoRicontatto">
+ <summary>
+ Restituisce o imposta la prossima data di ricontatto impostata per la persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.MotivoProssimoRicontatto">
+ <summary>
+ Restituisce o imposta il motivo del prossimo ricontattol
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.IDPuntoOperativo">
+ <summary>
+ Restituisce o imposta L'ID del punto operativo di appartenenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.PuntoOperativo">
+ <summary>
+ Restituisce o imposta il punto operativo di appartenenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.NomePuntoOperativo">
+ <summary>
+ Restituisce o imposta il nome del punto operativo di appartenenza
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.NomePersona">
+ <summary>
+ Restituisce o imposta il nome della persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.Flags">
+ <summary>
+ Restituisce o imposta l'elenco dei flags
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.isPersonaFisica">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la riga è relativa ad una persona fisica
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.isRicontattabile">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la persona è ricontattabile (non deceduto e non ok ricontatti)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.isDeceduto">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la persona è deceduta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.isClienteInAcquisizione">
+ <summary>
+ Restituisce o imposta un valore booleano che indica che il contatto rappresenta un cliente in fase di acquisizione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.isClienteAcquisito">
+ <summary>
+ Restituisce o imposta un valore booleano che indica che il cliente è acquisito
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.IDPersona">
+ <summary>
+ Restituisce o imposta l'ID della persona a cui fa riferimento questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.Persona">
+ <summary>
+ Restituisce o imposta la persona a cui fa riferimento questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.UltimoContattoNo">
+ <summary>
+ Restituisce o imposta l'ultimo contatto avuto con la persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.UltimoContattoNoID">
+ <summary>
+ Restituisce o imposta l'ID dell'ultimo contatto avuto con la persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.UltimoContattoOk">
+ <summary>
+ Restituisce o imposta l'ultimo contatto con esito positivo avuto con la persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.UltimoContattoOkID">
+ <summary>
+ Restituisce o imposta l'ID dell'ultimo contatto con esito positivo con la persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.DataUltimoContattoOk">
+ <summary>
+ Restitusice o imposta la data dell'ultimo contatto con esito positivo avuto con la persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.DataUltimoContatto">
+ <summary>
+ Restituisce o imposta la data dell'ultimo contatto avuto con la persona
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.ConteggioRisp">
+ <summary>
+ Restituisce o imposta il conteggio dei contatti con esito positivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.ConteggioNoRisp">
+ <summary>
+ Restituisce o imposta il conteggio dei contatti con esito non positivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CustomerCalls.CPersonStats.Note">
+ <summary>
+ Restituisce o imposta delle note aggiuntive
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CustomerCalls.CPersonStats.AggiornaPersona">
+ <summary>
+ Aggiorna le informazioni sulla base della persona 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.FaxDocument">
+ <summary>
+ Rappresenta un Fax inviato o ricevuto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.SMSMessage">
+ <summary>
+ Rappresenta un messaggio SMS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.StoricoHandlerADV">
+ <summary>
+ Aggiunge la campagne ADV
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CTelefonateCollection">
+ <summary>
+ Collezione di oggetti CTelefonateCollection
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CTelefonatePersona">
+ <summary>
+ rappresenta le telefonate fatte ad una persona
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CVisita">
+ <summary>
+ Rappresenta una visita effettuata o ricevuta
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CustomerCalls.CVisiteCursor">
+ <summary>
+ Cursore sulla tabella delle visite
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Messenger.CChatRoomUserCursor">
+ <summary>
+ Cursore sulla tabella degli utenti x stanza 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Messenger.CChatRoom">
+ <summary>
+ Rappresenta una stanza della chat
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Messenger.CChatRoomCursor">
+ <summary>
+ Cursore sulla tabella delle stanze
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.Messenger.CChatRoomUser">
+ <summary>
+ Rappresenta le statistiche utente per una singola stanza
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Messenger.Rooms">
+ <summary>
+ Accede alle stanze
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Messenger.CMessage.StatoMessaggio">
+ <summary>
+ Restituisce o imposta lo stato del messaggio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Messenger.CMessage.Time">
+ <summary>
+ Restituisce o imposta la data e l'ora di invio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Messenger.CMessage.SourceID">
+ <summary>
+ Restituisce o imposta l'ID dell'utente sorgente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Messenger.CMessage.Source">
+ <summary>
+ Restituisce o impostal 'utente sorgente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Messenger.CMessage.SourceName">
+ <summary>
+ Restituisce o imposta il nome dell'utente che ha inviato la richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Messenger.CMessage.SourceDescription">
+ <summary>
+ Restituisce o imposta il nome lungo dell'utente sorgente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Messenger.CMessage.Target">
+ <summary>
+ Restituisce o imposta l'utente destinatario
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.Messenger.CMessage.TargetID">
+ <summary>
+ Restituisce o imposta l'ID dell'utente destinazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

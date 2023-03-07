@@ -1,0 +1,20 @@
+create table [tbl_eMailAttachments]
+(
+[ID] Counter Primary Key,
+[MessageID] Int,
+[Name] Text(255),
+[FileName] text(255),
+[ContentId] Text(255),
+[ContentType] Text(255),
+[ContentDisposition] Text(255),
+[FileSize] Int,
+[FileCreationTime] Date,
+[FileLastEditTime] Date,
+[FileLastReadTime] Date,
+[Params] Memo,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)

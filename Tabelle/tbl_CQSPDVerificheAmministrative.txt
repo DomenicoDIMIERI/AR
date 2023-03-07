@@ -1,0 +1,28 @@
+create table tbl_CQSPDVerificheAmministrative
+(
+ID Counter Primary Key,
+IDOperatore int,
+NomeOperatore text(255),
+StatoVerifica int,
+EsitoVerifica int,
+DettaglioEsitoVerifica Memo,
+DataInizio Date,
+DataFine Date,
+Flags int,
+IDOggettoVerificato int,
+TipoOggettoVerificato text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int
+)
+
+
+create index idxCQSPDVerificheAmministrative on tbl_CQSPDVerificheAmministrative (IDOperatore)
+create index idxCQSPDVerificheAmministrativeSTVER on tbl_CQSPDVerificheAmministrative (StatoVerifica)
+create index idxCQSPDVerificheAmministrativeESVER on tbl_CQSPDVerificheAmministrative (EsitoVerifica)
+create index idxCQSPDVerificheAmministrativeDTIN on tbl_CQSPDVerificheAmministrative (DataInizio)
+create index idxCQSPDVerificheAmministrativeDTFN on tbl_CQSPDVerificheAmministrative (DataFine)
+create index idxCQSPDVerificheAmministrativeOBJV on tbl_CQSPDVerificheAmministrative (TipoOggettoVerificato, IDOggettoVerificato)
+create index idxCQSPDVerificheAmministrativeST on tbl_CQSPDVerificheAmministrative (Stato)

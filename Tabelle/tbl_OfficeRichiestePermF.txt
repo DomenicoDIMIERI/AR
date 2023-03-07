@@ -1,0 +1,42 @@
+create table tbl_OfficeRichiestePermF
+(
+[ID] Counter Primary Key,
+[DataRichiesta] Date,
+[DataInizio]Date,
+[DataFine] Date,
+[MotivoRichiesta] Text(255),
+[NoteRichiesta] Memo,
+[TipoRichiesta] Int,
+[IDRichiedente] Int,
+[NomeRichiedente] Text(255),
+[DataPresaInCarico] Date,
+[IDInCaricoA] Int,
+[NomeInCaricoA] Text(255),
+[EsitoRichiesta] Int,
+[DettaglioEsitoRichiesta] Memo,
+[Attachments] Memo,
+[Flags] Int,
+[Params] Memo,
+[IDPuntoOperativo] Int,
+[NomePuntoOperativo] Text(255),
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+create index idxOfficeRichPermFDTRIC on tbl_OfficeRichiestePermF ([DataRichiesta])
+create index idxOfficeRichPermFDTINI on tbl_OfficeRichiestePermF ([DataInizio])
+create index idxOfficeRichPermFDTEND on tbl_OfficeRichiestePermF ([DataFine])
+create index idxOfficeRichPermFMOTRI on tbl_OfficeRichiestePermF ([MotivoRichiesta])
+create index idxOfficeRichPermFTIPRI on tbl_OfficeRichiestePermF ([TipoRichiesta])
+create index idxOfficeRichPermFIDRIC on tbl_OfficeRichiestePermF ([IDRichiedente])
+create index idxOfficeRichPermFDTPRC on tbl_OfficeRichiestePermF ([DataPresaInCarico])
+create index idxOfficeRichPermFESTRC on tbl_OfficeRichiestePermF ([EsitoRichiesta])
+create index idxOfficeRichPermFFLAGS on tbl_OfficeRichiestePermF ([Flags])
+create index idxOfficeRichPermFPTOP on tbl_OfficeRichiestePermF ([IDPuntoOperativo])
+create index idxOfficeRichPermFCRTD on tbl_OfficeRichiestePermF ([CreatoDa])
+create index idxOfficeRichPermFSTATO on tbl_OfficeRichiestePermF ([Stato])
+
+alter table tbl_OfficeRichiestePermF add column NotaPrvSupervisore Memo

@@ -1,0 +1,14 @@
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\Debug\DMDNokiaUtils.dll
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\Debug\DMDNokiaUtils.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\Debug\DMDNokiaUtils.xml
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\Debug\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\bin\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\Debug\DMDNokiaUtils.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\Debug\DMDNokiaUtils.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\Debug\DMDNokiaUtils.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\Debug\DMDNokiaUtils.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\Debug\DMDNokiaUtils.dll
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\Debug\DMDNokiaUtils.xml
+C:\Works\My Web Sites\AR1\DMD\DMDNokiaUtils\obj\Debug\DMDNokiaUtils.pdb

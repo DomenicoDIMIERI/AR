@@ -1,0 +1,10 @@
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\bin\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\bin\Debug\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\bin\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\Debug\DMDBaseCore.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\Debug\DMDBaseCore.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\Debug\DMDBaseCore.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\DMD\DMDBaseCore\DMDBaseCore\obj\Debug\DMDBaseCore.pdb

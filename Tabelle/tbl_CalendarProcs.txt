@@ -1,0 +1,18 @@
+create table tbl_CalendarProcs (
+[ID] Counter Primary Key,
+[Tipo] Text(255),
+[Nome] Text(255),
+[Flags] Int,
+[Params] Memo,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+create index idcCalendarProcsTP on tbl_CalendarProcs (Tipo)
+create index idcCalendarProcsNM on tbl_CalendarProcs (Nome)
+create index idcCalendarProcsFL on tbl_CalendarProcs (Flags)
+
+alter table tbl_CalendarProcs  add column Priorita int

@@ -1,0 +1,28 @@
+C:\Work\Programmazione\Projects\DMDIDCardster\bin\Debug\DMDIDCardster.exe.config
+C:\Work\Programmazione\Projects\DMDIDCardster\bin\Debug\DMDIDCardster.exe
+C:\Work\Programmazione\Projects\DMDIDCardster\bin\Debug\DMDIDCardster.pdb
+C:\Work\Programmazione\Projects\DMDIDCardster\bin\Debug\DMDIDCardster.xml
+C:\Work\Programmazione\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.Form1.resources
+C:\Work\Programmazione\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.IDCardster.resources
+C:\Work\Programmazione\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.IDCardSterControl.resources
+C:\Work\Programmazione\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.Resources.resources
+C:\Work\Programmazione\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.exe
+C:\Work\Programmazione\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.xml
+C:\Work\Programmazione\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\bin\Debug\DMDIDCardster.exe.config
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\bin\Debug\DMDIDCardster.exe
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\bin\Debug\DMDIDCardster.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\bin\Debug\DMDIDCardster.xml
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.Form1.resources
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.IDCardster.resources
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.IDCardSterControl.resources
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.exe
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.xml
+C:\Works\My Web Sites\AR1\Projects\DMDIDCardster\obj\Debug\DMDIDCardster.pdb

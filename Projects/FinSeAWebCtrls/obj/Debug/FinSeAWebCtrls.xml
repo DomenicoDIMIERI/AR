@@ -1,0 +1,548 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinSeAWebCtrls
+</name>
+</assembly>
+<members>
+<member name="T:FinSeA.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FinSeA.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FinSeA.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:FinSeA.Forms.CAnagraficaModuleHandler.GetClientiInLavorazione(System.Object)">
+ <summary>
+ Restituisce l'elenco dei clienti per cui si è flaggato "In Lavorazione"
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.CAnagraficaModuleHandler.FindTelefonata(System.Object)">
+ <summary>
+ Restituisce una collezione di oggetti CPersonaInfo contenente tutte le persone e le aziende che corrispondono ai parametri di ricerca specificati dal campo name
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.CAnagraficaModuleHandler.FindTelefonataPF(System.Object)">
+ <summary>
+ Restituisce una collezione di oggetti CPersonaInfo contenente le sole persone fisiche che corrispondono ai parametri di ricerca specificati dal campo name
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.CAnagraficaModuleHandler.FindTelefonataAZ(System.Object)">
+ <summary>
+ Restituisce una collezione di oggetti CPersonaInfo contenente le sole aziende fisiche che corrispondono ai parametri di ricerca specificati dal campo name
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.TasksLavorazioneHandler.GetTasksInCorsoPO(System.Object)">
+ <summary>
+ Restituisce la collezione di tutti i task attivi per il punto operativo e per l'operatore
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.TasksLavorazioneHandler.GetTasksInCorsoCliente(System.Object)">
+ <summary>
+ Restituisce la collezione di tutti i task attivi per il punto operativo e per l'operatore
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.Utils.CSystemUtilsClass.CreateElencoPeriodi(System.String)">
+ <summary>
+ Crea la sequenza di &gt;option&lt; relativa ai periodo supportati dal calendario
+ </summary>
+ <param name="selValue"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.ControlPanelInfo.Load(System.DateTime)">
+ <summary>
+ Carica tutte le informazioni iniziali
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.LiquidatoHandler.GetStats(System.Object)">
+ <summary>
+ 
+ </summary>
+ <param name="renderer"></param>
+ <returns></returns>
+</member>
+<member name="T:FinSeA.Forms.ChartMeasure">
+ <summary>
+ Informazioni su una serie o su una collezione di serie
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChartLabel.Chart">
+ <summary>
+ Restituisce il grafico a cui appartiene questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChartLabel.Label">
+ <summary>
+ Restituisce il valore dell'etichetta visualizzata in corrispondenza di questo elemento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChartLabel.X">
+ <summary>
+ Restituisce o imposta la posizione dell'oggetto (ascissa)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Forms.ChartRenderer">
+ <summary>
+ Tipo base del renderer dei grafici
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.ChartRenderer.Chart">
+ <summary>
+ Restituisce il grafico visualizzato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.ChartRenderer.GetTitleFont">
+ <summary>
+ Crea il font utilizzato per il titolo
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.ChartRenderer.Type">
+ <summary>
+ Restituisce il tipo del grafico che questo renderer consente di disegnare
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.ChartRenderer.Description">
+ <summary>
+ Restituisce una descrizione di questo renderer
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.ChartRenderer.PaintTo(System.Drawing.Graphics,System.Drawing.Rectangle)">
+ <summary>
+ Disegna il grafico
+ </summary>
+ <param name="g"></param>
+ <param name="region"></param>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.CProfiliModuleHandler.gettclist(System.Object)">
+ <summary>
+ Restituisce al sistema remoto l'elenco dei tipi contratto disponibili per il profilo
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChartValue.Chart">
+ <summary>
+ Restituisce il grafico a cui appartiene questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChartValue.Serie">
+ <summary>
+ Restituisce la serie a cui appartiene questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChartValue.Label">
+ <summary>
+ Restituisce il valore dell'etichetta visualizzata in corrispondenza di questo elemento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChartValue.Value">
+ <summary>
+ Restituisce o imposta il valore dell'elemento (ordinata)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChartValue.X">
+ <summary>
+ Restituisce o imposta la posizione dell'oggetto (ascissa)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.CChartSerie.GetMeasures">
+ <summary>
+ Restituisce le misure dei valori della serie
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Forms.VerticalBarOverlappedChartRenderer">
+ <summary>
+ Renderer di un grafico a barre verticali
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.WebControl.DoLayout">
+ <summary>
+ Organizza i controlli in base al loro layout
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.WebControl.ParsePostbackData">
+ <summary>
+ Chiamata in fase di inizializzazione per ricostruire lo stato dell'oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.CBaseModuleHandler.CanConfigure">
+ <summary>
+ Restituisce vero se l'utente corrente può eseguire la configurazione del modulo 
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CBaseModuleHandler.SupportsExport">
+ <summary>
+ Quando sottoposto ad override in una classe derivata restituisce un valore booleano che indica se il modulo supporta l'esportazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CBaseModuleHandler.SupportsImport">
+ <summary>
+ Quando sottoposto ad override in una classe derivata restituisce un valore booleano che indica se il modulo supporta l'importazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.Forms.ISupportsCursor">
+ <summary>
+ Interfaccia implementata dai controlli che utilizzano un cursore
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.ISupportsCursor.Cursor">
+ <summary>
+ Restituisce o imposta il cursore
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChart.Grid">
+ <summary>
+ Accede alla griglia
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChart.Labels">
+ <summary>
+ Accede alle etichette
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChart.Type">
+ <summary>
+ Restituisce o imposta il tipo del grafico
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChart.XAxe">
+ <summary>
+ Accede alle proprietà dell'asse X
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChart.YAxe">
+ <summary>
+ Accede alle proprietà dell'asse Y
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChart.Series">
+ <summary>
+ Restituisce la collezione delle serie di dati rappresentate dal grafico
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Forms.CChart.Title">
+ <summary>
+ Restituisce il titolo del grafico
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.CChart.GetDefaultRenderer">
+ <summary>
+ Restituisce il renderer predefinito del tipo di grafico
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.CChart.PaintTo(System.Drawing.Graphics,System.Drawing.Rectangle)">
+ <summary>
+ Disegna il grafico nel rettandolo specificato nell'area grafica
+ </summary>
+ <param name="g"></param>
+ <param name="rect"></param>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Forms.CSearchState.Add(System.String,System.String)">
+ <summary>
+ Crea un nuovo oggetto CSearchStateItem e lo aggiunge in coda alla collezione.
+ </summary>
+ <param name="fieldName"></param>
+ <param name="fieldValue"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.TrendoSMSDriverOptions.SMSFeedBackURL">
+ <summary>
+ Restituisce o imposta la url della pagina che riceve il risultato di invio dell'SMS
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.TrendoSMSDriverOptions.UserName">
+ <summary>
+ Restituisce o imposta il nome utente per l'accesso al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.TrendoSMSDriverOptions.Password">
+ <summary>
+ Restituisce o imposta la password per l'accesso al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.TrendoSMSDriver.DefaultAreaCode">
+ <summary>
+ Restituisce o imposta il codice internazionale utilizzato per completare eventuali numeri per cui non è impostato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.TrendoSMSDriver.ServiceType">
+ <summary>
+ Restituisce o imposta il tipo di servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.TrendoSMSDriver.UserName">
+ <summary>
+ Restituisce o imposta la username usata per l'accesso al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.TrendoSMSDriver.Password">
+ <summary>
+ Restituisce o imposta la password usata per l'accesso al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.TrendoSMSDriver.ScheduledTiem">
+ <summary>
+ Restituisce o imposta la data e l'ora di invio posticipato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Drivers.TrendoSMSDriver.GetSMSHistory(System.DateTime,System.DateTime)">
+ <summary>
+ Restituisce la lista degli SMS inviati nell'intervallo data specificato
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Drivers.TrendoSMSDriver.GetCredit">
+ <summary>
+ Restituisce la disponibilità di credito
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Drivers.TrendoSMSDriver.SMSHISTORY(System.String,System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Restituisce la lista degli SMS inviati nell'intervallo data specificato
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Drivers.TrendoSMSDriver.GetCredit(System.String,System.String)">
+ <summary>
+ Restituisce la disponibilità di credito
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.MessageNetFaxDriverModem.NumeroGeografico">
+ <summary>
+ Restituisce o imposta il numero geografico associato al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.MessageNetFaxDriverModem.UserID">
+ <summary>
+ Restituisce o imposta la UserID associata al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.MessageNetFaxDriverModem.Password">
+ <summary>
+ Restituisce o imposta la password associata al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.MessageNetFaxDriverModem.SenderEMail">
+ <summary>
+ Restituisce o imposta la mail utilizzata come mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.MessageNetFaxDriverConfig.NumeroGeografico">
+ <summary>
+ Restituisce o imposta il numero geografico associato al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.MessageNetFaxDriverConfig.UserID">
+ <summary>
+ Restituisce o imposta la UserID associata al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.MessageNetFaxDriverConfig.Password">
+ <summary>
+ Restituisce o imposta la password associata al servizio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Drivers.MessageNetFaxDriverConfig.SenderEMail">
+ <summary>
+ Restituisce o imposta la mail utilizzata come mittente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Drivers.MessageNetFaxDriver.IsFromMessageNet(System.String)">
+ <summary>
+ Restituisce vero se il messaggio proviene dal servizio di ricezione fax di messagenet
+ </summary>
+ <param name="address"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Drivers.MessageNetFaxDriver.GetNumeroMittente(System.String)">
+ <summary>
+ Estrae il numero dal mittente dall'indirizzo
+ </summary>
+ <param name="address"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Web.WebPageEx.CustomRendering">
+ <summary>
+ Restituisce vero se la pagina viene generata tramite codice e non tramite HTML
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Web.WebPageEx.IncludedScripts">
+ <summary>
+ Restituisce la collezione degli script che vengono inclusi nella pagina sul client
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.Web.WebPageEx.IncludedCSS">
+ <summary>
+ Restituisce la collezione dei fogli di stile che vengono inclusi nella pagina sul client
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

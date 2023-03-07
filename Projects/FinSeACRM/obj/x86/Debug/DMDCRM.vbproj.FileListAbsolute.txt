@@ -1,0 +1,31 @@
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Debug\DMDCRM.dll
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Debug\DMDCRM.pdb
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Debug\DMDCRM.xml
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeACRM\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.dll
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.xml
+C:\Work\Programmazione\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\bin\x86\Debug\DMDCRM.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\bin\x86\Debug\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\bin\x86\Debug\DMDCRM.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\bin\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\bin\x86\Debug\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\bin\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\bin\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeACRM\obj\x86\Debug\DMDCRM.vbprojAssemblyReference.cache

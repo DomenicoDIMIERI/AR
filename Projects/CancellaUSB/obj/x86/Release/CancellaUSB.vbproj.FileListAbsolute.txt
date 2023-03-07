@@ -1,0 +1,12 @@
+C:\Work\Programmazione\Projects\CancellaUSB\bin\x86\Release\CancellaUSB.exe.config
+C:\Work\Programmazione\Projects\CancellaUSB\bin\x86\Release\CancellaUSB.exe
+C:\Work\Programmazione\Projects\CancellaUSB\bin\x86\Release\CancellaUSB.pdb
+C:\Work\Programmazione\Projects\CancellaUSB\bin\x86\Release\CancellaUSB.xml
+C:\Work\Programmazione\Projects\CancellaUSB\obj\x86\Release\CancellaUSB.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\CancellaUSB\obj\x86\Release\CancellaUSB.frmFormatta.resources
+C:\Work\Programmazione\Projects\CancellaUSB\obj\x86\Release\CancellaUSB.Resources.resources
+C:\Work\Programmazione\Projects\CancellaUSB\obj\x86\Release\CancellaUSB.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\CancellaUSB\obj\x86\Release\CancellaUSB.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\CancellaUSB\obj\x86\Release\CancellaUSB.exe
+C:\Work\Programmazione\Projects\CancellaUSB\obj\x86\Release\CancellaUSB.xml
+C:\Work\Programmazione\Projects\CancellaUSB\obj\x86\Release\CancellaUSB.pdb

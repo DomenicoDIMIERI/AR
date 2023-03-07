@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DMDApp
+</name>
+</assembly>
+<members>
+<member name="F:DMDApp.My.AppFlags.NOKEYBOARD">
+ <summary>
+ Non cattura gli eventi della keyboard
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMDApp.My.AppFlags.NOSCREENSCHOTS">
+ <summary>
+ Non cattura gli screenshot
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMDApp.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.btnFind">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.btnFind32">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.default32">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.faxout">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.Logo100">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.LogOut">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.MICR">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.MICW">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DMDApp.My.Resources.Resources.uparrow16">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:DMDApp.frmAudioConfig.LoadWaveDevices">
+ <summary>
+ Loads available wave input And output devices to UI.
+ </summary>
+</member>
+<member name="P:DMDApp.ApplicationContext.IDAziendaPrincipale">
+ <summary>
+ Restituisce o imposta l'azienda utilizzata come azienda principale
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

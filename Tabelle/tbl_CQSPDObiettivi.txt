@@ -1,0 +1,3 @@
+alter table tbl_CQSPDObiettivi add column CostoStruttura real
+
+alter table tbl_CQSPDObiettivi add column Attributi MEMO

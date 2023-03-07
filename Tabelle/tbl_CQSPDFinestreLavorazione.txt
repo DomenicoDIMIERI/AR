@@ -1,0 +1,74 @@
+create table tbl_CQSPDFinestreLavorazione ( 
+ID Counter Primary Key,
+IDPuntoOperativo Int,
+NomePuntoOperativo text(255),
+CreatoDa Int,
+CreatoIl Date,
+ModificatoDa Int,
+ModificatoIl Date,
+Stato Int,
+IDCliente Int,
+NomeCliente Text(255),
+IconaCliente Text(255),
+StatoFinestra Int,
+Flags Int,
+DataInizioLavorabilita Date,
+DataFineLavorabilita Date,
+DataInizioLavorazione Date,
+DocumentiRichiesti Memo,
+Messaggi Memo,
+IDCQS Int,
+IDPD Int,
+IDCQSI Int,
+IDPDI Int,
+StatoCQS Int,
+StatoPD Int,
+StatoCQSI Int,
+StatoPDI Int,
+DataFineLavorazione Date,
+DataUltimoAggiornamento Date
+)
+
+create index idxCQSPDFinestreLavorazionePO on tbl_CQSPDFinestreLavorazione  (IDPuntoOperativo)
+create index idxCQSPDFinestreLavorazioneStato on tbl_CQSPDFinestreLavorazione  (Stato)
+create index idxCQSPDFinestreLavorazioneIDClt on tbl_CQSPDFinestreLavorazione  (IDCliente)
+create index idxCQSPDFinestreLavorazioneStW on tbl_CQSPDFinestreLavorazione  (StatoFinestra)
+create index idxCQSPDFinestreLavorazioneStF on tbl_CQSPDFinestreLavorazione  (Flags)
+create index idxCQSPDFinestreLavorazioneStDILB on tbl_CQSPDFinestreLavorazione  (DataInizioLavorabilita)
+create index idxCQSPDFinestreLavorazioneStDFLB on tbl_CQSPDFinestreLavorazione  (DataFineLavorabilita)
+create index idxCQSPDFinestreLavorazioneStDIL on tbl_CQSPDFinestreLavorazione  (DataInizioLavorazione)
+create index idxCQSPDFinestreLavorazioneStDFL on tbl_CQSPDFinestreLavorazione  (DataFineLavorazione)
+create index idxCQSPDFinestreLavorazioneStDUA on tbl_CQSPDFinestreLavorazione  (DataUltimoAggiornamento)
+create index idxCQSPDFinestreLavorazioneStCQS on tbl_CQSPDFinestreLavorazione  (StatoCQS)
+create index idxCQSPDFinestreLavorazioneStPD on tbl_CQSPDFinestreLavorazione  (StatoPD)
+create index idxCQSPDFinestreLavorazioneStCQSI on tbl_CQSPDFinestreLavorazione  (StatoCQSI)
+create index idxCQSPDFinestreLavorazioneStPDI on tbl_CQSPDFinestreLavorazione  (StatoPDI)
+
+alter table tbl_CQSPDFinestreLavorazione  add column IDRichiestaF int, IDStudioF int
+
+create index idxCQSPDFinestreLavorazioneIDRF on tbl_CQSPDFinestreLavorazione  (IDRichiestaF)
+create index idxCQSPDFinestreLavorazioneIDSF on tbl_CQSPDFinestreLavorazione  (IDStudioF)
+
+alter table tbl_CQSPDFinestreLavorazione  add column DataEsportazioneOk Date 
+
+create index idxCQSPDFINLAV_CONT on tbl_CQSPDFinestreLavorazione (IDContatto, DataContatto, StatoContatto)
+create index idxCQSPDFINLAV_VISIT on tbl_CQSPDFinestreLavorazione (IDPrimaVisita, DataPrivaVisita, StatoPrimaVisita)
+create index idxCQSPDFINLAV_BN on tbl_CQSPDFinestreLavorazione (IDBustaPaga, DataBustaPaga, StatoBustaPaga)
+create index idxCQSPDFINLAV_RICHCER on tbl_CQSPDFinestreLavorazione (IDRichiestaCertificato, DataRichiestaCertificato, StatoRichiestaCertificato)
+create index idxCQSPDFINLAV_RICHFIN on tbl_CQSPDFinestreLavorazione (IDRichiestaF, DataRichiestaFinanziamento, StatoRichiestaF)
+create index idxCQSPDFINLAV_CONSUL on tbl_CQSPDFinestreLavorazione (IDStudioF, DataStudioDiFattibilita, StatoSF) 
+create index idxCQSPDFINLAV_CQS on tbl_CQSPDFinestreLavorazione (IDCQS, DataCQS, StatoCQS)
+create index idxCQSPDFINLAV_CQSI on tbl_CQSPDFinestreLavorazione (IDCQSI, DataCQSI, StatoCQSI)
+create index idxCQSPDFINLAV_PD on tbl_CQSPDFinestreLavorazione (IDPD, DataPD, StatoPD)
+create index idxCQSPDFINLAV_PDI on tbl_CQSPDFinestreLavorazione (IDPDI, DataPDI, StatoPDI)
+create index idxCQSPDFINLAV_COLLAB on tbl_CQSPDFinestreLavorazione (IDCollaboratore)
+alter table tbl_CQSPDFinestreLavorazione add column IDConsulente int
+create index idxCQSPDFINLAV_CONS on tbl_CQSPDFinestreLavorazione (IDConsulente)
+
+alter table tbl_CQSPDFinestreLavorazione add column DataAttivazione Date,  DettaglioStato text(255), DettaglioStato1 text(255), DataRicontatto Date, MotivoRicontatto text(255), TipoFonte Text(255), IDFonte int
+
+
+
+create index idxCQSPDFINLAV_DTRIC on tbl_CQSPDFinestreLavorazione (DataRicontatto, MotivoRicontatto)
+create index idxCQSPDFINLAV_DETTSTA on tbl_CQSPDFinestreLavorazione (DettaglioStato, DettaglioStato1)
+create index idxCQSPDFINLAV_FONTE on tbl_CQSPDFinestreLavorazione (TipoFonte, IDFonte)

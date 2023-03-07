@@ -1,0 +1,56 @@
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\templates\maildb.mdb
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDCQSPD.dll
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDCQSPD.pdb
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDCQSPD.xml
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDCRM.dll
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDLibs.dll
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDOffice.dll
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDBaseCore.pdb
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDBaseCore.xml
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDCRM.pdb
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDCRM.xml
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDLibs.xml
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDOffice.pdb
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDOffice.xml
+C:\Work\Programmazione\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\DMDCQSPD\obj\x86\Release\DMD.Resources.resources
+C:\Work\Programmazione\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.vbproj.CopyComplete
+C:\Work\Programmazione\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.dll
+C:\Work\Programmazione\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.xml
+C:\Work\Programmazione\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.pdb
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDPDF.dll
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDPDF.pdb
+C:\Work\Programmazione\Projects\DMDCQSPD\bin\x86\Release\DMDPDF.xml
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\templates\maildb.mdb
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDCQSPD.dll
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDCQSPD.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDCQSPD.xml
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDCRM.dll
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDOffice.dll
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDPDF.dll
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDCRM.xml
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDOffice.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDOffice.xml
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDPDF.pdb
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\bin\x86\Release\DMDPDF.xml
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\obj\x86\Release\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.dll
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.xml
+C:\Works\My Web Sites\AR1\Projects\DMDCQSPD\obj\x86\Release\DMDCQSPD.pdb

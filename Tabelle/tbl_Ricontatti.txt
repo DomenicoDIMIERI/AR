@@ -1,0 +1,28 @@
+CREATE TABLE [tbl_Ricontatti] 
+(
+[ID] Counter Primary Key,
+[DataPrevista] Date,
+[Numero] Text(255),
+[IDAssegnatoA] Int,
+[NomeAssegnatoA] Text(255),
+[IDPuntoOperativo] Int,
+[NomePuntoOperativo] Text(255),
+[Note] Memo,
+[DataRicontatto] Date,
+[StatoRicontatto] Int,
+[IDOperatore] Int,
+[NomeOperatore] Text(255),
+[TipoContatto] Text(255),
+[IDContatto] Int,
+[IDPersona] Int,
+[NomePersona] Text(255),
+[SourceName] Text(255),
+[SourceParam] Text(255),
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+ 

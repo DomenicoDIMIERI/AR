@@ -1,0 +1,2 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAOffice\obj\x64\Debug\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeAOffice\obj\x64\Debug\FinSeAOffice.vbproj.GenerateResource.Cache

@@ -1,0 +1,539 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DMDAsteriskLib
+</name>
+</assembly>
+<members>
+<member name="T:DMD.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:DMD.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="F:DMD.Asterisk.ast_extension_states.AST_EXTENSION_REMOVED">
+Extension removed 
+</member>
+<member name="F:DMD.Asterisk.ast_extension_states.AST_EXTENSION_DEACTIVATED">
+ <summary>
+ Extension hint removed 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Asterisk.ast_extension_states.AST_EXTENSION_NOT_INUSE">
+ <summary>
+ No device INUSE or BUSY
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Asterisk.ast_extension_states.AST_EXTENSION_INUSE">
+ <summary>
+ One or more devices INUSE
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Asterisk.ast_extension_states.AST_EXTENSION_BUSY">
+ <summary>
+ All devices BUSY
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Asterisk.ast_extension_states.AST_EXTENSION_UNAVAILABLE">
+ <summary>
+ All devices UNAVAILABLE/UNREGISTERED
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Asterisk.ast_extension_states.AST_EXTENSION_RINGING">
+ <summary>
+ All devices RINGING
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:DMD.Asterisk.ast_extension_states.AST_EXTENSION_ONHOLD">
+ <summary>
+ All devices ONHOLD
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.ManagerLogoutEventArgs">
+ <summary>
+ Informazioni sull'accesso ad un callmanager
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.ManagerLoginEventArgs">
+ <summary>
+ Informazioni sull'accesso ad un callmanager
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.AbsoluteTimeout">
+ <summary>
+ This command will request Asterisk to hangup a given channel after the specified number of seconds, thereby effectively ending the active call.
+ If the channel is linked with another channel (an active connected call is in progress), the other channel will continue it's path through the dialplan (if any further steps remains).
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.AbsoluteTimeout.#ctor(System.String,System.Int32)">
+ <summary>
+ Inizializza un nuovo oggetto
+ </summary>
+ <param name="channel">[in] Which channel to hangup, e.g. SIP/123-1c20</param>
+ <param name="timeout">[in] The number of seconds until the channel should hangup</param>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.AbsoluteTimeout.Channel">
+ <summary>
+ Which channel to hangup, e.g. SIP/123-1c20
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.AbsoluteTimeout.Timeout">
+ <summary>
+ The number of seconds until the channel should hangup
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.ChangeMonitor">
+ <summary>
+ Changes the file name of a recording occuring on a channel
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.ChangeMonitor.#ctor(System.String,System.String)">
+ <summary>
+ Inizializza un nuovo oggetto
+ </summary>
+ <param name="channel">[in] Which channel to hangup, e.g. SIP/123-1c20</param>
+ <param name="file">[in] File name</param>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.ChangeMonitor.Channel">
+ <summary>
+ Which channel to hangup, e.g. SIP/123-1c20
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.ChangeMonitor.File">
+ <summary>
+ File name
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.Command">
+ <summary>
+ Changes the file name of a recording occuring on a channel
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.Command.#ctor(System.String)">
+ <summary>
+ Inizializza un nuovo oggetto
+ </summary>
+ <param name="command">[in] Comando da inviare al CLI</param>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.Events">
+ <summary>
+ Contol Event Flow: Enable/Disable sending of events to this manager client.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.Events.#ctor(System.Boolean)">
+ <summary>
+ Inizializza un nuovo oggetto
+ </summary>
+ <param name="enabled">[in] Se vero abilita tutti gli eventi</param>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.Events.#ctor(DMD.CallManagers.DebugFlags)">
+ <summary>
+ Inizializza un nuovo oggetto
+ </summary>
+ <param name="flags">[in] flags</param>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.ExtensionState">
+ <summary>
+ Contol Event Flow: Enable/Disable sending of events to this manager client.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.ExtensionState.#ctor(System.String,System.String,System.Int32)">
+ <summary>
+ Inizializza un nuovo oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.GetVar">
+ <summary>
+ Contol Event Flow: Enable/Disable sending of events to this manager client.
+ </summary>
+ <remarks>Will not work for built-in variables like LANGUAGE !</remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.GetVar.#ctor(System.String,System.String)">
+ <summary>
+ Inizializza un nuovo oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.GetVar.#ctor(System.String,System.String,System.Int32)">
+ <summary>
+ Inizializza un nuovo oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.Hangup">
+ <summary>
+ Contol Event Flow: Enable/Disable sending of events to this manager client.
+ </summary>
+ <remarks>Will not work for built-in variables like LANGUAGE !</remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.Hangup.#ctor(System.String)">
+ <summary>
+ Inizializza un nuovo oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.IAXpeers">
+ <summary>
+ Show the IAX Peers on the server and their status
+ </summary>
+ <remarks>Will not work for built-in variables like LANGUAGE !</remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.Login">
+ <summary>
+ Effettua il login nel manager
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.Login.#ctor(System.String,System.String)">
+ <summary>
+ Inizializza un nuovo oggetto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.Logoff">
+ <summary>
+ Effettua il logout
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.MailboxCount">
+ <summary>
+ Check Mailbox Message Count
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.MailboxStatus">
+ <summary>
+ Checks a voicemail account for status.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.Channel">
+ <summary>
+ Channel on which to originate the call (The same as you specify in the Dial application command)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.Context">
+ <summary>
+ Context to use on connect (must use Exten and Priority with it)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.Priority">
+ <summary>
+ Priority to use on connect (must use Context and Exten with it)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.Timeout">
+ <summary>
+ Timeout (in milliseconds) for the originating connection to happen(defaults to 30000 milliseconds)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.CallerID">
+ <summary>
+ CallerID to use for the call
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.Variable">
+ <summary>
+ Channels variables to set (max 32). Variables will be set for both channels (local and connected).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.Account">
+ <summary>
+ Account code for the call
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.Application">
+ <summary>
+ Application to use on connect (use Data for parameters)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.Data">
+ <summary>
+ Data if Application parameter is used
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.Async">
+ <summary>
+ For the origination to be asynchronous (allows multiple calls to be generated without waiting for a response)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Actions.Originate.Exten">
+ <summary>
+ Extension to use on connect (must use Context and Priority with it)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.Actions.QueueRemove.#ctor(System.String,System.String)">
+ <summary>
+ QueueRemove
+ </summary>
+ <param name="queue">Existing queue to remove member from</param>
+ <param name="interface">Member interface (sip/1000, zap/1-1, etc)?</param>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.Queues">
+ <summary>
+ The "Queues" request returns configuration and statistical information about the existing queues.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.QueueStatus">
+ <summary>
+ The "QueueStatus" request returns statistical information about calls delivered to the existing queues, as well as the corresponding service level.
+ The response consists of zero or more "Event: QueueParams" stanzas, one per queue. Each is followed by zero or more "Event: QueueMember" stanzas, one per agent assigned to that queue, and zero or more "Event: QueueEntry" stanzas, one for each call waiting in the queue. The whole lot ends with an "Event: QueueStatusComplete" stanza.
+ Parameters: ActionID, Queue, Member
+ The Queue parameter allows to select one queue to view its status, as with the Member parameter, that allow to select one queue member.
+ You can use the Member parameter with something like 'cnlohewfuy4r89734yc8yc48' to not receive any information about members, just info on the Queue.
+ If the parameters are not set all Queues and all Member will be shown.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Actions.Redirect">
+ <summary>
+ Redirect (transfer) a call
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Events.Alarm.Alarm">
+ <summary>
+ (Red|Yellow|Blue|No|Unknown) Alarm|Recovering|Loopback|Not Open|None
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Events.Bridge">
+ <summary>
+ Fired when two voice channels are linked together and voice data exchange commences.
+ </summary>
+ <remarks>Several Link events may be seen for a single call. This can occur when Asterisk fails to setup a native bridge for the call. As far as I can tell, this is when Asterisk must sit between two telephones and perform CODEC conversion on their behalf.</remarks>
+</member>
+<member name="T:DMD.CallManagers.Events.Link">
+ <summary>
+ Fired when two voice channels are linked together and voice data exchange commences.
+ </summary>
+ <remarks>Several Link events may be seen for a single call. This can occur when Asterisk fails to setup a native bridge for the call. As far as I can tell, this is when Asterisk must sit between two telephones and perform CODEC conversion on their behalf.</remarks>
+</member>
+<member name="T:DMD.CallManagers.Events.MeetmeStopTalking">
+ <summary>
+ This requires the T option on the meetme application
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Events.MusicOnHold">
+ <summary>
+ Occurs when a channel is placed on hold/unhold and music is played to the caller.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Events.PeerStatus">
+ <summary>
+ Rappresenta un evento generico quando una oggetto cambia stato
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Events.PeerStatus.Peer">
+ <summary>
+ Restituisce l'oggetto che ha cambiato stato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.Events.PeerStatus.PeerStatus">
+ <summary>
+ Restituisce lo stato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Events.QueueParams">
+ <summary>
+ sent following an Action: Queues
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.Events.Registry">
+ <summary>
+ Fired when Asterisk registers with a peer
+ </summary>
+ <remarks>
+ For an entry like: register => username:password:authname@sip.domain:port/local_contact
+ Domain would reflect the value of sip.domain
+ </remarks>
+</member>
+<member name="T:DMD.CallManagers.Events.Reload">
+ <summary>
+ Fired when the "RELOAD" console command is executed.
+ </summary>
+ <remarks>
+ </remarks>
+</member>
+<member name="E:DMD.CallManagers.AsteriskCallManager.ManagerEvent">
+ <summary>
+ Evento generato quando il manager ci notifica un evento remoto
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.CallManagers.AsteriskCallManager.LoggedIn">
+ <summary>
+ Evento generato quando questo oggetto si autentica correttamente sul manager
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.CallManagers.AsteriskCallManager.LoggedOut">
+ <summary>
+ Evento generato quando questo oggetto chiude la comunicazione
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:DMD.CallManagers.AsteriskCallManager.Dial">
+ <summary>
+ Evento generato quando il sistema riceve una chiamata in ingresso
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.AsteriskCallManager.IsConnected">
+ <summary>
+ Restituisce vero se questa istanza è connessa ed autenticata su un server Asterisk
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.AsteriskCallManager.Execute(DMD.CallManagers.Action,System.Int32)">
+ <summary>
+ Esegue l'azione specificata ed attende la risposta per un massimo di timeOutMs millisecondi
+ </summary>
+ <param name="action"></param>
+ <param name="timeOutMs"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DMD.CallManagers.AsteriskCallManager.Send(System.String)">
+ <summary>
+ Invia un comando e restituisce la risposta in maniera sincrona
+ </summary>
+ <param name="command"></param>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.AsteriskEvent">
+ <summary>
+ Rappresenta un evento generico di Asterisk CLI
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.AsteriskEvent.Data">
+ <summary>
+ Restituisce la data e l'ora dell'evento
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DMD.CallManagers.AsteriskEvent.EventName">
+ <summary>
+ Restituisce il nome dell'evento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DMD.CallManagers.AsteriskEvent.ActionID">
+ <summary>
+ Se presente l'evento è parte della risposta all'azione con l'ID specificato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DMD.CallManagers.IncomingCallEventArgs">
+ <summary>
+ Informazioni su una chiamata in ingresso
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

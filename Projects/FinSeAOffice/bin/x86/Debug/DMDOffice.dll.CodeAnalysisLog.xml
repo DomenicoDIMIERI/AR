@@ -1,0 +1,1574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\bin\x86\Debug\DMDOffice.dll">
+   <Modules>
+    <Module Name="dmdoffice.dll">
+     <Namespaces>
+      <Namespace Name="DMD">
+       <Types>
+        <Type Name="Office+Articolo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Codici" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.Articolo.m_Codici' è membro del tipo 'Office.Articolo', serializzabile, ma è di tipo 'Office.CCodiciPerArticolo', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.Articolo.m_Codici'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+AttributiArticoloCollection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(DMD.Office+Articolo)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\Magazzino\Articolo\AttributiArticolo" File="AttributiArticoloCollection.vb" Line="23">'Office.AttributiArticoloCollection.New(Office.Articolo)' contiene una catena di chiamate che provoca una chiamata a un metodo virtuale definito dalla classe. Controllare lo stack di chiamate seguente per verificare la possibilità di conseguenze indesiderate: &#xD;&#xA;&#xD;&#xA;Office+AttributiArticoloCollection..ctor(Office+Articolo)&#xD;&#xA;Office+AttributiArticoloCollection.Load(Office+Articolo):Void&#xD;&#xA;CCollection.Clear():Void&#xD;&#xA;CKeyCollection.Sort():Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+AttributiCategoriaCollection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(DMD.Office+CategoriaArticolo)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\Magazzino\Categoria\AttributiCategoria" File="AttributiCategoriaCollection.vb" Line="23">'Office.AttributiCategoriaCollection.New(Office.CategoriaArticolo)' contiene una catena di chiamate che provoca una chiamata a un metodo virtuale definito dalla classe. Controllare lo stack di chiamate seguente per verificare la possibilità di conseguenze indesiderate: &#xD;&#xA;&#xD;&#xA;Office+AttributiCategoriaCollection..ctor(Office+CategoriaArticolo)&#xD;&#xA;Office+AttributiCategoriaCollection.Load(Office+CategoriaArticolo):Void&#xD;&#xA;CCollection.Clear():Void&#xD;&#xA;CKeyCollection.Sort():Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+AttributiOggettoCollection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(DMD.Office+OggettoInventariato)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\Magazzino\Inventario\AttributiOggetto" File="AttributiOggettoCollection.vb" Line="23">'Office.AttributiOggettoCollection.New(Office.OggettoInventariato)' contiene una catena di chiamate che provoca una chiamata a un metodo virtuale definito dalla classe. Controllare lo stack di chiamate seguente per verificare la possibilità di conseguenze indesiderate: &#xD;&#xA;&#xD;&#xA;Office+AttributiOggettoCollection..ctor(Office+OggettoInventariato)&#xD;&#xA;Office+AttributiOggettoCollection.Load(Office+OggettoInventariato):Void&#xD;&#xA;CCollection.Clear():Void&#xD;&#xA;CKeyCollection.Sort():Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+AttributoArticoloCursor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_IDArticolo" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoArticoloCursor.m_IDArticolo' è membro del tipo 'Office.AttributoArticoloCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoArticoloCursor.m_IDArticolo'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeAttributo" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoArticoloCursor.m_NomeAttributo' è membro del tipo 'Office.AttributoArticoloCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoArticoloCursor.m_NomeAttributo'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_TipoAttributo" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoArticoloCursor.m_TipoAttributo' è membro del tipo 'Office.AttributoArticoloCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of TypeCode)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoArticoloCursor.m_TipoAttributo'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_UnitaDiMisura" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoArticoloCursor.m_UnitaDiMisura' è membro del tipo 'Office.AttributoArticoloCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoArticoloCursor.m_UnitaDiMisura'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_ValoreAttributoFormattato" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoArticoloCursor.m_ValoreAttributoFormattato' è membro del tipo 'Office.AttributoArticoloCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoArticoloCursor.m_ValoreAttributoFormattato'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+AttributoCategoriaCursor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_IDCategoria" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoCategoriaCursor.m_IDCategoria' è membro del tipo 'Office.AttributoCategoriaCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoCategoriaCursor.m_IDCategoria'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeAttributo" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoCategoriaCursor.m_NomeAttributo' è membro del tipo 'Office.AttributoCategoriaCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoCategoriaCursor.m_NomeAttributo'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_TipoAttributo" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoCategoriaCursor.m_TipoAttributo' è membro del tipo 'Office.AttributoCategoriaCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of TypeCode)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoCategoriaCursor.m_TipoAttributo'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_UnitaDiMisura" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoCategoriaCursor.m_UnitaDiMisura' è membro del tipo 'Office.AttributoCategoriaCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoCategoriaCursor.m_UnitaDiMisura'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_ValoreAttributoFormattato" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoCategoriaCursor.m_ValoreAttributoFormattato' è membro del tipo 'Office.AttributoCategoriaCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoCategoriaCursor.m_ValoreAttributoFormattato'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+AttributoOggettoCursor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_IDOggetto" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoOggettoCursor.m_IDOggetto' è membro del tipo 'Office.AttributoOggettoCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoOggettoCursor.m_IDOggetto'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeAttributo" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoOggettoCursor.m_NomeAttributo' è membro del tipo 'Office.AttributoOggettoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoOggettoCursor.m_NomeAttributo'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_TipoAttributo" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoOggettoCursor.m_TipoAttributo' è membro del tipo 'Office.AttributoOggettoCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of TypeCode)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoOggettoCursor.m_TipoAttributo'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_UnitaDiMisura" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoOggettoCursor.m_UnitaDiMisura' è membro del tipo 'Office.AttributoOggettoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoOggettoCursor.m_UnitaDiMisura'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_ValoreAttributoFormattato" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.AttributoOggettoCursor.m_ValoreAttributoFormattato' è membro del tipo 'Office.AttributoOggettoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.AttributoOggettoCursor.m_ValoreAttributoFormattato'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+CategoriaArticolo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Sottocategorie" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.CategoriaArticolo.m_Sottocategorie' è membro del tipo 'Office.CategoriaArticolo', serializzabile, ma è di tipo 'Office.SottocategorieCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.CategoriaArticolo.m_Sottocategorie'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+CCodiciPerArticolo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(DMD.Office+Articolo)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\Magazzino\Articolo\CodiciArticolo" File="CCodiciPerArticolo.vb" Line="18">'Office.CCodiciPerArticolo.New(Office.Articolo)' contiene una catena di chiamate che provoca una chiamata a un metodo virtuale definito dalla classe. Controllare lo stack di chiamate seguente per verificare la possibilità di conseguenze indesiderate: &#xD;&#xA;&#xD;&#xA;Office+CCodiciPerArticolo..ctor(Office+Articolo)&#xD;&#xA;Office+CCodiciPerArticolo.Load(Office+Articolo):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+ClasseDispositivo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Params" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.ClasseDispositivo.m_Params' è membro del tipo 'Office.ClasseDispositivo', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.ClasseDispositivo.m_Params'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+CPrimaNotaClass" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#SottoSoglia" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error">Dichiarare il primo parametro di 'Office.CPrimaNotaClass.SottoSogliaEventHandler' come oggetto denominato 'sender'.</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error">Dichiarare il secondo parametro di 'Office.CPrimaNotaClass.SottoSogliaEventHandler' come EventArgs o come istanza di un tipo che estende EventArgs, con nome 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+CRichiesteCERQClass" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#RichiestaAnnullata" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error">Dichiarare il primo parametro di 'Office.CRichiesteCERQClass.RichiestaAnnullataEventHandler' come oggetto denominato 'sender'.</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error">Dichiarare il secondo parametro di 'Office.CRichiesteCERQClass.RichiestaAnnullataEventHandler' come EventArgs o come istanza di un tipo che estende EventArgs, con nome 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RichiestaCreata" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error">Dichiarare il primo parametro di 'Office.CRichiesteCERQClass.RichiestaCreataEventHandler' come oggetto denominato 'sender'.</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error">Dichiarare il secondo parametro di 'Office.CRichiesteCERQClass.RichiestaCreataEventHandler' come EventArgs o come istanza di un tipo che estende EventArgs, con nome 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RichiestaEffettuata" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error">Dichiarare il primo parametro di 'Office.CRichiesteCERQClass.RichiestaEffettuataEventHandler' come oggetto denominato 'sender'.</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error">Dichiarare il secondo parametro di 'Office.CRichiesteCERQClass.RichiestaEffettuataEventHandler' come EventArgs o come istanza di un tipo che estende EventArgs, con nome 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RichiestaRifiutata" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error">Dichiarare il primo parametro di 'Office.CRichiesteCERQClass.RichiestaRifiutataEventHandler' come oggetto denominato 'sender'.</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error">Dichiarare il secondo parametro di 'Office.CRichiesteCERQClass.RichiestaRifiutataEventHandler' come EventArgs o come istanza di un tipo che estende EventArgs, con nome 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RichiestaRitirata" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error">Dichiarare il primo parametro di 'Office.CRichiesteCERQClass.RichiestaRitirataEventHandler' come oggetto denominato 'sender'.</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error">Dichiarare il secondo parametro di 'Office.CRichiesteCERQClass.RichiestaRitirataEventHandler' come EventArgs o come istanza di un tipo che estende EventArgs, con nome 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+CTicketsCalProvider" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InnerItems()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Non eliminare gli oggetti più volte" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\Calendar" File="CTicketsCalProvider.vb" Line="110">L'oggetto 'cursor1' può essere eliminato più volte nel metodo 'Office.CTicketsCalProvider.InnerItems()'. Per evitare di generare System.ObjectDisposedException, è consigliabile chiamare Dispose su un oggetto non più di una volta.: Lines: 110</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+DeviceLog" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Params" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DeviceLog.m_Params' è membro del tipo 'Office.DeviceLog', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DeviceLog.m_Params'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_ScreenSize" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DeviceLog.m_ScreenSize' è membro del tipo 'Office.DeviceLog', serializzabile, ma è di tipo 'CSize', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DeviceLog.m_ScreenSize'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+DocumentoContabile" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Attribiti" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabile.m_Attribiti' è membro del tipo 'Office.DocumentoContabile', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabile.m_Attribiti'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+DocumentoContabileCursor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_CodiceFiscaleCliente" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_CodiceFiscaleCliente' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_CodiceFiscaleCliente'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_CodiceFiscaleFornitore" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_CodiceFiscaleFornitore' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_CodiceFiscaleFornitore'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataEmissione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_DataEmissione' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_DataEmissione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataEvasione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_DataEvasione' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_DataEvasione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataRegistrazione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_DataRegistrazione' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_DataRegistrazione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Descrizione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_Descrizione' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_Descrizione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Flags" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_Flags' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_Flags'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDCliente" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IDCliente' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IDCliente'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDFornitore" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IDFornitore' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IDFornitore'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoCliente_CAP" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoCliente_CAP' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoCliente_CAP'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoCliente_Citta" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoCliente_Citta' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoCliente_Citta'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoCliente_Nome" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoCliente_Nome' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoCliente_Nome'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoCliente_Provincia" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoCliente_Provincia' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoCliente_Provincia'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoCliente_ToponimoViaECivico" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoCliente_ToponimoViaECivico' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoCliente_ToponimoViaECivico'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoFornitore_CAP" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoFornitore_CAP' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoFornitore_CAP'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoFornitore_Citta" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoFornitore_Citta' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoFornitore_Citta'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoFornitore_Nome" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoFornitore_Nome' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoFornitore_Nome'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoFornitore_Provincia" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoFornitore_Provincia' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoFornitore_Provincia'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoFornitore_ToponimoViaECivico" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoFornitore_ToponimoViaECivico' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoFornitore_ToponimoViaECivico'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoSpedizione_CAP" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoSpedizione_CAP' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoSpedizione_CAP'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoSpedizione_Citta" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoSpedizione_Citta' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoSpedizione_Citta'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoSpedizione_Nome" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoSpedizione_Nome' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoSpedizione_Nome'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoSpedizione_Provincia" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoSpedizione_Provincia' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoSpedizione_Provincia'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IndirizzoSpedizione_ToponimoViaECivico" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_IndirizzoSpedizione_ToponimoViaECivico' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_IndirizzoSpedizione_ToponimoViaECivico'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeCliente" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_NomeCliente' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_NomeCliente'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeFornitore" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_NomeFornitore' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_NomeFornitore'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NumeroDocumento" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_NumeroDocumento' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_NumeroDocumento'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_PartitaIVACliente" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_PartitaIVACliente' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_PartitaIVACliente'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_PartitaIVAFornitore" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_PartitaIVAFornitore' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_PartitaIVAFornitore'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_SourceID" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_SourceID' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_SourceID'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_SourceParams" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_SourceParams' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_SourceParams'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_SourceType" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_SourceType' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_SourceType'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_StatoDocumento" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_StatoDocumento' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Office.StatoDocumentoContabile)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_StatoDocumento'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_TipoDocumento" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_TipoDocumento' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_TipoDocumento'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_TotaleImponibile" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_TotaleImponibile' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Decimal)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_TotaleImponibile'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_TotaleIvato" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentoContabileCursor.m_TotaleIvato' è membro del tipo 'Office.DocumentoContabileCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Decimal)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentoContabileCursor.m_TotaleIvato'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+DocumentTemplate" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_PageFormat" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentTemplate.m_PageFormat' è membro del tipo 'Office.DocumentTemplate', serializzabile, ma è di tipo 'CSize', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentTemplate.m_PageFormat'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+DocumentTemplateCursor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_ContextType" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentTemplateCursor.m_ContextType' è membro del tipo 'Office.DocumentTemplateCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentTemplateCursor.m_ContextType'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Description" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentTemplateCursor.m_Description' è membro del tipo 'Office.DocumentTemplateCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentTemplateCursor.m_Description'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Name" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentTemplateCursor.m_Name' è membro del tipo 'Office.DocumentTemplateCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentTemplateCursor.m_Name'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_PageFormatHeight" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentTemplateCursor.m_PageFormatHeight' è membro del tipo 'Office.DocumentTemplateCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Single)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentTemplateCursor.m_PageFormatHeight'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_PageFormatName" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentTemplateCursor.m_PageFormatName' è membro del tipo 'Office.DocumentTemplateCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentTemplateCursor.m_PageFormatName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_PageFormatWidth" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentTemplateCursor.m_PageFormatWidth' è membro del tipo 'Office.DocumentTemplateCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Single)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentTemplateCursor.m_PageFormatWidth'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_SourceFile" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.DocumentTemplateCursor.m_SourceFile' è membro del tipo 'Office.DocumentTemplateCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.DocumentTemplateCursor.m_SourceFile'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+FindPersonaByTargaVeicolo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Find(System.String,DMD.Anagrafica+CRMFinlterI,DMD.CCollection`1&lt;DMD.Anagrafica+CPersonaInfo&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Non eliminare gli oggetti più volte" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\Handlers" File="FindPersonaByTargaVeicolo.vb" Line="80">L'oggetto 'cursor1' può essere eliminato più volte nel metodo 'Office.FindPersonaByTargaVeicolo.Find(String, Anagrafica.CRMFinlterI, CCollection(Of Anagrafica.CPersonaInfo))'. Per evitare di generare System.ObjectDisposedException, è consigliabile chiamare Dispose su un oggetto non più di una volta.: Lines: 80</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+Listino" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Attributi" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.Listino.m_Attributi' è membro del tipo 'Office.Listino', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.Listino.m_Attributi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+Magazzino" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Attributi" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.Magazzino.m_Attributi' è membro del tipo 'Office.Magazzino', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.Magazzino.m_Attributi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+MailAddressCursor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Address" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailAddressCursor.m_Address' è membro del tipo 'Office.MailAddressCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailAddressCursor.m_Address'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DisplayName" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailAddressCursor.m_DisplayName' è membro del tipo 'Office.MailAddressCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailAddressCursor.m_DisplayName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_FieldName" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailAddressCursor.m_FieldName' è membro del tipo 'Office.MailAddressCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailAddressCursor.m_FieldName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_MessageID" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailAddressCursor.m_MessageID' è membro del tipo 'Office.MailAddressCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailAddressCursor.m_MessageID'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+MailApplication" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Parameters" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailApplication.m_Parameters' è membro del tipo 'Office.MailApplication', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailApplication.m_Parameters'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+MailApplicationCursor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Flags" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailApplicationCursor.m_Flags' è membro del tipo 'Office.MailApplicationCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailApplicationCursor.m_Flags'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_RootID" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailApplicationCursor.m_RootID' è membro del tipo 'Office.MailApplicationCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailApplicationCursor.m_RootID'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_UserID" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailApplicationCursor.m_UserID' è membro del tipo 'Office.MailApplicationCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailApplicationCursor.m_UserID'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_UserName" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailApplicationCursor.m_UserName' è membro del tipo 'Office.MailApplicationCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailApplicationCursor.m_UserName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+MailAttachment" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Parameters" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailAttachment.m_Parameters' è membro del tipo 'Office.MailAttachment', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailAttachment.m_Parameters'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+MailFolder" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Attributi" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailFolder.m_Attributi' è membro del tipo 'Office.MailFolder', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailFolder.m_Attributi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+MailMessage" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Headers" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MailMessage.m_Headers' è membro del tipo 'Office.MailMessage', serializzabile, ma è di tipo 'CKeyCollection(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MailMessage.m_Headers'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+MarcaArticolo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Attributi" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MarcaArticolo.m_Attributi' è membro del tipo 'Office.MarcaArticolo', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MarcaArticolo.m_Attributi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+MarcaturaIngressoUscita" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Parametri" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.MarcaturaIngressoUscita.m_Parametri' è membro del tipo 'Office.MarcaturaIngressoUscita', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.MarcaturaIngressoUscita.m_Parametri'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+OggettiCollegatiCollection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(DMD.Office+OggettoInventariato)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\Magazzino\Collegamenti" File="OggettoCollegatiCollection.vb" Line="18">'Office.OggettiCollegatiCollection.New(Office.OggettoInventariato)' contiene una catena di chiamate che provoca una chiamata a un metodo virtuale definito dalla classe. Controllare lo stack di chiamate seguente per verificare la possibilità di conseguenze indesiderate: &#xD;&#xA;&#xD;&#xA;Office+OggettiCollegatiCollection..ctor(Office+OggettoInventariato)&#xD;&#xA;Office+OggettiCollegatiCollection.Load(Office+OggettoInventariato):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+OggettiDaSpedireCursor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Altezza" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_Altezza' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Double)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_Altezza'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_AspettoBeni" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_AspettoBeni' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_AspettoBeni'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_CategoriaContenuto" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_CategoriaContenuto' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_CategoriaContenuto'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataConferma" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_DataConferma' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_DataConferma'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataConsegna" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_DataConsegna' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_DataConsegna'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataInizioSpedizione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_DataInizioSpedizione' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_DataInizioSpedizione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataPresaInCarico" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_DataPresaInCarico' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_DataPresaInCarico'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataRichiesta" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_DataRichiesta' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_DataRichiesta'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DescrizioneContenuto" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_DescrizioneContenuto' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_DescrizioneContenuto'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DescrizioneSpedizione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_DescrizioneSpedizione' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_DescrizioneSpedizione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DettaglioStato" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_DettaglioStato' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_DettaglioStato'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Flags" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_Flags' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Office.OggettoDaSpedireFlags)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_Flags'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDCliente" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_IDCliente' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_IDCliente'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDConfermatoDa" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_IDConfermatoDa' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_IDConfermatoDa'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDDestinatario" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_IDDestinatario' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_IDDestinatario'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDPresaInCaricoDa" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_IDPresaInCaricoDa' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_IDPresaInCaricoDa'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDRichiestaDa" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_IDRichiestaDa' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_IDRichiestaDa'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_INDDEST_CAP" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_INDDEST_CAP' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_INDDEST_CAP'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_INDDEST_Citta" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_INDDEST_Citta' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_INDDEST_Citta'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_INDDEST_Provincia" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_INDDEST_Provincia' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_INDDEST_Provincia'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_INDDEST_ToponimoViaECivico" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_INDDEST_ToponimoViaECivico' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_INDDEST_ToponimoViaECivico'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_INDMITT_CAP" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_INDMITT_CAP' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_INDMITT_CAP'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_INDMITT_Citta" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_INDMITT_Citta' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_INDMITT_Citta'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_INDMITT_Provincia" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_INDMITT_Provincia' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_INDMITT_Provincia'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_INDMITT_ToponimoViaECivico" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_INDMITT_ToponimoViaECivico' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_INDMITT_ToponimoViaECivico'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Larghezza" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_Larghezza' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Double)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_Larghezza'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeCliente" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_NomeCliente' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_NomeCliente'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeConfermatoDa" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_NomeConfermatoDa' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_NomeConfermatoDa'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeDestinatario" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_NomeDestinatario' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_NomeDestinatario'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomePresaInCaricoDa" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_NomePresaInCaricoDa' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_NomePresaInCaricoDa'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeRichiestaDa" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_NomeRichiestaDa' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_NomeRichiestaDa'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NotePerIlCorriere" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_NotePerIlCorriere' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_NotePerIlCorriere'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NotePerIlDestinatario" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_NotePerIlDestinatario' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_NotePerIlDestinatario'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NumeroColli" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_NumeroColli' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_NumeroColli'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Peso" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_Peso' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Double)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_Peso'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Profondita" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_Profondita' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Double)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_Profondita'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_StatoOggetto" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettiDaSpedireCursor.m_StatoOggetto' è membro del tipo 'Office.OggettiDaSpedireCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Office.StatoOggettoDaSpedire)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettiDaSpedireCursor.m_StatoOggetto'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+OggettoInventariato" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Relazioni" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.OggettoInventariato.m_Relazioni' è membro del tipo 'Office.OggettoInventariato', serializzabile, ma è di tipo 'Office.OggettiCollegatiCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.OggettoInventariato.m_Relazioni'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+PercorsoDefinito" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Luoghi" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.PercorsoDefinito.m_Luoghi' è membro del tipo 'Office.PercorsoDefinito', serializzabile, ma è di tipo 'Office.LuoghiDefinitiPerPercorso', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.PercorsoDefinito.m_Luoghi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+PeriodoLavorato" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Params" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.PeriodoLavorato.m_Params' è membro del tipo 'Office.PeriodoLavorato', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.PeriodoLavorato.m_Params'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+RichiestaPermessoFerie" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Params" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.RichiestaPermessoFerie.m_Params' è membro del tipo 'Office.RichiestaPermessoFerie', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.RichiestaPermessoFerie.m_Params'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+RilevatorePresenze" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Parametri" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.RilevatorePresenze.m_Parametri' è membro del tipo 'Office.RilevatorePresenze', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.RilevatorePresenze.m_Parametri'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+SottocategorieCollection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(DMD.Office+CategoriaArticolo)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\Magazzino\Categoria" File="SottocategorieCollection.vb" Line="18">'Office.SottocategorieCollection.New(Office.CategoriaArticolo)' contiene una catena di chiamate che provoca una chiamata a un metodo virtuale definito dalla classe. Controllare lo stack di chiamate seguente per verificare la possibilità di conseguenze indesiderate: &#xD;&#xA;&#xD;&#xA;Office+SottocategorieCollection..ctor(Office+CategoriaArticolo)&#xD;&#xA;Office+SottocategorieCollection.Load(Office+CategoriaArticolo):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+Spedizione" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Attributi" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.Spedizione.m_Attributi' è membro del tipo 'Office.Spedizione', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.Spedizione.m_Attributi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+StickyNote" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Attributes" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.StickyNote.m_Attributes' è membro del tipo 'Office.StickyNote', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.StickyNote.m_Attributes'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+TemplateItem" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Bounds" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.TemplateItem.m_Bounds' è membro del tipo 'Office.TemplateItem', serializzabile, ma è di tipo 'CRectangle', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.TemplateItem.m_Bounds'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Parameters" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.TemplateItem.m_Parameters' è membro del tipo 'Office.TemplateItem', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.TemplateItem.m_Parameters'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+TemplateItemsCollection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(DMD.Office+DocumentTemplate)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\Office\GDE\Templates" File="TemplateItemsCollection.vb" Line="13">'Office.TemplateItemsCollection.New(Office.DocumentTemplate)' contiene una catena di chiamate che provoca una chiamata a un metodo virtuale definito dalla classe. Controllare lo stack di chiamate seguente per verificare la possibilità di conseguenze indesiderate: &#xD;&#xA;&#xD;&#xA;Office+TemplateItemsCollection..ctor(Office+DocumentTemplate)&#xD;&#xA;Office+TemplateItemsCollection.SetDocument(Office+DocumentTemplate):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+Turno" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_Parametri" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.Turno.m_Parametri' è membro del tipo 'Office.Turno', serializzabile, ma è di tipo 'CKeyCollection', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.Turno.m_Parametri'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+UtenzeCursor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_CodiceCliente" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_CodiceCliente' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_CodiceCliente'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_CodiceUtenza" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_CodiceUtenza' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_CodiceUtenza'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_CostiFissi" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_CostiFissi' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Decimal)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_CostiFissi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_CostoUnitario" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_CostoUnitario' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Decimal)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_CostoUnitario'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataFinePeriodo" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_DataFinePeriodo' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_DataFinePeriodo'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataInizioPeriodo" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_DataInizioPeriodo' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_DataInizioPeriodo'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataSottoscrizione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_DataSottoscrizione' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_DataSottoscrizione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Descrizione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_Descrizione' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_Descrizione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Flags" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_Flags' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_Flags'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDCliente" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_IDCliente' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_IDCliente'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDFornitore" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_IDFornitore' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_IDFornitore'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDMetodoDiPagamento" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_IDMetodoDiPagamento' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_IDMetodoDiPagamento'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IntervalloPeriodicita" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_IntervalloPeriodicita' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_IntervalloPeriodicita'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Nome" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_Nome' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_Nome'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeCliente" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_NomeCliente' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_NomeCliente'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeFornitore" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_NomeFornitore' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_NomeFornitore'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeMetodoDiPagamento" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_NomeMetodoDiPagamento' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_NomeMetodoDiPagamento'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeValuta" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_NomeValuta' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_NomeValuta'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NumeroContratto" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_NumeroContratto' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_NumeroContratto'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_StimatoreBolletta" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_StimatoreBolletta' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_StimatoreBolletta'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_TipoMetodoDiPagamento" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_TipoMetodoDiPagamento' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_TipoMetodoDiPagamento'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_TipoPeriodicita" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_TipoPeriodicita' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Office.PeriodicitaUtenza)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_TipoPeriodicita'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_TipoUtenza" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_TipoUtenza' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_TipoUtenza'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_UnitaMisura" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.UtenzeCursor.m_UnitaMisura' è membro del tipo 'Office.UtenzeCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.UtenzeCursor.m_UnitaMisura'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+VoceDiPagamentoCursor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#m_DataEffettiva" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_DataEffettiva' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_DataEffettiva'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_DataOperazione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_DataOperazione' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Date)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_DataOperazione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Descrizione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_Descrizione' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_Descrizione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Flags" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_Flags' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_Flags'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDCCDestinazione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_IDCCDestinazione' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_IDCCDestinazione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDCCOrigine" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_IDCCOrigine' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_IDCCOrigine'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_IDMetodoDiPagamento" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_IDMetodoDiPagamento' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_IDMetodoDiPagamento'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeCCDestinazione" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_NomeCCDestinazione' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_NomeCCDestinazione'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeCCOrigine" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_NomeCCOrigine' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_NomeCCOrigine'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeMetodoDiPagamento" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_NomeMetodoDiPagamento' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_NomeMetodoDiPagamento'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_NomeValuta" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_NomeValuta' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_NomeValuta'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_Quantita" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_Quantita' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Decimal)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_Quantita'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_SourceID" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_SourceID' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorField(Of Integer)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_SourceID'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_SourceParams" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_SourceParams' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_SourceParams'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_SourceType" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_SourceType' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_SourceType'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#m_TipoMetodoDiPagamento" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Office.VoceDiPagamentoCursor.m_TipoMetodoDiPagamento' è membro del tipo 'Office.VoceDiPagamentoCursor', serializzabile, ma è di tipo 'Databases.CCursorFieldObj(Of String)', non serializzabile. Aggiungere NonSerializedAttribute a 'Office.VoceDiPagamentoCursor.m_TipoMetodoDiPagamento'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Office+VociDiPagamentoPerDocumento" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(DMD.Office+DocumentoContabile)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\DocumentiContabili" File="VociDiPagamentoPerDocumento.vb" Line="20">'Office.VociDiPagamentoPerDocumento.New(Office.DocumentoContabile)' contiene una catena di chiamate che provoca una chiamata a un metodo virtuale definito dalla classe. Controllare lo stack di chiamate seguente per verificare la possibilità di conseguenze indesiderate: &#xD;&#xA;&#xD;&#xA;Office+VociDiPagamentoPerDocumento..ctor(Office+DocumentoContabile)&#xD;&#xA;Office+VociDiPagamentoPerDocumento.Load(Office+DocumentoContabile):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="DMD.Internals.Office">
+       <Types>
+        <Type Name="CArticoliClass" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Find(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Non eliminare gli oggetti più volte" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-09-05 20:30:05Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Works\My Web Sites\AR1\Projects\FinSeAOffice\Magazzino\Articolo" File="Articoli.vb" Line="56">L'oggetto 'cursor' può essere eliminato più volte nel metodo 'CArticoliClass.Find(String)'. Per evitare di generare System.ObjectDisposedException, è consigliabile chiamare Dispose su un oggetto non più di una volta.: Lines: 56</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009">
+   <Name>Dichiarare correttamente i gestori eventi</Name>
+   <Description>Per convenzione, gli eventi .NET hanno due parametri che specificano, rispettivamente, l'origine e i dati dell'evento. Le firme del gestore eventi devono avere il seguente formato: void MyEventHandler(object sender, EventArgs e). Il parametro 'sender' è sempre di tipo System.Object, anche se è possibile utilizzare un tipo più specifico. il parametro 'e' è sempre di tipo System.EventArgs. Gli eventi che non forniscono dati devono utilizzare il tipo delegato System.EventHandler. I gestori eventi restituiscono un valore void, in modo da poter inviare ogni evento a più metodi di destinazione. Qualsiasi valore restituito da una destinazione viene perso dopo la prima chiamata.</Description>
+   <Resolution Name="First">Dichiarare il primo parametro di {0} come oggetto denominato 'sender'.</Resolution>
+   <Resolution Name="Second">Dichiarare il secondo parametro di {0} come EventArgs o come istanza di un tipo che estende EventArgs, con nome 'e'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182133.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>Non chiamare metodi sottoponibili a override nei costruttori</Name>
+   <Description>I metodi virtuali definiti nella classe non devono essere chiamati dai costruttori. Se una classe derivata ha eseguito l'override del metodo, verrà chiamata la versione della classe derivata prima del costruttore della classe derivata.</Description>
+   <Resolution Name="Default">{0} contiene una catena di chiamate che provoca una chiamata a un metodo virtuale definito dalla classe. Controllare lo stack di chiamate seguente per verificare la possibilità di conseguenze indesiderate: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235">
+   <Name>Contrassegnare tutti i campi non serializzabili</Name>
+   <Description>Per tutti i campi non serializzabili deve essere impostato NonSerializedAttribute. I tipi con SerializableAttribute non devono disporre di campi di tipi senza SerializableAttribute, a meno che tali campi siano contrassegnati con NonSerializedAttribute.</Description>
+   <Resolution Name="Default">Il campo {0} è membro del tipo {1}, serializzabile, ma è di tipo {2}, non serializzabile. Aggiungere NonSerializedAttribute a {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182349.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="Non eliminare gli oggetti più volte" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Non eliminare gli oggetti più volte</Name>
+   <Description>È possibile chiamare più volte un metodo Dispose implementato in modo corretto senza che vengano generate eccezioni. Poiché tuttavia tale risultato non è garantito, per evitare di generare System.ObjectDisposedException è consigliabile chiamare Dispose su un oggetto non più di una volta.</Description>
+   <Resolution Name="Default">L'oggetto {0} può essere eliminato più volte nel metodo {1}. Per evitare di generare System.ObjectDisposedException, è consigliabile chiamare Dispose su un oggetto non più di una volta.: Lines: 80</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoria</String>
+  <String Key="Certainty">Attendibilità</String>
+  <String Key="CollapseAll">Comprimi tutto</String>
+  <String Key="CheckId">ID controllo</String>
+  <String Key="Error">Errore</String>
+  <String Key="Errors">errori</String>
+  <String Key="ExpandAll">Espandi tutto</String>
+  <String Key="Help">Guida</String>
+  <String Key="Line">Riga</String>
+  <String Key="Messages">messaggi</String>
+  <String Key="LocationNotStoredInPdb">[Percorso non archiviato nel PDB]</String>
+  <String Key="Project">Progetto</String>
+  <String Key="Resolution">Risoluzione</String>
+  <String Key="Rule">Regola</String>
+  <String Key="RuleFile">File delle regole</String>
+  <String Key="RuleDescription">Descrizione regola</String>
+  <String Key="Source">Origine</String>
+  <String Key="Status">Stato</String>
+  <String Key="Target">Destinazione</String>
+  <String Key="Warning">Avviso</String>
+  <String Key="Warnings">avvisi</String>
+  <String Key="ReportTitle">Report di analisi codice</String>
+ </Localized>
+</FxCopReport>

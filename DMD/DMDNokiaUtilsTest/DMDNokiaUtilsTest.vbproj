@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42010C89-8743-45E0-80B9-7654CED85BB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DMDNokiaUtilsTest.My.MyApplication</StartupObject>
+    <RootNamespace>DMDNokiaUtilsTest</RootNamespace>
+    <AssemblyName>DMDNokiaUtilsTest</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMDNokiaUtilsTest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMDNokiaUtilsTest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DMDNokiaUtilsTest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DMDNokiaUtilsTest.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FileBrowser\Common.vb" />
+    <Compile Include="ApplicationInstaller\InstallerDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationInstaller\ListDialog.designer.vb">
+      <DependentUpon>ListDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationInstaller\ListDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileBrowser\FileBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileBrowser\FileListBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FileBrowser\FRM_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileBrowser\FRM_FolderInfo.Designer.vb">
+      <DependentUpon>FRM_FolderInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FileBrowser\FRM_FolderInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileBrowser\FRM_Rename.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="FileBrowser\PCCAPIUtils.vb" />
+    <Compile Include="FileBrowser\PhoneListBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PhoneNavigator\BTPairingDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneNavigator\BTPasswordDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneNavigator\BTProgressDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneNavigator\FRM_DeviceInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="PhoneNavigator\FRM_Rename.vb" />
+    <Compile Include="PhoneNavigator\PhoneListBox1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PhoneNavigator\PhoneNavigator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PIMNavigator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ApplicationInstaller\InstallerDialog.resx">
+      <DependentUpon>InstallerDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationInstaller\ListDialog.resx">
+      <DependentUpon>ListDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileBrowser\FileBrowser.resx">
+      <DependentUpon>FileBrowser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileBrowser\FileListBox.resx">
+      <DependentUpon>FileListBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileBrowser\FRM_Create.resx">
+      <DependentUpon>FRM_Create.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileBrowser\FRM_FolderInfo.resx">
+      <DependentUpon>FRM_FolderInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneNavigator\BTPairingDlg.resx">
+      <DependentUpon>BTPairingDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneNavigator\BTPasswordDlg.resx">
+      <DependentUpon>BTPasswordDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneNavigator\BTProgressDlg.resx">
+      <DependentUpon>BTProgressDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneNavigator\FRM_DeviceInfo.resx">
+      <DependentUpon>FRM_DeviceInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneNavigator\FRM_Rename.resx">
+      <DependentUpon>FRM_Rename.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneNavigator\PhoneListBox1.resx">
+      <DependentUpon>PhoneListBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneNavigator\PhoneNavigator.resx">
+      <DependentUpon>PhoneNavigator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PIMNavigator.resx">
+      <DependentUpon>PIMNavigator.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMDNokiaUtils\DMDNokiaUtils.vbproj">
+      <Project>{610d8ea6-b6a9-4744-af4e-dcae12f180e0}</Project>
+      <Name>DMDNokiaUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FileBrowser\ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

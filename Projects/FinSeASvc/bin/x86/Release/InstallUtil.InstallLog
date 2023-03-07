@@ -1,0 +1,24 @@
+﻿
+Esecuzione di un'installazione transazionale.
+
+Inizio della fase di installazione.
+Vedere il contenuto del file di log per informazioni sullo stato dell'assembly C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Release\FinSeASvc.exe.
+Il file si trova in C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Release\FinSeASvc.InstallLog.
+
+Si è verificata un'eccezione durante la fase di installazione.
+System.Security.SecurityException: Origine non trovata, ma non è stato possibile eseguire la ricerca in uno o più log eventi. Log non accessibili: Security.
+
+Sta iniziando la fase di ripristino dello stato precedente dell'installazione.
+Vedere il contenuto del file di log per informazioni sullo stato dell'assembly C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Release\FinSeASvc.exe.
+Il file si trova in C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Release\FinSeASvc.InstallLog.
+
+Fase di ripristino dello stato precedente completata.
+
+Installazione transazionale completata.
+
+
+Sta iniziando la disinstallazione.
+Vedere il contenuto del file di log per informazioni sullo stato dell'assembly C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Release\FinSeASvc.exe.
+Il file si trova in C:\Work\Programmazione\Projects\FinSeASvc\bin\x86\Release\FinSeASvc.InstallLog.
+
+Disinstallazione completata.

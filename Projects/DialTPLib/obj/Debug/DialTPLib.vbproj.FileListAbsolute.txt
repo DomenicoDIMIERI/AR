@@ -1,0 +1,72 @@
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\DialTPLib.dll.config
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\DialTPLib.dll
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\DialTPLib.pdb
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\DialTPLib.xml
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeACRM.dll
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeAHylaFax.dll
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeALibs.dll
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeAWebLibs.dll
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\Hylafax.net.dll
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeACRM.pdb
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeACRM.xml
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeAHylaFax.pdb
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeAHylaFax.xml
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeALibs.pdb
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeALibs.xml
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeAWebLibs.pdb
+C:\Work\Programmazione\Projects\DialTPLib\bin\Debug\FinSeAWebLibs.xml
+C:\Work\Programmazione\Projects\DialTPLib\obj\Debug\DialTPLib.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\DialTPLib\obj\Debug\DIALTPLib.Resources.resources
+C:\Work\Programmazione\Projects\DialTPLib\obj\Debug\DialTPLib.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\DialTPLib\obj\Debug\DialTPLib.dll
+C:\Work\Programmazione\Projects\DialTPLib\obj\Debug\DialTPLib.xml
+C:\Work\Programmazione\Projects\DialTPLib\obj\Debug\DialTPLib.pdb
+C:\Work\Programmazione\Projects\DialTPLib\obj\Debug\DialTPLib.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DialTPLib.dll.config
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DialTPLib.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DialTPLib.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DialTPLib.xml
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDAsteriskLib.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDCRM.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDHylaFax.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDWebLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\nQuant.Core.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\Hylafax.net.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDAsteriskLib.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDAsteriskLib.xml
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDCRM.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDCRM.xml
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDHylaFax.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDHylaFax.xml
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDWebLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDWebLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\nQuant.Core.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\obj\Debug\DialTPLib.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\obj\Debug\DIALTPLib.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\obj\Debug\DialTPLib.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\obj\Debug\DialTPLib.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\obj\Debug\DialTPLib.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\obj\Debug\DialTPLib.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\obj\Debug\DialTPLib.xml
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\obj\Debug\DialTPLib.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DShowNET.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\templates\maildb.mdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDOffice.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDPDF.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDOffice.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDOffice.xml
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDPDF.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\DMDPDF.xml
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\LumiSoft.Net.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\WavPlayer.dll
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\WavPlayer.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\LumiSoft.Net.pdb
+C:\Works\My Web Sites\AR1\Projects\DialTPLib\bin\Debug\LumiSoft.Net.xml

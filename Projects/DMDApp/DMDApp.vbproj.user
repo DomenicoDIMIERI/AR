@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>"dialtp:action=dial%2520protocol=sip%2520number=3470815531"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartArguments>"dialtp:action=dial%2520protocol=sip%2520number=3470815531"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>
+    </StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://ftp.dmdstore.it/dmdstore.it/Apps/DMDApp/|ftp://ftp.finsea.net/finsea.net/Apps/FinSeApp/|ftp://ftp.finsea.net/finsea.net/Apps/DialTP10/|ftp://ftp.finsea.net/download/Apps/Win/DialTP/|ftp://ftp.finsea.net/public/DialTP/</PublishUrlHistory>
+    <InstallUrlHistory>https://www.dmdstore.it/Apps/DMDApp/|http://www.finsea.net/Apps/FinSeApp/|http://www.finsea.net/Apps/DialTP10/|http://www.finsea.net/download/Apps/Win/DialTP/|http://www.finsea.net/Download/DialTP/</InstallUrlHistory>
+    <SupportUrlHistory>https://www.dmdstore.it|http://www.finsea.net/Apps/FinSeApp/|http://www.finsea.net/Apps/DialTP11/|http://www.finsea.net/Apps/DialTP10/|http://www.finsea.net/dialtp/</SupportUrlHistory>
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory>https://www.dmdstore.it/submiterror.aspx|http://www.finsea.net/dialtp/submiterror.aspx</ErrorReportUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

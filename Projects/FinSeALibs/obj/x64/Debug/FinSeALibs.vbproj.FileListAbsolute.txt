@@ -1,0 +1,2 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\obj\x64\Debug\FinSeA.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\FinSeALibs\obj\x64\Debug\FinSeALibs.vbproj.GenerateResource.Cache

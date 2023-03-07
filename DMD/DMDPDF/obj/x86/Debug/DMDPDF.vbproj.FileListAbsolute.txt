@@ -1,0 +1,30 @@
+C:\Work\Programmazione\DMD\DMDPDF\bin\x86\Debug\DMDPDF.dll
+C:\Work\Programmazione\DMD\DMDPDF\bin\x86\Debug\DMDPDF.pdb
+C:\Work\Programmazione\DMD\DMDPDF\bin\x86\Debug\DMDPDF.xml
+C:\Work\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.vbprojAssemblyReference.cache
+C:\Work\Programmazione\DMD\DMDPDF\obj\x86\Debug\Resources.resources
+C:\Work\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.vbproj.GenerateResource.cache
+C:\Work\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.dll
+C:\Work\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.xml
+C:\Work\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.pdb
+C:\Works\Programmazione\DMD\DMDPDF\bin\x86\Debug\DMDPDF.dll
+C:\Works\Programmazione\DMD\DMDPDF\bin\x86\Debug\DMDPDF.pdb
+C:\Works\Programmazione\DMD\DMDPDF\bin\x86\Debug\DMDPDF.xml
+C:\Works\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.vbprojResolveAssemblyReference.cache
+C:\Works\Programmazione\DMD\DMDPDF\obj\x86\Debug\Resources.resources
+C:\Works\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.vbproj.GenerateResource.Cache
+C:\Works\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.vbproj.CoreCompileInputs.cache
+C:\Works\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.dll
+C:\Works\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.xml
+C:\Works\Programmazione\DMD\DMDPDF\obj\x86\Debug\DMDPDF.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\bin\x86\Debug\DMDPDF.dll
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\bin\x86\Debug\DMDPDF.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\bin\x86\Debug\DMDPDF.xml
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\x86\Debug\DMDPDF.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\x86\Debug\Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\x86\Debug\DMDPDF.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\x86\Debug\DMDPDF.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\x86\Debug\DMDPDF.dll
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\x86\Debug\DMDPDF.xml
+C:\Works\My Web Sites\AR1\DMD\DMDPDF\obj\x86\Debug\DMDPDF.pdb

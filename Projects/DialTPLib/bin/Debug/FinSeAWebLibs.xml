@@ -1,0 +1,1181 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinSeAWebLibs
+</name>
+</assembly>
+<members>
+<member name="T:FinSeA.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FinSeA.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FinSeA.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:FinSeA.WebSite.CAllowedIPs.TestRemove(FinSeA.WebSite.IPADDRESSinfo)">
+ <summary>
+ Restituisce vero se la rimozione dell'indirizzo specificato non causa l'esclusione del client remoto
+ </summary>
+ <param name="item"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CAllowedIPs.TestAdd(FinSeA.WebSite.IPADDRESSinfo)">
+ <summary>
+ Restituisce vero se la rimozione dell'indirizzo specificato non causa l'esclusione del client remoto
+ </summary>
+ <param name="item"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CAllowedIPs.TestAllowNegate(FinSeA.WebSite.IPADDRESSinfo,System.Boolean,System.Boolean)">
+ <summary>
+ Questa funzione consente di verificare se la modifica dei parametri renderà inaccessibile il client remoto
+ </summary>
+ <param name="item"></param>
+ <param name="allow"></param>
+ <param name="negate"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CAllowedIPs.SetAllowNegate(FinSeA.WebSite.IPADDRESSinfo,System.Boolean,System.Boolean)">
+ <summary>
+ Questa funzione modifica i parametri
+ </summary>
+ <param name="item"></param>
+ <param name="allow"></param>
+ <param name="negate"></param>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.IPADDRESSinfo.Interno">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se considerare l'indirizzo come interno all'azienda
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.IPADDRESSinfo.AssociaUfficio">
+ <summary>
+ Restituisce o imposta il nome dell'ufficio da associare al login in caso l'utnte effettui l'accesso da un IP consentito da questo oggetto
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.WebSite.WebApplicationContext.CertificateValidationFail">
+ <summary>
+ Evento generato il certificato SSL utilizzato da un sito non è valido
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebApplicationContext.GetCurrentSessionInfo">
+ <summary>
+ Restituisce il descrittore di sessione corrispondente alla sessione corrente
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.WebApplicationContext.PublicURL">
+ <summary>
+ Restituisce la cartella del sito marcata come pubblica
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.WebApplicationContext.IDAziendaPrincipale">
+ <summary>
+ Restituisce o imposta l'azienda utilizzata come azienda principale
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebApplicationContext.RegisterTypes">
+ <summary>
+ Inizializza il sottosistema di gestione dei tipi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebApplicationContext.EnterMaintenance">
+ <summary>
+ Mette l'applicazione in stato manutenzione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebApplicationContext.EnterMaintenanceInternal">
+ <summary>
+ Metodo richiamato internamente da EnterMaintenance.
+ Questa funzione chiude tute le connessioni e le memorizza in una variabile interna per poterle poi riaprire all'uscita dall
+ modalità manutenzione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebApplicationContext.IsMaintenance">
+ <summary>
+ Restituisce vero se l'applicazione è in stato manutenzione
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebApplicationContext.QuitMaintenance">
+ <summary>
+ Esce dallo stato manutenzione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.WebSite.WebSiteDebugInfo">
+ <summary>
+ Questa classe serve per stabilire un sistema di comunicazione ad eventi 
+ con 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.WebSite.EventQueue">
+ <summary>
+ Questa classe serve per stabilire un sistema di comunicazione ad eventi 
+ con 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CCustomFileUploader.SetFields(System.String,System.String,System.Boolean)">
+ <summary>
+ Avvia il caricamento
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CNetFileUploader.FieldName">
+ <summary>
+ Restituisce il nome del campo del form da cui è stato caricato il file
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CNetFileUploader.FieldValue">
+ <summary>
+ Restituisce il percorso del file sul PC remoto (da cui è stato caricato)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CNetFileUploader.SetFields(System.Web.UI.HtmlControls.HtmlInputFile,System.String,System.String,System.Boolean)">
+ <summary>
+ Avvia il caricamento
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CNetFileUploader.DoReader(System.Byte[])">
+ <summary>
+ Legge i dati dalla sorgente nel buffer e restituisce il numero di bytes letti
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CNetFileUploader.DoConsumer(System.Byte[],System.Int32)">
+ <summary>
+ Scrive il numero di bytes indicati da bytes nella destinazione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.WebSite.CUploadedFileCursor">
+ <summary>
+ Rappresenta le informazioni registrate nel DB relativamente ad un upload
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CVisitedPagesClass.CountThisPageVisits">
+ <summary>
+ Restituisce il numero di visite effettuate alla pagina corrente
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CVisitedPagesClass.IncreasePageVisits(System.String)">
+ <summary>
+ Incrementa di 1 il numero di visite alla pagina e restituisce il valore aggiornato 
+ </summary>
+ <param name="pageURL"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CCurrentPage.IncreaseThisPageVisits">
+ <summary>
+ Incrementa di 1 il numero di visite alla pagina e restituisce il valore aggiornato 
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CCurrentPage.StartExecution">
+ <summary>
+ Metodo che indica l'inizio di una richiesta al sito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CCurrentPage.EndExecution(System.String,System.String)">
+ <summary>
+ Metodo che indica la fine dell'esecuzione della pagina
+ </summary>
+ <param name="statusCode"></param>
+ <param name="statusDescription"></param>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CCurrentPage.TransferredTo(System.String)">
+ <summary>
+ Metodo che indica alla pagina corrente che subito dopo verrà invocato il metodo Server.TransferTo
+ </summary>
+ <param name="url"></param>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.WebSite.CFileUploader.m_LastRead">
+ <summary>
+ Data e ora dell'ultima lettura completa (reader)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.WebSite.CFileUploader.m_BytesToReceive">
+ <summary>
+ Numero totale di bytes da ricevere
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.WebSite.CFileUploader.m_BytesReceived">
+ <summary>
+ Conteggio dei bytes ricevuti
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.WebSite.CFileUploader.m_Exception">
+ <summary>
+ Eventuale eccezione durante l'uload
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.WebSite.CFileUploader.m_Cancel">
+ <summary>
+ Se vero indica che l'utente ha richiesto l'annullamento del download .Abort()
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.WebSite.CFileUploader.m_ManualReset">
+ <summary>
+ Semaforo per le operazioni asincrone
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.WebSite.CFileUploader.m_BufferSize">
+ <summary>
+ Dimensione del buffer
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:FinSeA.WebSite.CFileUploader.buffer">
+ <summary>
+ Buffer utilizzato per lo scambio tra il reader ed il consumer
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.BufferSize">
+ <summary>
+ Restituisce o imposta la dimensione del buffer utilizzato per l'upload
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CFileUploader.IsAborting">
+ <summary>
+ Restituisce vero se è stato richiesto alla classe di abortire un upoload
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CFileUploader.IsCompleted">
+ <summary>
+ Restituisce vero se la procedura è terminata
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.Async">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se utilizzare il codice asincrono
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CFileUploader.Abort">
+ <summary>
+ Annulla il download
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.Key">
+ <summary>
+ Restituisce la chiave univoca associata quando viene creato il download
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CFileUploader.SetKey(System.String)">
+ <summary>
+ Imposta la chiave univoca che identifica il download
+ </summary>
+ <param name="value"></param>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.FileName">
+ <summary>
+ Restituisce o imposta il nome ed il percorso del file da salvare sul server.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks>Se questo valore viene lasciato vuoto verrà generato un nome automaticamente in base al contenuto caricato</remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.BasePath">
+ <summary>
+ Restituisce o imposta la URL del percorso base di caricamento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.TargetFileName">
+ <summary>
+ Restituisce il percorso fisico in cui è stato salvato il file
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.DestinationUrl">
+ <summary>
+ Restituisce la URL del file salvato sul server
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.Percentage">
+ <summary>
+ Restituisce la percentuale di caricamento del file
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.UploadedBytes">
+ <summary>
+ Restituisce i bytes finora ricevuti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.TotalBytes">
+ <summary>
+ Restituisce il numero totale di bytes inviati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.StartTime">
+ <summary>
+ Restituisce la data e ora di inizio del caricamento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CFileUploader.EndTime">
+ <summary>
+ Restituisce la data e l'ora di fine caricamento
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CFileUploader.FinalizeUpload">
+ <summary>
+ Questo metodo viene richiamato per rilasciare le risorse allocate per l'upload
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CFileUploader.DoReader(System.Byte[])">
+ <summary>
+ Legge i dati dalla sorgente nel buffer e restituisce il numero di bytes letti
+ </summary>
+ <param name="buffer">[out] buffer (di dimensione BufferSize) in cui vengono caricati i dati letti</param>
+ <returns>Restituisce il numero di byres letti e caricati nel buffer</returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CFileUploader.DoConsumer(System.Byte[],System.Int32)">
+ <summary>
+ Scrive il numero di bytes indicati da bytes nella destinazione
+ </summary>
+ <param name="buffer">[in] Buffer di dimensione BufferSize in cui si trovano i dati</param>
+ <param name="nBytes">[in] Numero di bytes validi all'interno del buffer</param>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.WebSite.CCollegamentiClass">
+ <summary>
+ Gestione del collegamenti in prima pagina
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CCollegamentiClass.GetUserLinks(FinSeA.Sistema.CUser)">
+ <summary>
+ Restituisce i link visibili all'utente
+ </summary>
+ <param name="user"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamento.Flags">
+ <summary>
+ Restituisce o imposta dei flags
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamento.Posizione">
+ <summary>
+ Restituisce o imposta un valore crescente che forza l'ordinamento (ordinamento per gruppo, posizione, nome)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamento.Attivo">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il link è attivo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamento.Nome">
+ <summary>
+ Restituisce o imposta il nome del link (deve essere univoco)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamento.CallModule">
+ <summary>
+ Restituisce o imposta il nome del modulo a cui fa riferimento il link
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamento.CallAction">
+ <summary>
+ Restituisce o imposta l'azione da eseguire sul modulo a cui fa riferimento il link
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamento.EncriptURL">
+ <summary>
+ Restituisce o imposta un valore booleano che indica che la url deve essere nascosta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamento.Descrizione">
+ <summary>
+ Restituisce o imposta il testo visualizzato per il link
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamento.Link">
+ <summary>
+ Restituisce o imposta la url a cui fa riferimento il link
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamento.Gruppo">
+ <summary>
+ Restituisce o imposta il nome del gruppo a cui fa riferimento il link
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.CCollegamento.IsVisibleToUser(FinSeA.Sistema.CUser)">
+ <summary>
+ Restituisce vero se l'utente è abilitato all'azione corrente anche considerando i gruppi a cui appartiene l'utente stesso
+ </summary>
+ <param name="user"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CCollegamentiCursor.OnlyAssigned">
+ <summary>
+ Restituisce o imposta un valore booleano che indica che il cursore deve restituire solo i link assegnati all'utente o al gruppo di utenti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.DeleteLogFilesAfterNDays">
+ <summary>
+ Restituisce o imposta il numero di giorni per cui i files di log vengono mantenuti.
+ Se viene impostato un valore negativo i files di log non vengono eliminati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.CRMMaxCacheSize">
+ <summary>
+ Restituisce o imposta la dimensione massima dell'indice delle anagrafiche delle persone (mantenuto in memoria)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.CRMUnloadFactor">
+ <summary>
+ Restituisce o imposta la percentuale della dell'indice delle anagrafiche (in memoria) che viene scaricata quando si raggiunge la dimensione massima
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.UploadBufferSize">
+ <summary>
+ 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.ShortTimeOut">
+ <summary>
+ Restituisc o imposta il timeout in secondi per le richieste "veloci"
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.LongTimeOut">
+ <summary>
+ Restituisce o imposta il timeout in secondi per le richieste "lente"
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.UploadTimeOut">
+ <summary>
+ Restituisce o impostai il tempo, in scondi, entro cui considerare fallito un upload
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.NumberOfUploadsLimit">
+ <summary>
+ Restituisce o impostai l numero massimo di upload contemporanei concessi per il server
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.UploadSpeedLimit">
+ <summary>
+ Restituisce o imposta il limite massimo di bytes al secondo inviabili per un singolo upload
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.KeyWords">
+ <summary>
+ Restituisce o imposta l'elenco delle parole chiave inserite nella pagina
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.SimboloValuta">
+ <summary>
+ Restituisce o imposta il simbolo usato per la valuta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.DecimaliPerValuta">
+ <summary>
+ Restituisce o imposta il numero di decimali usati per la valuta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.DecimaliPerPercentuale">
+ <summary>
+ Restituisce o imposta il numero di decimali usati per formattare i valori decimali
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.TempFolder">
+ <summary>
+ Restituisce la URL del percorso temporaneo predefinito
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.PublicURL">
+ <summary>
+ Restituisce o imposta la url del percorso utilizzabile come cartella pubblica sul sito
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.CompressResponse">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se comprimere i dati inviati
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.LogSessions">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve effettuare il salvataggio di ogni sessione nel db di log
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.LogDBCommands">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se tutti i comandi inviati ai vari database devono essere registrati nel file di log
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.LogPages">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve effettuare il salvataggio di ogni pagina nel db di log
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.LogQueryStrings">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve memorizzare la URL comprensiva dai dati GET quando effettua il log delle pagine
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.LogPostData">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve memorizzare i dati di tipo POST quando effettua il log delle pagine
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.NotifyUnhautorized">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve memorizzare i tentativi di accesso non validi 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.VerifyRemoteIP">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve verificare gli accessi in base all'IP del client 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.VerifyTimeRestrictions">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve verificare gli accessi in base agli orari prestabiliti
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.SiteConfig.VerifyClientCertificate">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se il sistema deve verificare il certificato client
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.WebSite.CUploadedFilesClass">
+ <summary>
+ Rappresenta le informazioni registrate nel DB relativamente ad un upload
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:FinSeA.WebSite.CUploadedFile">
+ <summary>
+ Rappresenta le informazioni registrate nel DB relativamente ad un upload
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CUploadedFile.Key">
+ <summary>
+ Restituisce o imposta la chiave che identifica univocamente l'upload
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CUploadedFile.UserID">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha caricato il file
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CUploadedFile.User">
+ <summary>
+ Restituisce o imposta l'utente che ha caricato il file
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CUploadedFile.SourceFile">
+ <summary>
+ Restituisce o imposta il percorso sul PC remoto da cui è stato caricato il file
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CUploadedFile.TargetURL">
+ <summary>
+ Restituisce o imposta la URL da cui è possibile scaricare il file.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks>Questo campo è vuoto se si tratta di un Upload effettuato direttamente nel DB. In tal caso fare riferimento al campo FileContent</remarks>
+</member>
+<member name="P:FinSeA.WebSite.CUploadedFile.UploadTime">
+ <summary>
+ Restituisce o imposta la data e l'ora del completamento dell'upload
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CUploadedFile.FileSize">
+ <summary>
+ Restituisce o imposta le dimensioni in bytes del file caricato
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.CUploadedFile.FileContent">
+ <summary>
+ Restituisce o imposta il contenuto del file se questo è stato salvato nel database. In tal caso il camppo TargetURL è nullo
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.IDAnnuncio">
+ <summary>
+ Restituisce o imposta il valore di un campo di utilità utilizzabile per collegare la visita alla pagina ad un annuncio
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.StatusCode">
+ <summary>
+ Restituisce o imposta il codice che indica lo stato della richiesta (200 = "OK", 400, 500, ...)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.StatusDescription">
+ <summary>
+ Restituisce o imposta una stringa che descrive lo stato della richiesta in maniera pià dettagliata
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.ExecTime">
+ <summary>
+ Restituisce o imposta il tempo di esecuzione della richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.Location">
+ <summary>
+ Restituisce la URL completa della pagina
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.Secure">
+ <summary>
+ Restituisce o imposta un valore booleano che indica se la pagina è stata servita su connessione sicura (HTTPS)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.Protocol">
+ <summary>
+ Restituisce o imposta il protocollo di accesso alla pagina (HTTP)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.SiteName">
+ <summary>
+ Restituisce o imposta il nome del server che ha servito la pagina (dominio principale)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.PageName">
+ <summary>
+ Restituisce o imposta il nome della pagina (percorso relativo)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.QueryString">
+ <summary>
+ Restituisce o imposta le informazioni inviate tramite il metodo GET
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.VisitedPage.GetQueryStringValue(System.String)">
+ <summary>
+ Restituisce un singolo parametro della querystring
+ </summary>
+ <param name="name"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.PostedData">
+ <summary>
+ Restituisce o imposta le informazioni inviate tramite il metodo POST
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.Referrer">
+ <summary>
+ Restituisce la URL completa della pagina da cui è avvenuto l'accesso a questa pagina
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.ReferrerDomain">
+ <summary>
+ Restituisce il dominio principale del referrer
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.Data">
+ <summary>
+ Restituisce o imposta la data e l'ora in cui la pagina è stata richiesta
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.SessionID">
+ <summary>
+ Restituisce l'ID della sessione (nel LOG) in cui è stata richiesta la pagina
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.Session">
+ <summary>
+ Restituisce la sessione in cui è stata richiesta la pagina
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.User">
+ <summary>
+ Restituisce o imposta l'utente che ha richiesto la pagina
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.UserID">
+ <summary>
+ Restituisce o imposta l'ID dell'utente che ha richiesto la pagina
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.VisitedPage.UserName">
+ <summary>
+ Restituisce o imposta il nominativo dell'utente che ha richiesto la pagina
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.VisitedPage.GetFileLastModified">
+ <summary>
+ Restituisce la data dell'ultima modifica effettuata al file. Il nome del file deve essere un percorso mappato e non una URL
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebServiceEx.ExecuteAction(System.String,System.Object)">
+ <summary>
+ Metodo richiamato per i WebServices
+ </summary>
+ <param name="actionName"></param>
+ <param name="context"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.WebPageEx.ApplicationContext">
+ <summary>
+ Restituisce il contesto dell'applicazione "Sistema.ApplicationContext" convertito nel tipo WebApplicationContext
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.CheckWebSite">
+ <summary>
+ Effettua i controlli sul sito
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.IsLogEnabled">
+ <summary>
+ Restituisce vero se l'accesso alla pagina genera un log
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.RequiresLogin">
+ <summary>
+ Restituisce vero se l'accesso alla pagina richiede che l'utente effettui il login
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FinSeA.WebSite.WebPageEx.CurrentModule">
+ <summary>
+ Restituisce o imposta il modulo corrente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.SegnalaIPAnomalo(System.String,System.Boolean)">
+ <summary>
+ Questa funzione viene richiamanta per indicare un tentativo di accesso anomalo al sistema
+ da un IP che è cambiato durante la sessione
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.SecurityCheckProtocol">
+ <summary>
+ Verifica il protocollo di connessione (tipo HTTP o HTTPs)
+ </summary>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.PerformSecurityChecks">
+ <summary>
+ Effettua i controlli per l'esecuzione della pagina
+ </summary>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.SecurityCheckValidUser">
+ <summary>
+ Verifica che l'utente che ha effettuato la richiesta remota sia valido (SystemUser non può effettuare richieste remote)
+ </summary>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.GetDefaultTimeOut">
+ <summary>
+ Restituisce il timeout predefinito per la pagina (in secondi)
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.SavePageLogInfo">
+ <summary>
+ Funziona richiata dal metodo OnLoad (se IsLogEnabled restituisce true) allo scopo di salvare le informazioni sulla pagina
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.CheckGZIP">
+ <summary>
+ Restituisce vero se la pagina
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.IsMobileDevice">
+ <summary>
+ Restituisce vero se la richiesta proviene da un dispositivo mobile
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.IsIPad">
+ <summary>
+ Restituisce vero se il dispositivo remoto viene riconosciuto come un iPad
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.IsIPhone">
+ <summary>
+ Restituisce vero se il dispositivo remoto viene riconosciuto come un iPhone
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.IsGZipSupported">
+ <summary>
+ Determines if GZip is supported
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.GZipEncodePage">
+ <summary>
+ Sets up the current page or handler to use GZip through a Response.Filter
+ IMPORTANT:  
+ You have to call this method before any output is generated!
+ </summary>
+</member>
+<member name="P:FinSeA.WebSite.WebPageEx.CurrentPage">
+ <summary>
+ Restituisce un oggetto che descrive la pagina corrente
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.WebPageEx.ValidateActionBeforeRun(System.String,System.Object)">
+ <summary>
+ Questo metodo viene richiamato prima di eseguire un'azione e può essere usato per log o per convalidare
+ </summary>
+ <param name="actionName"></param>
+ <param name="context"></param>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.WebSite.ConfigurationChanged">
+ <summary>
+ Evento generato quando viene modificata la configurazione base del sito
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.IsMaintenance">
+ <summary>
+ Restituisce vero se il sito è in manutenzione
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.WebSite.SetMaintenance(System.Boolean)">
+ <summary>
+ Imposta il sito in manutenzione
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:FinSeA.Internals.CSessionsClass.SessionStart">
+ <summary>
+ Evento generato quando viene iniziata una nuova sessione remota
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="E:FinSeA.Internals.CSessionsClass.SessionEnd">
+ <summary>
+ Evento generato quando viene terminata una sessione remota
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="P:FinSeA.Internals.CUploaderClass.TotalNumberOfUploads">
+ <summary>
+ Restituisce il numero totale di uploads in corso nell'ambito dell'applicazione
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FinSeA.Internals.CUploaderClass.GetUpload(System.String)">
+ <summary>
+ Restituisce l'oggetto Upload con l'ID specifico
+ </summary>
+ <param name="key"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

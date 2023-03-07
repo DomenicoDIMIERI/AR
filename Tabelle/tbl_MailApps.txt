@@ -1,0 +1,17 @@
+create table [tbl_MailApps]
+(
+[ID] Counter Primary Key,
+[UserID] Int,
+[UserName] Text(255),
+[Params] Memo,
+[Flags] Int,
+[Rules] Memo,
+[RootID] Int,
+[IDPuntoOperativo] int,
+[NomePuntoOperativo] text(255),
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)

@@ -1,0 +1,62 @@
+create table [tbl_CQSPDCliXCollab]
+(
+[ID] Counter,
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int,
+[IDPersona] Int,
+[Nome] Text(255),
+[Cognome] Text(255),
+[CodiceFiscale] Text(32),
+[IDCollaboratore] Int,
+[DataNascita] Date,
+[Indirizzo_Provincia] Text(255),
+[Indirizzo_Citta] Text(255),
+[Indirizzo_CAP] Text(16),
+[Indirizzo_Via] Text(255),
+[DataAcquisizione] Date,
+[TipoFonte] Text(255),
+[IDFonte] Int,
+[NomeFonte] Text(255),
+[Flags] Int,
+[StatoLavorazione] Int,
+[DettaglioStatoLavorazione] Text(255),
+[NomeAmministrazione] Text(255),
+[TelefonoCasa] Text(32),
+[TelefonoUfficio] Text(32),
+[TelefonoCellulare] Text(32),
+[Fax] Text(32),
+[AltroTelefono] Text(32),
+[eMailPersonale] Text(255),
+[eMailUfficio] Text(255),
+[PEC] Text(255),
+[Parameters] Memo
+)
+
+alter table [tbl_CQSPDCliXCollab] add Column [DataRinnovoCQS] Date, [DataRinnovoPD] Date
+
+
+create index [idxCQSPDCliXCollab_CreatoDa] on [tbl_CQSPDCliXCollab] ([CreatoDa], [CreatoIl])
+'create index [idxCQSPDCliXCollab_ModificatoDa] on [tbl_CQSPDCliXCollab] ([ModificatoDa], [ModificatoIl])
+create index [idxCQSPDCliXCollab_Stato] on [tbl_CQSPDCliXCollab] ([Stato]) 
+create index [idxCQSPDCliXCollab_IDPers] on [tbl_CQSPDCliXCollab] ([IDPersona]) 
+create index [idxCQSPDCliXCollab_NomePers] on [tbl_CQSPDCliXCollab] ([Cognome], [Nome]) 
+create index [idxCQSPDCliXCollab_CodFisc] on [tbl_CQSPDCliXCollab] ([CodiceFiscale], [DataNascita]) 
+create index [idxCQSPDCliXCollab_IDCollab] on [tbl_CQSPDCliXCollab] ([IDCollaboratore], [DataAcquisizione]) 
+create index [idxCQSPDCliXCollab_IndirCitt] on [tbl_CQSPDCliXCollab] ([Indirizzo_Provincia], [Indirizzo_Citta]) 
+create index [idxCQSPDCliXCollab_IndirVia] on [tbl_CQSPDCliXCollab] ([Indirizzo_CAP], [Indirizzo_Via]) 
+create index [idxCQSPDCliXCollab_Fonte] on [tbl_CQSPDCliXCollab] ([TipoFonte], [IDFonte], [NomeFonte]) 
+create index [idxCQSPDCliXCollab_StatoLav] on [tbl_CQSPDCliXCollab] ([StatoLavorazione], [DettaglioStatoLavorazione]) 
+create index [idxCQSPDCliXCollab_Impiego] on [tbl_CQSPDCliXCollab] ([NomeAmministrazione]) 
+create index [idxCQSPDCliXCollab_Telefono1] on [tbl_CQSPDCliXCollab] ([TelefonoCasa], [TelefonoUfficio] ) 
+create index [idxCQSPDCliXCollab_Telefono2] on [tbl_CQSPDCliXCollab] ([TelefonoCellulare], [Fax], [AltroTelefono]) 
+create index [idxCQSPDCliXCollab_eMail1] on [tbl_CQSPDCliXCollab] ([eMailPersonale], [eMailUfficio]) 
+create index [idxCQSPDCliXCollab_eMail2] on [tbl_CQSPDCliXCollab] ([PEC]) 
+create index [idxCQSPDCliXCollab_DataRinn] on [tbl_CQSPDCliXCollab] ([DataRinnovoCQS],[DataRinnovoPD]) 
+, 
+'[Flags] Int,
+'[Parameters] Memo
+
+ 

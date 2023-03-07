@@ -1,0 +1,17 @@
+alter table tbl_EstinzioniXEstintore add DataEstinzione Date,
+Rata real,
+DataFine Date,
+Durata Int,
+TAN real,
+TAEG real,
+TotaleDaEstinguere real
+
+create index idxEstinzXEstintDT on tbl_EstinzioniXEstintore (DataEstinzione, DataFine)
+
+alter table tbl_EstinzioniXEstintore add IDCessionario int , NomeCessionario text(255), NomeAgenzia text(255)
+
+create index idxEstinzXEstintCess on tbl_EstinzioniXEstintore (IDCessionario  , NomeCessionario , NomeAgenzia  )
+
+alter table tbl_EstinzioniXEstintore add Tipo int
+
+create index idxEstinzXEstintTipoPr on tbl_EstinzioniXEstintore (Tipo)

@@ -1,0 +1,23 @@
+C:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Debug\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Debug\DMDLibs.pdb
+C:\Work\Programmazione\Projects\FinSeALibs\bin\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Debug\DMD.Resources.resources
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.dll
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.xml
+C:\Work\Programmazione\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\bin\x86\Debug\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\bin\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\bin\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\bin\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\obj\x86\Debug\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.pdb
+C:\Works\My Web Sites\AR1\Projects\FinSeALibs\obj\x86\Debug\DMDLibs.vbprojAssemblyReference.cache

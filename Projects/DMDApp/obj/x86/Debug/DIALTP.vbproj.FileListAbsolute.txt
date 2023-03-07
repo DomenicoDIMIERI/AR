@@ -1,0 +1,113 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.AsteriskServersForm.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.DispositiviForm.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.frmAppPassword.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.frmCheckPassword.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.frmChoseFolder.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.frmDialer.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.FrmFolderMonitor.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.frmMain.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.FrmParametri.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.FrmProxyConfig.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.frmSendFax.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.frmLogin.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.FrmServers.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.UploadEventArgs.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.frmUploadServer.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.HylaFaxConfig.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.LineeForm.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.MailSettings.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.SearchPersona.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\db.mdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\finseasrl.crt
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DIALTP.exe.config
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DIALTP.exe.manifest
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DIALTP.application
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DIALTP.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DIALTP.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DIALTP.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DialTPLib.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DMDAsteriskLib.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DMDBaseCore.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DMDControls.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeACRM.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeAHylaFax.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeALibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeAWebLibs.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\Ionic.Zip.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\Hylafax.net.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\DialTPLib.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeACRM.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeACRM.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeAHylaFax.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeAHylaFax.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeALibs.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeALibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeAWebLibs.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\bin\x86\Debug\FinSeAWebLibs.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.TrustInfo.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.exe.manifest
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.application
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.exe
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DialTP\obj\x86\Debug\DIALTP.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DIALTP.exe.config
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.exe
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.xml
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\db.mdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DIALTP.exe.manifest
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DIALTP.application
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DIALTP.exe
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DIALTP.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DIALTP.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DialTPLib.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DMDAsteriskLib.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DMDControls.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeACRM.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeAHylaFax.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeALibs.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeAWebLibs.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\Hylafax.net.dll
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DialTPLib.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeACRM.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeACRM.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeAHylaFax.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeAHylaFax.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeALibs.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeALibs.xml
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeAWebLibs.pdb
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\FinSeAWebLibs.xml
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.vbprojResolveAssemblyReference.cache
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.AsteriskServersForm.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.DispositiviForm.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.frmAppPassword.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.frmCheckPassword.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.frmChoseFolder.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.frmDialer.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.FrmFolderMonitor.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.frmMain.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.FrmParametri.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.FrmProxyConfig.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.frmSendFax.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.frmLogin.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.FrmServers.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.UploadEventArgs.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.frmUploadServer.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.HylaFaxConfig.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.LineeForm.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.MailSettings.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.SearchPersona.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.Resources.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.vbproj.GenerateResource.Cache
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.TrustInfo.xml
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.exe.manifest
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.application
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.FrmConfigServer.resources
+C:\Work\Programmazione\Projects\DialTP\obj\x86\Debug\DIALTP.frmInCall.resources
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\DIALTP_TemporaryKey.pfx
+C:\Work\Programmazione\Projects\DialTP\bin\x86\Debug\localhost.pfx

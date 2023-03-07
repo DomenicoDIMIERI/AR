@@ -1,0 +1,34 @@
+create table [tbl_OfficeUserIO]
+(
+[ID] Counter Primary Key,
+[IDOperatore] Int,
+[NomeOperatore] Text(255),
+[IDDispositivo] Int,
+[Data] Date,
+[Operazione] Int,
+[IDReparto] Int,
+[NomeReparto] Text(255),
+[MetodiRiconoscimentoUsati] Int,
+[Parametri] Memo,
+[IDPuntoOperativo] Int,
+[NomePuntoOperativo] Text(255),
+[CreatoDa] Int,
+[CreatoIl] Date,
+[ModificatoDa] Int,
+[ModificatoIl] Date,
+[Stato] Int
+)
+
+create index idxOfficeUserIDIDOp on  [tbl_OfficeUserIO] ([IDOperatore])
+create index idxOfficeUserIDIDDisp on  [tbl_OfficeUserIO] ([IDDispositivo])
+create index idxOfficeUserIDIDData on  [tbl_OfficeUserIO] ([Data])
+create index idxOfficeUserIDIDOpe on  [tbl_OfficeUserIO] ([Operazione])
+create index idxOfficeUserIDIDRep on  [tbl_OfficeUserIO] ([IDReparto])
+create index idxOfficeUserIDMetR on  [tbl_OfficeUserIO] ([MetodiRiconoscimentoUsati])
+create index idxOfficeUserIDIDPO on  [tbl_OfficeUserIO] ([IDPuntoOperativo])
+create index idxOfficeUserIDCTDA on  [tbl_OfficeUserIO] ([CreatoDa])
+create index idxOfficeUserIDSTAT on  [tbl_OfficeUserIO] ([Stato])
+
+cs160247781
+gls
+0828303393

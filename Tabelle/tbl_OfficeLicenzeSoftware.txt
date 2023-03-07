@@ -1,0 +1,31 @@
+create table tbl_OfficeLicenzeSoftware 
+(
+ID Counter Primary Key,
+IDSoftware int,
+NomeSoftware text(255),
+IDDispositivo int,
+NomeDispositivo text(255),
+CodiceLicenza text(255),
+DataAcquisto Date,
+DataInstallazione Date,
+DataDismissione Date,
+DettaglioStato text(255),
+ScaricatoDa text(255),
+StatoUtilizzo int,
+IDProprietario int,
+NomeProprietario text(255),
+IDDocumentoAcquisto int,
+NumeroDocumentoAcquisto text(255),
+Flags int,
+IDPuntoOperativo int,
+NomePuntoOperativo text(255),
+CreatoDa int,
+CreatoIl Date,
+ModificatoDa int,
+ModificatoIl Date,
+Stato int
+)
+
+create index idxOfficeLicSoftIDSoftware on tbl_OfficeLicenzeSoftware (IDSoftware)
+create index idxOfficeLicSoftIDDev on tbl_OfficeLicenzeSoftware (IDDispositivo)
+create index idxOfficeLicSoftCodLic on tbl_OfficeLicenzeSoftware (CodiceLicenza)

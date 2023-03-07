@@ -1,0 +1,40 @@
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\DynAR.exe.config
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\DynAR.exe
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\DynAR.pdb
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\DynAR.xml
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\DMDLibs.dll
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\Ionic.Zip.dll
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\DMDBaseCore.dll
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\DMDLibs.xml
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\DMDLibs.dll.config
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\DMDBaseCore.pdb
+C:\Work\Programmazione\Projects\DynAR\bin\x86\Release\DMDBaseCore.xml
+C:\Work\Programmazione\Projects\DynAR\obj\x86\Release\DynAR.vbprojAssemblyReference.cache
+C:\Work\Programmazione\Projects\DynAR\obj\x86\Release\DynAR.frmDynAR.resources
+C:\Work\Programmazione\Projects\DynAR\obj\x86\Release\DynAR.Resources.resources
+C:\Work\Programmazione\Projects\DynAR\obj\x86\Release\DynAR.vbproj.GenerateResource.cache
+C:\Work\Programmazione\Projects\DynAR\obj\x86\Release\DynAR.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\Projects\DynAR\obj\x86\Release\DynAR.vbproj.CopyComplete
+C:\Work\Programmazione\Projects\DynAR\obj\x86\Release\DynAR.exe
+C:\Work\Programmazione\Projects\DynAR\obj\x86\Release\DynAR.xml
+C:\Work\Programmazione\Projects\DynAR\obj\x86\Release\DynAR.pdb
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\DynAR.exe.config
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\DynAR.exe
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\DynAR.pdb
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\DynAR.xml
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\DMDLibs.dll
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\Ionic.Zip.dll
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\DMDBaseCore.dll
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\DMDLibs.xml
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\DMDLibs.dll.config
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\DMDBaseCore.pdb
+C:\Works\My Web Sites\AR1\Projects\DynAR\bin\x86\Release\DMDBaseCore.xml
+C:\Works\My Web Sites\AR1\Projects\DynAR\obj\x86\Release\DynAR.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\DynAR\obj\x86\Release\DynAR.frmDynAR.resources
+C:\Works\My Web Sites\AR1\Projects\DynAR\obj\x86\Release\DynAR.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\DynAR\obj\x86\Release\DynAR.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\DynAR\obj\x86\Release\DynAR.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\DynAR\obj\x86\Release\DynAR.vbproj.CopyComplete
+C:\Works\My Web Sites\AR1\Projects\DynAR\obj\x86\Release\DynAR.exe
+C:\Works\My Web Sites\AR1\Projects\DynAR\obj\x86\Release\DynAR.xml
+C:\Works\My Web Sites\AR1\Projects\DynAR\obj\x86\Release\DynAR.pdb

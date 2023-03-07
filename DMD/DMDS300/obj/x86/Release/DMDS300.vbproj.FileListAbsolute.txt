@@ -1,0 +1,43 @@
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDS300\DMDS300\bin\x86\Release\tc400.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDS300\DMDS300\bin\x86\Release\DMDS300.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDS300\DMDS300\bin\x86\Release\DMDS300.pdb
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDS300\DMDS300\bin\x86\Release\DMDS300.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDS300\DMDS300\obj\x86\Release\DMDS300.vbprojResolveAssemblyReference.cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDS300\DMDS300\obj\x86\Release\DMD.Resources.resources
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDS300\DMDS300\obj\x86\Release\DMDS300.vbproj.GenerateResource.Cache
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDS300\DMDS300\obj\x86\Release\DMDS300.dll
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDS300\DMDS300\obj\x86\Release\DMDS300.xml
+C:\Users\Domenico.DiMieri\Documents\Visual Studio 2012\Projects\DMDS300\DMDS300\obj\x86\Release\DMDS300.pdb
+E:\Work\Programmazione\DMD\DMDS300\bin\x86\Release\tc400.dll
+E:\Work\Programmazione\DMD\DMDS300\bin\x86\Release\DMDS300.dll
+E:\Work\Programmazione\DMD\DMDS300\bin\x86\Release\DMDS300.pdb
+E:\Work\Programmazione\DMD\DMDS300\bin\x86\Release\DMDS300.xml
+E:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.vbprojResolveAssemblyReference.cache
+E:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMD.Resources.resources
+E:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.vbproj.GenerateResource.Cache
+E:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.vbproj.CoreCompileInputs.cache
+E:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.dll
+E:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.xml
+E:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.pdb
+C:\Work\Programmazione\DMD\DMDS300\bin\x86\Release\tc400.dll
+C:\Work\Programmazione\DMD\DMDS300\bin\x86\Release\DMDS300.dll
+C:\Work\Programmazione\DMD\DMDS300\bin\x86\Release\DMDS300.pdb
+C:\Work\Programmazione\DMD\DMDS300\bin\x86\Release\DMDS300.xml
+C:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMD.Resources.resources
+C:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.vbproj.GenerateResource.cache
+C:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.vbproj.CoreCompileInputs.cache
+C:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.dll
+C:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.xml
+C:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.pdb
+C:\Work\Programmazione\DMD\DMDS300\obj\x86\Release\DMDS300.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\x86\Release\tc400.dll
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\x86\Release\DMDS300.dll
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\x86\Release\DMDS300.pdb
+C:\Works\My Web Sites\AR1\DMD\DMDS300\bin\x86\Release\DMDS300.xml
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\x86\Release\DMDS300.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\x86\Release\DMD.Resources.resources
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\x86\Release\DMDS300.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\x86\Release\DMDS300.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\x86\Release\DMDS300.dll
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\x86\Release\DMDS300.xml
+C:\Works\My Web Sites\AR1\DMD\DMDS300\obj\x86\Release\DMDS300.pdb

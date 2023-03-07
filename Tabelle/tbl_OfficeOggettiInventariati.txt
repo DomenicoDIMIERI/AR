@@ -1,0 +1,7 @@
+alter table tbl_OfficeOggettiInventariati add column CodiceRFID text(255), GPS_LON real, GPS_LAT real, GPS_ALT real, GSP_REL bit
+
+create index idxOfficeOggettiInventariatiRFID on tbl_OfficeOggettiInventariati (CodiceRFID)
+
+alter table tbl_OfficeOggettiInventariati add column CodiceInterno text(255) 
+
+create index idxOfficeOggettiInventariatiCDING on tbl_OfficeOggettiInventariati (CodiceInterno )

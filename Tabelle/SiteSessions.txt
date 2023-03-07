@@ -1,0 +1,6 @@
+select User, T2.SessionID, [T1].[Cookie]  from tbl_LoginHistory 
+inner join 
+(
+select * from tbl_SiteSessions inner join (select Cookie, Count(*) As CNT from tbl_SiteSessions where StartTime>=#2/12/2016# and RemoteIP='95.225.67.20' Group By Cookie) AS T1 ON tbl_SiteSessions.Cookie = T1.Cookie WHERE T1.CNT>1 
+) AS T2
+ON [tbl_LoginHistory].[Session]=[T2].[SessionID] order by [T1].[Cookie] ASC

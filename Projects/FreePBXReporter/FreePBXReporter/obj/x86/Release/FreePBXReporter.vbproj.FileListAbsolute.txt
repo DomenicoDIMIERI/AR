@@ -1,0 +1,32 @@
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\bin\Release\report.xls
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\bin\Release\FreePBXReporter.exe
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\bin\Release\FreePBXReporter.pdb
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\bin\Release\FreePBXReporter.xml
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.frmMain.resources
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.Resources.resources
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.exe
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.xml
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.pdb
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\bin\Release\report.mdb
+C:\Documents and Settings\Domenico.DiMieri\documenti\visual studio 2010\Projects\FreePBXReporter\FreePBXReporter\bin\Release\FreePBXReporter.exe.config
+Z:\Documents and Settings\Domenico.DiMieri\Documenti\Visual Studio 2010\Projects\FreePBXReporter\FreePBXReporter\bin\Release\FreePBXReporter.exe.config
+Z:\Documents and Settings\Domenico.DiMieri\Documenti\Visual Studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.exe
+Z:\Documents and Settings\Domenico.DiMieri\Documenti\Visual Studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.xml
+Z:\Documents and Settings\Domenico.DiMieri\Documenti\Visual Studio 2010\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.pdb
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\bin\Release\report.mdb
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\bin\Release\report.xls
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\bin\Release\FreePBXReporter.exe.config
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\bin\Release\FreePBXReporter.exe
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\bin\Release\FreePBXReporter.pdb
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\bin\Release\FreePBXReporter.xml
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.vbprojAssemblyReference.cache
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.frmMain.resources
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.Resources.resources
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.vbproj.GenerateResource.cache
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.vbproj.CoreCompileInputs.cache
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.exe
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.xml
+C:\Works\My Web Sites\AR1\Projects\FreePBXReporter\FreePBXReporter\obj\x86\Release\FreePBXReporter.pdb

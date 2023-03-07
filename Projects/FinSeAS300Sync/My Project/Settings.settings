@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Address" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.70.112</Value>
+    </Setting>
+    <Setting Name="DeviceID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="UserMapping" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1:admin;204:Francesca.Lomanto;213:Vincenza.Novellino;208:Giovanna.Biscotti;216:Mina.Greco</Value>
+    </Setting>
+    <Setting Name="AutoSyncTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="UploadServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://areariservata.DMD.net/bd/anvizs300.aspx</Value>
+    </Setting>
+    <Setting Name="AutoUploadTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="LastSyncTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastUploadTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastCheckTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CheckTimes" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
